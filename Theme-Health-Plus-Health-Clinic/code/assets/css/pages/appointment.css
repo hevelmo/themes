@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+[&. Content / #key]
+[Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+
+1. Appointment Section | #appointment
+2. Responsive for small device | #responsive
+-------------------------------------------------------------------*/
+/* Appointment Section | #appointment */
+#section-appointment {
+  color: #808080;
+}
+.get-appointment {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  background-color: #43d9ad;
+  border-radius: 3px;
+  padding: 30px 50px;
+  z-index: 9999;
+}
+.get-appointment h2 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.get-appointment .btn-outlined {
+  margin-top: 8px;
+  padding: 15px 30px;
+  border-color: #ffffff !important;
+}
+.get-appointment .btn-outlined:hover {
+  background-color: #5ca5dd !important;
+  border-color: #5ca5dd !important;
+}
+.box {
+  margin-bottom: 50px;
+  display: block;
+}
+.box.last {
+  margin-bottom: 0;
+}
+.box .box-heading {
+  border-left: 2px solid #5ca5dd;
+  padding-left: 15px;
+  font-size: 22px;
+  color: #062045;
+  margin-bottom: 30px;
+}
+.box .box-body .file-attach {
+  border: 1px solid #e5e5e5;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.box .box-body .file-attach a {
+  color: #808080;
+}
+.list-services > li > a {
+  color: #808080;
+  padding: 5px 0;
+  display: block;
+}
+.list-services > li > a i {
+  color: #f85b5b;
+}
+.list-our-departments ul > li {
+  border-bottom: 1px solid #e5e5e5;
+}
+.list-our-departments ul > li:last-child {
+  border-bottom: 0;
+}
+.list-our-departments ul > li > a {
+  display: block;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #969696;
+}
+.list-our-departments ul > li > a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.list-our-departments ul > li > a:hover {
+  color: #5ca5dd;
+}
+.contact-info > ul > li > a {
+  padding: 5px 0;
+  display: block;
+  color: #062045;
+  font-size: 13px;
+}
+.contact-info > ul > li > a > i {
+  font-size: 15px;
+  color: #43d9ad;
+  margin-right: 10px;
+}
+.form-get-an-appointment {
+  margin-bottom: 60px;
+}
+.form-get-an-appointment .required {
+  font-size: 25px;
+  line-height: 1;
+  color: red;
+}
+.form-get-an-appointment label {
+  font-weight: 400;
+  color: #062045;
+}
+.form-get-an-appointment input.form-control,
+.form-get-an-appointment select.form-control {
+  border-radius: 9999px;
+  height: 45px;
+  background-color: #e9f4fd;
+  border: 0;
+  padding: 6px 20px;
+  color: #062045;
+}
+.form-get-an-appointment textarea.form-control {
+  border-radius: 20px;
+  background-color: #e9f4fd;
+  border: 0;
+  padding: 15px 20px;
+  color: #062045;
+}
+.form-get-an-appointment .btn-outlined {
+  background-color: transparent;
+  color: #5ca5dd;
+  border-color: #5ca5dd;
+}
+.form-get-an-appointment .btn-outlined:hover {
+  background-color: #5ca5dd;
+  color: #ffffff;
+}
+.form-get-an-appointment .form-captcha {
+  border: 1px solid #e9f4fd;
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+.form-get-an-appointment .form-captcha .captcha-refresh i {
+  color: #062045;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.form-get-an-appointment .form-captcha .input-captcha {
+  margin-top: 7px;
+}
+.alert {
+  background-color: #5ca5dd;
+  padding: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+.appointment-summary .table tr:first-child td {
+  border-top: 0;
+}
+.appointment-summary .table tr td:nth-child(1) {
+  color: #062045;
+}
+.appointment-summary .table tr td:nth-child(2) {
+  text-align: right;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+/* Responsive | #responsive */
+@media screen and (max-width: 1024px) {
+  .form-get-an-appointment .form-captcha .captcha-refresh i {
+    margin-left: 15px !important;
+  }
+}
+@media screen and (min-width: 990px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .col-xs-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .col-xs-6 {
+    padding-left: 0px !important;
+  }
+  #section-appointment {
+    padding-bottom: 40px;
+  }
+  #section-appointment .row {
+    padding-bottom: 10px !important;
+  }
+  #section-appointment .list-our-departments ul > li > a {
+    padding: 12px 0;
+    font-size: 13px;
+  }
+  #section-appointment .get-appointment {
+    padding: 10px 20px;
+    bottom: -80px;
+  }
+  #section-appointment .get-appointment .pull-left h2 {
+    font-size: 24px;
+  }
+  #section-appointment .get-appointment .pull-right .btn-outlined {
+    margin-top: 5px;
+    font-size: 13px !important;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #section-appointment .get-appointment {
+    bottom: -50px;
+  }
+  #section-appointment .get-appointment .pull-left h2 {
+    font-size: 22px;
+  }
+  #section-appointment .get-appointment .pull-right .btn-outlined {
+    margin-top: 15px;
+    font-size: 12px !important;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #section-appointment {
+    font-size: 13px !important;
+  }
+  #section-appointment .row {
+    padding-bottom: 0 !important;
+  }
+  #section-appointment .form-get-an-appointment {
+    margin-bottom: 30px;
+  }
+  #section-appointment .form-get-an-appointment .mtxxl {
+    margin-top: 15px !important;
+  }
+  #section-appointment .alert {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #section-appointment .box .box-heading {
+    margin-bottom: 15px;
+  }
+  #section-appointment .get-appointment {
+    bottom: -30px;
+  }
+  #section-appointment .get-appointment .pull-left h2 {
+    font-size: 15px;
+  }
+  #section-appointment .get-appointment .pull-right .btn-outlined {
+    margin-top: 10px;
+    font-size: 10px !important;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #wrapper .header-bg-wrapper #header-bg {
+    height: 270px;
+  }
+  #wrapper .header-bg-wrapper #header-bg .header-bg-content {
+    padding-top: 100px;
+  }
+  #section-appointment .col-xs-6 {
+    width: 100%;
+  }
+  #section-appointment .form-group .btn {
+    font-size: 12px;
+  }
+  #section-appointment .alert {
+    font-size: 12px;
+    padding: 10px;
+  }
+  #section-appointment .alert .mrl {
+    margin-right: 10px !important;
+  }
+  #section-appointment .get-appointment {
+    bottom: -60px;
+  }
+  #section-appointment .get-appointment .pull-left.text-left {
+    text-align: center !important;
+    float: none !important;
+  }
+  #section-appointment .get-appointment .pull-left.text-left h2 {
+    font-size: 14px;
+  }
+  #section-appointment .get-appointment .pull-right {
+    float: none !important;
+    text-align: center;
+    margin-top: 5px;
+  }
+}

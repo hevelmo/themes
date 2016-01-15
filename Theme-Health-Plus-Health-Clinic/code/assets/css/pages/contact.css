@@ -1,0 +1,227 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+[&. Content / #key]
+[Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+
+1. Contact Section | #contact
+2. Responsive for small device | #responsive
+-------------------------------------------------------------------*/
+/* Contact Section | #contact */
+#section-contact {
+  color: #808080;
+  padding-top: 80px;
+}
+#section-contact .section-content {
+  margin-top: 50px;
+}
+.get-appointment {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  background-color: #43d9ad;
+  border-radius: 3px;
+  padding: 30px 50px;
+  z-index: 9999;
+}
+.get-appointment h2 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.get-appointment .btn-outlined {
+  margin-top: 8px;
+  padding: 15px 30px;
+  border-color: #ffffff !important;
+}
+.get-appointment .btn-outlined:hover {
+  background-color: #5ca5dd !important;
+  border-color: #5ca5dd !important;
+}
+.box {
+  margin-bottom: 50px;
+  display: block;
+}
+.box .box-heading {
+  border-left: 2px solid #5ca5dd;
+  padding-left: 15px;
+  font-size: 22px;
+  color: #062045;
+  margin-bottom: 30px;
+}
+.box .box-body .file-attach {
+  border: 1px solid #e5e5e5;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.box .box-body .file-attach a {
+  color: #808080;
+}
+.form-contact .required {
+  font-size: 25px;
+  line-height: 1;
+  color: red;
+}
+.form-contact label {
+  font-weight: 400;
+  color: #062045;
+}
+.form-contact input.form-control {
+  border-radius: 9999px;
+  height: 45px;
+  background-color: #e9f4fd;
+  border: 0;
+  padding: 6px 20px;
+  color: #062045;
+}
+.form-contact textarea.form-control {
+  border-radius: 20px;
+  background-color: #e9f4fd;
+  border: 0;
+  padding: 15px 20px;
+  color: #062045;
+}
+.form-contact .btn-outlined {
+  background-color: transparent;
+  color: #5ca5dd;
+  border-color: #5ca5dd;
+}
+.form-contact .btn-outlined:hover {
+  background-color: #5ca5dd;
+  color: #ffffff;
+}
+.contact-infos {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+.contact-infos > ul > li > a {
+  padding: 6px 0;
+  display: block;
+  color: #062045;
+}
+.contact-infos > ul > li > a > i {
+  font-size: 30px;
+  color: #43d9ad;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.line {
+  margin-bottom: 40px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+/* Responsive | #responsive */
+@media screen and (max-width: 800px) {
+  #wrapper #main #content #section-contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #wrapper #main #content #section-contact .container .contact-infos {
+    margin-bottom: 25px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment {
+    padding: 10px 20px;
+    bottom: -70px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-left h2 {
+    font-size: 24px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-right .btn-outlined {
+    margin-top: 5px;
+    font-size: 13px !important;
+    padding: 10px 20px;
+  }
+  #wrapper #main #content #section-contact > div:not(.container) {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #wrapper #main #content #section-contact {
+    padding-bottom: 75px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body .contact-info {
+    margin-bottom: 30px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body .form-contact {
+    margin-bottom: 20px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body .form-contact .form-group.mtxxl {
+    margin-top: 20px !important;
+  }
+  #wrapper #main #content #section-contact .container .line {
+    margin-bottom: 20px;
+  }
+  #wrapper #main #content #section-contact .container .row {
+    padding-bottom: 0px !important;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment {
+    bottom: -110px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-left h2 {
+    font-size: 20px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-right .btn-outlined {
+    margin-top: 10px;
+    font-size: 12px !important;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #wrapper #main #content #section-contact > div:not(.container) {
+    height: 320px !important;
+  }
+  #wrapper #main #content #section-contact .form-contact .btn-outlined {
+    font-size: 11px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment {
+    bottom: -105px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-left h2 {
+    font-size: 15px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-right .btn-outlined {
+    margin-top: 10px;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #wrapper .header-bg-wrapper #header-bg {
+    height: 270px;
+  }
+  #wrapper .header-bg-wrapper #header-bg .header-bg-content {
+    padding-top: 100px;
+  }
+  #wrapper #main #content #section-contact .container .section-heading .title {
+    font-size: 28px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-heading {
+    margin-bottom: 20px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body {
+    font-size: 13px;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body .form-contact input.form-control {
+    width: 100%;
+  }
+  #wrapper #main #content #section-contact .container .box .box-body .contact-infos {
+    margin-bottom: 20px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment {
+    bottom: -120px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-left.text-left {
+    text-align: center !important;
+    float: none !important;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-left.text-left h2 {
+    font-size: 14px;
+  }
+  #wrapper #main #content #section-contact .container .get-appointment .pull-right {
+    float: none !important;
+    text-align: center;
+    margin-top: 5px;
+  }
+}

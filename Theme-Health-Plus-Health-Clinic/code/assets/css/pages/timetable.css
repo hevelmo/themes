@@ -1,0 +1,205 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+[&. Content / #key]
+[Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+
+1. Timetable Section | #table
+2. Responsive for small device | #responsive
+-------------------------------------------------------------------*/
+/* Timetable Section | #table */
+#section-timetable {
+  color: #808080;
+}
+#section-timetable #calendar {
+  padding-bottom: 70px;
+}
+.doctor-cate-menu {
+  margin: 50px auto 40px;
+  padding: 0;
+  width: 990px;
+}
+.doctor-cate-menu ul > li.active > a {
+  background-color: transparent !important;
+  color: #5ca5dd !important;
+  border: 2px solid #5ca5dd !important;
+}
+.doctor-cate-menu ul > li > a {
+  text-transform: uppercase;
+  color: #808080;
+  font-weight: bold;
+  border-radius: 9999px !important;
+  border: 2px solid transparent;
+  border-bottom-color: transparent !important;
+  margin: 0 5px;
+  transition: all 0.2s;
+}
+.doctor-cate-menu ul > li > a:hover {
+  background-color: transparent !important;
+  border: 2px solid #e5e5e5 !important;
+  color: inherit !important;
+}
+.get-appointment {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  background-color: #43d9ad;
+  border-radius: 3px;
+  padding: 30px 50px;
+  z-index: 9999;
+}
+.get-appointment h2 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.get-appointment .btn-outlined {
+  margin-top: 8px;
+  padding: 15px 30px;
+  border-color: #ffffff !important;
+}
+.get-appointment .btn-outlined:hover {
+  background-color: #5ca5dd !important;
+  border-color: #5ca5dd !important;
+}
+/* Responsive for small device | #responsive */
+@media screen and (max-width: 1024px) {
+  .container .nav-tabs.nav-justified > li > a {
+    font-size: 12px;
+  }
+  .container .doctor-info .doctor-cate-menu {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #wrapper #main #content #section-timetable {
+    padding-bottom: 40px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .doctor-info .nav-tabs.nav-justified > li > a {
+    font-size: 11px;
+    padding: 5px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment {
+    padding: 10px 20px;
+    bottom: -80px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-left h2 {
+    font-size: 24px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 5px;
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+  #wrapper #footer #section-footer {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #wrapper #main #content #section-timetable .container .section-content .doctor-info .nav-tabs.nav-justified > li {
+    width: 30%;
+    float: left;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .doctor-info .nav-tabs.nav-justified > li > a {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment {
+    padding: 10px 20px;
+    bottom: -70px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-left h2 {
+    font-size: 20px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 5px;
+    font-size: 12px !important;
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #wrapper .header-wrapper #header {
+    height: 65px;
+  }
+  #wrapper .header-wrapper #header .logo {
+    height: 65px;
+  }
+  #wrapper .header-wrapper #header .logo img {
+    max-width: 200px;
+    margin: 20px 0;
+  }
+  #wrapper .header-wrapper #header .menu-responsive {
+    padding: 6px;
+    margin-top: 14px;
+  }
+  #wrapper .header-wrapper #header .menu-responsive span {
+    font-size: 20px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment {
+    bottom: -75px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-left h2 {
+    font-size: 15px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 10px;
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #wrapper .header-wrapper #header {
+    height: 60px;
+  }
+  #wrapper .header-wrapper #header .logo {
+    height: 60px;
+    width: 160px;
+  }
+  #wrapper .header-wrapper #header .logo img {
+    max-width: 160px;
+    margin: 10px 0;
+  }
+  #wrapper .header-wrapper #header .menu-responsive {
+    padding: 6px;
+    margin-top: 5px;
+  }
+  #wrapper .header-wrapper #header .menu-responsive span {
+    font-size: 18px;
+  }
+  #wrapper .header-bg-wrapper #header-bg {
+    height: 270px;
+  }
+  #wrapper .header-bg-wrapper #header-bg .header-bg-content {
+    padding-top: 100px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment {
+    padding: 10px;
+    bottom: -90px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-left.text-left {
+    text-align: center !important;
+    float: none !important;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-left.text-left h2 {
+    font-size: 14px;
+  }
+  #wrapper #main #content #section-timetable .container .section-content .get-appointment .pull-right {
+    float: none !important;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .calendar-main {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  #calendar {
+    min-width: 1280px;
+  }
+  #calendar .fc-view {
+    min-width: 1280px;
+    overflow: scroll;
+  }
+}

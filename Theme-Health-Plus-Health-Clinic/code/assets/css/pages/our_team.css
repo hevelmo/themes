@@ -1,0 +1,528 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+[&. Content / #key]
+[Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+
+1. Our team Section | #our-team
+2. CEO Founder Section | #ceo
+3. Doctor Section | #doctor
+4. Nurse Section | #nurse
+5. Form get appointment | #form-app
+6. Responsive for small device | #responsive
+-------------------------------------------------------------------*/
+/* Our team Section | #our-team */
+#section-our-team {
+  color: #808080;
+}
+/* Ceo founder Section | #ceo */
+.ceo-founder-info {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.ceo-founder-info .media .media-left {
+  padding-right: 25px;
+}
+.ceo-founder-info .media .media-left > a img {
+  border-radius: 50%;
+}
+.ceo-founder-info .media .media-body .media-heading {
+  text-transform: uppercase;
+  color: #062045;
+  font-weight: bold;
+}
+.ceo-founder-info .media .media-body .pos {
+  color: #43d9ad;
+  margin-bottom: 10px;
+}
+.ceo-founder-info .media .media-body .des {
+  margin-bottom: 10px;
+}
+.ceo-founder-info .media .media-body .email,
+.ceo-founder-info .media .media-body .phone {
+  margin-bottom: 5px;
+  color: #062045;
+  font-weight: 600;
+}
+.ceo-founder-info .media .media-body .email i,
+.ceo-founder-info .media .media-body .phone i {
+  color: #43d9ad;
+}
+.ceo-founder-info .media .media-body .social-info {
+  margin-top: 15px;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 12px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #5ca5dd;
+  color: #5ca5dd;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.icons:hover {
+  background-color: #006ec3;
+  border-color: #006ec3;
+  color: #ffffff;
+}
+/* Doctor Section | #doctor */
+.doctor-info {
+  min-height: 100%;
+}
+.doctor-info .doctor-cate-menu {
+  margin: 0 auto 40px;
+  padding: 0;
+  width: 700px;
+}
+.doctor-info .doctor-cate-menu ul > li.active > a {
+  background-color: transparent;
+  color: #5ca5dd;
+  border: 2px solid #5ca5dd;
+}
+.doctor-info .doctor-cate-menu ul > li > a {
+  text-transform: uppercase;
+  color: #808080;
+  font-weight: bold;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  margin: 0 10px;
+  transition: all 0.2s;
+}
+.doctor-info .doctor-cate-menu ul > li > a:hover {
+  background-color: transparent;
+  border: 2px solid #e5e5e5;
+  color: inherit;
+}
+.doctor-info .isotope > ul > li {
+  margin-bottom: 30px;
+}
+.doctor-info .isotope > ul > li .thumb {
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+.doctor-info .isotope > ul > li .thumb:hover .caption:after {
+  opacity: 1;
+}
+.doctor-info .isotope > ul > li .thumb:hover .caption .name a {
+  color: #f85b5b;
+}
+.doctor-info .isotope > ul > li .thumb:hover .social {
+  bottom: 130px;
+  opacity: 1;
+}
+.doctor-info .isotope > ul > li .thumb .caption {
+  position: relative;
+  padding: 15px 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.doctor-info .isotope > ul > li .thumb .caption:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ffffff;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  opacity: 0;
+}
+.doctor-info .isotope > ul > li .thumb .caption .name {
+  text-align: center;
+}
+.doctor-info .isotope > ul > li .thumb .caption .name a {
+  color: #062045;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.doctor-info .isotope > ul > li .thumb .caption .pos {
+  color: #57d4b3;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.doctor-info .isotope > ul > li .thumb .caption .email,
+.doctor-info .isotope > ul > li .thumb .caption .phone {
+  padding: 0 20px;
+  margin-bottom: 5px;
+  color: #062045;
+  font-weight: 600;
+}
+.doctor-info .isotope > ul > li .thumb .caption .email i,
+.doctor-info .isotope > ul > li .thumb .caption .phone i {
+  color: #43d9ad;
+}
+.doctor-info .isotope > ul > li .thumb .social {
+  background-color: #5ca5dd;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.84, 0.57);
+  -moz-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.84, 0.57);
+  -ms-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.84, 0.57);
+  -o-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.84, 0.57);
+  transition: all 0.2s cubic-bezier(0.17, 0.67, 0.84, 0.57);
+}
+.doctor-info .isotope > ul > li .thumb .social .icons {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.doctor-info .isotope > ul > li .thumb .social .icons:hover {
+  background-color: #006ec3;
+  border-color: #006ec3;
+}
+/* Nurse Section | #nurse */
+.nurse-info {
+  padding-bottom: 70px;
+}
+.nurse-info > ul > li {
+  position: relative;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+.nurse-info > ul > li .thumb {
+  padding: 20px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.nurse-info > ul > li .thumb:hover {
+  background-color: #5ca5dd;
+}
+.nurse-info > ul > li .thumb:hover .caption .pos {
+  color: #00eaff;
+}
+.nurse-info > ul > li .thumb:hover .caption .social .icons {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #5ca5dd;
+}
+.nurse-info > ul > li .thumb .avatar {
+  position: relative;
+}
+.nurse-info > ul > li .thumb .avatar:hover:before {
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  -ms-transform: scale3d(1, 1, 1);
+  -o-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.nurse-info > ul > li .thumb .avatar:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: -10px;
+  font-family: "fontawesome";
+  content: "\f067";
+  color: #ffffff;
+  font-size: 30px;
+  -webkit-transform: scale3d(0, 0, 0);
+  -moz-transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
+  -o-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transition: all;
+  -moz-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 0;
+  border-radius: 50%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.nurse-info > ul > li .thumb .avatar img {
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 3px solid #ffffff;
+}
+.nurse-info > ul > li .thumb .caption .name {
+  text-align: center;
+}
+.nurse-info > ul > li .thumb .caption .name a {
+  color: #062045;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nurse-info > ul > li .thumb .caption .pos {
+  color: #57d4b3;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.nurse-info > ul > li .thumb .caption .social {
+  padding: 10px 0;
+  text-align: center;
+}
+.nurse-info > ul > li .thumb .caption .social .icons {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #5ca5dd;
+  color: #5ca5dd;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* Form get appointment | #form-app */
+.get-appointment {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  background-color: #43d9ad;
+  border-radius: 3px;
+  padding: 30px 50px;
+  z-index: 9999;
+}
+.get-appointment h2 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.get-appointment .btn-outlined {
+  margin-top: 8px;
+  padding: 15px 30px;
+  border-color: #ffffff !important;
+}
+.get-appointment .btn-outlined:hover {
+  background-color: #5ca5dd !important;
+  border-color: #5ca5dd !important;
+}
+/* Responsive | #responsive */
+@media screen and (max-width: 1024px) {
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media-left > a .media-object {
+    width: 200px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info {
+    min-height: 100%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .caption {
+    font-size: 12px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .thumb:hover .social {
+    bottom: 110px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .thumb .img-responsive {
+    width: 100%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info > ul > li .thumb .caption .social .icons {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 0px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info {
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #wrapper #main #content #section-our-team {
+    padding-bottom: 30px;
+  }
+  #wrapper #main #content #section-our-team .container .section-heading .line {
+    margin: 0 auto 15px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media {
+    margin-bottom: 35px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .isotope > ul > li .thumb:hover .social {
+    bottom: 118px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info > ul > li {
+    width: 33%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info {
+    padding-bottom: 10px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment {
+    padding: 10px 20px;
+    bottom: -80px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-left h2 {
+    font-size: 24px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 5px;
+    font-size: 13px !important;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info {
+    font-size: 12px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .doctor-cate-menu {
+    width: 100%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .doctor-cate-menu ul > li > a {
+    margin: 0;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .nav-justified {
+    display: inline-flex;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .email,
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .phone {
+    text-align: center;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment {
+    padding: 10px 20px;
+    bottom: -70px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-left h2 {
+    font-size: 20px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 12px;
+    font-size: 12px !important;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #wrapper #main #content #section-our-team .container .section-heading .title {
+    font-size: 24px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-body h4.media-heading {
+    font-size: 16px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-body .des,
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-body .email,
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-body .phone {
+    font-size: 12px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-body .social-info .icons {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .doctor-cate-menu ul > li > a {
+    font-size: 12px;
+    padding: 5px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info .list-unstyled .caption .name,
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info .list-unstyled .caption .pos {
+    font-size: 12px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info .list-unstyled .caption .social .icons {
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment {
+    bottom: -60px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-left h2 {
+    font-size: 15px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-right .btn-outlined {
+    margin-top: 10px;
+    font-size: 10px !important;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #wrapper .header-bg-wrapper #header-bg {
+    height: 270px;
+  }
+  #wrapper .header-bg-wrapper #header-bg .header-bg-content {
+    padding-top: 100px;
+  }
+  #wrapper #main #content #section-our-team .container .section-heading .line {
+    margin: 0 auto 15px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info {
+    margin-top: 0px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media {
+    text-align: center;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-left,
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-right {
+    display: inline;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .ceo-founder-info .media .media-left > a .media-object {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .nav-justified {
+    display: block;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .doctor-cate-menu ul > li > a {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .doctor-info .isotope > ul > li {
+    width: 100%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .nurse-info > ul > li {
+    width: 100%;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment {
+    padding: 10px;
+    bottom: -90px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-left.text-left {
+    text-align: center !important;
+    float: none !important;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-left.text-left h2 {
+    font-size: 14px;
+  }
+  #wrapper #main #content #section-our-team .container .section-content .get-appointment .pull-right {
+    float: none !important;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
