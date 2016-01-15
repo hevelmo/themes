@@ -1,0 +1,6 @@
+Version v1.0
+
+Documentation - Docs Folder
+Main Template (HTML,CSS,JS) - Promo Folder
+
+THANK YOU FOR PURCHASING!

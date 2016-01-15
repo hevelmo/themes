@@ -1,0 +1,78 @@
+.agents-list {
+    margin-bottom: -30px;
+}
+
+.agent-box {
+    border: 2px solid rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.agent-box-picture {
+    border-right: 2px solid rgba(0, 0, 0, .1);
+    overflow: hidden;
+    padding-right: 0px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.agent-box-label {
+    background-color: $color-gray;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    left: -55px;
+    padding: 5px 80px;
+    position: absolute;
+    top: 10px;
+    @include transform(rotate(-45deg));
+    z-index: 2;
+
+    &.agent-box-label-primary {
+        background-color: $color-primary;
+    }
+}
+
+.agent-box-picture-inner {
+    @extend .helper-image-hover;
+}
+
+.agent-box-content {
+    padding: 5px 30px 15px 30px;
+    text-align: center;
+
+    .social {
+        li {
+            margin: 0px 5px 0px 0px;
+        }
+    }
+}
+
+h3.agent-box-title, h3.agent-box-title a {
+    color: $color-black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0px 0px 0px;
+}
+
+h4.agent-box-subtitle, h4.agent-box-subtitle a {
+    color: $color-black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.agent-box-contacts {
+    font-size: 14px;
+    margin-bottom: 15px;
+
+    i {
+        padding-right: 5px;
+    }
+
+    li {
+        margin: 0px 0px 5px 0px;
+    }
+}

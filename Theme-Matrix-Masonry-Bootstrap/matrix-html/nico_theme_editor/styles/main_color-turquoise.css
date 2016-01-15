@@ -1,0 +1,51 @@
+div.navbar
+{
+	background:#04C4BB;
+	background:rgba(4,196,187, 0.95);
+}
+
+.navbar .dropdown-menu > li > a:hover
+{
+	background:#04C4BB;
+	background:rgba(4,196,187, 0.9);
+}
+
+
+.item .mask, #loading
+{
+   background-color: #04C4BB;
+   background:rgba(4,196,187, 0.85);
+}
+
+#loading
+{
+	/*background:rgba(52, 152, 219, 0.4);	*/
+	background:#04C4BB;	
+	background:rgba(4,196,187, 0.4);
+}
+.btn-primary
+{
+	background:#04C4BB;
+}
+
+.navbar .navbar-toggle .icon-bar
+{
+	background:#04C4BB;
+}
+
+.navbar .nav > .active, .navbar .nav > .active, .navbar .nav > .active,
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus
+{
+	background:#04C4BB;
+}
+
+ul.autocomplete li strong
+{
+	color:#04C4BB;
+}
+
+div.camera_prevThumbs, div.camera_nextThumbs, div.camera_prev, div.camera_next, div.camera_commands, div.camera_thumbs_cont
+{
+	background:#04C4BB;
+	background:rgba(4,196,187, 0.85);
+}

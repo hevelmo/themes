@@ -1,0 +1,39 @@
+.post {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+    &:last-child {
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.post-date {
+    text-align: right;
+
+    span, strong {
+        display: block;
+    }
+
+    span {
+        color: $color-primary;
+        font-size: 18px;
+
+        i {
+            font-size: 16px;
+            margin-right: 5px;
+            vertical-align: 1px;
+        }
+    }
+
+    strong {
+        font-size: 26px;
+        margin-top: 3px;
+    }
+}
+
+.post-picture {
+    @extend .helper-image-hover;
+}

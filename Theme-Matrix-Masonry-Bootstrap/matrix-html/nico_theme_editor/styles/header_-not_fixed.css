@@ -1,0 +1,17 @@
+.top-band {
+  position: static;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+	position:static;
+}
+
+#container
+{
+	margin-top:0px;
+}

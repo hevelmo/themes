@@ -1,0 +1,22 @@
+.agent-detail {
+    margin-bottom: 30px;
+}
+
+.agent-detail-picture {
+    border: 1px solid $color-gray;
+    padding: 1px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.agent-detail {
+    .social {
+        li {
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+    }
+}

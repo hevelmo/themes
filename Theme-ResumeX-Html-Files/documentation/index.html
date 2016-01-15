@@ -1,0 +1,884 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>ResumeX - Html - Multipurpose Resume & One Page Portfolio</title>
+	
+	<meta name="description" content="ResumeX is a multipurpose, elegant and well crafted one page portfolio for creative professionals. ">
+	<meta name="author" content="Theme Bucket">
+	<meta name="copyright" content="Theme Bucket">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-03-16T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#E9E9E9;color:#383838;}
+		::-moz-selection{background:#CF4A4A;color:#FFFCFC;}
+		::selection{background:#CF4A4A;color:#FFFCFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_3.png);}
+		a{color:#FF4F4F;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #FFFFFF, #B56D00);
+			  background-image: -ms-linear-gradient(top, #FFFFFF, #B56D00);
+			  background-image: -webkit-gradient(linear, 0 0, 0 FFFFFF%, from(#333333), to(#B56D00));
+			  background-image: -webkit-linear-gradient(top, #FFFFFF, #B56D00);
+			  background-image: -o-linear-gradient(top, #FFFFFF, #B56D00);
+			  background-image: linear-gradient(top, #FFFFFF, #B56D00);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#B56D00', GradientType=0);
+			  border-color: #B56D00 #B56D00 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #FFFFFF #FFFFFF #bfbfbf;
+		  background-color: #B56D00;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #F7F7F7;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#CFCFCF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #2B2B2B;-moz-text-shadow:1px 1px 0px #2B2B2B;text-shadow:1px 1px 0px #2B2B2B;}
+		#documenter_sidebar ul{border-top:1px solid #4A4848;}
+		#documenter_sidebar ul a{border-top:1px solid #2B2B2B;border-bottom:1px solid #4A4848;color:#FAFAFA;}
+		#documenter_sidebar ul a:hover{background:#CF4A4A;color:#FFFCFC;border-top:1px solid #CF4A4A;}
+		#documenter_sidebar ul a.current{background:#CF4A4A;color:#FFFCFC;border-top:1px solid #CF4A4A;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-resumex-html">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#initialization" title="Initialization">Initialization</a></li>
+			<li><a href="#files_and_folders_structure" title="Files and Folders Structure">Files and Folders Structure</a></li>
+			<li><a href="#common_html_structure" title="Common Html Structure">Common Html Structure</a></li>
+			<li><a href="#individual_section_structure" title="Individual Section Structure">Individual Section Structure</a></li>
+			<li><a href="#css_structure" title="Css Structure">Css Structure</a></li>
+			<li><a href="#add_content_animation" title="Add Content Animation">Add Content Animation</a></li>
+			<li><a href="#components_plugins" title="Components & Plugins">Components & Plugins</a></li>
+			<li><a href="#themes_and_layout" title="Themes And Layout">Themes And Layout</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Theme Bucket 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>ResumeX - Html</h1>
+	<h2>Multipurpose Resume & One Page Portfolio</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 03/16/2014</li>
+	<li>latest update: 03/16/2014</li>
+	<li>by: Theme Bucket</li>
+	<li><a href="http://themebucket.net/">themebucket.net/</a></li>
+	<li>email: <a href="mailto:&#116;&#104;&#101;&#109;&#101;&#98;&#117;&#99;&#107;&#101;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#104;&#101;&#109;&#101;&#98;&#117;&#99;&#107;&#101;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>ResumeX is a multipurpose, elegant and well crafted one page portfolio for creative professionals. Anyone can showcase their personal resume, work history, projects and other personal information beautifully using ResumeX. Though ResumeX is primarily developed for showcasing portfolio elements, however it can be creatively used to display other essential information for SME business and artistic people. Powerful admin panel, intricate development and a pack of essential features really makes ResumeX to stand out in it’s category. If you want your personal site to be noticeable among others, ResumeX can be your ultimate choice.</p>
+	</section>
+	
+	<section id="initialization">
+	<div class="page-header"><h3>Initialization</h3><hr class="notop"></div>
+<h2>
+	Requires HTML5 doctype</h2>
+<p>
+	This is basic startup of this tmeplate</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en-US&quot;&gt;
+  &lt;head&gt;
+  &lt;!--Head--&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;!--Body--&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+<h2>
+	Requires Meta Tag</h2>
+<p>
+	Following meta tag must require to ensure devices display responsive pages properly</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</pre>
+</section>
+<section id="files_and_folders_structure">
+	<div class="page-header"><h3>Files and Folders Structure</h3><hr class="notop"></div>
+<p>
+	<img alt="Inline image 1" data-surl="https://mail.google.com/mail/u/0/?ui=2&amp;ik=20b21506ad&amp;view=att&amp;th=144ca11dd2490e13&amp;attid=0.1&amp;disp=safe&amp;realattid=ii_144ca119d5590412&amp;zw" src="assets/images/image_1.png" style="font-family: arial; font-size: small;"></p>
+<div>
+	Above image define this template files and folder structures. All css files is in css folder. img contain all images of this template. js contain all javascript file of this template. fonts folder contains Icons font files.</div>
+</section>
+<section id="common_html_structure">
+	<div class="page-header"><h3>Common Html Structure</h3><hr class="notop"></div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+    &lt;title&gt;Home&lt;/title&gt;
+
+&lt;!-- All Css Added Here --&gt;
+
+&lt;/head&gt;
+
+&lt;body class=&quot;royal_loader&quot;&gt;
+
+&lt;div class=&quot;tp-banner-container&quot; id=&quot;slides&quot;&gt;
+
+&lt;!-- Rev Slider Load Here--&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;top-scroll-bar&quot;&gt;
+
+&lt;!-- Scroll Bottom --&gt;
+
+&lt;/div&gt;
+
+&lt;!--home section end --&gt;
+
+&lt;div class=&quot;navigation clearfix&quot;&gt;
+
+&lt;!-- Navigation Here --&gt;
+
+&lt;/div&gt;
+
+&lt;!-- about me section start --&gt;
+
+&lt;div class=&quot;section-about&quot; id=&quot;about-me&quot;&gt;
+
+&lt;!-- About Me Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!-- about me section end--&gt;
+
+&lt;!--skill section start --&gt;
+
+&lt;div class=&quot;section-skill appear&quot; id=&quot;skill-section&quot;&gt;
+
+&lt;!-- Skill Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!--skill section end --&gt;
+
+&lt;!--experience section start --&gt;
+
+&lt;div class=&quot;section-experience&quot; id=&quot;experiences&quot;&gt;
+
+&lt;!-- Experience Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!--experience section end --&gt;
+
+&lt;!--counter section start --&gt;
+
+&lt;div class=&quot;section-counter&quot;&gt;
+
+&lt;!-- Counter Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!--counter section end--&gt;
+
+&lt;!--section education start--&gt;
+
+&lt;div class=&quot;section-education&quot; id=&quot;education&quot;&gt;
+
+&lt;!-- Education Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!--section education end--&gt;
+
+&lt;!--section portfolio start--&gt;
+
+&lt;div class=&quot;section-portfolio&quot; id=&quot;portfolio&quot;&gt;
+
+&lt;!--section portfolio end--&gt;
+
+&lt;/div&gt;
+
+&lt;!--section testimonial start--&gt;
+
+&lt;div class=&quot;section-testimonial&quot; id=&quot;testimonial&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;!--section testimonial end--&gt;
+
+&lt;div class=&quot;client-section&quot;&gt;
+
+  
+
+&lt;/div&gt;
+
+&lt;!--section works start--&gt;
+
+&lt;div class=&quot;section-works&quot; id=&quot;blog&quot;&gt;
+
+
+&lt;/div&gt;
+
+&lt;!--section works end--&gt;
+
+&lt;div class=&quot;connect-section&quot;&gt;
+
+  &lt;!-- Connect Section --&gt;
+
+&lt;/div&gt;
+
+&lt;!--section contact start--&gt;
+
+&lt;div class=&quot;section-contact&quot;&gt;
+
+    &lt;div class=&quot;map-header&quot; id=&quot;contact&quot;&gt;
+
+        &lt;!-- Map Header --&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;contact-map&quot;&gt;
+
+       &lt;!-- Map --&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;footer&quot;&gt;
+
+       &lt;!-- Footer --&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;copyright&quot;&gt;
+
+        Copyright
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!--section contact end--&gt;
+
+&lt;!-- All JS load here  --&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</pre>
+</section>
+<section id="individual_section_structure">
+	<div class="page-header"><h3>Individual Section Structure</h3><hr class="notop"></div>
+<p>
+	This template have 9 Predefine sections named &nbsp;Home, &nbsp;About Me,&nbsp;Skill,&nbsp;Experiences,&nbsp;Education,&nbsp;Portfolio,&nbsp;Testimonial,&nbsp;Blog,&nbsp;Contact you can easily create any more section very easily.&nbsp;</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;div class=&quot;section-about&quot; id=&quot;about-me&quot;&gt;
+
+    &lt;div class=&quot;details&quot;&gt;
+
+        &lt;div class=&quot;container&quot;&gt;
+
+            // Section content here
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;</pre>
+<h2>
+	How to make any section?</h2>
+<p>
+	For an example you want to create a section name Products then please go throung following instructions</p>
+<h2>
+	STEP 01</h2>
+<p>
+	Go to top nav section</p>
+<p>
+	&nbsp;</p>
+<h2>
+	STEP 02</h2>
+<p>
+	Make a list element like&nbsp;</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;li&gt;&lt;a href=&quot;#products&quot; title=&quot;Products&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;</pre>
+<h2>
+	STEP 03</h2>
+<p>
+	Now you have to place section where you will put this section content. As example I have added link after skill section so go to bottom of skill section make a section like</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;section id=&quot;products&quot; class=&quot;products&quot;&gt;
+
+&lt;h2 class=&quot;section-header&quot;&gt;Products&lt;/h2&gt;
+
+&lt;p class=&quot;section-intro &quot;&gt;
+
+   Your text here&lt;span&gt;desert raisin&lt;/span&gt; taro wakame pea sprouts. Broccoli rabe courgette rock &lt;span&gt;melon cress &lt;/span&gt; epazotebell
+
+&lt;/p&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+
+    &lt;!-- You can use any column here as like as Bootstrap column stytem --&gt;
+
+        &lt;div class=&quot;col-md-4 animated animate-from-left&quot;&gt;
+
+         Column
+
+        &lt;/div&gt;
+
+        &lt;div class=&quot;col-md-4&quot;&gt;
+
+            Column
+
+        &lt;/div&gt;
+
+        &lt;div class=&quot;col-md-4 animated animate-from-right&quot;&gt;
+
+            Column
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;</pre>
+<div class="alert alert-error">
+	No need to add any link in nav if you want to create any section that will not a part on top navigation. And then no need to use id=&quot;&quot; and no need to use appear class</div>
+</section>
+<section id="css_structure">
+	<div class="page-header"><h3>Css Structure</h3><hr class="notop"></div>
+<pre class="prettyprint lang-css linenums">
+body {
+
+    font-family:&#39;Roboto&#39;,sans-serif;
+
+    text-rendering:optimizeLegibility;
+
+    overflow-x:hidden;
+
+}
+
+a,a:hover,a:focus {
+
+    color:#fa6862;
+
+    outline:none;
+
+    text-decoration:none;
+
+    -webkit-transition:all 0.3s;
+
+    -moz-transition:all 0.3s;
+
+    transition:all 0.3s;
+
+}
+
+.social-link {
+
+    -webkit-transition:none;
+
+    -moz-transition:none;
+
+    transition:none;
+
+}
+
+.section-home {
+
+    position:relative;
+
+}
+
+.banner {
+
+    position:absolute;
+
+    top:0px;
+
+    left:0px;
+
+    height:700px;
+
+    width:100%;
+
+    z-index:-1;
+
+}
+
+.slider-container {
+
+    width:100%;
+
+    position:relative;
+
+    padding:0;
+
+}
+
+.slider-banner {
+
+    width:100%;
+
+    position:relative;
+
+}
+
+.slider-banner ul {
+
+    margin:0px;
+
+    padding:0px;
+
+}</pre>
+<h2>
+	Included CSS</h2>
+<p>
+	I have included following css files. You can easily customized any css:</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+    &lt;link href=&quot;css/bootstrap.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/royal_preloader.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/animate.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/prettify.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/rev-slider-settings.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- MEGAFOLIO GALLERY  CSS --&gt;
+
+    &lt;link href=&quot;css/megafolio-style.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/megafolio-settings.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- Magnific Popup core CSS file --&gt;
+
+    &lt;link href=&quot;css/magnific-popup.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;!-- Owl Carousel Assets --&gt;
+
+    &lt;link href=&quot;css/owl.carousel.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/owl.theme.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/owl.transitions.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/font-awesome.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/superfish.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/style.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/style-responsive.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/apps-reset.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;link href=&quot;css/default-theme.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+</section>
+<section id="add_content_animation">
+	<div class="page-header"><h3>Add Content Animation</h3><hr class="notop"></div>
+<p>
+	In This template you can add animation in any element when a content on section is appear</p>
+<h2>
+	Dependent Files</h2>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;link href=&quot;css/animate.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;js/wow.js&quot;&gt;&lt;/script&gt;</pre>
+<h2>
+	Custom Js</h2>
+<pre class="prettyprint lang-js linenums">
+/*==WOW JS==*/
+
+var ww = $(window).width();
+
+/*==WOW JS==*/
+
+if(ww &gt; 480){
+
+    wow = new WOW({
+
+        animateClass: &#39;animated&#39;,
+
+        offset: 0
+
+    });
+
+    wow.init();
+
+}</pre>
+<h2>
+	How to add any animation in any element?</h2>
+<p>
+	It is very easy just use just go to&nbsp;http://daneden.github.io/animate.css/ this site and choose an animation and add animation name by following way in any elemenet:</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;h2 class=&quot;section-header wow slideInLeft&quot;&gt;About Us&lt;/h2&gt;</pre>
+<p>
+	here &quot;wow&quot; dfine wow js it must be there and then &quot;<span style="line-height: 19px;">slideInLeft&quot; define animate css effect.</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="components_plugins">
+	<div class="page-header"><h3>Components & Plugins</h3><hr class="notop"></div>
+<h2>
+	REVOLUTION Slider&nbsp; Dependent JS</h2>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- jQuery REVOLUTION Slider --&gt;
+&lt;script src=&quot;js/jquery.revslider.plugins.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/jquery.themepunch.revolution.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+ /*===Revolution Slider===*/
+            var revapi;
+
+            revapi = jQuery(&#39;.tp-banner&#39;).revolution(
+                {
+                    delay:10000,
+                    startwidth:1170,
+                    startheight:500,
+                    hideThumbs:10,
+                    onHoverStop:&quot;off&quot;,
+                    fullWidth:&quot;off&quot;,
+                    fullScreen:&quot;on&quot;,
+                    navigationType:&quot;none&quot;,
+                    fullScreenOffsetContainer: &quot;&quot;
+                });</pre>
+</div>
+<div>
+	<h2>
+		&nbsp;</h2>
+	<h2>
+		Scroll Top Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Scroll Top--&gt;
+&lt;script src=&quot;js/jquery.scrollUp.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+/*===Scroll Top===*/
+            $.scrollUp({
+                scrollName: &#39;scrollUp&#39;, // Element ID
+                topDistance: &#39;300&#39;, // Distance from top before showing element (px)
+                topSpeed: 300, // Speed back to top (ms)
+                animation: &#39;slide&#39;, // Fade, slide, none
+                animationInSpeed: 200, // Animation in speed (ms)
+                animationOutSpeed: 200, // Animation out speed (ms)
+                scrollText: &#39;&lt;i class=&quot;fa fa-angle-double-up&quot;&gt;&lt;/i&gt;&#39; // Text for element
+            });
+
+            $(&#39; #scrollUp&#39;).smoothScroll({
+                offset: -80,
+                easing: &#39;easeInExpo&#39;,
+                speed: 500,
+                // $.fn.smoothScroll only: whether to prevent the default click action
+                preventDefault: true
+            });</pre>
+</div>
+<div>
+	<h2>
+		Knob/Easy Pie chart Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Knob--&gt;
+&lt;script src=&quot;js/jquery.easypiechart.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+$(document.body).on(&#39;appear&#39;, function () {
+                /*===Knob Piechart===*
+                $(&#39;.chart&#39;).easyPieChart();
+            });</pre>
+</div>
+<div>
+	<h2>
+		One Page Nav Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- One Page Nav--&gt;
+&lt;script src=&quot;js/jquery.nav.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/jquery.scrollTo.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+$(&#39;.nav&#39;).onePageNav({
+                scrollOffset: 50,
+                currentClass: &#39;current&#39;,
+                easing: &#39;easeInExpo&#39;,
+                filter: &#39;:not(.external)&#39;
+            });</pre>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<h2>
+		Sticky Nav Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Sticky Nav--&gt;
+&lt;script src=&quot;js/waypoints.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/waypoints-sticky.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+$(&#39;.navigation&#39;).waypoint(&#39;sticky&#39;, {
+                stuckClass: &#39;sticky-nav&#39;
+            });</pre>
+</div>
+<div>
+	<h2>
+		Wow Animation Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Elements Animation On Scroll --&gt;
+&lt;script src=&quot;js/wow.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+/*==WOW JS==*/
+var ww = $(window).width();
+
+/*==WOW JS==*/
+if(ww &gt; 480){
+    wow = new WOW({
+        animateClass: &#39;animated&#39;,
+        offset: 0
+    });
+    wow.init();
+}</pre>
+	<div>
+		&nbsp;</div>
+</div>
+<div>
+	<h2>
+		Fittext Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- jQuery Fittext --&gt;
+&lt;script src=&quot;js/jquery.fittext.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<h3>
+		Initiliaze Scripts</h3>
+	<pre class="prettyprint lang-js linenums">
+$(&quot;h1.section-heading&quot;).fitText({ minFontSize: &#39;20px&#39;, maxFontSize: &#39;62px&#39;})</pre>
+	<div>
+		&nbsp;</div>
+</div>
+<div>
+	<h2>
+		Appear Animation Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Appear Animation --&gt;
+&lt;script src=&quot;js/jquery.appear.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<div>
+		<h3>
+			Initiliaze Scripts</h3>
+	</div>
+	<pre class="prettyprint lang-js linenums">
+/*===Appear===*/
+            $(&#39;.number-animate&#39;).appear();
+            $(document.body).on(&#39;appear&#39;, &#39;.numeric-count&#39;, function () {
+                $(&#39;.number-animate&#39;).each(function () {
+                    $(this).animateNumbers($(this).attr(&quot;data-value&quot;), true, parseInt($(this).attr(&quot;data-animation-duration&quot;)));
+                });
+});</pre>
+</div>
+<div>
+	<h2>
+		&nbsp;</h2>
+	<h2>
+		Isotope &nbsp;Dependent JS</h2>
+</div>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;!-- Masonry Grid --&gt;
+&lt;script src=&quot;js/jquery.isotope.js&quot;&gt;&lt;/script&gt;</pre>
+<div>
+	<pre class="prettyprint lang-js linenums">
+ var $container = $(&#39;.blog-container&#39;),
+                colWidth = function () {
+                    var w = $container.width(),
+                        columnNum = 1,
+                        columnWidth = 0;
+                    if (w &gt; 1200) {
+                        columnNum = 3;
+                    } else if (w &gt; 900) {
+                        columnNum = 3;
+                    } else if (w &gt; 600) {
+                        columnNum = 3;
+                    } else if (w &gt; 300) {
+                        columnNum = 1;
+                    }
+                    columnWidth = Math.floor(w / columnNum);
+                    $container.find(&#39;.item&#39;).each(function () {
+                        var $item = $(this),
+                            multiplier_w = $item.attr(&#39;class&#39;).match(/item-w(\d)/),
+                            multiplier_h = $item.attr(&#39;class&#39;).match(/item-h(\d)/),
+                            width = multiplier_w ? columnWidth * multiplier_w[1] - 20 : columnWidth - 20;
+//                                height = multiplier_h ? columnWidth*multiplier_h[1]*0.5-4 : columnWidth*0.5-4;
+                        $item.css({
+                            width: width
+                            //                            height: height
+                        });
+                    });
+                    return columnWidth;
+                },
+                isotope = function () {
+                    $container.isotope({
+                        resizable: false,
+                        itemSelector: &#39;.item&#39;,
+                        masonry: {
+                            columnWidth: colWidth()
+                            //                            gutterWidth: 10
+                        }
+                    });
+                };
+            isotope();
+            $(window).smartresize(isotope);
+            $(window).load(isotope);</pre>
+</div>
+<div>
+	<h2>
+		&nbsp;</h2>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="themes_and_layout">
+	<div class="page-header"><h3>Themes And Layout</h3><hr class="notop"></div>
+<p>
+	This template have 5 predefine themes. All themes files have in css/themes folder. This template have following themes.</p>
+<p>
+	<img alt="Inline image 1" data-surl="https://mail.google.com/mail/u/0/?ui=2&amp;ik=20b21506ad&amp;view=att&amp;th=144ca7a456219e6a&amp;attid=0.1&amp;disp=safe&amp;realattid=ii_144ca7a31243851e&amp;zw" src="assets/images/image_2.png" style="font-family: arial; font-size: small;"></p>
+<p>
+	If you want to use any theme you have to just replace theme file in following line:</p>
+<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;link href=&quot;css/default-theme.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+<div>
+	Now it is default theme. If you want to use blue theme then just replace path by following way. Your theme will be change instantly.</div>
+<div>
+	<pre class="prettyprint lang-prettyprint lang-html linenums linenums">
+&lt;link href=&quot;css/themes/blue-theme.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<h3>
+	Plugins</h3>
+<table width="100%">
+	<tbody>
+		<tr>
+			<td width="22%">
+				<strong>Plugins</strong></td>
+			<td width="78%">
+				<strong>Source</strong></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap</td>
+			<td>
+				<a href="http://twitter.github.com/bootstrap/">http://twitter.github.com/bootstrap/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Mega Folio</td>
+			<td>
+				Extended License Purchased&nbsp;<a href="http://codecanyon.net/item/megafolio-pro-responsive-grid-jquery-plugin/3782456">http://codecanyon.net/item/megafolio-pro-responsive-grid-jquery-plugin/3782456</a></td>
+		</tr>
+		<tr>
+			<td>
+				Slider Revolution</td>
+			<td>
+				Extended License Purchased&nbsp;&nbsp;<a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380">http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380</a></td>
+		</tr>
+		<tr>
+			<td>
+				Royal Preloader</td>
+			<td>
+				Extended License Purchased <a href="http://goo.gl/28RSme">http://goo.gl/28RSme</a></td>
+		</tr>
+	</tbody>
+</table>
+<h3>
+	Images</h3>
+<p>
+	All images are used for preview only. Images are not for sell and we did not includes any images in downloadable files. All Images are purchased form http://www.shutterstock.com/&nbsp;</p>
+<h3>
+	Icon Fonts</h3>
+<table class="table table-bordered" width="100%">
+	<tbody>
+		<tr>
+			<td width="22%">
+				<strong>Name</strong></td>
+			<td width="78%">
+				<strong>Source</strong></td>
+		</tr>
+		<tr>
+			<td>
+				Font Awsome&nbsp;</td>
+			<td>
+				http://fortawesome.github.io/Font-Awesome/</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>

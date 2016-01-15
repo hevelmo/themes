@@ -1,0 +1,36 @@
+.invoice-wrapper {
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: 20px;
+}
+
+.invoice-header {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    padding-bottom: 20px;
+}
+
+.invoice-logo {
+    float: left;
+    font-size: 26px;
+    text-transform: uppercase;
+
+    i {
+        color: $color-primary;
+        margin: 0px 10px 0px 0px;
+    }
+}
+
+.invoice-description {
+    float: right;
+
+    span, strong {
+        display: block;
+    }
+
+    strong {
+        font-size: 20px;
+    }
+}
+
+.invoice-info {
+    padding: 20px 0px;
+}

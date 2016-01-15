@@ -1,0 +1,261 @@
+.palette-wrapper {
+    background-color: #fff;
+    border: 2px solid $color-primary;
+    border-left: 0px;
+    left: 0px;
+    padding: 15px;
+    position: fixed;
+    top: 200px;
+    @include transition(margin .2s linear);
+    width: 180px;
+    z-index: 999999;
+
+    select {
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+.palette-closed {
+    margin-left: -180px;
+}
+
+h2.palette-title {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.palette-colors {
+    margin: 0px;
+    padding: 0px;
+
+    li {
+        border: 1px solid rgba(0, 0, 0, .1);
+        display: block;
+        float: left;
+        list-style: none;
+        margin-bottom: 11px;
+        margin-right: 11px;
+
+        &:nth-child(4n) {
+            margin-right: 0px;
+        }
+    }
+
+    a {
+        background-color: red;
+        display: block;
+        height: 24px;
+        margin: 1px;
+        width: 24px;
+    }
+}
+
+.palette-toggle {
+    background-color: $color-primary;
+    border: 2px solid $color-primary;
+    border-left: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    right: -42px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -2px;
+    width: 40px;
+
+    .palette-toggle-inner {
+        border: 1px solid #fff;
+        height: 100px;
+        padding: 66px 0px 0px 0px;
+    }
+
+    span {
+        display: block;
+        @include transform(rotate(-90deg));
+        white-space: nowrap;
+    }
+
+    i {
+        display: inline;
+        margin-right: 8px;
+    }
+}
+
+.palette-color-green a {
+    background-color: $color-green;
+}
+
+.palette-color-blue a {
+    background-color: $color-blue;
+}
+
+.palette-color-red a {
+    background-color: $color-red;
+}
+
+.palette-color-cyan a {
+    background-color: $color-cyan;
+}
+
+.palette-color-orange a {
+    background-color: $color-orange;
+}
+
+.palette-color-brown a {
+    background-color: $color-brown;
+}
+
+.palette-color-pink a {
+    background-color: $color-pink;
+}
+
+.palette-color-purple a {
+    background-color: $color-purple;
+}
+
+
+.palette-patterns  {
+  margin: 0px;
+  padding: 0px;
+
+  li {
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: block;
+    float: left;
+    list-style: none;
+    margin-bottom: 11px;
+    margin-right: 11px;
+
+    &:nth-child(4n) {
+      margin-right: 0px;
+    }
+  }
+
+  a {
+    background-color: red;
+    display: block;
+    height: 24px;
+    margin: 1px;
+    width: 24px;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+  a { background-color: #fff; background-position: center center; background-repeat: no-repeat; background-size: 23px 23px; cursor: pointer; height: 23px; text-indent: -9999px; width: 23px;
+    &.pattern-cloth-alike { background-image: url($image_path + 'patterns/small/cloth-alike.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/cloth-alike@2x.png');
+      }
+    }
+    &.pattern-corrugation { background-image: url($image_path + 'patterns/small/corrugation.png'); background-repeat: repeat; background-size: 8px 5px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/corrugation@2x.png');
+      }
+    }
+    &.pattern-diagonal-noise { background-image: url($image_path + 'patterns/small/diagonal-noise.png'); background-size: 100px 100px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/diagonal-noise@2x.png');
+      }
+    }
+    &.pattern-dust { background-image: url($image_path + 'patterns/small/dust.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/dust@2x.png');
+      }
+    }
+    &.pattern-fabric-plaid { background-image: url($image_path + 'patterns/small/fabric-plaid.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/fabric-plaid@2x.png');
+      }
+    }
+    &.pattern-farmer { background-image: url($image_path + 'patterns/small/farmer.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/farmer@2x.png');
+      }
+    }
+    &.pattern-grid-noise { background-image: url($image_path + 'patterns/small/grid-noise.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/grid-noise@2x.png');
+      }
+    }
+    &.pattern-lghtmesh { background-image: url($image_path + 'patterns/small/lghtmesh.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/lghtmesh@2x.png');
+      }
+    }
+    &.pattern-pw-maze-white { background-image: url($image_path + 'patterns/small/pw-maze-white.png'); background-size: 46px 23px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/pw-maze-white@2x.png');
+      }
+    }
+    &.pattern-none { background-image: url($image_path + 'patterns/small/no-pattern.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/no-pattern@2x.png');
+      }
+    }
+
+
+    &.pattern-cloth-alike-dark { background-image: url($image_path + 'patterns/small/cloth-alike-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/cloth-alike-dark@2x.png');
+      }
+    }
+    &.pattern-corrugation-dark { background-image: url($image_path + 'patterns/small/corrugation-dark.png'); background-repeat: repeat; background-size: 8px 5px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/corrugation-dark@2x.png');
+      }
+    }
+    &.pattern-diagonal-noise-dark { background-image: url($image_path + 'patterns/small/diagonal-noise-dark.png'); background-size: 100px 100px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/diagonal-noise-dark@2x.png');
+      }
+    }
+    &.pattern-dust-dark { background-image: url($image_path + 'patterns/small/dust-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/dust-dark@2x.png');
+      }
+    }
+    &.pattern-fabric-plaid-dark { background-image: url($image_path + 'patterns/small/fabric-plaid-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/fabric-plaid-dark@2x.png');
+      }
+    }
+    &.pattern-farmer-dark { background-image: url($image_path + 'patterns/small/farmer-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/farmer-dark@2x.png');
+      }
+    }
+    &.pattern-grid-noise-dark { background-image: url($image_path + 'patterns/small/grid-noise-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/grid-noise-dark@2x.png');
+      }
+    }
+    &.pattern-lghtmesh-dark { background-image: url($image_path + 'patterns/small/lghtmesh-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/lghtmesh-dark@2x.png');
+      }
+    }
+    &.pattern-pw-maze-white-dark { background-image: url($image_path + 'patterns/small/pw-maze-white-dark.png'); background-size: 46px 23px;
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/pw-maze-white-dark@2x.png');
+      }
+    }
+    &.pattern-none-dark { background-image: url($image_path + 'patterns/small/no-pattern-dark.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+        background-image: url($image_path + 'patterns/small/no-pattern-dark@2x.png');
+      }
+    }
+
+  }
+}
+

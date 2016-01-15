@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 50px;
+
+    li {
+        a {
+            border: 2px solid rgba(0, 0, 0, .1);
+            @include border-radius(0px !important);
+            color: $color-black;
+            font-size: 14px;
+            margin: 0px 5px;
+            @include transition(border-color .2s linear);
+
+            &:hover {
+                background-color: transparent;
+                border-color: $color-primary;
+                color: $color-black;
+            }
+        }
+
+        &.active a, &.active a:hover {
+            background-color: transparent;
+            border-color: $color-black;
+            color: $color-black;
+            font-weight: bold;
+        }
+    }
+}

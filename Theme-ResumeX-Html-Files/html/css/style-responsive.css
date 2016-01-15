@@ -1,0 +1,381 @@
+@media (max-width: 1024px)    {
+
+    .skill, .skillnews {
+        margin-bottom: 15px;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+
+
+    .custombtn {
+        margin-bottom: 50px;
+    }
+
+    .about-img {
+        margin-top: 15px;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+    .container {
+        width: 100%;
+    }
+    .custombtn, .counter {
+        margin-bottom: 20px;
+    }
+    .skill, .skillnews {
+        margin-bottom: 15px;
+    }
+    .sticky-logo{
+    display: none;
+    }
+
+    .skillnews {
+        margin-top: 20px;
+    }
+    .nav.navbar-nav.pull-right {
+        width: 100%;
+    }
+    .navigation ul {
+        margin: 0px 0 0;
+    }
+    .navigation ul li a {
+        padding: 10px;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    .peoples {
+        margin-bottom: 20px;
+    }
+    .toggle-contact-form{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .contact-form{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width:767px){
+    .section-about {
+        margin-top: 30px;
+    }
+    .drag-place{
+        display: none !important;
+    }
+    .sf-menu > li {
+        float: none;
+    }
+
+    .navigation.sticky-nav ul.nav > li > a,.navigation ul.nav > li > a{
+        display: block;
+
+    }
+
+    .navbar-collapse ul.nav > li > a{
+        line-height: 50px;
+        height: 50px;
+    }
+    .navbar-collapse{
+        padding: 0px;
+        height: 100%;
+        margin-bottom: 15px;
+        overflow: auto;
+    }
+    .sf-menu ul ul {
+        top: 0;
+        left: 0;
+
+    }
+
+    .toggle-contact-form{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .contact-form{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .navigation ul {
+        margin: 0;
+        width: 100%;
+        background: #424242;
+    }
+    .navigation ul li.active a, .navigation ul li a:hover {
+        border-radius: 0;
+    }
+    .navbar-toggle {
+        background: #353535;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .sticky-nav .navbar-toggle {
+        background: #353535;
+        color: #fff;
+        margin-top: 6px;
+        margin-right: -6px;
+    }
+
+    .section-about {
+        margin-top: 30px;
+    }
+    h1.section-heading {
+        font-size: 50px;
+        display:block !important;
+    }
+    .about-img img {
+        width: 100%;
+        margin: 0;
+    }
+    h2.section-subheading {
+        line-height: normal;
+        height: auto;
+        padding: 10px;
+    }
+    h2.section-subheading.about {
+        width: 100%;
+
+
+    }
+    /*.section-about .content, .content {*/
+        /*padding: 0;*/
+    /*}*/
+    .skillnews {
+        margin-top: 20px;
+    }
+    .custombtn, .counter {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .skill, .skillnews {
+        margin-bottom: 15px;
+    }
+    .timeline-marker .label {
+        font-size: 12px;
+    }
+    .section-counter {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+
+    .vc {
+        text-align: center;
+    }
+    .fr, .fl {
+        float: none;
+    }
+
+    .education .details, .education .year {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .reddot {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+    }
+    .right-dot {
+        right: -15px;
+        top:  auto !important;
+        bottom: -15px !important;
+    }
+    .section-education .year h2{
+        margin-top: 7%;
+    }
+    .timeline-marker .timeline-date {
+        padding: 22px 10px;
+        font-size: 12px;
+    }
+    .section-subheading-nobg {
+        margin-bottom: 60px;
+    }
+    .peoples {
+        margin-bottom: 20px;
+    }
+
+    .draggable-monitor, .drag-arrow {
+        background: none;
+    }
+
+    .social-link, .drag-arrow {
+        position: static!important;
+    }
+    .draggable-monitor {
+        margin: 20px 0;
+    }
+
+    .drag-arrow {
+        height: 0;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .timeline-divider{
+        display: none;
+    }
+    .experience-timeline:before{
+        display: none;
+    }
+    .skill{
+        background-color: #f5f5f5;
+        padding: 15px;
+    }
+    .arrow-right{
+    display: none;
+    }
+    .mobile-view{
+        width: 100% !important;
+    }
+    .navigation ul {
+        margin: 0;
+        width: 100%;
+        background: #424242;
+    }
+    .navigation ul li.active a, .navigation ul li a:hover {
+        border-radius: 0;
+    }
+    .navbar-toggle {
+        background: #353535;
+        color: #fff;
+        margin-top: 30px;
+    }
+    .home-text h1 {
+        font-size: 40px;
+    }
+    .home-text img {
+        margin-top: -5px;
+    }
+    h1.section-heading {
+        font-size: 30px;
+    }
+
+    .about-img img {
+        width: 100%;
+        margin: 0;
+    }
+    h2.section-subheading {
+        line-height: normal;
+        height: auto;
+        padding: 10px;
+    }
+    h2.section-subheading.about {
+        width: 100%;
+        line-height: 25px;
+        padding: 10px;
+    }
+    .arrow-left{
+    display: none;
+    }
+    .timeline-marker.right,.timeline-marker.left{
+        position: relative;
+
+    }
+    .timeline-marker.right:after{
+        bottom:100%;
+        left:50%;
+        border:solid transparent;
+        content:" ";
+        height:0;
+        width:0;
+        position:absolute;
+        pointer-events:none;
+        border-color:rgba(250,104,98,0);
+        border-bottom-color:#FA6862;
+        border-width:10px;
+        margin-left:-10px;
+    }
+    .timeline-marker.left:after{
+        top:100%;
+        left:50%;
+        border:solid transparent;
+        content:" ";
+        height:0;
+        width:0;
+        position:absolute;
+        pointer-events:none;
+        border-color:rgba(250,104,98,0);
+        border-top-color:#FA6862;
+        border-width:10px;
+        margin-left:-10px;
+    }
+
+
+
+
+
+    .custombtn, .counter {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .experience-timeline .right{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .skill, .skillnews {
+        margin-bottom: 15px;
+    }
+    .timeline-marker .label {
+        font-size: 12px;
+    }
+    .section-counter {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+
+    .vc {
+        text-align: center;
+    }
+    .fr, .fl {
+        float: none;
+    }
+
+    .education .details, .education .year {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .section-education .year h2{
+        margin-top:11%;
+    }
+    .experience-timeline .left{
+        margin-right: 0px;
+    }
+
+    .section-about .content, .content {
+        padding: 0 10px;
+    }
+    .peoples {
+        margin-bottom: 20px;
+    }
+
+    .tags ul li {
+        width: 99%;
+        line-height: 22px;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width:567px){
+    .mega-entry{
+        height:300px !important;
+    }
+
+}

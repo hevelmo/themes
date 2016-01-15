@@ -1,0 +1,44 @@
+div.navbar
+{
+	background:#BD2A4E;
+	background:rgba(189,42,78, 0.95);
+}
+
+.navbar .dropdown-menu > li > a:hover
+{
+	background:#BD2A4E;
+	background:rgba(189,42,78, 0.9);
+}
+
+
+.item .mask 
+{
+   background-color: #BD2A4E;
+   background:rgba(189,42,78, 0.85);
+}
+
+#loading
+{
+	background:#BD2A4E;	
+	background:rgba(189,42,78, 0.4);
+}
+.btn-primary
+{
+	background:#BD2A4E;
+}
+
+.navbar .navbar-toggle .icon-bar
+{
+	background:#BD2A4E;
+}
+
+.navbar .nav > .active, .navbar .nav > .active, .navbar .nav > .active,
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus
+{
+	background:#BD2A4E;
+}
+
+ul.autocomplete li strong
+{
+	color:#BD2A4E;
+}

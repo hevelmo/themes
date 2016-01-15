@@ -1,0 +1,54 @@
+.map-wrapper {
+    margin-bottom: -1px;
+}
+
+#map {
+    border-bottom: 3px solid $color-primary;
+	height: 553px;
+}
+
+.map-wrapper {
+    margin-top: -62px;
+}
+
+.map-navigation-positioning {
+    min-height: 0px;
+}
+
+.map-navigation-wrapper {
+	position: relative;
+}
+
+.map-navigation {
+	background-color: $color-black-transparent;
+	border-top: 3px solid $color-primary;
+	padding: 15px 0px 0px 0px;
+	position: absolute;	
+	right: 0px;
+	top: -471px;
+	z-index: 9999;
+
+	label {
+		color: #fff;
+		font-size: 13px;
+		font-weight: bold;
+		margin: 0px 0px 5px 0px;
+
+		.map-navigation-light & {
+			color: $color-black;
+		}
+	}
+
+	.map-navigation-light & {
+		background-color: rgba(255, 255, 255, .85);
+
+		.form-control {
+			border: 2px solid rgba(0, 0, 0, .1); 
+		}
+	}
+}
+
+#map-property {
+    border-bottom: 3px solid $color-primary;
+    height: 200px;
+}

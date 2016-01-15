@@ -1,0 +1,178 @@
+/*navbar*/ 
+	.menu, .footer, .powered
+	{
+		padding:0px;
+		width:1000px;
+	}
+	
+	.menu .row
+	{
+		margin:0px;
+	}
+	
+	.menu .navbar .nav
+	{
+		margin:0px;
+		background:#fff;
+	}
+	.menu .row, 
+	.menu .row .span12,
+	.powered .row
+	{
+		margin:0px;
+		width:100%;
+	}
+	
+	.navbar .navbar-inner a
+	{
+		color:#555;
+		font-size:18px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		padding:10px 25px;
+		line-height:24px
+	}
+	.navbar .brand:hover
+	{
+		background:none repeat scroll 0 0 rgba(42, 127, 211, 0.4);
+		color:#fff;
+		text-shadow:none;
+	}
+
+	.navbar .nav > li 
+	{
+		padding:5px 7px 5px;
+	}
+	.navbar
+	{
+		background:#fff;
+	}
+	.navbar .nav > li > a
+	{
+	   padding:10px 20px;
+	   color:#555;
+	   font-size:18px;
+	   font-family: 'Open Sans Condensed', sans-serif;  
+	}
+	.navbar-inner
+	{
+		background:#fff;
+		background-image:none;
+		border-color: #EEEEEE;
+		border-left: medium none #EEEEEE;
+		border-right: medium none #EEEEEE;
+		border-style: solid none;
+		border-width: 1px medium;
+		font-family: 'Open Sans Condensed',sans-serif;
+		border-radius:0px;
+		box-shadow:none;
+		padding:0px;
+	}
+
+	.nav-collapse 
+	{
+		margin-left:0px;
+		background:#fff;
+	}
+
+
+	.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle
+	{
+		background:#fff;
+	}
+
+	.nav > li > a
+	{
+		outline:none;
+	}
+	.nav 
+	{
+		width:100%;
+	}
+	.cart
+	{
+		display:block;
+	}
+	.cart a, .cart img
+	{
+		white-space:nowrap;
+		display:inline-block;
+		width:auto;
+	}
+	.nav > li > a:hover
+	{
+		background-color:inherit;
+	}
+
+	.navbar .nav > li:hover
+	{
+		background:#2A7FD3;
+		text-shadow:none;
+		color:#fff;
+	}
+
+	.navbar .nav > li:hover a
+	{
+		color:#fff;
+		text-shadow:none;
+		
+	}
+	.cart
+	{
+		
+	}
+
+	
+	
+	.dropdown:hover .dropdown-menu
+	{
+		display:block;
+	}
+
+	.dropdown-menu
+	{
+		margin:0px;
+		z-index:9999999;
+		border-radius:0px;
+	}
+
+	ul.nav li.dropdown:hover ul.dropdown-menu{
+		display: block;    
+	}
+
+	a.menu:after, .dropdown-toggle:after {
+		content: none;
+	}
+
+
+	.page-container
+	{
+		display:table;
+	}
+	
+	.footer
+	{
+		display:table;
+		padding:20px 0px;
+	}
+
+	.footer .row
+	{
+		display:table-row;
+		margin:0px;
+	}
+
+	.footer .span2
+	{
+		padding:0px;
+		margin:0px;
+		display:table-cell;
+		width:20%;
+		text-align:center;
+	}
+
+	.footer .span2 div
+	{
+		display:inline-block;
+		text-align:left;
+	}
+/*end navbar*/ 

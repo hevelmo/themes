@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Do not use this HTML file as a start -->
+  <!-- Always create your own HTML file and follow steps in basic usage section of documentation -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+
+    <title> Gallery with Deep Linking | RoyalSlider Example</title>
+
+    <meta content="Touch-enabled image gallery and content slider plugin, that focuses on providing great user experience on every desktop and mobile device." name="description">
+    <meta name="keywords" content="content slider, gallery, plugin, jquery, banner rotator">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta name="author" content="Dmitry Semenov">
+
+    <!-- slider JS files -->
+    
+    <script class="rs-file" src="../assets/royalslider/jquery-1.8.3.min.js"></script>
+    <script class="rs-file" src="../assets/royalslider/jquery.royalslider.min.js"></script>
+    <link class="rs-file" href="../assets/royalslider/royalslider.css" rel="stylesheet">
+    
+    
+
+    
+    <!-- syntax highlighter -->
+    <script src="../assets/preview-assets/js/highlight.pack.js"></script>
+    <script src="../assets/preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script> hljs.initHighlightingOnLoad();</script>
+
+
+    
+
+    <!-- preview-related stylesheets -->
+    <link href="../assets/preview-assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/github.css" rel="stylesheet">
+
+    <!-- slider stylesheets -->
+    
+     
+        <link class="rs-file" href="../assets/royalslider/skins/default-inverted/rs-default-inverted.css" rel="stylesheet">
+     
+    
+
+    
+    <!-- slider css -->
+    <style>
+      #gallery-t-group {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;  
+  user-select: none;
+}
+.rsDefaultInv,
+.rsDefaultInv .rsOverflow,
+.rsDefaultInv .rsSlide,
+.rsDefaultInv .rsVideoFrameHolder,
+.rsDefaultInv .rsThumbs {
+  background: #eee;
+}
+
+#gallery-t-group .rsThumb {
+  float: left;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+  margin-right: 1px;
+}
+#gallery-t-group .rsThumbs {
+  width: 285px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0 0 0 1px;
+  right: 0;
+}
+#gallery-t-group .rsGCaption {
+  right: 285px;
+  line-height: 12px;
+  padding: 1px 7px;
+  font-size: 11px;
+  background: #EEE;
+  position: absolute;
+  width: auto;
+  bottom: 0;
+  float: none;
+  text-align: left;
+}
+@media screen and (min-width: 0px) and (max-width: 1200px) {  
+  #gallery-t-group .rsThumbs {
+    width: 228px;
+  }
+  #gallery-t-group .rsGCaption {
+    right: 228px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 760px) {  
+  #gallery-t-group .rsThumbs {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1px 0 0 1px;
+  }
+  #gallery-t-group .rsThumbsContainer {
+    height: auto !important;
+  }
+  #gallery-t-group .rsGCaption { 
+    right: 0;
+  }
+
+}
+
+    </style>
+    
+    <style>
+      #page-navigation { display: none; }
+    </style>
+  </head>
+  <body >
+  <header  id="main-header" class="clearfix">  
+    <div  class="page wrapper"> 
+       <div class="col span_6">
+         <a id="logo" href="#">Royal&thinsp;Slider</a>
+         <nav>
+            <a href="http://dimsemenov.com/plugins/royal-slider/documentation/?s=dp">Documentation</a>
+            <a href="http://dimsemenov.com/plugins/royal-slider/build/?s=dp">Build Tool</a>
+            <a href="http://dimsemenov.com/private/forum.php">Support Forum</a>
+            <a href="http://help.dimsemenov.com/discussions/suggestions">Request feature</a>
+         </nav>
+       </div>
+    </div>
+  </header>
+  <div  class="page wrapper">    
+    <div class="row clearfix">
+      <div id="page-navigation" class="col span_6"> 
+            
+           
+          <div class="right page-nav-item"> 
+          
+                  <a href="../slider-in-laptop/" title="Next Example: 
+  Slider in Laptop">Slider in Laptop → </a> 
+          
+          </div> 
+           
+      </div> 
+    </div>
+
+    <!-- slider code start -->
+      <div class="row clearfix">
+  <div class="fwImage col span_6">
+<div id="gallery-t-group" class="royalSlider rsDefaultInv">
+  <a class="rsImg" href="../img/full-width/medium/1.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/1.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/2.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/2.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/3.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/3.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/4.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/4.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/5.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/5.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/6.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/6.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/7.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/7.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/8.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/8.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/9.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/9.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/10.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/10.jpg" /></a>
+  <a class="rsImg" href="../img/full-width/medium/11.jpg"><img class="rsTmb" width="56" height="56" src="../img/full-width/thumbs/11.jpg" /></a>
+
+</div>
+  </div>
+</div>
+<div class="row clearfix">
+    <div class="col span_4 logo_shift">
+      <h1>Gallery with Deep Linking</h1>
+      <p>Deep linking module (introduced in v9.1.3) makes URL automatically change when you switch slides and you can easily <a href="#image-7">link to specific slide</a>. You may also leave only ability to link. Hashchange option can be added to any type of slider. You may also set custom prefix ('image-' part).</p>
+      <p>Scrolling of thumbnails is turned off.</p>
+      <p>Stunning photography by <a href="http://www.flickr.com/photos/gilderic/">Gilderic</a>, not included in download.</p>
+    </div>
+  </div>
+
+  <!-- You don't need this part of code -->
+  <div class="row clearfix">
+    <h2>Markup for current slider</h2>
+    <p style="max-width: 500px;">For better understanding please don't use this HTML file as a starter file, create your own and follow steps in <a href="http://dimsemenov.com/plugin/royal-slider/documentation/">basic usage section</a> of documentation </p>
+    <div class="tabs col span_6">
+    <ul>
+        <li><a href="#js">JavaScript</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#files">Files to include</a></li>
+    </ul>
+    <div id="js"><p>Slider JavaScript initialization code.</p><pre><code></code></pre></div>
+    <div id="css"><p>Additional CSS styles for current slider.</p><pre><code>#gallery-t-group {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;  
+  user-select: none;
+}
+.rsDefaultInv,
+.rsDefaultInv .rsOverflow,
+.rsDefaultInv .rsSlide,
+.rsDefaultInv .rsVideoFrameHolder,
+.rsDefaultInv .rsThumbs {
+  background: #eee;
+}
+
+#gallery-t-group .rsThumb {
+  float: left;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+  margin-right: 1px;
+}
+#gallery-t-group .rsThumbs {
+  width: 285px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0 0 0 1px;
+  right: 0;
+}
+#gallery-t-group .rsGCaption {
+  right: 285px;
+  line-height: 12px;
+  padding: 1px 7px;
+  font-size: 11px;
+  background: #EEE;
+  position: absolute;
+  width: auto;
+  bottom: 0;
+  float: none;
+  text-align: left;
+}
+@media screen and (min-width: 0px) and (max-width: 1200px) {  
+  #gallery-t-group .rsThumbs {
+    width: 228px;
+  }
+  #gallery-t-group .rsGCaption {
+    right: 228px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 760px) {  
+  #gallery-t-group .rsThumbs {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1px 0 0 1px;
+  }
+  #gallery-t-group .rsThumbsContainer {
+    height: auto !important;
+  }
+  #gallery-t-group .rsGCaption { 
+    right: 0;
+  }
+
+}
+</code></pre></div>
+    <div id="html"><p>HTML markup of slider.</p><pre id="html-code"><code></code></pre></div>
+    <div id="files"><p>You should include: jQuery, main slider JavaScript file, main slider CSS file, skin CSS file. <br/>It's recommended to get jquery.royalslider.min.js from build tool. Feel free to combine files in one.<br/>Make sure that paths match locations of files.</p><pre><code></code></pre></div>
+    </div>
+  </div>
+  <script>
+    jQuery(document).ready(function($) {
+      // DO NOT INCLUDE THIS CODE IN YOUR BUILD, it's for tabs on this page
+        var code = $('#html-code code');
+        if(code.is(':empty')) {
+          var rsCode = $('.royalSlider-preview');
+          if(!rsCode.length) {
+              rsCode = $('.royalSlider');
+          }
+          rsCode = rsCode.clone().removeClass('royalSlider-preview').wrap('<div></div>').parent().html();
+          rsCode = htmlencode(rsCode);
+          code.html(rsCode);
+        }
+        $('#js code').html( htmlencode($('#addJS').html()) );
+
+        var filesHTML = '';
+        $('.rs-file').each(function() {
+          var item = $(this).removeAttr('class');
+          if(item.is('script')) {
+            filesHTML += '<script src="' + item.attr('src') + '" />';
+          } else {
+            filesHTML += $('<div>').append( $(this).clone().removeAttr('class') ).html();
+          }
+          filesHTML += "\n";
+        });
+        $('#files code').html( htmlencode( filesHTML ) );
+        $( ".tabs" ).tabs();
+    });
+    function htmlencode(str) {
+      if(str) {
+         return str.replace(/[&<>"']/g, function($0) {
+            return "&" + {"&":"amp", "<":"lt", ">":"gt", '"':"quot", "'":"#39"}[$0] + ";";
+        });
+      }
+    }   
+  </script>
+  <div class="row clearfix">
+    <h2>List of Starter Templates</h2>
+  <ul id="templates-list" class="col span_6">
+  
+  <li><a href="../content-slider/"><img width="341" height="250" src="../img/previews/content-slider.jpg" /><h3>HTML Content Slider</h3></a></li>
+  
+  <li><a href="../video-gallery/"><img width="341" height="250" src="../img/previews/video-gallery.jpg" /><h3>Video Gallery</h3></a></li>
+  
+  <li><a href="../gallery/"><img width="341" height="250" src="../img/previews/gallery.jpg" /><h3>Image Gallery with Fullscreen Option</h3></a></li>
+  
+  <li><a href="../visible-nearby/"><img width="341" height="250" src="../img/previews/visible-nearby.jpg" /><h3>Gallery with Visible Nearby Images</h3></a></li>
+  
+  <li><a href="../animated-blocks/"><img width="341" height="250" src="../img/previews/animated-blocks.jpg" /><h3>Slider with Animated Blocks</h3></a></li>
+  
+  <li><a href="../full-width/"><img width="341" height="250" src="../img/previews/fullwidth.jpg" /><h3>Full Width Slider</h3></a></li>
+  
+  <li><a href="../slider-in-lightbox/"><img width="341" height="250" src="../img/previews/lightbox.jpg" /><h3>Slider in Lightbox</h3></a></li>
+  
+  <li><a href="../simple-vertical/"><img width="341" height="250" src="../img/previews/simple-vertical.jpg" /><h3>Simple Vertical Slider</h3></a></li>
+  
+  <li><a href="../gallery-vertical-fade/"><img width="341" height="250" src="../img/previews/gallery-fade.jpg" /><h3>Gallery with Fade and Vertical Thumbs</h3></a></li>
+  
+  <li><a href="../slider-in-laptop/"><img width="341" height="250" src="../img/previews/slider-in-laptop.jpg" /><h3>Slider in Laptop</h3></a></li>
+  
+  <li><a href="../gallery-with-deeplinking/"><img width="341" height="250" src="../img/previews/deeplinking.jpg" /><h3>Gallery with Deep Linking</h3></a></li>
+  
+  </ul>
+</div>
+  <footer class="row clearfix" id="main-footer">
+    <div class="col span_6">
+      <nav><a href="http://dimsemenov.com/subscribe.html?s=sb">Email Newsletter</a><a href="http://twitter.com/dimsemenov">Twitter</a><a href="mailto:diiiimaaaa@gmail.com?subject=RoyalSlider bug">Report Bug</a><a href="http://dimsemenov.com/plugins/royal-slider/support/">Contact support</a></nav>
+      <p class="copy">© 2011-2012 <a href="http://dimsemenov.com">Dmitry Semenov</a></p>
+    </div>
+  </footer>
+   <!-- tabs & footer end /// --> 
+   
+  
+    <script id="addJS">jQuery(document).ready(function() {
+  var win = $(window);
+  var slider = $('#gallery-t-group').royalSlider({
+    controlNavigation: 'thumbnails',
+    thumbs: {
+      orientation: 'vertical',
+      navigation: false,
+      fitInViewport: (win.width() < 760) ? false : true,
+      spacing: 1,
+      autoCenter: false
+    },
+    deeplinking: {
+      enabled: true,
+      change: true,
+      prefix: 'image-'
+    },
+    globalCaption: false,
+    numImagesToPreload: 2,
+    fadeinLoadedSlide: false,
+    imageAlignCenter: true,
+    imageScaleMode: 'fill',
+    transitionType:'fade',
+    autoScaleSlider: true, 
+    autoScaleSliderWidth: 900,     
+    autoScaleSliderHeight: 400,
+    loop: true,
+    arrowsNav: false,
+    keyboardNavEnabled: true,
+
+    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+    imgWidth: 792,
+    imgHeight: 479
+  }).data('royalSlider');
+
+  win.resize(function() {
+    if(win.width() < 760) {
+      slider.st.thumbs.fitInViewport = false;
+    } else {
+      slider.st.thumbs.fitInViewport = true;
+    }
+  });
+  $('#btn').click(function() {
+    console.log('click');
+    return false;
+  });
+});
+</script>
+  
+  </div>
+  </body>
+</html>

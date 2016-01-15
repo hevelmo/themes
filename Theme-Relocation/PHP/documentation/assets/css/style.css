@@ -1,0 +1,29 @@
+body { padding: 50px 0px;
+    line-height: 1.6em;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+.green {
+    color: #39b54a;
+}
+.slogan {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.bs-sidebar {
+    position: fixed;
+}
+
+.page-list ul {
+    list-style: none;
+    padding: 0px;
+}

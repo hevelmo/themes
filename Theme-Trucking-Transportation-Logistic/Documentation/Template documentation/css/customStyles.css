@@ -1,0 +1,45 @@
+img{
+	max-width: 100%;
+	border: 1px solid #D6D6D6;
+}
+
+#documenter_sidebar ol ol a{
+	color: rgb(153, 153, 153);
+	
+}
+
+.alert {
+padding: 10px 10px 10px 10px;
+font-size: 11px;
+margin: 20px 0px 10px 0px;
+}
+
+.alert-warning {
+border: 1px solid #DDB723;
+background: #FFEA73;
+color: #A63C00;
+}
+
+.alert h6 {
+font-weight: bold !important;
+font-size: 11px !important;
+text-transform: uppercase;
+margin: 0 !important;
+}
+
+.alert-notification {
+color: #4F8A10;
+background: #DFF2BF;
+border: 1px solid #4F8A10;
+}
+
+hr {
+background: url('../assets/images/divider.png') repeat-x;
+height: 7px;
+border: none;
+margin: 3em auto;
+width: 600px;
+}
+
+strong.big{
+font-size: 15px;}

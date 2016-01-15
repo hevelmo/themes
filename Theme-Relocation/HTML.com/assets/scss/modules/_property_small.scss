@@ -1,0 +1,67 @@
+.property-small {
+	background-color: rgba(0, 0, 0, .3);
+	margin-bottom: 20px;
+	padding: 10px 0px;
+
+	&:last-child {
+		margin-bottom: 0px;
+	}
+
+    .sidebar &, .footer-light & {
+        background-color: transparent;
+        border: 2px solid rgba(0, 0, 0, .1);
+    }
+}
+
+.property-small-picture {
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	img { 
+		width: 100%;
+	}
+}
+
+.property-small-picture-inner {
+    @extend .helper-image-hover;
+}
+
+.property-small-picture-target {
+	display: block;
+}
+
+.property-small-content {
+	padding-left: 0px;
+}
+
+h3.property-small-title, h3.property-small-title a {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+
+    .sidebar &, .footer-light & {
+        color: $color-black !important;
+    }
+}
+
+.property-small-subtitle {
+	font-size: 11px;
+	@include opacity(.7);
+}
+
+.property-small-price {
+	color: $color-primary;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.property-small-price-suffix {
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+
+    .sidebar &, .footer-light & {
+        color: $color-black !important;
+    }
+}

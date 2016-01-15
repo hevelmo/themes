@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Do not use this HTML file as a start -->
+  <!-- Always create your own HTML file and follow steps in basic usage section of documentation -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+
+    <title> HTML Content Slider | RoyalSlider Example</title>
+
+    <meta content="Touch-enabled image gallery and content slider plugin, that focuses on providing great user experience on every desktop and mobile device." name="description">
+    <meta name="keywords" content="content slider, gallery, plugin, jquery, banner rotator">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta name="author" content="Dmitry Semenov">
+
+    <!-- slider JS files -->
+    
+    <script class="rs-file" src="../assets/royalslider/jquery-1.8.3.min.js"></script>
+    <script class="rs-file" src="../assets/royalslider/jquery.royalslider.min.js"></script>
+    <link class="rs-file" href="../assets/royalslider/royalslider.css" rel="stylesheet">
+    
+    
+
+    
+    <!-- syntax highlighter -->
+    <script src="../assets/preview-assets/js/highlight.pack.js"></script>
+    <script src="../assets/preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script> hljs.initHighlightingOnLoad();</script>
+
+
+    
+
+    <!-- preview-related stylesheets -->
+    <link href="../assets/preview-assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/github.css" rel="stylesheet">
+
+    <!-- slider stylesheets -->
+    
+     
+        <link class="rs-file" href="../assets/royalslider/skins/default/rs-default.css" rel="stylesheet">
+     
+    
+
+    
+    <!-- slider css -->
+    <style>
+      .contentSlider {
+  width: 100%;
+}
+.contentSlider,
+.contentSlider .rsOverflow,
+.contentSlider .rsSlide,
+.contentSlider .rsVideoFrameHolder,
+.contentSlider .rsThumbs {
+  background: #eee;
+  color: #000;
+}
+
+.contentSlider .rsSlide,
+.contentSlider .rsOverflow {
+  background: #eee;
+}
+.contentSlider h3 {
+  font-size: 24px;
+  line-height: 31px;
+  margin: 12px 0 8px;
+  font-weight: bold;
+}
+.contentSlider img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.content-slider-bg {
+  width: 86%;
+  padding: 24px 7%;
+  background: #eee;
+}
+
+    </style>
+    
+    <style>
+      #page-navigation { display: none; }
+    </style>
+  </head>
+  <body >
+  <header  id="main-header" class="clearfix">  
+    <div  class="page wrapper"> 
+       <div class="col span_6">
+         <a id="logo" href="#">Royal&thinsp;Slider</a>
+         <nav>
+            <a href="http://dimsemenov.com/plugins/royal-slider/documentation/?s=dp">Documentation</a>
+            <a href="http://dimsemenov.com/plugins/royal-slider/build/?s=dp">Build Tool</a>
+            <a href="http://dimsemenov.com/private/forum.php">Support Forum</a>
+            <a href="http://help.dimsemenov.com/discussions/suggestions">Request feature</a>
+         </nav>
+       </div>
+    </div>
+  </header>
+  <div  class="page wrapper">    
+    <div class="row clearfix">
+      <div id="page-navigation" class="col span_6"> 
+            
+          <div class="left page-nav-item"> 
+                  <a href="../video-gallery/" title="Previous Example: 
+  Video Gallery">← Video Gallery</a> 
+          </div> 
+           
+           
+      </div> 
+    </div>
+
+    <!-- slider code start -->
+      <div class="row clearfix">
+  <div class="col span_4 fwImage">
+    <div class="content-slider-bg">
+<div id="content-slider-1" class="royalSlider contentSlider rsDefault">
+  <div>
+    <h3>Slide HTML Text</h3>
+    <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.  These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. </p>
+    <blockquote>This is dummy copy. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense. Why, you can't even read it!  It is strictly for mock-ups. You may mock it up as strictly as you wish.</blockquote>
+    <p>After all, you have many other things you should be doing. Who's paying you to waste this time, anyway?</p>
+    <span class="rsTmb">HTML text</span>
+  </div>
+  <div>
+    <img class="rsImg" src="http://dimsemenov.com/plugins/royal-slider/img/home.jpg" data-rsw="707" data-rsh="397" />
+    <h3>Slide with Image and Text</h3>
+    <p>This is dummy copy. It is not meant to be read. Accordingly, it is difficult to figure out when to end it. If this were real copy, it would have ended long ago. But then, this is dummy copy. It is not meant to be read. Period.</p>
+    <span class="rsTmb">Image</span>
+  </div>
+  <div>
+    <img class="rsImg" src="http://dimsemenov.com/plugins/royal-slider/img/boat.jpg" data-rsVideo="http://www.youtube.com/watch?v=HFbHRWwyihE" data-rsw="640" data-rsh="425" />
+    <h3>Slide with Video and Text</h3>
+    <p>This is dummy copy. It is not meant to be read. Accordingly, it is difficult to figure out when to end it. But then, this is dummy copy. It is not meant to be read. Period.</p>
+    <span class="rsTmb">Video</span>
+  </div>
+
+</div>
+    </div>
+  </div>
+  <div class="col span_2">
+    <h1>HTML Content Slider</h1>
+    <p>RoyalSlider doesn't wait when all images are finished loading, it applies height to slide right away it's ready.</p>
+    <p>Auto-height option automatically resizes the slider based on current slide height. Same trick can be done when transition is set to fade, or in image gallery when image scale mode is set to 'none'. "autoHeight" is provided as a module and can be easily removed from build.</p>
+    <p>If required, you can disable mouse dragging completely. You can enable arrows, or use thumbnails or bullets instead of tabs.</p>
+    <p>Virtually anything can be inside each slide.</p>
+  </div>
+</div>
+
+  <!-- You don't need this part of code -->
+  <div class="row clearfix">
+    <h2>Markup for current slider</h2>
+    <p style="max-width: 500px;">For better understanding please don't use this HTML file as a starter file, create your own and follow steps in <a href="http://dimsemenov.com/plugin/royal-slider/documentation/">basic usage section</a> of documentation </p>
+    <div class="tabs col span_6">
+    <ul>
+        <li><a href="#js">JavaScript</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#files">Files to include</a></li>
+    </ul>
+    <div id="js"><p>Slider JavaScript initialization code.</p><pre><code></code></pre></div>
+    <div id="css"><p>Additional CSS styles for current slider.</p><pre><code>.contentSlider {
+  width: 100%;
+}
+.contentSlider,
+.contentSlider .rsOverflow,
+.contentSlider .rsSlide,
+.contentSlider .rsVideoFrameHolder,
+.contentSlider .rsThumbs {
+  background: #eee;
+  color: #000;
+}
+
+.contentSlider .rsSlide,
+.contentSlider .rsOverflow {
+  background: #eee;
+}
+.contentSlider h3 {
+  font-size: 24px;
+  line-height: 31px;
+  margin: 12px 0 8px;
+  font-weight: bold;
+}
+.contentSlider img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.content-slider-bg {
+  width: 86%;
+  padding: 24px 7%;
+  background: #eee;
+}
+</code></pre></div>
+    <div id="html"><p>HTML markup of slider.</p><pre id="html-code"><code></code></pre></div>
+    <div id="files"><p>You should include: jQuery, main slider JavaScript file, main slider CSS file, skin CSS file. <br/>It's recommended to get jquery.royalslider.min.js from build tool. Feel free to combine files in one.<br/>Make sure that paths match locations of files.</p><pre><code></code></pre></div>
+    </div>
+  </div>
+  <script>
+    jQuery(document).ready(function($) {
+      // DO NOT INCLUDE THIS CODE IN YOUR BUILD, it's for tabs on this page
+        var code = $('#html-code code');
+        if(code.is(':empty')) {
+          var rsCode = $('.royalSlider-preview');
+          if(!rsCode.length) {
+              rsCode = $('.royalSlider');
+          }
+          rsCode = rsCode.clone().removeClass('royalSlider-preview').wrap('<div></div>').parent().html();
+          rsCode = htmlencode(rsCode);
+          code.html(rsCode);
+        }
+        $('#js code').html( htmlencode($('#addJS').html()) );
+
+        var filesHTML = '';
+        $('.rs-file').each(function() {
+          var item = $(this).removeAttr('class');
+          if(item.is('script')) {
+            filesHTML += '<script src="' + item.attr('src') + '" />';
+          } else {
+            filesHTML += $('<div>').append( $(this).clone().removeAttr('class') ).html();
+          }
+          filesHTML += "\n";
+        });
+        $('#files code').html( htmlencode( filesHTML ) );
+        $( ".tabs" ).tabs();
+    });
+    function htmlencode(str) {
+      if(str) {
+         return str.replace(/[&<>"']/g, function($0) {
+            return "&" + {"&":"amp", "<":"lt", ">":"gt", '"':"quot", "'":"#39"}[$0] + ";";
+        });
+      }
+    }   
+  </script>
+  <div class="row clearfix">
+    <h2>List of Starter Templates</h2>
+  <ul id="templates-list" class="col span_6">
+  
+  <li><a href="../content-slider/"><img width="341" height="250" src="../img/previews/content-slider.jpg" /><h3>HTML Content Slider</h3></a></li>
+  
+  <li><a href="../video-gallery/"><img width="341" height="250" src="../img/previews/video-gallery.jpg" /><h3>Video Gallery</h3></a></li>
+  
+  <li><a href="../gallery/"><img width="341" height="250" src="../img/previews/gallery.jpg" /><h3>Image Gallery with Fullscreen Option</h3></a></li>
+  
+  <li><a href="../visible-nearby/"><img width="341" height="250" src="../img/previews/visible-nearby.jpg" /><h3>Gallery with Visible Nearby Images</h3></a></li>
+  
+  <li><a href="../animated-blocks/"><img width="341" height="250" src="../img/previews/animated-blocks.jpg" /><h3>Slider with Animated Blocks</h3></a></li>
+  
+  <li><a href="../full-width/"><img width="341" height="250" src="../img/previews/fullwidth.jpg" /><h3>Full Width Slider</h3></a></li>
+  
+  <li><a href="../slider-in-lightbox/"><img width="341" height="250" src="../img/previews/lightbox.jpg" /><h3>Slider in Lightbox</h3></a></li>
+  
+  <li><a href="../simple-vertical/"><img width="341" height="250" src="../img/previews/simple-vertical.jpg" /><h3>Simple Vertical Slider</h3></a></li>
+  
+  <li><a href="../gallery-vertical-fade/"><img width="341" height="250" src="../img/previews/gallery-fade.jpg" /><h3>Gallery with Fade and Vertical Thumbs</h3></a></li>
+  
+  <li><a href="../slider-in-laptop/"><img width="341" height="250" src="../img/previews/slider-in-laptop.jpg" /><h3>Slider in Laptop</h3></a></li>
+  
+  <li><a href="../gallery-with-deeplinking/"><img width="341" height="250" src="../img/previews/deeplinking.jpg" /><h3>Gallery with Deep Linking</h3></a></li>
+  
+  </ul>
+</div>
+  <footer class="row clearfix" id="main-footer">
+    <div class="col span_6">
+      <nav><a href="http://dimsemenov.com/subscribe.html?s=sb">Email Newsletter</a><a href="http://twitter.com/dimsemenov">Twitter</a><a href="mailto:diiiimaaaa@gmail.com?subject=RoyalSlider bug">Report Bug</a><a href="http://dimsemenov.com/plugins/royal-slider/support/">Contact support</a></nav>
+      <p class="copy">© 2011-2012 <a href="http://dimsemenov.com">Dmitry Semenov</a></p>
+    </div>
+  </footer>
+   <!-- tabs & footer end /// --> 
+   
+  
+    <script id="addJS">jQuery(document).ready(function($) {
+  // Please note that autoHeight option has some conflicts with options like imageScaleMode, imageAlignCenter and autoScaleSlider
+  // it's recommended to disable them when using autoHeight module
+  $('#content-slider-1').royalSlider({
+    autoHeight: true,
+    arrowsNav: false,
+    fadeinLoadedSlide: false,
+    controlNavigationSpacing: 0,
+    controlNavigation: 'tabs',
+    imageScaleMode: 'none',
+    imageAlignCenter:false,
+    loop: false,
+    loopRewind: true,
+    numImagesToPreload: 6,
+    keyboardNavEnabled: true,
+    usePreloader: false
+  });
+});
+</script>
+  
+  </div>
+  </body>
+</html>

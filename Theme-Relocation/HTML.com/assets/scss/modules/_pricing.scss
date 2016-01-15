@@ -1,0 +1,96 @@
+.pricing-cols + .pricing-cols {
+    margin-top: 30px;
+}
+
+.pricing-col-wrapper {
+    .merged & {
+        .pricing-col {
+            border-left-width: 1px;
+            border-right-width: 1px;
+        }
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+        &:first-child {
+            padding-left: 15px;
+
+            .pricing-col {
+                border-left-width: 2px;
+            }
+        }
+
+        &:last-child {
+            padding-right: 15px;
+
+            .pricing-col {
+                border-right-width: 2px;
+            }
+        }
+    }
+}
+
+.pricing-col {
+    border: 2px solid rgba(0, 0, 0, .2);
+
+    &.featured {
+        outline: 2px solid $color-primary;
+        outline-offset: -2px;
+        border-color: $color-primary;
+    }
+}
+
+.pricing-header {
+    background-color: rgba(0, 0, 0, .05);
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding: 20px;
+
+    .featured & {
+        border-color: $color-primary;
+    }
+}
+
+h3.pricing-title {
+    color: $color-primary;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h4.pricing-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5.pricing-subsubtitle {
+    font-size: 14px;
+    font-weight: bold;
+    @include opacity(.6);
+    text-align: center;
+}
+
+.pricing-content {
+    padding: 10px 20px;
+
+    li {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        font-size: 16px;
+        padding: 8px 0px;
+        text-align: center;
+
+        &:last-child {
+            border: 0px;
+        }
+
+        &.inactive {
+            text-decoration: line-through;
+        }
+    }
+}
+
+.pricing-action {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,63 @@
+label {
+    cursor: pointer;
+}
+
+.form-control {
+    -webkit-appearance: none;
+	@include border-radius(0px);
+	@include box-shadow(none);
+	border: 0px;
+	color: $color-black;
+	font-size: 14px;
+	font-weight: 300;
+
+	&:active, &:focus {
+		@include box-shadow(none);
+	}
+
+    #main & {
+        border: 2px solid rgba(0, 0, 0, .1);
+    }
+}
+
+.form-control-static {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 6px 0px;
+}
+
+.select-wrapper {
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+        background-color: #fff;
+        color: $color-black;
+        content: '\f078';
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 10px;
+        text-align: right;
+        top: 6px;
+        width: 24px;
+        z-index: 2;
+    }
+
+    select::-ms-expand {
+        display: none;
+    }
+
+    select.form-control {
+        background-color: #fff;
+        @include background-image(none);
+        @include box-shadow(none);
+        cursor: pointer;
+        text-indent: 0.01px;
+        text-overflow: '';
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    select.form-control[disabled] {
+        cursor: not-allowed;
+    }
+}

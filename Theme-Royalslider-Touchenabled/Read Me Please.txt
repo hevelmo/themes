@@ -1,0 +1,19 @@
+
+
+Documentation:
+  http://dimsemenov.com/plugins/royal-slider/documentation/
+
+RoyalSlider CSS and JS files:
+  Folder: /royalslider
+
+RoyalSlider unminified JS files
+  Folder: /royalslider/dev
+
+Examples (demos):
+  Folder: /templates
+  (folders /templates/assets and /templates/img contain assets related to examples)
+
+
+
+Thank you for using RoyalSlider plugin!
+-Dmitry Semenov

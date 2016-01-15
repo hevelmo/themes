@@ -1,0 +1,59 @@
+<div class="sliderContainer">
+  <div class="royalSlider rsDefault sliderInLightbox">
+      <a class="rsImg" data-rsVideo="http://www.youtube.com/watch?v=HFbHRWwyihE" href="http://b.vimeocdn.com/ts/318/502/318502540_640.jpg">
+        <div class="rsTmb">
+          <h5>The Epic &amp; The Beasts</h5>
+          <p>by Sebastian Linda</p>
+        </div>
+      </a>
+      <a class="rsImg" data-rsVideo="https://vimeo.com/44878206" href="http://b.vimeocdn.com/ts/311/891/311891198_640.jpg">
+        <div class="rsTmb">
+          <h5>Dubstep Dispute</h5>
+          <p>by Fluxel Media</p>
+        </div>
+      </a>
+      <a class="rsImg" data-rsVideo="https://vimeo.com/41132461" href="http://b.vimeocdn.com/ts/284/709/284709146_640.jpg">
+        <div class="rsTmb">
+          <h5>Barcode Band</h5>
+          <p>by Kang woon Jin</p>
+        </div>
+      </a>
+      <a class="rsImg" data-rsVideo="https://vimeo.com/44388232" href="http://b.vimeocdn.com/ts/308/375/308375094_640.jpg">
+        <div class="rsTmb">
+          <h5>Samm Hodges Reel</h5>
+          <p>by Animal</p>
+        </div>
+      </a>
+  </div>
+  <style type="text/css">
+  /* just some styles to define the size of slider */
+  .sliderContainer,
+  .sliderInLightbox {
+    width: 100%; 
+    height: 400px; 
+    max-width: 700px; 
+    margin: 0 auto;
+  }
+  .sliderContainer {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+  }
+  @media screen and (max-width: 760px) {
+    .sliderContainer,
+    .sliderInLightbox {
+      height: 300px;
+    }
+  }
+  </style>
+  <script>
+  jQuery(document).ready(function($) {
+    /* initialize slider as usual */
+    $('.sliderInLightbox').royalSlider({
+      imageScaleMode: 'fill',
+      keyboardNavEnabled: true,
+      video: {
+        autoHideControlNav: true
+      }
+    });
+  });
+  </script>
+</div>

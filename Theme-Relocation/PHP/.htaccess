@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)\.html$ $1.php [nc]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|public|css|js|robots\.txt)
+RewriteRule ^(.*)$ index.php/params=$1 [L,QSA]

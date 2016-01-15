@@ -1,0 +1,16 @@
+.table {
+    font-size: 14px;
+
+    tbody {
+        tr {
+            td {
+                vertical-align: middle;
+
+                &.min-width {
+                    white-space: nowrap;
+                    width: 1px;
+                }
+            }
+        }
+    }
+}

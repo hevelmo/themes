@@ -1,0 +1,28 @@
+.flexslider {
+    @include border-radius(0px);
+    @include box-shadow(none);
+    margin-bottom: 30px;
+}
+
+.flex-control-thumbs {
+    li {
+        background-color: rgba(0, 0, 0, .1);
+        padding: 15px;
+    }
+}
+
+.flex-control-thumbs img {
+    @include transition(opacity .2s linear);
+    -webkit-backface-visibility: visible;
+}
+
+.flex-direction-nav a {
+    color: $color-primary;
+    @include text-shadow(none);
+    top: 40%;
+
+    &:before {
+        height: 40px;
+        line-height: 40px;
+    }
+}

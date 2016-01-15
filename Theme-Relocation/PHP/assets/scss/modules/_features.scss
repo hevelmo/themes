@@ -1,0 +1,46 @@
+.feature-icon {
+    background-image: url($image_path + 'hex.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    padding: 0px;
+    text-align: center;
+
+    i {
+        color: #fff;
+        font-size: 22px;
+
+        .footer & {
+            color: $color-primary;
+        }
+    }
+}
+
+.feature-icon-inner {
+    height: 0px;
+    padding-bottom: 115%;
+    width: 100%;
+
+    i {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%) translateX(-50%));
+    }
+}
+
+h3.feature-title {
+    color: $color-primary;
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px;
+
+    .background-primary & {
+        color: #fff;
+    }
+}
+
+.feature-content {
+    margin-bottom: 20px;
+}

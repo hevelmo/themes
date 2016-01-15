@@ -1,0 +1,45 @@
+.static-image {
+    border-bottom: 3px solid $color-primary;
+    margin-top: -62px;
+    position: relative;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+
+.static-image-description-wrapper {
+    position: absolute;
+    top: 30%;
+}
+
+.static-image-title {
+    background-color: #fff;
+    clear: both;
+    float: left;
+    font-size: 60px;
+    line-height: 78px;
+    padding: 0px 20px;
+}
+
+.static-image-subtitle {
+    background-color: #fff;
+    clear: both;
+    display: inline-block;
+    float: left;
+    font-size: 28px;
+    line-height: 40px;
+    padding: 0px 20px;
+}
+
+.static-image-price {
+    background-color: $color-primary;
+    color: #fff;
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}

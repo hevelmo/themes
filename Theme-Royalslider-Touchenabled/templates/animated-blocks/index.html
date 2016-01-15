@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Do not use this HTML file as a start -->
+  <!-- Always create your own HTML file and follow steps in basic usage section of documentation -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+
+    <title> Slider with Animated Blocks | RoyalSlider Example</title>
+
+    <meta content="Touch-enabled image gallery and content slider plugin, that focuses on providing great user experience on every desktop and mobile device." name="description">
+    <meta name="keywords" content="content slider, gallery, plugin, jquery, banner rotator">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <meta name="author" content="Dmitry Semenov">
+
+    <!-- slider JS files -->
+    
+    <script class="rs-file" src="../assets/royalslider/jquery-1.8.3.min.js"></script>
+    <script class="rs-file" src="../assets/royalslider/jquery.royalslider.min.js"></script>
+    <link class="rs-file" href="../assets/royalslider/royalslider.css" rel="stylesheet">
+    
+    
+     
+        <script class="rs-file" src="../assets/royalslider/jquery.easing-1.3.js"></script>
+     
+    
+
+    
+    <!-- syntax highlighter -->
+    <script src="../assets/preview-assets/js/highlight.pack.js"></script>
+    <script src="../assets/preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script> hljs.initHighlightingOnLoad();</script>
+
+
+    
+
+    <!-- preview-related stylesheets -->
+    <link href="../assets/preview-assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+    <link href="../assets/preview-assets/css/github.css" rel="stylesheet">
+
+    <!-- slider stylesheets -->
+    
+     
+        <link class="rs-file" href="../assets/royalslider/skins/minimal-white/rs-minimal-white.css" rel="stylesheet">
+     
+    
+
+    
+    <!-- slider css -->
+    <style>
+      #slider-with-blocks-1 {
+  width: 100%;
+}
+
+.rsContent {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+}
+.bContainer {
+  position: relative;
+}
+.rsABlock {
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+}
+.blockHeadline {
+  font-size: 42px;
+  line-height: 50px;
+}
+.blockSubHeadline {
+  font-size: 32px;
+  line-height: 40px
+}
+.txtCent {
+  text-align: center; 
+  width: 100%; 
+}
+
+.slide1 {
+  background: #f06b50;
+}
+.slide1 .bContainer {
+  top: 36%;
+}
+.slide2 {
+    background: #ffbc11;
+    color:#000;
+}
+.slide2 .bContainer {
+  top: 24px;
+}
+.slide2 .txtCent {
+  line-height: 44px;
+}
+.slide2 .blockHeadline {
+   line-height: 66px;
+}
+.slide3 {
+    background: #45aab8;
+    color:#FFF;
+}
+.slide3 .bContainer {
+   top: 24px;
+}
+.slide3 span {
+  line-height: 44px;
+}
+.slide4 .bContainer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+  top: 24px;
+}
+
+.photoCopy {
+  position: absolute;
+  line-height: 24px;
+  font-size: 12px;
+  background: black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0px 10px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  top: auto;
+  border-radius: 2px;
+  z-index: 25;
+}
+.photoCopy a {
+  color: #FFF;
+}
+.palmImg {
+  left: 0;
+  top: auto;
+  bottom: -60px;
+  position: absolute;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 960px) { 
+  .rsContent {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .blockHeadline {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 26px;
+    line-height: 32px
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+  .royalSlider,
+  .rsOverflow {
+    height: 330px !important;
+  }
+  .rsContent {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blockHeadline {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 22px;
+    line-height: 32px
+  }
+}
+
+    </style>
+    
+    <style>
+      #page-navigation { display: none; }
+    </style>
+  </head>
+  <body >
+  <header  id="main-header" class="clearfix">  
+    <div  class="page wrapper"> 
+       <div class="col span_6">
+         <a id="logo" href="#">Royal&thinsp;Slider</a>
+         <nav>
+            <a href="http://dimsemenov.com/plugins/royal-slider/documentation/?s=dp">Documentation</a>
+            <a href="http://dimsemenov.com/plugins/royal-slider/build/?s=dp">Build Tool</a>
+            <a href="http://dimsemenov.com/private/forum.php">Support Forum</a>
+            <a href="http://help.dimsemenov.com/discussions/suggestions">Request feature</a>
+         </nav>
+       </div>
+    </div>
+  </header>
+  <div  class="page wrapper">    
+    <div class="row clearfix">
+      <div id="page-navigation" class="col span_6"> 
+            
+          <div class="left page-nav-item"> 
+                  <a href="../full-width/" title="Previous Example: 
+  Full Width Slider">← Full Width Slider</a> 
+          </div> 
+           
+           
+          <div class="right page-nav-item"> 
+          
+                  <a href="../visible-nearby/" title="Next Example: 
+  Gallery with Visible Nearby Images">Gallery with Visible Nearby Images → </a> 
+          
+          </div> 
+           
+      </div> 
+    </div>
+
+    <!-- slider code start -->
+      <div class="row clearfix">
+  <div class="col span_4 fwImage">
+<div id="slider-with-blocks-1" class="royalSlider rsMinW  ">
+  <div class="rsContent slide1">
+    <div class="bContainer">
+      <strong class="rsABlock txtCent blockHeadline">This is an animated block</strong>
+      <span class="rsABlock txtCent" data-move-effect="none">you can place it on any type of slide</span>
+    </div>
+  </div>
+  <div class="rsContent slide2">
+    <div class="bContainer">
+      <strong class="rsABlock txtCent blockSubHeadline" data-move-effect="none">Transition Types</strong>
+      <span class="rsABlock txtCent" data-move-effect="top" >from top  ↓</span>
+      <span class="rsABlock txtCent" data-move-effect="bottom">from bottom ↑</span>
+      <span class="rsABlock txtCent" data-move-effect="left">from left →</span>
+      <span class="rsABlock txtCent" data-move-effect="right">from right ←</span>
+      <span class="rsABlock txtCent" data-move-effect="none">just fade</span>
+    </div>
+  </div>
+  <div class="rsContent slide3">
+    <div class="bContainer">
+      <strong class="rsABlock txtCent blockSubHeadline" data-move-effect="none"  data-delay="0">Customizable Animation</strong>
+      <span class="rsABlock txtCent" data-move-effect="left" data-delay="1000" data-move-offset="500" data-easing="easeOutBack"  data-fade-effect="none">easing</span>
+      <span class="rsABlock txtCent" data-move-effect="left" data-delay="1500" data-move-offset="500" data-fade-effect="none">delay</span>
+      <span class="rsABlock txtCent" data-move-effect="left" data-delay="2000" data-move-offset="500" data-speed="1000" data-fade-effect="none">speed</span>
+      <span class="rsABlock txtCent" data-move-effect="left" data-delay="2500" data-move-offset="50" data-fade-effect="true">move offset</span>
+    </div>
+  </div>
+  <div class="rsContent slide4">
+    <a class="rsImg" href="../img/palmbw.jpg">palms & beach</a>
+    <div class="bContainer">
+      <strong class="rsABlock txtCent blockHeadline">Block may have any HTML</strong>
+      <span class="rsABlock txtCent" data-move-effect="none">and can be placed on any slide type</span>
+    </div>
+    <img class="rsABlock palmImg" data-fade-effect="none" data-move-effect="bottom" data-opposite="true" data-move-offset="450" data-delay="350" data-speed="300" data-easing="easeOutBack" src="../img/palms.png" data-rsw="707" data-rsh="471"/>
+    <div class="photoCopy">Photo by <a href="http://photo.aphecetche.fr/">Laurent Aphecetche</a></div>
+  </div>
+</div>
+  </div>
+  <div class="col span_2">
+    <h1>Slider with Animated Blocks</h3>
+    <p>Animated blocks are HTML elements with any content inside that are displayed after slide is changed. Can be added to any type of slider or gallery.</p>
+    <p>Blocks can be positioned via left, right, top or bottom CSS properties; and repositioned via media queries.</p>
+    <p>Please use animation wisely and only if it's really required.</p>
+    <p>Provided as a module, and can be easily removed from build if not required.</p>
+  </div>
+
+</div>
+
+  <!-- You don't need this part of code -->
+  <div class="row clearfix">
+    <h2>Markup for current slider</h2>
+    <p style="max-width: 500px;">For better understanding please don't use this HTML file as a starter file, create your own and follow steps in <a href="http://dimsemenov.com/plugin/royal-slider/documentation/">basic usage section</a> of documentation </p>
+    <div class="tabs col span_6">
+    <ul>
+        <li><a href="#js">JavaScript</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#files">Files to include</a></li>
+    </ul>
+    <div id="js"><p>Slider JavaScript initialization code.</p><pre><code></code></pre></div>
+    <div id="css"><p>Additional CSS styles for current slider.</p><pre><code>#slider-with-blocks-1 {
+  width: 100%;
+}
+
+.rsContent {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+}
+.bContainer {
+  position: relative;
+}
+.rsABlock {
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+}
+.blockHeadline {
+  font-size: 42px;
+  line-height: 50px;
+}
+.blockSubHeadline {
+  font-size: 32px;
+  line-height: 40px
+}
+.txtCent {
+  text-align: center; 
+  width: 100%; 
+}
+
+.slide1 {
+  background: #f06b50;
+}
+.slide1 .bContainer {
+  top: 36%;
+}
+.slide2 {
+    background: #ffbc11;
+    color:#000;
+}
+.slide2 .bContainer {
+  top: 24px;
+}
+.slide2 .txtCent {
+  line-height: 44px;
+}
+.slide2 .blockHeadline {
+   line-height: 66px;
+}
+.slide3 {
+    background: #45aab8;
+    color:#FFF;
+}
+.slide3 .bContainer {
+   top: 24px;
+}
+.slide3 span {
+  line-height: 44px;
+}
+.slide4 .bContainer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+  top: 24px;
+}
+
+.photoCopy {
+  position: absolute;
+  line-height: 24px;
+  font-size: 12px;
+  background: black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0px 10px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  top: auto;
+  border-radius: 2px;
+  z-index: 25;
+}
+.photoCopy a {
+  color: #FFF;
+}
+.palmImg {
+  left: 0;
+  top: auto;
+  bottom: -60px;
+  position: absolute;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 960px) { 
+  .rsContent {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .blockHeadline {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 26px;
+    line-height: 32px
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+  .royalSlider,
+  .rsOverflow {
+    height: 330px !important;
+  }
+  .rsContent {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blockHeadline {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .blockSubHeadline {
+    font-size: 22px;
+    line-height: 32px
+  }
+}
+</code></pre></div>
+    <div id="html"><p>HTML markup of slider.</p><pre id="html-code"><code></code></pre></div>
+    <div id="files"><p>You should include: jQuery, main slider JavaScript file, main slider CSS file, skin CSS file. <br/>It's recommended to get jquery.royalslider.min.js from build tool. Feel free to combine files in one.<br/>Make sure that paths match locations of files.</p><pre><code></code></pre></div>
+    </div>
+  </div>
+  <script>
+    jQuery(document).ready(function($) {
+      // DO NOT INCLUDE THIS CODE IN YOUR BUILD, it's for tabs on this page
+        var code = $('#html-code code');
+        if(code.is(':empty')) {
+          var rsCode = $('.royalSlider-preview');
+          if(!rsCode.length) {
+              rsCode = $('.royalSlider');
+          }
+          rsCode = rsCode.clone().removeClass('royalSlider-preview').wrap('<div></div>').parent().html();
+          rsCode = htmlencode(rsCode);
+          code.html(rsCode);
+        }
+        $('#js code').html( htmlencode($('#addJS').html()) );
+
+        var filesHTML = '';
+        $('.rs-file').each(function() {
+          var item = $(this).removeAttr('class');
+          if(item.is('script')) {
+            filesHTML += '<script src="' + item.attr('src') + '" />';
+          } else {
+            filesHTML += $('<div>').append( $(this).clone().removeAttr('class') ).html();
+          }
+          filesHTML += "\n";
+        });
+        $('#files code').html( htmlencode( filesHTML ) );
+        $( ".tabs" ).tabs();
+    });
+    function htmlencode(str) {
+      if(str) {
+         return str.replace(/[&<>"']/g, function($0) {
+            return "&" + {"&":"amp", "<":"lt", ">":"gt", '"':"quot", "'":"#39"}[$0] + ";";
+        });
+      }
+    }   
+  </script>
+  <div class="row clearfix">
+    <h2>List of Starter Templates</h2>
+  <ul id="templates-list" class="col span_6">
+  
+  <li><a href="../content-slider/"><img width="341" height="250" src="../img/previews/content-slider.jpg" /><h3>HTML Content Slider</h3></a></li>
+  
+  <li><a href="../video-gallery/"><img width="341" height="250" src="../img/previews/video-gallery.jpg" /><h3>Video Gallery</h3></a></li>
+  
+  <li><a href="../gallery/"><img width="341" height="250" src="../img/previews/gallery.jpg" /><h3>Image Gallery with Fullscreen Option</h3></a></li>
+  
+  <li><a href="../visible-nearby/"><img width="341" height="250" src="../img/previews/visible-nearby.jpg" /><h3>Gallery with Visible Nearby Images</h3></a></li>
+  
+  <li><a href="../animated-blocks/"><img width="341" height="250" src="../img/previews/animated-blocks.jpg" /><h3>Slider with Animated Blocks</h3></a></li>
+  
+  <li><a href="../full-width/"><img width="341" height="250" src="../img/previews/fullwidth.jpg" /><h3>Full Width Slider</h3></a></li>
+  
+  <li><a href="../slider-in-lightbox/"><img width="341" height="250" src="../img/previews/lightbox.jpg" /><h3>Slider in Lightbox</h3></a></li>
+  
+  <li><a href="../simple-vertical/"><img width="341" height="250" src="../img/previews/simple-vertical.jpg" /><h3>Simple Vertical Slider</h3></a></li>
+  
+  <li><a href="../gallery-vertical-fade/"><img width="341" height="250" src="../img/previews/gallery-fade.jpg" /><h3>Gallery with Fade and Vertical Thumbs</h3></a></li>
+  
+  <li><a href="../slider-in-laptop/"><img width="341" height="250" src="../img/previews/slider-in-laptop.jpg" /><h3>Slider in Laptop</h3></a></li>
+  
+  <li><a href="../gallery-with-deeplinking/"><img width="341" height="250" src="../img/previews/deeplinking.jpg" /><h3>Gallery with Deep Linking</h3></a></li>
+  
+  </ul>
+</div>
+  <footer class="row clearfix" id="main-footer">
+    <div class="col span_6">
+      <nav><a href="http://dimsemenov.com/subscribe.html?s=sb">Email Newsletter</a><a href="http://twitter.com/dimsemenov">Twitter</a><a href="mailto:diiiimaaaa@gmail.com?subject=RoyalSlider bug">Report Bug</a><a href="http://dimsemenov.com/plugins/royal-slider/support/">Contact support</a></nav>
+      <p class="copy">© 2011-2012 <a href="http://dimsemenov.com">Dmitry Semenov</a></p>
+    </div>
+  </footer>
+   <!-- tabs & footer end /// --> 
+   
+  
+    <script id="addJS">jQuery(document).ready(function($) {
+  jQuery.rsCSS3Easing.easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
+  $('#slider-with-blocks-1').royalSlider({
+    arrowsNav: true,
+    arrowsNavAutoHide: false,
+    fadeinLoadedSlide: false,
+    controlNavigationSpacing: 0,
+    controlNavigation: 'bullets',
+    imageScaleMode: 'none',
+    imageAlignCenter:false,
+    blockLoop: true,
+    loop: true,
+    numImagesToPreload: 6,
+    transitionType: 'fade',
+    keyboardNavEnabled: true,
+    block: {
+      delay: 400
+    }
+  });
+});
+</script>
+  
+  </div>
+  </body>
+</html>

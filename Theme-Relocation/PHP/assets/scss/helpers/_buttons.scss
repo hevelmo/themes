@@ -1,0 +1,129 @@
+.btn {
+    -webkit-appearance: none;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border: 2px solid $color-primary;
+	@include border-radius(0px);
+	color: $color-primary;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 12px;
+    outline: 0px !important;
+	@include transition(all .2s linear);
+
+	&:active, &:focus {
+		background-color: transparent;
+		border-color: darken($color-primary, 10%); 
+		@include box-shadow(none);
+        color: $color-primary;
+
+        &.btn-inversed {
+            border-color: darken($color-primary, 10%);
+            color: #fff;
+        }
+	}
+
+	&:hover {
+		background-color: transparent;
+		border-color: darken($color-primary, 10%);
+		color: darken($color-primary, 10%);
+
+        i {
+            background-color: darken($color-primary, 10%);
+        }
+
+        &.btn-inversed {
+            background-color: darken($color-primary, 10%);
+        }
+
+		#footer & {
+			color: darken($color-primary, 10%);
+		}
+	}
+
+	#footer & {
+		color: $color-primary;
+	}
+
+    &.btn-inversed {
+        background-color: $color-primary;
+        color: #fff;
+
+        i {
+            color: #fff !important;
+        }
+    }
+
+    i {
+        background-color: $color-primary;
+        color: $color-black;
+        display: block;
+        float: left;
+        height: 36px;
+        line-height: 20px;
+        margin: -8px 12px -8px -12px;
+        padding: 8px 12px 8px 12px;
+        @include transition(background-color .2s linear);
+
+        .header-light & {
+            color: #fff;
+        }
+    }
+}
+
+.btn-white {
+	@extend .btn-primary;
+
+	border-color: #fff;
+	color: #fff;
+
+	&:active, &:focus {
+		border-color: darken(#fff, 10%);
+	}
+
+	&:hover {
+		border-color: darken(#fff, 10%);
+		color: darken(#fff, 10%);
+	}
+}
+
+.btn-regular {	
+	border-bottom: 1px solid $color-primary;
+	@include border-radius(0px);
+	color: $color-primary;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	@include transition(all .2s linear);
+
+	&:hover {
+		border-bottom-color: $color-primary;
+		color: $color-primary;
+	}
+
+    #footer &, #header & {
+        border-bottom-color: #fff;
+        color: #fff;
+
+        &:hover {
+            border-bottom-color: $color-primary;
+            color: $color-primary;
+        }
+    }
+}
+
+.btn-small {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 3px 8px;
+
+    i {
+        height: 20px;
+        margin: 0px 7px 0px 0px;
+        padding: 0px;
+    }
+}

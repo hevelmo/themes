@@ -1,0 +1,51 @@
+.social {
+	margin: 0px;
+	padding: 0px;
+
+    #header & {
+        margin-top: 7px;
+    }
+
+	li {
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	a {
+		color: rgba(255, 255, 255, .8);
+		font-size: 16px;
+		@include transition(color .2s linear);
+
+		&:hover {
+			color: #fff;
+		}
+
+        #header & {
+            font-size: 20px;
+        }
+	}
+}
+
+.widget .social li {
+    margin: 0px 8px 10px 0px;
+}
+
+.social-boxed {
+    li {
+        text-align: center;
+    }
+
+    a {
+        background-color: $color-primary !important;
+        color: #fff;
+        display: block;
+        height: 32px;
+        line-height: 32px;
+        @include transition(all .2s linear);
+        width: 32px;
+
+        &:hover {
+            @include border-radius(50%);
+        }
+    }
+}

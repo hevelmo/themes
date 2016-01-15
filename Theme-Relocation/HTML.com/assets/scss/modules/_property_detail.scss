@@ -1,0 +1,55 @@
+.property-detail-amenities {
+    margin: 0px;
+    padding: 0px;
+
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+
+        i {
+            font-size: 14px;
+            margin-right: 7px;
+            vertical-align: 0px;
+        }
+
+        .ok {
+            color: $color-primary;
+        }
+
+        .no {
+            color: $color-gray;
+        }
+    }
+}
+
+h2.property-detail-title {
+    margin-bottom: 20px;
+}
+
+h3.property-detail-subtitle {
+    font-size: 16px;
+
+    strong {
+        background-color: $color-primary;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        margin: 0px 0px 0px 20px;
+        padding: 6px 15px;
+        vertical-align: middle;
+    }
+}
+
+.property-detail-overview {
+    border: 2px solid rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+}
+
+.property-detail-overview-item {
+    padding: 8px 0px;
+    text-align: center;
+
+    &:nth-child(2n) {
+        background-color: rgba(0, 0, 0, .1);
+    }
+}

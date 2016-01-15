@@ -1,0 +1,57 @@
+/*-----------------------------------------------------------------------------
+
+MEGAFOLIO RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	26/06/12
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+
+/***********************
+	-	BASICS 	-
+***********************/
+
+body.megaexamples		{	background-color: #a8b6bd}
+
+
+
+.splash-white			{	width:100%;padding:45px 0px;
+							 background:#fff;
+							 position:relative;
+						}
+
+.container-fullwidth	{	width:100%; min-width:240px; width:auto; margin:auto; padding:40px 0px 0px 0px;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+	  		-webkit-box-sizing: border-box;
+							 overflow: hidden;
+						}
+
+
+
+.megafolio-container,
+.megafolio-container-splash	{	width:100%;  position:relative;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+ 							}
+
+
+
+
+
+
+
+
+
+
+
+
+

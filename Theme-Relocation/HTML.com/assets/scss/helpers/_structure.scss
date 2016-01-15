@@ -1,0 +1,20 @@
+#wrapper {
+    background-color: #fff;
+	display: table;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+
+    .layout-boxed & {
+        margin: 0px auto;
+        width: auto;
+    }
+}
+
+#header-wrapper, #main-wrapper, #footer-wrapper {
+	display: table-row;
+}
+
+#header-wrapper, #footer-wrapper {
+	height: 1px;
+}

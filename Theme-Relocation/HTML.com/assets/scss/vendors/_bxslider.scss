@@ -1,0 +1,101 @@
+.bxslider {
+    padding-left: 0px;
+}
+
+.bx-wrapper {
+	margin-bottom: 0px;
+}
+
+.bx-wrapper .bx-viewport {
+	background-color: transparent;
+	border: 0px;
+	@include box-shadow(none);
+    left: 0px;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager {
+	bottom: -30px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: rgba(0, 0, 0, .3);
+	height: 8px;
+	@include transition(background-color .2s linear);
+	width: 24px;
+
+	&.active {
+		background-color: $color-primary;
+	}
+}
+
+.bx-slider-button {
+	color: #fff;
+	content: '\f104';
+	display: block;
+	font-family: FontAwesome;
+	font-size: 24px;
+	height: 28px;
+	line-height: 26px;
+	position: absolute;
+	text-align: center;
+	text-indent: 0px;
+	top: 0px;
+	@include transition(color .2s linear);
+	width: 28px;	
+}
+
+
+.bx-wrapper .bx-controls-direction {
+    .layout-boxed & {
+        margin-right: -47px;
+        position: absolute;
+        right: 50%;
+        top: -30px;
+        width: 94px;
+
+        a.bx-prev {
+            left: 0px;
+        }
+
+        a.bx-next {
+            right: 0px;
+        }
+    }
+}
+
+.bx-wrapper .bx-controls-direction a {
+	background-image: none;
+	border: 2px solid #fff;
+	margin-top: -31px;
+	@include transition(border-color .2s linear);
+
+	&.bx-prev:after {		
+		@extend .bx-slider-button;
+	}
+
+	&.bx-next:after {
+		@extend .bx-slider-button;	
+		content: '\f105';
+	}
+
+	&:hover {
+		border-color: $color-primary;
+
+		&:after {
+			color: $color-primary;
+		}
+	}
+}
+
+.bx-wrapper .bx-controls-direction a.bx-prev {
+	left: -52px;
+}
+
+.bx-wrapper .bx-controls-direction a.bx-next {
+	right: -52px;
+}

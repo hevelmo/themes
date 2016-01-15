@@ -1,0 +1,57 @@
+.panel-group .panel {
+	background-color: transparent;
+	border: 0px;
+	@include border-radius(0px);
+	@include box-shadow(none);
+}
+
+.panel-default > .panel-heading {
+	background-color: rgba(0, 0, 0, .3);
+	@include border-radius(0px);
+    padding: 0px;
+    position: relative;
+    @include transition(background-color .2s linear);
+
+    #main &, .footer-light & {
+        background-color: $color-black-transparent;
+        color: #fff;
+    }
+
+    &:after {
+        content: '\f067';
+        color: #fff;
+        display: block;
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 15px;
+        top: 8px;
+    }
+
+
+    &.active {
+        background-color: $color-primary !important;
+
+        &:after {
+            content: '\f068';
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    }
+}
+
+.panel-title > a {
+    display: block;
+	font-size: 14px;
+	font-weight: bold;
+    padding: 10px 10px 10px 24px;
+    text-decoration: none;
+}
+
+.panel-default >.panel-heading + .panel-collapse .panel-body {
+	border-left: 3px solid $color-primary;
+	border-top: 0px;
+	margin: 10px;
+	padding-left: 20px;
+}

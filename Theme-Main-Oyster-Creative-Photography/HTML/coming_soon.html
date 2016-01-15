@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="img/favico.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple_icons_57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple_icons_72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple_icons_114x114.png">
+<title>Oyster | Html Photo Template</title>
+<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/theme.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/custom.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="global_count_wrapper">
+    	<h1 class="count_title">OUR WEBSITE IS COMING SOON!</h1>
+        <script>
+			jQuery(function () {
+				austDay = new Date();				
+				austDay = new Date(2015, 01-1, 18);
+				jQuery('#countdown').countdown({until: austDay});
+			});
+			jQuery(function () {
+				austDay = new Date();				
+				austDay = new Date(2015, 02-1, 18);
+				jQuery('#countdown').countdown({until: austDay});
+			});
+		</script>		
+        <div id="countdown"></div>
+        <div class="count_container">
+       		<div class="soc_icons">
+            	<a href="javascript:void(0);" class="count_ico" title="Facebook"><span><i class="icon-facebook-square"></i></span></a>
+                <a href="javascript:void(0);" class="count_ico" title="Pinterest"><span><i class="icon-pinterest"></i></span></a>
+                <a href="javascript:void(0);" class="count_ico" title="Twitter"><span><i class="icon-twitter"></i></span></a>
+                <a href="javascript:void(0);" class="count_ico" title="Instagram"><span><i class="icon-instagram"></i></span></a>
+                <a href="javascript:void(0);" class="count_ico" title="Tumblr"><span><i class="icon-tumblr-square"></i></span></a>
+                <a href="javascript:void(0);" class="count_ico" title="Flickr"><span><i class="icon-flickr"></i></span></a>
+            </div>
+            <div class="form_area">
+       			<h3 class="notify_text">Notify me when its ready</h3>
+                <div class="notify_shortcode">
+                	<form action="javascript:void(0);" method="post" novalidate>
+                    	<p><span class="your-email"><input type="email" name="your-email" value="" size="40" placeholder="Enter Your Email" /></span><input type="submit" value="Submit" /></p>
+                    </form>
+            	</div>
+            </div>
+		</div>		        
+    </div>
+    
+    <div class="fixed_bg bg1"></div>	    
+    
+	<div class="preloader"></div>
+	       
+	<div class="content_bg"></div>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+    <script type="text/javascript" src="js/modules.js"></script>
+	<script type="text/javascript" src="js/theme.js"></script>  
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>  
+    <script>
+		jQuery(document).ready(function(){
+			"use strict";
+			var global_wrapper = jQuery('.global_count_wrapper');
+			var set_h = (jQuery(window).height()-global_wrapper.height())/2;
+			if (set_h > 0) {
+				global_wrapper.css('margin-top', (jQuery(window).height()-global_wrapper.height())/2);
+			} else {
+				global_wrapper.css('margin-top', 0);
+			}
+		});
+		jQuery(window).resize(function(){
+			"use strict";
+			var global_wrapper = jQuery('.global_count_wrapper');
+			var set_h = (jQuery(window).height()-global_wrapper.height())/2;
+			if (set_h > 0) {
+				global_wrapper.css('margin-top', (jQuery(window).height()-global_wrapper.height())/2);
+			} else {
+				global_wrapper.css('margin-top', 0);
+			}
+		});
+	</script>
+</body>
+</html>
