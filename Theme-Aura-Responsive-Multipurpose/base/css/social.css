@@ -1,0 +1,1435 @@
+.pi-social-icons,
+.pi-social-icons-simple {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+  -webkit-padding-start: 0;
+}
+.pi-social-icons li,
+.pi-social-icons-simple li {
+  display: inline-block;
+  margin: 0;
+  letter-spacing: normal;
+  zoom: 1;
+  line-height: normal;
+  font-size: 14px;
+}
+.pi-social-icons a,
+.pi-social-icons-simple a,
+.pi-social-icons a:hover,
+.pi-social-icons-simple a:hover {
+  text-decoration: none;
+  border: 0;
+  overflow: hidden;
+}
+.pi-social-icons.pi-round-corners a,
+.pi-social-icons-simple.pi-round-corners a {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.pi-social-icons.pi-round a,
+.pi-social-icons-simple.pi-round a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.pi-social-icons.pi-drop-shadow a,
+.pi-social-icons-simple.pi-drop-shadow a {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+.pi-social-icons a,
+.pi-social-icons-simple a {
+  padding: 0;
+}
+.pi-social-icons {
+  margin-bottom: 12px;
+}
+.pi-social-icons li {
+  margin: 0 8px 8px 0;
+}
+.pi-social-icons li:last-child {
+  margin-right: 0;
+}
+.pi-social-icons a,
+.pi-social-icons a i {
+  display: block;
+  width: 42px;
+  height: 42px;
+}
+.pi-social-icons a {
+  position: relative;
+  border-width: 0;
+  font-size: 18px;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  -ms-transition: all 0.1s ease-in-out 0s;
+  -o-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+.pi-social-icons a i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 42px;
+  text-align: center;
+  -webkit-transition: top 0.1s ease-in-out 0s;
+  -moz-transition: top 0.1s ease-in-out 0s;
+  -ms-transition: top 0.1s ease-in-out 0s;
+  -o-transition: top 0.1s ease-in-out 0s;
+  transition: top 0.1s ease-in-out 0s;
+}
+.pi-social-icons.pi-stacked {
+  margin-bottom: 20px;
+}
+.pi-social-icons.pi-stacked li {
+  margin: 0;
+}
+.pi-social-icons.pi-bordered li {
+  border: 1px solid transparent;
+  border-top: 0;
+  border-bottom: 0;
+  margin-left: -1px;
+}
+.pi-social-icons.pi-double-bordered a {
+  position: relative;
+}
+.pi-social-icons.pi-double-bordered a:before,
+.pi-social-icons.pi-double-bordered a:after {
+  display: block;
+  width: 1px;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+.pi-social-icons.pi-double-bordered a:before {
+  left: 0;
+}
+.pi-social-icons.pi-double-bordered a:after {
+  right: 0;
+}
+.pi-social-icons.pi-double-bordered a:hover:before,
+.pi-social-icons.pi-double-bordered a:hover:after {
+  background: rgba(255, 255, 255, 0.02);
+}
+.pi-social-icons.pi-small a,
+.pi-social-icons.pi-small a i {
+  width: 28px;
+  height: 28px;
+}
+.pi-social-icons.pi-small a {
+  font-size: 14px;
+}
+.pi-social-icons.pi-small a i {
+  line-height: 28px;
+}
+.pi-social-icons.pi-big a,
+.pi-social-icons.pi-big a i {
+  width: 60px;
+  height: 60px;
+}
+.pi-social-icons.pi-big a {
+  font-size: 26px;
+}
+.pi-social-icons.pi-big a i {
+  line-height: 60px;
+}
+.pi-social-icons.pi-jump a i:first-child {
+  top: -42px;
+}
+.pi-social-icons.pi-jump a:hover i:last-child {
+  top: 42px;
+}
+.pi-social-icons.pi-small.pi-jump a i:first-child {
+  top: -28px;
+}
+.pi-social-icons.pi-small.pi-jump a:hover i:last-child {
+  top: 28px;
+}
+.pi-social-icons.pi-big.pi-jump a i:first-child {
+  top: -60px;
+}
+.pi-social-icons.pi-big.pi-jump a:hover i:last-child {
+  top: 60px;
+}
+.pi-social-icons.pi-jump a i:last-child,
+.pi-social-icons.pi-small.pi-jump a i:last-child,
+.pi-social-icons.pi-big.pi-jump a i:last-child {
+  top: 0;
+}
+.pi-social-icons.pi-jump a:hover i:first-child,
+.pi-social-icons.pi-small.pi-jump a:hover i:first-child,
+.pi-social-icons.pi-big.pi-jump a:hover i:first-child {
+  top: 0;
+}
+.pi-social-icons.pi-active-bg a:hover,
+.pi-social-icons.pi-colored-bg a:hover {
+  color: #fff !important;
+}
+.pi-social-icons.pi-active-bg a,
+.pi-social-icons.pi-colored-bg a:hover {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-social-icons-simple {
+  margin-bottom: 20px;
+  margin-left: -6px;
+}
+.pi-social-icons-simple a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  text-align: center;
+  border-width: 0;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  -ms-transition: all 0.1s ease-in-out 0s;
+  -o-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+.pi-social-icons-simple a i {
+  color: inherit;
+}
+.pi-social-icons-simple.pi-small a {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 18px;
+}
+.pi-social-icons-simple.pi-big a {
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 40px;
+}
+.pi-row-sm .pi-social-icons {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.pi-row-sm .pi-social-icons li {
+  margin-bottom: 0;
+}
+.pi-row-sm .pi-social-icons.pi-small {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.pi-row-sm .pi-social-icons.pi-big {
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
+.pi-row-sm .pi-social-icons.pi-stacked {
+  margin: 0;
+}
+.pi-row-sm .pi-social-icons.pi-full-height a {
+  width: 46px;
+  height: 46px;
+  font-size: 16px;
+}
+.pi-row-sm .pi-social-icons.pi-full-height a i {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+.pi-row-sm .pi-social-icons.pi-full-height.pi-jump a i:first-child {
+  top: -46px;
+}
+.pi-row-sm .pi-social-icons.pi-full-height.pi-jump a:hover i:first-child {
+  top: 0;
+}
+.pi-row-sm .pi-social-icons.pi-full-height.pi-jump a i:last-child {
+  top: 0;
+}
+.pi-row-sm .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  top: 46px;
+}
+.pi-row-sm .pi-social-icons-simple {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.pi-row-sm .pi-social-icons-simple li {
+  margin-bottom: 0;
+}
+.pi-row-sm .pi-social-icons-simple.pi-small {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pi-row-sm .pi-social-icons-simple.pi-big {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pi-row-md .pi-social-icons {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.pi-row-md .pi-social-icons li {
+  margin-bottom: 0;
+}
+.pi-row-md .pi-social-icons.pi-small {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.pi-row-md .pi-social-icons.pi-big {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pi-row-md .pi-social-icons.pi-stacked {
+  margin: 0;
+}
+.pi-row-md .pi-social-icons.pi-full-height a {
+  width: 46px;
+  height: 70px;
+  font-size: 18px;
+}
+.pi-row-md .pi-social-icons.pi-full-height a i {
+  width: 46px;
+  height: 70px;
+  line-height: 70px;
+}
+.pi-row-md .pi-social-icons.pi-full-height.pi-jump a i:first-child {
+  top: -70px;
+}
+.pi-row-md .pi-social-icons.pi-full-height.pi-jump a:hover i:first-child {
+  top: 0;
+}
+.pi-row-md .pi-social-icons.pi-full-height.pi-jump a i:last-child {
+  top: 0;
+}
+.pi-row-md .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  top: 70px;
+}
+.pi-row-md .pi-social-icons-simple {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pi-row-md .pi-social-icons-simple li {
+  margin-bottom: 0;
+}
+.pi-row-md .pi-social-icons-simple.pi-small {
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.pi-row-md .pi-social-icons-simple.pi-big {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pi-row-lg .pi-social-icons {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.pi-row-lg .pi-social-icons li {
+  margin-bottom: 0;
+}
+.pi-row-lg .pi-social-icons.pi-small {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.pi-row-lg .pi-social-icons.pi-big {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.pi-row-lg .pi-social-icons.pi-stacked {
+  margin: 0;
+}
+.pi-row-lg .pi-social-icons.pi-full-height a {
+  width: 46px;
+  height: 96px;
+  font-size: 18px;
+}
+.pi-row-lg .pi-social-icons.pi-full-height a i {
+  width: 46px;
+  height: 96px;
+  line-height: 96px;
+}
+.pi-row-lg .pi-social-icons.pi-full-height.pi-jump a i:first-child {
+  top: -96px;
+}
+.pi-row-lg .pi-social-icons.pi-full-height.pi-jump a:hover i:first-child {
+  top: 0;
+}
+.pi-row-lg .pi-social-icons.pi-full-height.pi-jump a i:last-child {
+  top: 0;
+}
+.pi-row-lg .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  top: 96px;
+}
+.pi-row-lg .pi-social-icons-simple {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.pi-row-lg .pi-social-icons-simple li {
+  margin-bottom: 0;
+}
+.pi-row-lg .pi-social-icons-simple.pi-small {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pi-row-lg .pi-social-icons-simple.pi-big {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pi-social-icons.pi-active a.pi-social-icon-rss,
+.pi-social-icons-simple.pi-active a.pi-social-icon-rss,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-rss,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-rss {
+  color: #ea6d19 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-stackoverflow,
+.pi-social-icons-simple.pi-active a.pi-social-icon-stackoverflow,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-stackoverflow,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-stackoverflow {
+  color: #ea6d19 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-weibo,
+.pi-social-icons-simple.pi-active a.pi-social-icon-weibo,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-weibo,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-weibo {
+  color: #cb3332 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-youtube,
+.pi-social-icons-simple.pi-active a.pi-social-icon-youtube,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-youtube,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-youtube {
+  color: #ad2c27 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-bitcoin,
+.pi-social-icons-simple.pi-active a.pi-social-icon-bitcoin,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-bitcoin,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-bitcoin {
+  color: #f7931b !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-dropbox,
+.pi-social-icons-simple.pi-active a.pi-social-icon-dropbox,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-dropbox,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-dropbox {
+  color: #0a6594 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-foursquare,
+.pi-social-icons-simple.pi-active a.pi-social-icon-foursquare,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-foursquare,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-foursquare {
+  color: #3170a5 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-gittip,
+.pi-social-icons-simple.pi-active a.pi-social-icon-gittip,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-gittip,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-gittip {
+  color: #593e34 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-instagram,
+.pi-social-icons-simple.pi-active a.pi-social-icon-instagram,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-instagram,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-instagram {
+  color: #593e34 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-maxcdn,
+.pi-social-icons-simple.pi-active a.pi-social-icon-maxcdn,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-maxcdn,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-maxcdn {
+  color: #ea6d19 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-renren,
+.pi-social-icons-simple.pi-active a.pi-social-icon-renren,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-renren,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-renren {
+  color: #3170a5 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-trello,
+.pi-social-icons-simple.pi-active a.pi-social-icon-trello,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-trello,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-trello {
+  color: #176280 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-pagelines,
+.pi-social-icons-simple.pi-active a.pi-social-icon-pagelines,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-pagelines,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-pagelines {
+  color: #235789 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-skype,
+.pi-social-icons-simple.pi-active a.pi-social-icon-skype,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-skype,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-skype {
+  color: #1ca3db !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-vimeo-squared,
+.pi-social-icons-simple.pi-active a.pi-social-icon-vimeo-squared,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-vimeo-squared,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-vimeo-squared {
+  color: #1ca3db !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-github,
+.pi-social-icons-simple.pi-active a.pi-social-icon-github,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-github,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-github {
+  color: #235789 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-gplus,
+.pi-social-icons-simple.pi-active a.pi-social-icon-gplus,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-gplus,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-gplus {
+  color: #9e3023 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-linkedin,
+.pi-social-icons-simple.pi-active a.pi-social-icon-linkedin,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-linkedin,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-linkedin {
+  color: #0a6594 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-pinterest,
+.pi-social-icons-simple.pi-active a.pi-social-icon-pinterest,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-pinterest,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-pinterest {
+  color: #a9272f !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-stackexchange,
+.pi-social-icons-simple.pi-active a.pi-social-icon-stackexchange,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-stackexchange,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-stackexchange {
+  color: #235789 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-tumblr,
+.pi-social-icons-simple.pi-active a.pi-social-icon-tumblr,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-tumblr,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-tumblr {
+  color: #3e5a70 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-xing,
+.pi-social-icons-simple.pi-active a.pi-social-icon-xing,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-xing,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-xing {
+  color: #015a60 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-flickr,
+.pi-social-icons-simple.pi-active a.pi-social-icon-flickr,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-flickr,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-flickr {
+  color: #db458f !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-bitbucket,
+.pi-social-icons-simple.pi-active a.pi-social-icon-bitbucket,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-bitbucket,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-bitbucket {
+  color: #0e4a83 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-twitter,
+.pi-social-icons-simple.pi-active a.pi-social-icon-twitter,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-twitter,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-twitter {
+  color: #1ca3db !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-facebook,
+.pi-social-icons-simple.pi-active a.pi-social-icon-facebook,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-facebook,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-facebook {
+  color: #395793 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-dribbble,
+.pi-social-icons-simple.pi-active a.pi-social-icon-dribbble,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-dribbble,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-dribbble {
+  color: #ce4b81 !important;
+}
+.pi-social-icons.pi-active a.pi-social-icon-yelp,
+.pi-social-icons-simple.pi-active a.pi-social-icon-yelp,
+.pi-social-icons.pi-colored a:hover.pi-social-icon-yelp,
+.pi-social-icons-simple.pi-colored a:hover.pi-social-icon-yelp {
+  color: #D64132 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-rss,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-rss {
+  color: #c84211 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-stackoverflow,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-stackoverflow {
+  color: #d93504 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-weibo,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-weibo {
+  color: #a61b1b !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-youtube,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-youtube {
+  color: #8c1a17 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-bitcoin,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-bitcoin {
+  color: #e3650e !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-dropbox,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-dropbox {
+  color: #09466b !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-foursquare,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-foursquare {
+  color: #234e7e !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-gittip,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-gittip {
+  color: #3e2b24 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-instagram,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-instagram {
+  color: #3e2b24 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-maxcdn,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-maxcdn {
+  color: #c84211 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-renren,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-renren {
+  color: #234e7e !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-trello,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-trello {
+  color: #10445a !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-pagelines,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-pagelines {
+  color: #193d5f !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-skype,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-skype {
+  color: #1679b3 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-vimeo-squared,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-vimeo-squared {
+  color: #1679b3 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-github,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-github {
+  color: #193d5f !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-gplus,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-gplus {
+  color: #771d15 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-linkedin,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-linkedin {
+  color: #09466b !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-pinterest,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-pinterest {
+  color: #821c22 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-stackexchange,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-stackexchange {
+  color: #193d5f !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-tumblr,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-tumblr {
+  color: #233e52 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-xing,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-xing {
+  color: #024348 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-flickr,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-flickr {
+  color: #b72d5f !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-bitbucket,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-bitbucket {
+  color: #0a345e !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-twitter,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-twitter {
+  color: #1679b3 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-facebook,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-facebook {
+  color: #2b4170 !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-dribbble,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-dribbble {
+  color: #ab345a !important;
+}
+.pi-social-icons.pi-active a:hover.pi-social-icon-yelp,
+.pi-social-icons-simple.pi-active a:hover.pi-social-icon-yelp {
+  color: #b12b1c !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-rss,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-rss {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-stackoverflow,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-stackoverflow {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-weibo,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-weibo {
+  background: #cb3332 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-youtube,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-youtube {
+  background: #ad2c27 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-bitcoin,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-bitcoin {
+  background: #f7931b !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-dropbox,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-dropbox {
+  background: #0a6594 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-foursquare,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-foursquare {
+  background: #3170a5 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-gittip,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-gittip {
+  background: #593e34 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-instagram,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-instagram {
+  background: #593e34 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-maxcdn,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-maxcdn {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-renren,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-renren {
+  background: #3170a5 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-trello,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-trello {
+  background: #176280 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-pagelines,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-pagelines {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-skype,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-skype {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-vimeo-squared,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-vimeo-squared {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-github,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-github {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-gplus,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-gplus {
+  background: #9e3023 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-linkedin,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-linkedin {
+  background: #0a6594 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-pinterest,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-pinterest {
+  background: #a9272f !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-stackexchange,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-stackexchange {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-tumblr,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-tumblr {
+  background: #3e5a70 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-xing,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-xing {
+  background: #015a60 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-flickr,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-flickr {
+  background: #db458f !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-bitbucket,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-bitbucket {
+  background: #0e4a83 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-twitter,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-twitter {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-facebook,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-facebook {
+  background: #395793 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-dribbble,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-dribbble {
+  background: #ce4b81 !important;
+}
+.pi-social-icons.pi-active-bg a.pi-social-icon-yelp,
+.pi-social-icons.pi-colored-bg a:hover.pi-social-icon-yelp {
+  background: #D64132 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-rss,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-rss {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-stackoverflow,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-stackoverflow {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-weibo,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-weibo {
+  background: #cb3332 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-youtube,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-youtube {
+  background: #ad2c27 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-bitcoin,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-bitcoin {
+  background: #f7931b !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-dropbox,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-dropbox {
+  background: #0a6594 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-foursquare,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-foursquare {
+  background: #3170a5 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-gittip,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-gittip {
+  background: #593e34 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-instagram,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-instagram {
+  background: #593e34 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-maxcdn,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-maxcdn {
+  background: #ea6d19 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-renren,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-renren {
+  background: #3170a5 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-trello,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-trello {
+  background: #176280 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-pagelines,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-pagelines {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-skype,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-skype {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-vimeo-squared,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-vimeo-squared {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-github,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-github {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-gplus,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-gplus {
+  background: #9e3023 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-linkedin,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-linkedin {
+  background: #0a6594 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-pinterest,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-pinterest {
+  background: #a9272f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-stackexchange,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-stackexchange {
+  background: #235789 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-tumblr,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-tumblr {
+  background: #3e5a70 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-xing,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-xing {
+  background: #015a60 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-flickr,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-flickr {
+  background: #db458f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-bitbucket,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-bitbucket {
+  background: #0e4a83 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-twitter,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-twitter {
+  background: #1ca3db !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-facebook,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-facebook {
+  background: #395793 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-dribbble,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-dribbble {
+  background: #ce4b81 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:last-child.icon-yelp,
+.pi-social-icons.pi-jump-bg.pi-colored-bg a i:first-child.icon-yelp {
+  background: #D64132 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-rss {
+  background: #d93504 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-stackoverflow {
+  background: #d93504 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-weibo {
+  background: #a61b1b !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-youtube {
+  background: #8c1a17 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-bitcoin {
+  background: #e3650e !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-dropbox {
+  background: #09466b !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-foursquare {
+  background: #234e7e !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-gittip {
+  background: #3e2b24 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-instagram {
+  background: #3e2b24 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-maxcdn {
+  background: #c84211 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-renren {
+  background: #234e7e !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-trello {
+  background: #10445a !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-pagelines {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-skype {
+  background: #1679b3 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-vimeo-squared {
+  background: #1679b3 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-github {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-gplus {
+  background: #771d15 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-linkedin {
+  background: #09466b !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-pinterest {
+  background: #821c22 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-stackexchange {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-tumblr {
+  background: #233e52 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-xing {
+  background: #024348 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-flickr {
+  background: #b72d5f !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-bitbucket {
+  background: #0a345e !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-twitter {
+  background: #056ebf !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-facebook {
+  background: #233a74 !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-dribbble {
+  background: #ab345a !important;
+}
+.pi-social-icons.pi-active-bg a:hover.pi-social-icon-yelp {
+  background: #b12b1c !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-rss {
+  background: #c84211 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-stackoverflow {
+  background: #d93504 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-weibo {
+  background: #a61b1b !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-youtube {
+  background: #8c1a17 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-bitcoin {
+  background: #e3650e !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-dropbox {
+  background: #09466b !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-foursquare {
+  background: #234e7e !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-gittip {
+  background: #3e2b24 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-instagram {
+  background: #3e2b24 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-maxcdn {
+  background: #c84211 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-renren {
+  background: #234e7e !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-trello {
+  background: #10445a !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-pagelines {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-skype {
+  background: #1679b3 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-vimeo-squared {
+  background: #1679b3 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-github {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-gplus {
+  background: #771d15 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-linkedin {
+  background: #09466b !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-pinterest {
+  background: #821c22 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-stackexchange {
+  background: #193d5f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-tumblr {
+  background: #233e52 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-xing {
+  background: #024348 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-flickr {
+  background: #b72d5f !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-bitbucket {
+  background: #0a345e !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-twitter {
+  background: #1679b3 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-facebook {
+  background: #2b4170 !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-dribbble {
+  background: #ab345a !important;
+}
+.pi-social-icons.pi-jump-bg.pi-active-bg a i:first-child.icon-yelp {
+  background: #b12b1c !important;
+}
+.pi-section-base .pi-social-icons a {
+  background: #00919c;
+  color: #ffffff;
+}
+.pi-section-base .pi-social-icons a:hover {
+  background: #ffffff;
+  color: #21252b;
+}
+.pi-section-base .pi-social-icons.pi-dark-opacity a {
+  background: rgba(42, 45, 51, 0.4);
+  color: rgba(250, 250, 250, 0.6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-base .pi-social-icons.pi-dark-opacity.pi-jump a i:last-child,
+.pi-section-base .pi-social-icons.pi-dark-opacity.pi-jump a:hover i:last-child {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-base .pi-social-icons.pi-bordered li {
+  border-color: transparent;
+}
+.pi-section-base .pi-social-icons.pi-jump-bg a i:last-child {
+  background: #00919c;
+}
+.pi-section-base .pi-social-icons.pi-jump-bg a i:first-child {
+  background: #ffffff;
+}
+.pi-section-base .pi-social-icons.pi-jump a i:last-child,
+.pi-section-base .pi-social-icons.pi-jump a:hover i:last-child {
+  color: #ffffff;
+}
+.pi-section-base .pi-social-icons.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-base .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-base .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-base .pi-social-icons.pi-jump-bg a {
+  background: none !important;
+}
+.pi-section-base .pi-social-icons.pi-full-height a {
+  background: #00adb0;
+  color: #ffffff;
+}
+.pi-section-base .pi-social-icons.pi-full-height a:hover {
+  background: #05b5b6;
+  color: #ffffff;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-bordered li {
+  border-color: #3bc0c2;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump-bg a i:last-child {
+  background: #00adb0;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump-bg a i:first-child {
+  background: #05b5b6;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump a i:last-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  color: #ffffff;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-base .pi-social-icons.pi-full-height.pi-jump-bg a {
+  background: none;
+}
+.pi-section-base .pi-social-icons-simple a {
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-base .pi-social-icons-simple a:hover {
+  color: #007688;
+  text-shadow: 0 1px 0 rgba(250, 250, 250, 0.15);
+}
+.pi-section-white .pi-social-icons a {
+  background: #eef1f1;
+  color: #3b3e3f;
+}
+.pi-section-white .pi-social-icons a:hover {
+  background: #0dc0c0;
+  color: #ffffff;
+}
+.pi-section-white .pi-social-icons.pi-dark-opacity a {
+  background: rgba(42, 45, 51, 0.4);
+  color: rgba(250, 250, 250, 0.6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-white .pi-social-icons.pi-dark-opacity.pi-jump a i:last-child,
+.pi-section-white .pi-social-icons.pi-dark-opacity.pi-jump a:hover i:last-child {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-white .pi-social-icons.pi-bordered li {
+  border-color: transparent;
+}
+.pi-section-white .pi-social-icons.pi-jump-bg a i:last-child {
+  background: #eef1f1;
+}
+.pi-section-white .pi-social-icons.pi-jump-bg a i:first-child {
+  background: #0dc0c0;
+}
+.pi-section-white .pi-social-icons.pi-jump a i:last-child,
+.pi-section-white .pi-social-icons.pi-jump a:hover i:last-child {
+  color: #3b3e3f;
+}
+.pi-section-white .pi-social-icons.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-white .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-white .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-white .pi-social-icons.pi-jump-bg a {
+  background: none !important;
+}
+.pi-section-white .pi-social-icons.pi-full-height a {
+  background: #ffffff;
+  color: #5b6168;
+}
+.pi-section-white .pi-social-icons.pi-full-height a:hover {
+  background: #f8fafa;
+  color: #0dc0c0;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-bordered li {
+  border-color: #eef1f1;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump-bg a i:last-child {
+  background: #ffffff;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump-bg a i:first-child {
+  background: #f8fafa;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump a i:last-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  color: #5b6168;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-white .pi-social-icons.pi-full-height.pi-jump-bg a {
+  background: none;
+}
+.pi-section-grey .pi-social-icons a {
+  background: #ffffff;
+  color: #2e343c;
+}
+.pi-section-grey .pi-social-icons a:hover {
+  background: #0dc0c0;
+  color: #ffffff;
+}
+.pi-section-grey .pi-social-icons.pi-dark-opacity a {
+  background: rgba(42, 45, 51, 0.4);
+  color: rgba(250, 250, 250, 0.6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-grey .pi-social-icons.pi-dark-opacity.pi-jump a i:last-child,
+.pi-section-grey .pi-social-icons.pi-dark-opacity.pi-jump a:hover i:last-child {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-grey .pi-social-icons.pi-bordered li {
+  border-color: transparent;
+}
+.pi-section-grey .pi-social-icons.pi-jump-bg a i:last-child {
+  background: #ffffff;
+}
+.pi-section-grey .pi-social-icons.pi-jump-bg a i:first-child {
+  background: #0dc0c0;
+}
+.pi-section-grey .pi-social-icons.pi-jump a i:last-child,
+.pi-section-grey .pi-social-icons.pi-jump a:hover i:last-child {
+  color: #2e343c;
+}
+.pi-section-grey .pi-social-icons.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-grey .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-grey .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-grey .pi-social-icons.pi-jump-bg a {
+  background: none !important;
+}
+.pi-section-grey .pi-social-icons.pi-full-height a {
+  background: #f4f6f6;
+  color: #5b6168;
+}
+.pi-section-grey .pi-social-icons.pi-full-height a:hover {
+  background: #fafbfc;
+  color: #0dc0c0;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-bordered li {
+  border-color: #e6eaea;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump-bg a i:last-child {
+  background: #f4f6f6;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump-bg a i:first-child {
+  background: #fafbfc;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump a i:last-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  color: #5b6168;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-grey .pi-social-icons.pi-full-height.pi-jump-bg a {
+  background: none;
+}
+.pi-section-white .pi-social-icons-simple a,
+.pi-section-grey .pi-social-icons-simple a {
+  color: #d1d7d8;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.pi-section-white .pi-social-icons-simple a:hover,
+.pi-section-grey .pi-social-icons-simple a:hover {
+  color: #0dc0c0;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.pi-section-dark .pi-social-icons a {
+  background: #2b3139;
+  color: #b0bac2;
+}
+.pi-section-dark .pi-social-icons a:hover {
+  background: #0dc0c0;
+  color: #ffffff;
+}
+.pi-section-dark .pi-social-icons.pi-dark-opacity a {
+  background: rgba(42, 45, 51, 0.4);
+  color: rgba(250, 250, 250, 0.6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-dark .pi-social-icons.pi-dark-opacity.pi-jump a i:last-child,
+.pi-section-dark .pi-social-icons.pi-dark-opacity.pi-jump a:hover i:last-child {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-dark .pi-social-icons.pi-bordered li {
+  border-color: transparent;
+}
+.pi-section-dark .pi-social-icons.pi-jump-bg a i:last-child {
+  background: #2b3139;
+}
+.pi-section-dark .pi-social-icons.pi-jump-bg a i:first-child {
+  background: #0dc0c0;
+}
+.pi-section-dark .pi-social-icons.pi-jump a i:last-child,
+.pi-section-dark .pi-social-icons.pi-jump a:hover i:last-child {
+  color: #b0bac2;
+}
+.pi-section-dark .pi-social-icons.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-dark .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-dark .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-dark .pi-social-icons.pi-jump-bg a {
+  background: none !important;
+}
+.pi-section-parallax .pi-social-icons a {
+  background: rgba(250, 250, 250, 0.1);
+  color: #ffffff;
+}
+.pi-section-parallax .pi-social-icons a:hover {
+  background: #0dc0c0;
+  color: #ffffff;
+}
+.pi-section-parallax .pi-social-icons.pi-dark-opacity a {
+  background: rgba(42, 45, 51, 0.4);
+  color: rgba(250, 250, 250, 0.6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.pi-section-parallax .pi-social-icons.pi-dark-opacity.pi-jump a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-dark-opacity.pi-jump a:hover i:last-child {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-parallax .pi-social-icons.pi-bordered li {
+  border-color: transparent;
+}
+.pi-section-parallax .pi-social-icons.pi-jump-bg a i:last-child {
+  background: rgba(250, 250, 250, 0.1);
+}
+.pi-section-parallax .pi-social-icons.pi-jump-bg a i:first-child {
+  background: #0dc0c0;
+}
+.pi-section-parallax .pi-social-icons.pi-jump a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-jump a:hover i:last-child {
+  color: #ffffff;
+}
+.pi-section-parallax .pi-social-icons.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-parallax .pi-social-icons.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-parallax .pi-social-icons.pi-jump-bg a {
+  background: none !important;
+}
+.pi-section-dark .pi-social-icons.pi-full-height a,
+.pi-section-parallax .pi-social-icons.pi-full-height a {
+  background: #21252b;
+  color: #b0bac2;
+}
+.pi-section-dark .pi-social-icons.pi-full-height a:hover,
+.pi-section-parallax .pi-social-icons.pi-full-height a:hover {
+  background: #282d33;
+  color: #0dc0c0;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-bordered li,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-bordered li {
+  border-color: #2e343a;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump-bg a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump-bg a i:last-child {
+  background: #21252b;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump-bg a i:first-child {
+  background: #282d33;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump a i:last-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump a:hover i:last-child {
+  color: #b0bac2;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-active-bg.pi-colored-bg a i:last-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a i:first-child,
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump.pi-colored-bg a:hover i:first-child {
+  color: #fff;
+}
+.pi-section-dark .pi-social-icons.pi-full-height.pi-jump-bg a,
+.pi-section-parallax .pi-social-icons.pi-full-height.pi-jump-bg a {
+  background: none;
+}
+.pi-section-dark .pi-social-icons-simple a,
+.pi-section-parallax .pi-social-icons-simple a {
+  color: #565e66;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-social-icons-simple a:hover,
+.pi-section-parallax .pi-social-icons-simple a:hover {
+  color: #0dc0c0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-social-icons.pi-active-bg li a:hover,
+.pi-social-icons.pi-active-bg li a {
+  color: #fff !important;
+}
+.pi-section-base .pi-social-icons-simple.pi-active li a i {
+  text-shadow: 0 1px 0 #0f9246;
+}
+.pi-section-dark .pi-social-icons-simple.pi-base.pi-colored li a:hover {
+  text-shadow: 0 1px 0 #20252e;
+}

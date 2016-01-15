@@ -1,0 +1,115 @@
+.pi-dropcap {
+  font-size: 56px;
+  line-height: 100%;
+  font-weight: 300;
+  float: left;
+  margin: 0 20px 15px 0;
+}
+.pi-dropcap-circle,
+.pi-dropcap-square {
+  width: 58px;
+  height: 58px;
+  margin: 5px 20px 10px 0;
+  float: left;
+  text-align: center;
+  font-size: 36px;
+  line-height: 56px;
+  border-radius: 3px;
+}
+.pi-dropcap-suqare {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.pi-dropcap-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.pi-news-date {
+  background: url("../img/news-date.png") no-repeat;
+  color: #2e343c;
+  float: left;
+  font-size: 22px;
+  font-weight: 400;
+  height: 65px;
+  line-height: 26px;
+  margin: 0 23px 10px 0;
+  padding: 3px 0 0;
+  position: relative;
+  text-align: center;
+  width: 50px;
+  text-shadow: 0 1px 0 #f5f8f8;
+}
+.pi-news-date span {
+  bottom: 11px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #737a81;
+  left: 0;
+  line-height: 10px;
+  position: absolute;
+  text-transform: uppercase;
+  width: 50px;
+  letter-spacing: 1px;
+}
+.pi-section-white .pi-dropcap {
+  color: #86ba41;
+}
+.pi-section-white .pi-dropcap-circle,
+.pi-section-white .pi-dropcap-square {
+  background: #86ba41;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.pi-section-grey .pi-dropcap {
+  color: #86ba41;
+}
+.pi-section-grey .pi-dropcap-circle,
+.pi-section-grey .pi-dropcap-square {
+  background: #86ba41;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.pi-section-base .pi-dropcap {
+  color: #ffffff;
+}
+.pi-section-base .pi-dropcap-circle,
+.pi-section-base .pi-dropcap-square {
+  background: #588f2c;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.pi-section-dark .pi-dropcap {
+  color: #86ba41;
+}
+.pi-section-dark .pi-dropcap-circle,
+.pi-section-dark .pi-dropcap-square {
+  background: #86ba41;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.pi-section-parallax .pi-dropcap {
+  color: #86ba41;
+}
+.pi-section-parallax .pi-dropcap-circle,
+.pi-section-parallax .pi-dropcap-square {
+  background: #86ba41;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}

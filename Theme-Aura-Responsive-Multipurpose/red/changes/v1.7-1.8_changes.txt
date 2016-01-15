@@ -1,0 +1,113 @@
+scripts/pi.counter.js - pi.easing removed, it uses jQuery.easing now
+scripts/pi.easings.js - removed
+scripts/pi.fixedHeader.js - a lot of changes
+scripts/pi.init.jqueryScrollTo.js - removed forgotten console.log
+scripts/pi.init.map.js - added support of multiple addresses
+scripts/pi.init.removeLastElMargin.js - 'pi-header-block' -> 'pi-row-block' on line 7
+scripts/pi.init.submitFormContact.js - used for both footer and contact forms now
+scripts/pi.init.submitFormFooter.js - removed, submitFormContact.js used by footer now.
+scripts/pi.init.videoResize.js - implemented video centering with right aspect ratio for video backgrounds
+
+
+handlers/formContact.php - used for both footer and contact forms now
+handlers/formFooter.php - removed, formContact.php used by footer now.
+handlers/mailchimp/MailChimp.php - fix mailchimp classes to work with old PHP versions
+handlers/mailchimp/formSubscribe.php - fix mailchimp classes to work with old PHP versions
+
+header.html - compare your header using any comparison tool, there is a lot of changes.
+1) 'pi-header-block' -> 'pi-row-block'
+2) <div class="pi-main-header-w"> -> <div class="pi-header">
+3) <div class="pi-header-row-sticky-w"> -> <div class="pi-header-sticky">
+Now you should wrap sticky rows into that block.
+
+4) was <div class="pi-section-w pi-section-header-w pi-section-dark pi-section-header-sm-w">
+   now <div class="pi-section-w pi-section-dark">
+
+   was <div class="pi-section pi-section-header pi-section-header-sm pi-clearfix">
+   now <div class="pi-section pi-row-sm">
+
+5) was <div class="pi-section-w pi-section-header-w pi-section-white pi-section-header-lg-w pi-header-row-sticky pi-shadow-bottom">
+   now <div class="pi-section pi-section-header pi-section-header-lg pi-clearfix">
+
+   was <div class="pi-section-w pi-section-white pi-shadow-bottom pi-row-reducible">
+   now <div class="pi-section pi-row-lg">
+
+footer.html
+1) 'pi-header-block' -> 'pi-row-block'
+2) was <div class="pi-section-w pi-section-dark pi-border-top-light pi-border-bottom-strong-base">
+   now <div class="pi-section pi-row-lg pi-center-text-2xs">
+
+Most of pages below contains cosmetical changes:
+blog-blog-large-image.html
+blog-blog-medium-image.html
+blog-blog-single-post.html
+blog-blog-small-image.html
+blog-blog-timeline-sidebar.html
+blog-blog-timeline-wide.html
+contact-contact-1-fancy-header.html
+footers-footers-base.html
+footers-footers-dark.html
+footers-footers-light.html
+forms.html
+headers-headers-base.html
+headers-headers-dark.html
+headers-headers-light.html
+home-elements-subscribe.html
+home-home-10.html
+home-home-2.html
+home-home-3.html
+home-home-4.html
+home-home-5.html
+home-home-6.html
+home-home-7.html
+home-home-8.html
+home-home-9.html
+home-onepage-1.html
+home-onepage-2.html
+portfolio-portfolio-single-1.html
+portfolio-portfolio-single.html
+
+partials/sections.html
+1) was<div class="pi-section-w pi-shadow-inside-top pi-section-dark piVideoHigh">
+       <video class="pi-section-video" preload="auto" autoplay="autoplay" loop>
+
+   now <div class="pi-section-w pi-shadow-inside-top pi-section-dark pi-hide-excess piVideoHigh">
+       <video class="pi-section-video" width="1920" height="1080" preload="auto" autoplay="autoplay" loop>
+
+Most of css files contains cosmetical changes:
+css/accordion.css - reduced size
+css/alert-boxes.css
+css/animations.css - remove from global.css
+css/boxes.css
+css/buttons.css
+css/counters.css
+css/dividers.css
+css/dropcaps.css
+css/fixed-header.css - big refactoring, use comparison tool
+css/forms.css
+css/galleries.css
+css/global.css - some code removed to external stylesheets
+css/google-maps.css
+css/grid.css
+css/header-rows.css - big refactoring, use comparison tool
+css/helpers.css
+css/images.css
+css/layouts.css
+css/lists-icon-boxes.css
+css/main.css
+css/menu-mobile.css
+css/menu.css - reduced size
+css/page-nav.css
+css/portfolio.css
+css/pricing-tables.css
+css/responsive.css
+css/scrollTopArrow.css
+css/section.css
+css/slider.css
+css/social.css - remove from global.css - reduced size
+css/tables.css
+css/tabs.css
+css/testimonials.css
+css/timeline.css
+css/tooltips.css
+css/typo.css - remove from global.css

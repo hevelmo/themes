@@ -1,0 +1,142 @@
+.pi-header-sticky,
+.pi-header-sticky .pi-section-w,
+.pi-header-sticky .pi-section,
+.pi-header-sticky .pi-section-menu-mobile-w,
+.pi-header-sticky .pi-section-menu-mobile {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.pi-row-reducible img {
+  -webkit-transition: max-height 0.5s ease-in-out;
+  -moz-transition: max-height 0.5s ease-in-out;
+  -ms-transition: max-height 0.5s ease-in-out;
+  -o-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+}
+.pi-row-reducible .pi-full-height > li > a,
+.pi-row-reducible .pi-social-icons.pi-full-height > li > a > i {
+  -webkit-transition: line-height 0.5s ease-in-out;
+  -moz-transition: line-height 0.5s ease-in-out;
+  -ms-transition: line-height 0.5s ease-in-out;
+  -o-transition: line-height 0.5s ease-in-out;
+  transition: line-height 0.5s ease-in-out;
+}
+.pi-row-reducible .pi-social-icons.pi-full-height > li > a,
+.pi-row-reducible .pi-social-icons.pi-full-height > li > a > i {
+  -webkit-transition: height 0.5s ease-in-out;
+  -moz-transition: height 0.5s ease-in-out;
+  -ms-transition: height 0.5s ease-in-out;
+  -o-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+}
+.pi-row-reducible .pi-row-block form,
+.pi-row-reducible .pi-row-block > .pi-btn,
+.pi-row-reducible .pi-row-block-txt,
+.pi-row-reducible .pi-social-icons-simple,
+.pi-row-reducible .pi-social-icons:not(.pi-full-height) {
+  -webkit-transition: margin-top 0.5s ease-in-out, margin-bottom 0.5s ease-in-out;
+  -moz-transition: margin-top 0.5s ease-in-out, margin-bottom 0.5s ease-in-out;
+  -ms-transition: margin-top 0.5s ease-in-out, margin-bottom 0.5s ease-in-out;
+  -o-transition: margin-top 0.5s ease-in-out, margin-bottom 0.5s ease-in-out;
+  transition: margin-top 0.5s ease-in-out, margin-bottom 0.5s ease-in-out;
+}
+.pi-header-rows-fixed .pi-header-sticky,
+.pi-header-row-fixed .pi-header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+}
+.pi-header-rows-fixed.pi-fixed .pi-header-sticky .pi-section-w,
+.pi-header-row-fixed.pi-fixed .pi-header-sticky .pi-section-w {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.pi-header-rows-fixed .pi-row-reduced img,
+.pi-header-row-fixed .pi-row-reduced img {
+  max-height: 70px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-full-height > li > a,
+.pi-header-row-fixed .pi-row-reduced .pi-full-height > li > a,
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a > i,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a > i {
+  line-height: 70px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a,
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a > i,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons.pi-full-height > li > a > i {
+  height: 70px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-row-block > .pi-btn,
+.pi-header-row-fixed .pi-row-reduced .pi-row-block > .pi-btn,
+.pi-header-rows-fixed .pi-row-reduced .pi-row-block form,
+.pi-header-row-fixed .pi-row-reduced .pi-row-block form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-row-block-txt,
+.pi-header-row-fixed .pi-row-reduced .pi-row-block-txt {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons-simple,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons-simple {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons-simple.pi-big,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons-simple.pi-big {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons-simple.pi-small,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons-simple.pi-small {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height),
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height) {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height).pi-big,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height).pi-big {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pi-header-rows-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height).pi-small,
+.pi-header-row-fixed .pi-row-reduced .pi-social-icons:not(.pi-full-height).pi-small {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.pi-header-row-fixed .pi-header {
+  padding-bottom: 96px;
+}
+.pi-header-row-fixed .pi-header.pi-header-row-sm-fixed {
+  padding-bottom: 46px;
+}
+.pi-header-rows-fixed .pi-header {
+  padding-bottom: 142px;
+}
+.pi-header-rows-fixed .pi-header.pi-reduced-padding-top,
+.pi-header-row-fixed .pi-header.pi-reduced-padding-top {
+  padding-bottom: 0;
+}
+.pi-header-row-fixed .pi-header.pi-reduced-padding-top {
+  padding-top: 96px;
+}
+.pi-header-row-fixed .pi-header.pi-reduced-padding-top.pi-header-row-sm-fixed {
+  padding-top: 46px;
+}
+.pi-header-rows-fixed .pi-header.pi-reduced-padding-top {
+  padding-top: 142px;
+}

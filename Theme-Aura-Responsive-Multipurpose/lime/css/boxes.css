@@ -1,0 +1,159 @@
+.pi-box {
+  padding: 30px 30px 10px;
+  margin-bottom: 20px;
+}
+.pi-box.pi-box-big {
+  padding: 50px 50px 30px;
+}
+.pi-box.pi-box-small {
+  padding: 20px 20px 1px;
+}
+.pi-box.pi-border {
+  border: 1px solid transparent;
+}
+.pi-box.pi-round {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.pi-box.pi-border-top,
+.pi-box.pi-border-left {
+  position: relative;
+}
+.pi-box.pi-border-top:after,
+.pi-box.pi-border-left:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.pi-box.pi-border-top:after {
+  height: 3px;
+  right: 0;
+}
+.pi-box.pi-border-top.pi-border:after {
+  left: -1px;
+  right: -1px;
+  top: -1px;
+}
+.pi-box.pi-border-top.pi-round:after {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.pi-box.pi-border-left:after {
+  width: 3px;
+  bottom: 0;
+}
+.pi-box.pi-border-left.pi-border:after {
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+}
+.pi-box.pi-border-left.pi-round:after {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.pi-section-white .pi-box {
+  background: #ffffff;
+  color: inherit;
+}
+.pi-section-white .pi-box-slave {
+  background: #f8fafa;
+  color: inherit;
+}
+.pi-section-white .pi-border-top:after,
+.pi-section-white .pi-border-left:after {
+  background: #86ba41;
+}
+.pi-section-white .pi-border {
+  border: 1px solid #e5eaea;
+}
+.pi-section-white .pi-shadow {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+.pi-section-grey .pi-box {
+  background: #e8ebf0;
+  color: inherit;
+}
+.pi-section-grey .pi-box-slave {
+  background: #e8ebf0;
+  color: inherit;
+}
+.pi-section-grey .pi-border-top:after,
+.pi-section-grey .pi-border-left:after {
+  background: #86ba41;
+}
+.pi-section-grey .pi-border {
+  border: 1px solid #d5d9dd;
+}
+.pi-section-grey .pi-shadow {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+.pi-section-base .pi-box {
+  background: #78ab3e;
+  color: inherit;
+}
+.pi-section-base .pi-box-slave {
+  background: #82b640;
+  color: inherit;
+}
+.pi-section-base .pi-border-top:after,
+.pi-section-base .pi-border-left:after {
+  background: #ffffff;
+}
+.pi-section-base .pi-border {
+  border: 1px solid #9dc85e;
+}
+.pi-section-base .pi-shadow {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.pi-section-dark .pi-box {
+  background: #21252b;
+  color: inherit;
+}
+.pi-section-dark .pi-box-slave {
+  background: #2a3037;
+  color: inherit;
+}
+.pi-section-dark .pi-border-top:after,
+.pi-section-dark .pi-border-left:after {
+  background: #86ba41;
+}
+.pi-section-dark .pi-border {
+  border: 1px solid #32383f;
+}
+.pi-section-dark .pi-shadow {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-box {
+  background: #1c1d1f;
+  color: inherit;
+}
+.pi-section-parallax .pi-box-slave {
+  background: #1c1d1f;
+  color: inherit;
+}
+.pi-section-parallax .pi-border-top:after,
+.pi-section-parallax .pi-border-left:after {
+  background: #86ba41;
+}
+.pi-section-parallax .pi-border {
+  border: 1px solid #232326;
+}
+.pi-section-parallax .pi-shadow {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}

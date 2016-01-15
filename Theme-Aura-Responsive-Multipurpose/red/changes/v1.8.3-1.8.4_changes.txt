@@ -1,0 +1,148 @@
+1)
+New bootstrap custom build files added:
+
+3dParty/bootstrap/css/bootstrap.css
+3dParty/bootstrap/css/bootstrap.css.map
+3dParty/bootstrap/css/bootstrap.min.css
+3dParty/bootstrap/js/bootstrap.js
+3dParty/bootstrap/js/bootstrap.min.js
+
+Custom build contain modals, component animations, transition bootstrap components.
+Transition components and component animations are used by tabs, alert and modals. 
+
+Read about bootstrap files here docs-theme-structure.html
+
+New file for making fontello icons customization easier:
+3dParty/fontello/config.json
+
+Read about using this file here docs-icons.html
+
+New page modals.html added.
+
+You need to connect bootstrap files now:
+3dParty/bootstrap/css/bootstrap.min.css (before global.css connection)
+3dParty/bootstrap/js/bootstrap.min.js (after jQuery connection)
+
+2)
+scripts/pi.detectTransition.js removed
+You need to find pi.detectTransition.js inside pi.global.js and remove it.
+------------------------
+/* ===================================================
+ * PI: pi.transitions.js v1.0.0
+ * Based on: bootstrap-transition.js v3.0.0
+ * http://twbs.github.com/bootstrap/javascript.html#transitions
+ * ========================================================================
+ * Copyright 2013 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ======================================================================== */
+
+
++function ($) { "use strict";
+
+    // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+    // ============================================================
+
+    function transitionEnd() {
+        var el = document.createElement('bootstrap')
+
+        var transEndEventNames = {
+            'WebkitTransition' : 'webkitTransitionEnd'
+            , 'MozTransition'    : 'transitionend'
+            , 'OTransition'      : 'oTransitionEnd otransitionend'
+            , 'transition'       : 'transitionend'
+        }
+
+        for (var name in transEndEventNames) {
+            if (el.style[name] !== undefined) {
+                return { end: transEndEventNames[name] }
+            }
+        }
+    }
+
+    // http://blog.alexmaccaw.com/css-transitions
+    $.fn.emulateTransitionEnd = function (duration) {
+        var called = false, $el = this
+        $(this).one($.support.transition.end, function () { called = true })
+        var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+        setTimeout(callback, duration)
+        return this
+    }
+
+    $(function () {
+        $.support.transition = transitionEnd()
+    })
+
+}(window.jQuery);
+
+------------------------
+
+3)
+css/alert-boxes.css
+You need to find ant remove piece of css that is now inside bootstrap css. Open alert-boxes.css find and remove piece of code below:
+------------------------
+.fade {
+    opacity: 0;
+    -webkit-transition:opacity 0.2s linear;
+    -moz-transition:opacity 0.2s linear;
+    -ms-transition:opacity 0.2s linear;
+    -o-transition:opacity 0.2s linear;
+    transition:opacity 0.2s linear;
+    &.in {
+        opacity: 1;
+    }
+}
+------------------------
+
+4)
+css/global.css
+You need to add next lines to the botton of global.css:
+------------------------
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+----------------------
+
+5)
+footer html
+--------
+-<div id="pi-footer-tweets">
++<div class="pi-footer-tweets">
+--------
+
+6)
+scripts/pi.init.tweetie.js
+--------
+- var tweetsBock = $('#pi-footer-tweets');
++ var tweetsBock = $('.pi-footer-tweets'),
+--------
+
+7) 
+connect "3dParty/requestAnimationFramePolyfill.min.js" script before "pi.global.js"
+

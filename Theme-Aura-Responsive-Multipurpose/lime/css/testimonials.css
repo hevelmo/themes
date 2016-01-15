@@ -1,0 +1,213 @@
+.pi-testimonial {
+  margin-bottom: 20px;
+}
+.pi-testimonial-content {
+  position: relative;
+  padding: 25px 28px 5px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.4em;
+  border: 1px solid transparent;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.pi-testimonial-content:after {
+  content: '';
+  display: block;
+  width: 23px;
+  height: 16px;
+  position: absolute;
+  left: 20px;
+  bottom: -16px;
+}
+.pi-testimonial-author-with-photo .pi-testimonial-content:after {
+  left: 64px;
+}
+.pi-testimonial-content.pi-testimonial-content-big {
+  font-size: 18px;
+}
+.pi-testimonial-content.pi-testimonial-content-bigger {
+  font-size: 22px;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+.pi-testimonial-content.pi-testimonial-content-quotes {
+  padding-left: 46px;
+}
+.pi-testimonial-content.pi-testimonial-content-quotes:before {
+  display: block;
+  font-family: fontello;
+  content: "\e882";
+  font-size: 18px;
+  position: absolute;
+  top: 24px;
+  font-style: normal;
+  left: 18px;
+}
+.pi-testimonial-author-with-icon .pi-testimonial-author div {
+  margin-left: 30px;
+}
+.pi-testimonial-author-with-photo .pi-testimonial-author div {
+  padding: 7px 0 0 88px;
+}
+.pi-testimonial-author .pi-testimonial-author-photo {
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+.pi-testimonial-author .pi-testimonial-author-photo img {
+  max-height: 70px;
+}
+.pi-testimonial-author .pi-icon-man,
+.pi-testimonial-author .pi-icon-woman {
+  width: 15px;
+  height: 18px;
+  float: left;
+  margin-top: 2px;
+}
+.pi-testimonial-author:before,
+.pi-testimonial-author:after {
+  content: " ";
+  display: table;
+}
+.pi-testimonial-author:after {
+  clear: both;
+}
+.pi-testimonials-big {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.pi-testimonials-name {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+.pi-quote-left {
+  margin-right: 10px;
+}
+.pi-quote-right {
+  margin-left: 13px;
+}
+.pi-section-white .pi-testimonial-content,
+.pi-section-grey .pi-testimonial-content,
+.pi-section-base .pi-testimonial-content,
+.pi-section-dark .pi-testimonial-content,
+.pi-section-parallax .pi-testimonial-content {
+  background: #f8fafa;
+  color: #373c41;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  border-color: #e5eaea;
+}
+.pi-section-white .pi-testimonial-content:after,
+.pi-section-grey .pi-testimonial-content:after,
+.pi-section-base .pi-testimonial-content:after,
+.pi-section-dark .pi-testimonial-content:after,
+.pi-section-parallax .pi-testimonial-content:after {
+  background: url(../img/triangle-testimonials.png) no-repeat 50% 0;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-content-quotes:before,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-content-quotes:before,
+.pi-section-base .pi-testimonial-content.pi-testimonial-content-quotes:before,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-content-quotes:before,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-content-quotes:before {
+  color: #d6dfdf;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-white,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-white,
+.pi-section-base .pi-testimonial-content.pi-testimonial-white,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-white,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-white {
+  background: #ffffff;
+  color: #373c41;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-color: #ffffff;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-white:after,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-white:after,
+.pi-section-base .pi-testimonial-content.pi-testimonial-white:after,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-white:after,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-white:after {
+  background: url(../img/triangle-testimonials-white.png) no-repeat 50% 0;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-white.pi-testimonial-content-quotes:before,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-white.pi-testimonial-content-quotes:before,
+.pi-section-base .pi-testimonial-content.pi-testimonial-white.pi-testimonial-content-quotes:before,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-white.pi-testimonial-content-quotes:before,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-white.pi-testimonial-content-quotes:before {
+  color: #d6dfdf;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-base,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-base,
+.pi-section-base .pi-testimonial-content.pi-testimonial-base,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-base,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-base {
+  background: #86ba41;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #86ba41;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-base:after,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-base:after,
+.pi-section-base .pi-testimonial-content.pi-testimonial-base:after,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-base:after,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-base:after {
+  background: url(../img/triangle-testimonials-lime.png) no-repeat 50% 0;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-base.pi-testimonial-content-quotes:before,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-base.pi-testimonial-content-quotes:before,
+.pi-section-base .pi-testimonial-content.pi-testimonial-base.pi-testimonial-content-quotes:before,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-base.pi-testimonial-content-quotes:before,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-base.pi-testimonial-content-quotes:before {
+  color: #bee28b;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-dark,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-dark,
+.pi-section-base .pi-testimonial-content.pi-testimonial-dark,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-dark,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-dark {
+  background: #2b3038;
+  color: #b7c0c5;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #2b3038;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-dark:after,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-dark:after,
+.pi-section-base .pi-testimonial-content.pi-testimonial-dark:after,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-dark:after,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-dark:after {
+  background: url(../img/triangle-testimonials-dark.png) no-repeat 50% 0;
+}
+.pi-section-white .pi-testimonial-content.pi-testimonial-dark.pi-testimonial-content-quotes:before,
+.pi-section-grey .pi-testimonial-content.pi-testimonial-dark.pi-testimonial-content-quotes:before,
+.pi-section-base .pi-testimonial-content.pi-testimonial-dark.pi-testimonial-content-quotes:before,
+.pi-section-dark .pi-testimonial-content.pi-testimonial-dark.pi-testimonial-content-quotes:before,
+.pi-section-parallax .pi-testimonial-content.pi-testimonial-dark.pi-testimonial-content-quotes:before {
+  color: #4e565e;
+}
+.pi-section-white .pi-testimonial-author .pi-icon-man,
+.pi-section-grey .pi-testimonial-author .pi-icon-man,
+.pi-section-base .pi-testimonial-author .pi-icon-man,
+.pi-section-dark .pi-testimonial-author .pi-icon-man,
+.pi-section-parallax .pi-testimonial-author .pi-icon-man {
+  background: url(../img/icon-man.png) no-repeat 0 0;
+}
+.pi-section-white .pi-testimonial-author .pi-icon-woman,
+.pi-section-grey .pi-testimonial-author .pi-icon-woman,
+.pi-section-base .pi-testimonial-author .pi-icon-woman,
+.pi-section-dark .pi-testimonial-author .pi-icon-woman,
+.pi-section-parallax .pi-testimonial-author .pi-icon-woman {
+  background: url(../img/icon-woman.png) no-repeat 0 0;
+}

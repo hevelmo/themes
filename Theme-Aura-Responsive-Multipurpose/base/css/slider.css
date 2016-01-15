@@ -1,0 +1,205 @@
+.pi-slider-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+.pi-slider-wrapper:before,
+.pi-slider-wrapper:after {
+  content: " ";
+  display: table;
+}
+.pi-slider-wrapper:after {
+  clear: both;
+}
+.pi-slider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pi-slider.pi-slider-animate-opacity .pi-slide {
+  opacity: 0;
+}
+.pi-slider.pi-slider-animate-opacity .pi-slide.pi-slide-active {
+  opacity: 1;
+  z-index: 3;
+}
+.pi-slider.pi-slider-animate-opacity .pi-slide.pi-slide-transparent {
+  opacity: 0.2;
+}
+.pi-slider:before,
+.pi-slider:after {
+  content: " ";
+  display: table;
+}
+.pi-slider:after {
+  clear: both;
+}
+.pi-slide {
+  position: relative;
+  width: 100%;
+  margin-right: -100%;
+  float: left;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+.pi-slider-hider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.pi-slider-arrow {
+  display: block;
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 40px;
+  height: 80px;
+  margin-top: -50px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.pi-slider-arrow-left span,
+.pi-slider-arrow-right span {
+  display: block;
+  width: 40px;
+  height: 80px;
+  font-family: fontello;
+  line-height: 80px;
+  font-size: 22px;
+  background: rgba(33, 37, 43, 0.4);
+  color: rgba(250, 250, 250, 0.8);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.pi-slider-arrow span:hover {
+  background: rgba(33, 37, 43, 0.6);
+  color: #fff;
+}
+.pi-slider-arrow-disabled span,
+.pi-slider-arrow-disabled span:hover {
+  opacity: 0.2;
+  cursor: default;
+}
+.pi-slider-arrow-left {
+  padding-right: 0px;
+  left: -40px;
+}
+.pi-slider-arrow-left span:before {
+  content: "\e8cb";
+}
+.pi-slider-arrow-right {
+  padding-left: 0px;
+  right: -40px;
+}
+.pi-slider-arrow-right span:before {
+  content: "\e8cc";
+}
+.pi-slider-pagination {
+  padding: 0;
+  line-height: 12px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: -12px;
+  z-index: 4;
+}
+.pi-slider-page {
+  display: inline-block;
+  cursor: pointer;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  vertical-align: top;
+  background: rgba(33, 37, 43, 0.2);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.pi-slider-pagination-inside .pi-slider-pagination {
+  bottom: 39px;
+}
+.pi-slider-pagination-inside .pi-slider-page {
+  background: rgba(21, 25, 32, 0.3);
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(250, 250, 250, 0.15);
+  -moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(250, 250, 250, 0.15);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(250, 250, 250, 0.15);
+}
+.pi-slider-arrows-inside .pi-slider-arrow-left {
+  left: 6px;
+}
+.pi-slider-arrows-inside .pi-slider-arrow-right {
+  right: 6px;
+}
+.pi-slider-show-arrow-hover .pi-slider-arrow {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pi-slider-show-arrow-hover:hover .pi-slider-arrow,
+.pi-slider-show-arrow-hover:hover .pi-slider-pagination {
+  opacity: 1;
+}
+.pi-slider-show-arrow-hover:hover .pi-slider-arrow.pi-slider-arrow-disabled,
+.pi-slider-show-arrow-hover:hover .pi-slider-pagination.pi-slider-arrow-disabled {
+  opacity: 0.2;
+}
+.pi-slider-show-pagination-hover .pi-slider-pagination {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pi-slider-show-pagination-hover:hover .pi-slider-arrow,
+.pi-slider-show-pagination-hover:hover .pi-slider-pagination {
+  opacity: 1;
+}
+.pi-slider-show-pagination-hover:hover .pi-slider-arrow.pi-slider-arrow-disabled,
+.pi-slider-show-pagination-hover:hover .pi-slider-pagination.pi-slider-arrow-disabled {
+  opacity: 0.2;
+}
+.pi-slider-slide-arrows-hover:hover.pi-slider-arrows-inside .pi-slider-arrow-left {
+  left: -40px;
+}
+.pi-slider-slide-arrows-hover:hover.pi-slider-arrows-inside .pi-slider-arrow-right {
+  right: -40px;
+}
+.pi-slider-slide-pagination-hover:hover.pi-slider-pagination-inside .pi-slider-pagination {
+  position: absolute;
+  width: 100%;
+  bottom: -15px;
+}
+.pi-slider-page-active {
+  background: #0dc0c0;
+}
+.pi-slider-pagination-inside .pi-slider-page-active {
+  background: #0dc0c0;
+  -webkit-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);
+}

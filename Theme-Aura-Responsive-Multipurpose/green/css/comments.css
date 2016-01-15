@@ -1,0 +1,8 @@
+.pi-comments {
+  margin: 0;
+  padding: 0;
+}
+.pi-comments,
+.pi-comments ul {
+  list-style: none;
+}

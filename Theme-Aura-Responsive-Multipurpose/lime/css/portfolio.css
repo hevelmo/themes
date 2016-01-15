@@ -1,0 +1,495 @@
+.pi-portfolio-item {
+  margin-bottom: 30px;
+}
+.pi-portfolio-item .pi-img-w {
+  margin-bottom: 0;
+}
+.pi-portfolio-item.pi-portfolio-item-round-corners {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.pi-gallery-small-margins .pi-portfolio-item {
+  margin-bottom: 20px;
+}
+.pi-portfolio-description {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.pi-portfolio-description > *:last-child {
+  margin-bottom: 0;
+}
+.pi-portfolio-description h4 + * {
+  margin-top: -3px;
+}
+.pi-portfolio-description.pi-portfolio-description-round-corners {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.pi-portfolio-description.pi-portfolio-description-round-corners-all {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.pi-portfolio-description-box .pi-img-w.pi-img-round-corners,
+.pi-portfolio-description-box .pi-img-w.pi-img-round-corners img,
+.pi-portfolio-description-box .pi-img-w.pi-img-round-corners .pi-img-overlay {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.pi-portfolio-description-box .pi-portfolio-description {
+  padding: 26px 28px;
+  border: 1px solid transparent;
+  border-top-width: 0;
+  margin: 0;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-portfolio-description-box .pi-portfolio-description.pi-portfolio-description-small {
+  padding: 20px 22px;
+}
+.pi-portfolio-description .pi-portfolio-cats li {
+  font-size: 13px;
+}
+.pi-portfolio-description .pi-portfolio-cats li i {
+  margin-right: 5px;
+  font-size: 13px;
+}
+.pi-portfolio-description .pi-portfolio-cats li a i {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-portfolio-nav {
+  margin: 0 -30px -26px !important;
+  padding: 0px 30px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.pi-portfolio-nav a {
+  border: 0;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-portfolio-nav .pi-pull-left i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.pi-portfolio-nav .pi-pull-right {
+  margin-left: 10px;
+}
+.pi-portfolio-nav .pi-pull-right i {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+  vertical-align: middle;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-portfolio-nav .pi-pull-right i.icon-heart {
+  margin-top: -2px;
+}
+.pi-portfolio-nav:after {
+  display: block;
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.pi-portfolio-cats {
+  display: block;
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 1.8em;
+}
+.pi-portfolio-cats li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.pi-portfolio-cats li:last-child {
+  margin-right: 0;
+}
+.pi-portfolio-cats li a {
+  border: 0;
+  -webkit-transition: color 0.1s ease-in-out 0s;
+  -moz-transition: color 0.1s ease-in-out 0s;
+  -ms-transition: color 0.1s ease-in-out 0s;
+  -o-transition: color 0.1s ease-in-out 0s;
+  transition: color 0.1s ease-in-out 0s;
+}
+.pi-portfolio-cats li a i {
+  margin-right: 5px;
+}
+.pi-meta {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.8em;
+}
+.pi-meta li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.pi-meta li i {
+  margin-right: 5px;
+}
+.pi-meta li:last-child {
+  margin-right: 0;
+}
+.pi-meta li a {
+  border: 0;
+  -webkit-transition: color 0.1s ease-in-out 0s;
+  -moz-transition: color 0.1s ease-in-out 0s;
+  -ms-transition: color 0.1s ease-in-out 0s;
+  -o-transition: color 0.1s ease-in-out 0s;
+  transition: color 0.1s ease-in-out 0s;
+}
+.pi-meta.pi-meta-small {
+  margin-bottom: 6px;
+}
+.pi-meta.pi-meta-small li {
+  margin: 0 9px 0 0;
+}
+.pi-meta.pi-meta-small li i {
+  margin-right: 3px;
+  font-size: 13px;
+}
+.pi-portfolio-item-hover-base:hover .pi-portfolio-description a {
+  color: #fff;
+  border-color: #b6d2fc;
+}
+.pi-portfolio-item-hover-base:hover .pi-portfolio-description a:hover {
+  border-color: #fff;
+}
+.pi-portfolio-item-hover-base:hover .pi-portfolio-description a.pi-link-no-style {
+  color: #fff;
+  border-color: transparent;
+}
+.pi-portfolio-item-hover-base:hover .pi-portfolio-description a.pi-link-no-style:hover {
+  border-color: #b6d2fc;
+}
+.pi-section-base .pi-portfolio-description-box {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-section-base .pi-portfolio-description-box .pi-portfolio-description {
+  background: #00929c;
+  border-color: #008d98;
+  color: #e2f1f1;
+}
+.pi-section-base .pi-portfolio-cats li,
+.pi-section-base .pi-meta li {
+  color: #95caca;
+}
+.pi-section-base .pi-portfolio-cats li i,
+.pi-section-base .pi-meta li i {
+  color: #95caca;
+}
+.pi-section-base .pi-portfolio-cats li a,
+.pi-section-base .pi-meta li a {
+  color: #95caca;
+}
+.pi-section-base .pi-portfolio-cats li a:hover,
+.pi-section-base .pi-meta li a:hover {
+  color: #ffffff;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description {
+  border-color: #3491e9;
+  background: #0dc0c0;
+  color: #e8f3ff;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a {
+  color: #ffffff;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a:hover,
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a:hover {
+  color: #ffffff;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li {
+  color: #bde0fb;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li i {
+  color: #a2c6f8;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a {
+  color: #bde0fb;
+}
+.pi-section-base .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a:hover {
+  color: #ffffff;
+}
+.pi-section-white .pi-portfolio-description-box,
+.pi-section-grey .pi-portfolio-description-box {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-section-white .pi-portfolio-description-box .pi-portfolio-description,
+.pi-section-grey .pi-portfolio-description-box .pi-portfolio-description {
+  background: #ffffff;
+  border-color: #e0e0e0;
+  color: #737a81;
+}
+.pi-section-white .pi-portfolio-cats li,
+.pi-section-grey .pi-portfolio-cats li,
+.pi-section-white .pi-meta li,
+.pi-section-grey .pi-meta li {
+  color: #b5b8bf;
+}
+.pi-section-white .pi-portfolio-cats li i,
+.pi-section-grey .pi-portfolio-cats li i,
+.pi-section-white .pi-meta li i,
+.pi-section-grey .pi-meta li i {
+  color: #d7d8db;
+}
+.pi-section-white .pi-portfolio-cats li a,
+.pi-section-grey .pi-portfolio-cats li a,
+.pi-section-white .pi-meta li a,
+.pi-section-grey .pi-meta li a {
+  color: #b5b8bf;
+}
+.pi-section-white .pi-portfolio-cats li a:hover,
+.pi-section-grey .pi-portfolio-cats li a:hover,
+.pi-section-white .pi-meta li a:hover,
+.pi-section-grey .pi-meta li a:hover {
+  color: #0dc0c0;
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description {
+  border-color: #00a1ab;
+  background: #0dc0c0;
+  color: #ffffff;
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a {
+  color: #ffffff;
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a:hover,
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a:hover {
+  color: #ffffff;
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li {
+  color: rgba(250, 250, 250, 0.7);
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li i,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li i {
+  color: rgba(250, 250, 250, 0.6);
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a {
+  color: rgba(250, 250, 250, 0.7);
+}
+.pi-section-white .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a:hover,
+.pi-section-grey .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a:hover {
+  color: #ffffff;
+}
+.pi-section-dark .pi-portfolio-description-box,
+.pi-section-parallax .pi-portfolio-description-box {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.pi-section-dark .pi-portfolio-description-box .pi-portfolio-description,
+.pi-section-parallax .pi-portfolio-description-box .pi-portfolio-description {
+  background: #1a1d22;
+  border-color: #171a1e;
+  color: #80828e;
+}
+.pi-section-dark .pi-portfolio-cats li,
+.pi-section-parallax .pi-portfolio-cats li,
+.pi-section-dark .pi-meta li,
+.pi-section-parallax .pi-meta li {
+  color: #5b5c61;
+}
+.pi-section-dark .pi-portfolio-cats li i,
+.pi-section-parallax .pi-portfolio-cats li i,
+.pi-section-dark .pi-meta li i,
+.pi-section-parallax .pi-meta li i {
+  color: #3c3d42;
+}
+.pi-section-dark .pi-portfolio-cats li a,
+.pi-section-parallax .pi-portfolio-cats li a,
+.pi-section-dark .pi-meta li a,
+.pi-section-parallax .pi-meta li a {
+  color: #5b5c61;
+}
+.pi-section-dark .pi-portfolio-cats li a:hover,
+.pi-section-parallax .pi-portfolio-cats li a:hover,
+.pi-section-dark .pi-meta li a:hover,
+.pi-section-parallax .pi-meta li a:hover {
+  color: #0dc0c0;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description {
+  border-color: #3491e9;
+  background: #0dc0c0;
+  color: #e8f3ff;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a {
+  color: #ffffff;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h1 a:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h2 a:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h3 a:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h4 a:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h5 a:hover,
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description h6 a:hover {
+  color: #ffffff;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li {
+  color: #bde0fb;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li i,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li i {
+  color: #a2c6f8;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a {
+  color: #bde0fb;
+}
+.pi-section-dark .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a:hover,
+.pi-section-parallax .pi-portfolio-item-hover-base:hover .pi-portfolio-description .pi-portfolio-cats li a:hover {
+  color: #ffffff;
+}

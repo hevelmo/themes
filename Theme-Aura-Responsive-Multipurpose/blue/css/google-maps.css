@@ -1,0 +1,18 @@
+.pi-google-map {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 20px;
+}
+.pi-google-map img {
+  max-width: none;
+}
+.pi-google-map-wide {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 0;
+}
+.pi-google-map-shadow {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}

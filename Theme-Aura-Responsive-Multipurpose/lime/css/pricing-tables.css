@@ -1,0 +1,906 @@
+.pi-pricing {
+  width: 100%;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  /* IE7 and lower */
+
+  border-spacing: 0;
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+.pi-pricing thead th,
+.pi-pricing thead td {
+  position: relative;
+}
+.pi-pricing thead th,
+.pi-pricing thead td,
+.pi-pricing tfoot td {
+  padding: 25px 25px 5px;
+  font-weight: normal;
+}
+.pi-pricing thead th,
+.pi-pricing thead td {
+  border: 1px solid transparent;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.pi-pricing tbody th,
+.pi-pricing tbody td {
+  padding: 12px 25px;
+}
+.pi-pricing tbody th.pi-pricing-description,
+.pi-pricing tbody td.pi-pricing-description {
+  padding: 25px 25px 5px;
+}
+.pi-pricing tbody tr:last-child td {
+  border-bottom: 0;
+}
+.pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-bottom: 1px solid transparent;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.pi-pricing tfoot th,
+.pi-pricing tfoot td {
+  border: 1px solid transparent;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.pi-pricing .pi-pricing-price {
+  min-width: 130px;
+  margin-bottom: 20px;
+}
+.pi-pricing .pi-pricing-price:last-child {
+  margin-bottom: 25px;
+}
+.pi-pricing .pi-pricing-currency,
+.pi-pricing .pi-pricing-amount,
+.pi-pricing .pi-pricing-period {
+  display: inline-block;
+  line-height: 1em;
+}
+.pi-pricing .pi-pricing-title,
+.pi-pricing .pi-pricing-currency {
+  font-weight: 600;
+}
+.pi-pricing .pi-pricing-title {
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.pi-pricing .pi-pricing-currency {
+  position: relative;
+  top: -33px;
+  margin: 0 -3px 0 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.pi-pricing .pi-pricing-amount {
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.pi-pricing .pi-pricing-period {
+  margin: 0 0 0 -4px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.pi-responsive-table-lg .pi-pricing-wrap {
+  border: 0;
+}
+@media (max-width: 1119px) {
+  .pi-responsive-table-md .pi-pricing-wrap {
+    border: 0;
+  }
+}
+@media (max-width: 991px) {
+  .pi-responsive-table-sm .pi-pricing-wrap {
+    border: 0;
+  }
+}
+@media (max-width: 767px) {
+  .pi-responsive-table-xs .pi-pricing-wrap {
+    border: 0;
+  }
+}
+@media (max-width: 479px) {
+  .pi-responsive-table-2xs .pi-pricing-wrap {
+    border: 0;
+  }
+}
+@media (max-width: 319px) {
+  .pi-responsive-table-3xs .pi-pricing-wrap {
+    border: 0;
+  }
+}
+.pi-section-white .pi-pricing thead th,
+.pi-section-white .pi-pricing thead td {
+  background: #f8fafa;
+  border-color: #e5eaea;
+}
+.pi-section-white .pi-pricing tbody th,
+.pi-section-white .pi-pricing tbody td {
+  background: #ffffff;
+  border-right: 1px solid #e5eaea;
+  border-left: 1px solid #e5eaea;
+  border-bottom: 1px dotted #d6dfdf;
+}
+.pi-section-white .pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-color: #e5eaea;
+}
+.pi-section-white .pi-pricing tfoot th,
+.pi-section-white .pi-pricing tfoot td {
+  background: #f8fafa;
+  border-color: #e5eaea;
+}
+.pi-section-white .pi-pricing .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-amount {
+  color: #2e343c;
+}
+.pi-section-white .pi-pricing .pi-pricing-period {
+  color: #b6b9b9;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-dark {
+  background: #262c32 !important;
+  border-color: #32383f !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-dark .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-dark .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-dark .pi-pricing-amount {
+  color: #f1f4f6 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-dark .pi-pricing-period {
+  color: #808d97 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-turquoise {
+  background: #0dc0c0 !important;
+  color: #DCFAFC !important;
+  border-color: #05b5b6 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-turquoise .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-turquoise .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-turquoise .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-turquoise .pi-pricing-period {
+  color: #DCFAFC !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-green {
+  background: #18ba60 !important;
+  color: #DAFCDB !important;
+  border-color: #10a95b !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-green .pi-pricing-period {
+  color: #DAFCDB !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-red {
+  background: #e86343 !important;
+  color: #FAE2DC !important;
+  border-color: #dd5437 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-red .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-red .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-red .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-red .pi-pricing-period {
+  color: #FAE2DC !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-purple {
+  background: #8463a9 !important;
+  color: #decbea !important;
+  border-color: #77579e !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-purple .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-purple .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-purple .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-purple .pi-pricing-period {
+  color: #decbea !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-orange {
+  background: #f58b3c !important;
+  color: #FDEDD8 !important;
+  border-color: #e97931 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-orange .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-orange .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-orange .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-orange .pi-pricing-period {
+  color: #FDEDD8 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-lime {
+  background: #86ba41 !important;
+  color: #E8F8CC !important;
+  border-color: #79b037 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-lime .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-lime .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-lime .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-lime .pi-pricing-period {
+  color: #E8F8CC !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-brown {
+  background: #8f5340 !important;
+  color: #f5ddbe !important;
+  border-color: #824836 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-brown .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-brown .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-brown .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-brown .pi-pricing-period {
+  color: #f5ddbe !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-blue {
+  background: #609ddb !important;
+  color: #D6EBFA !important;
+  border-color: #5491d5 !important;
+}
+.pi-section-white .pi-pricing .pi-pricing-head-blue .pi-pricing-title,
+.pi-section-white .pi-pricing .pi-pricing-head-blue .pi-pricing-currency,
+.pi-section-white .pi-pricing .pi-pricing-head-blue .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-white .pi-pricing .pi-pricing-head-blue .pi-pricing-period {
+  color: #D6EBFA !important;
+}
+.pi-section-grey .pi-pricing thead th,
+.pi-section-grey .pi-pricing thead td {
+  background: #f6f7f9;
+  border-color: #e6e8ec;
+}
+.pi-section-grey .pi-pricing tbody th,
+.pi-section-grey .pi-pricing tbody td {
+  background: #ffffff;
+  border-right: 1px solid #e6e8ec;
+  border-left: 1px solid #e6e8ec;
+  border-bottom: 1px dotted #e6ebed;
+}
+.pi-section-grey .pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-color: #e6e8ec;
+}
+.pi-section-grey .pi-pricing tfoot th,
+.pi-section-grey .pi-pricing tfoot td {
+  background: #f6f7f9;
+  border-color: #e6e8ec;
+}
+.pi-section-grey .pi-pricing .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-amount {
+  color: #25272f;
+}
+.pi-section-grey .pi-pricing .pi-pricing-period {
+  color: #b6b9b9;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-dark {
+  background: #262c32 !important;
+  border-color: #32383f !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-dark .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-dark .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-dark .pi-pricing-amount {
+  color: #f1f4f6 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-dark .pi-pricing-period {
+  color: #808d97 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-turquoise {
+  background: #0dc0c0 !important;
+  color: #DCFAFC !important;
+  border-color: #05b5b6 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-turquoise .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-turquoise .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-turquoise .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-turquoise .pi-pricing-period {
+  color: #DCFAFC !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-green {
+  background: #18ba60 !important;
+  color: #DAFCDB !important;
+  border-color: #10a95b !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-green .pi-pricing-period {
+  color: #DAFCDB !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-red {
+  background: #e86343 !important;
+  color: #FAE2DC !important;
+  border-color: #dd5437 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-red .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-red .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-red .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-red .pi-pricing-period {
+  color: #FAE2DC !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-purple {
+  background: #8463a9 !important;
+  color: #decbea !important;
+  border-color: #77579e !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-purple .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-purple .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-purple .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-purple .pi-pricing-period {
+  color: #decbea !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-orange {
+  background: #f58b3c !important;
+  color: #FDEDD8 !important;
+  border-color: #e97931 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-orange .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-orange .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-orange .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-orange .pi-pricing-period {
+  color: #FDEDD8 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-lime {
+  background: #86ba41 !important;
+  color: #E8F8CC !important;
+  border-color: #79b037 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-lime .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-lime .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-lime .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-lime .pi-pricing-period {
+  color: #E8F8CC !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-brown {
+  background: #8f5340 !important;
+  color: #f5ddbe !important;
+  border-color: #824836 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-brown .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-brown .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-brown .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-brown .pi-pricing-period {
+  color: #f5ddbe !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-blue {
+  background: #609ddb !important;
+  color: #D6EBFA !important;
+  border-color: #5491d5 !important;
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-blue .pi-pricing-title,
+.pi-section-grey .pi-pricing .pi-pricing-head-blue .pi-pricing-currency,
+.pi-section-grey .pi-pricing .pi-pricing-head-blue .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-grey .pi-pricing .pi-pricing-head-blue .pi-pricing-period {
+  color: #D6EBFA !important;
+}
+.pi-section-base .pi-pricing thead th,
+.pi-section-base .pi-pricing thead td {
+  background: #86ba41;
+  border-color: #9dc85e;
+}
+.pi-section-base .pi-pricing tbody th,
+.pi-section-base .pi-pricing tbody td {
+  background: #7fb340;
+  border-right: 1px solid #9dc85e;
+  border-left: 1px solid #9dc85e;
+  border-bottom: 1px dotted #a5cd72;
+}
+.pi-section-base .pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-color: #9dc85e;
+}
+.pi-section-base .pi-pricing tfoot th,
+.pi-section-base .pi-pricing tfoot td {
+  background: #86ba41;
+  border-color: #9dc85e;
+}
+.pi-section-base .pi-pricing .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-amount {
+  color: #ffffff;
+}
+.pi-section-base .pi-pricing .pi-pricing-period {
+  color: #d0eaa3;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-dark {
+  background: #262c32 !important;
+  border-color: #32383f !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-dark .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-dark .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-dark .pi-pricing-amount {
+  color: #f1f4f6 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-dark .pi-pricing-period {
+  color: #808d97 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-turquoise {
+  background: #0dc0c0 !important;
+  color: #DCFAFC !important;
+  border-color: #05b5b6 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-turquoise .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-turquoise .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-turquoise .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-turquoise .pi-pricing-period {
+  color: #DCFAFC !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-green {
+  background: #18ba60 !important;
+  color: #DAFCDB !important;
+  border-color: #10a95b !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-green .pi-pricing-period {
+  color: #DAFCDB !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-red {
+  background: #e86343 !important;
+  color: #FAE2DC !important;
+  border-color: #dd5437 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-red .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-red .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-red .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-red .pi-pricing-period {
+  color: #FAE2DC !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-purple {
+  background: #8463a9 !important;
+  color: #decbea !important;
+  border-color: #77579e !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-purple .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-purple .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-purple .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-purple .pi-pricing-period {
+  color: #decbea !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-orange {
+  background: #f58b3c !important;
+  color: #FDEDD8 !important;
+  border-color: #e97931 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-orange .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-orange .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-orange .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-orange .pi-pricing-period {
+  color: #FDEDD8 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-lime {
+  background: #86ba41 !important;
+  color: #E8F8CC !important;
+  border-color: #79b037 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-lime .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-lime .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-lime .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-lime .pi-pricing-period {
+  color: #E8F8CC !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-brown {
+  background: #8f5340 !important;
+  color: #f5ddbe !important;
+  border-color: #824836 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-brown .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-brown .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-brown .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-brown .pi-pricing-period {
+  color: #f5ddbe !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-blue {
+  background: #609ddb !important;
+  color: #D6EBFA !important;
+  border-color: #5491d5 !important;
+}
+.pi-section-base .pi-pricing .pi-pricing-head-blue .pi-pricing-title,
+.pi-section-base .pi-pricing .pi-pricing-head-blue .pi-pricing-currency,
+.pi-section-base .pi-pricing .pi-pricing-head-blue .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-base .pi-pricing .pi-pricing-head-blue .pi-pricing-period {
+  color: #D6EBFA !important;
+}
+.pi-section-dark .pi-pricing thead th,
+.pi-section-dark .pi-pricing thead td {
+  background: #262c32;
+  border-color: #32383f;
+}
+.pi-section-dark .pi-pricing tbody th,
+.pi-section-dark .pi-pricing tbody td {
+  background: #2a3037;
+  border-right: 1px solid #32383f;
+  border-left: 1px solid #32383f;
+  border-bottom: 1px dotted #394048;
+}
+.pi-section-dark .pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-color: #32383f;
+}
+.pi-section-dark .pi-pricing tfoot th,
+.pi-section-dark .pi-pricing tfoot td {
+  background: #262c32;
+  border-color: #32383f;
+}
+.pi-section-dark .pi-pricing .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-amount {
+  color: #f1f4f6;
+}
+.pi-section-dark .pi-pricing .pi-pricing-period {
+  color: #808d97;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-dark {
+  background: #262c32 !important;
+  border-color: #32383f !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-dark .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-dark .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-dark .pi-pricing-amount {
+  color: #f1f4f6 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-dark .pi-pricing-period {
+  color: #808d97 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-turquoise {
+  background: #0dc0c0 !important;
+  color: #DCFAFC !important;
+  border-color: #05b5b6 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-turquoise .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-turquoise .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-turquoise .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-turquoise .pi-pricing-period {
+  color: #DCFAFC !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-green {
+  background: #18ba60 !important;
+  color: #DAFCDB !important;
+  border-color: #10a95b !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-green .pi-pricing-period {
+  color: #DAFCDB !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-red {
+  background: #e86343 !important;
+  color: #FAE2DC !important;
+  border-color: #dd5437 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-red .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-red .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-red .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-red .pi-pricing-period {
+  color: #FAE2DC !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-purple {
+  background: #8463a9 !important;
+  color: #decbea !important;
+  border-color: #77579e !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-purple .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-purple .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-purple .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-purple .pi-pricing-period {
+  color: #decbea !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-orange {
+  background: #f58b3c !important;
+  color: #FDEDD8 !important;
+  border-color: #e97931 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-orange .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-orange .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-orange .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-orange .pi-pricing-period {
+  color: #FDEDD8 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-lime {
+  background: #86ba41 !important;
+  color: #E8F8CC !important;
+  border-color: #79b037 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-lime .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-lime .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-lime .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-lime .pi-pricing-period {
+  color: #E8F8CC !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-brown {
+  background: #8f5340 !important;
+  color: #f5ddbe !important;
+  border-color: #824836 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-brown .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-brown .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-brown .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-brown .pi-pricing-period {
+  color: #f5ddbe !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-blue {
+  background: #609ddb !important;
+  color: #D6EBFA !important;
+  border-color: #5491d5 !important;
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-blue .pi-pricing-title,
+.pi-section-dark .pi-pricing .pi-pricing-head-blue .pi-pricing-currency,
+.pi-section-dark .pi-pricing .pi-pricing-head-blue .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-dark .pi-pricing .pi-pricing-head-blue .pi-pricing-period {
+  color: #D6EBFA !important;
+}
+.pi-section-parallax .pi-pricing thead th,
+.pi-section-parallax .pi-pricing thead td {
+  background: #f6f7f9;
+  border-color: #e6e8ec;
+}
+.pi-section-parallax .pi-pricing tbody th,
+.pi-section-parallax .pi-pricing tbody td {
+  background: #ffffff;
+  border-right: 1px solid #e6e8ec;
+  border-left: 1px solid #e6e8ec;
+  border-bottom: 1px dotted #e6ebed;
+}
+.pi-section-parallax .pi-pricing tbody.pi-pricing-no-footer tr:last-child td {
+  border-color: #e6e8ec;
+}
+.pi-section-parallax .pi-pricing tfoot th,
+.pi-section-parallax .pi-pricing tfoot td {
+  background: #f6f7f9;
+  border-color: #e6e8ec;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-amount {
+  color: #25272f;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-period {
+  color: #b6b9b9;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-dark {
+  background: #262c32 !important;
+  border-color: #32383f !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-dark .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-dark .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-dark .pi-pricing-amount {
+  color: #f1f4f6 !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-dark .pi-pricing-period {
+  color: #808d97 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-turquoise {
+  background: #0dc0c0 !important;
+  color: #DCFAFC !important;
+  border-color: #05b5b6 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-turquoise .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-turquoise .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-turquoise .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-turquoise .pi-pricing-period {
+  color: #DCFAFC !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-green {
+  background: #18ba60 !important;
+  color: #DAFCDB !important;
+  border-color: #10a95b !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-green .pi-pricing-period {
+  color: #DAFCDB !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-red {
+  background: #e86343 !important;
+  color: #FAE2DC !important;
+  border-color: #dd5437 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-red .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-red .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-red .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-red .pi-pricing-period {
+  color: #FAE2DC !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-purple {
+  background: #8463a9 !important;
+  color: #decbea !important;
+  border-color: #77579e !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-purple .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-purple .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-purple .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-purple .pi-pricing-period {
+  color: #decbea !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-orange {
+  background: #f58b3c !important;
+  color: #FDEDD8 !important;
+  border-color: #e97931 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-orange .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-orange .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-orange .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-orange .pi-pricing-period {
+  color: #FDEDD8 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-lime {
+  background: #86ba41 !important;
+  color: #E8F8CC !important;
+  border-color: #79b037 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-lime .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-lime .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-lime .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-lime .pi-pricing-period {
+  color: #E8F8CC !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-brown {
+  background: #8f5340 !important;
+  color: #f5ddbe !important;
+  border-color: #824836 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-brown .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-brown .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-brown .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-brown .pi-pricing-period {
+  color: #f5ddbe !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-blue {
+  background: #609ddb !important;
+  color: #D6EBFA !important;
+  border-color: #5491d5 !important;
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-blue .pi-pricing-title,
+.pi-section-parallax .pi-pricing .pi-pricing-head-blue .pi-pricing-currency,
+.pi-section-parallax .pi-pricing .pi-pricing-head-blue .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-section-parallax .pi-pricing .pi-pricing-head-blue .pi-pricing-period {
+  color: #D6EBFA !important;
+}
+.pi-pricing .pi-pricing-head-base {
+  background: #86ba41 !important;
+  color: #d0eaa3 !important;
+  border-color: #79b037 !important;
+}
+.pi-pricing .pi-pricing-head-base .pi-pricing-title,
+.pi-pricing .pi-pricing-head-base .pi-pricing-currency,
+.pi-pricing .pi-pricing-head-base .pi-pricing-amount {
+  color: #fff !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.pi-pricing .pi-pricing-head-base .pi-pricing-period {
+  color: #d0eaa3 !important;
+}

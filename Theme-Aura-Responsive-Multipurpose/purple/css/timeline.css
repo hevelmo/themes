@@ -1,0 +1,191 @@
+.pi-timeline {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.pi-timeline:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 0;
+  margin-left: -1px;
+  width: 1px;
+}
+.pi-timeline-date {
+  position: relative;
+  z-index: 1;
+  width: 200px;
+  margin: 20px auto 20px;
+  padding: 25px 10px;
+  background: #fff;
+  text-align: center;
+  clear: both;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.pi-timeline-item {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.pi-timeline-item-date {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  padding: 10px 8px 10px 12px;
+  margin-bottom: 25px;
+  line-height: 20px;
+  background: #f4f6f6;
+  clear: both;
+}
+.pi-timeline-item-date span {
+  display: inline-block;
+  vertical-align: top;
+}
+.pi-timeline-item-date span:first-child {
+  font-size: 20px;
+  padding: 0 10px 0 0;
+}
+.pi-timeline-item-date span:last-child {
+  font-size: 11px;
+  color: #C2C6C9;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.pi-timeline-item-date:after,
+.pi-timeline-item-date:before {
+  display: block;
+  content: '';
+  position: absolute;
+}
+.pi-timeline-item-date:after {
+  top: 0;
+}
+.pi-timeline-item-date:before {
+  top: 14px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+}
+.pi-timeline-item-left {
+  float: left;
+  clear: both;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+.pi-timeline-item-left > div {
+  clear: right;
+}
+.pi-timeline-item-left .pi-timeline-item-date {
+  float: right;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.pi-timeline-item-left .pi-timeline-item-date:after {
+  right: -12px;
+  border-top: 20px solid transparent;
+  border-left: 12px solid #f4f6f6;
+  border-bottom: 20px solid transparent;
+  border-right: 0 solid transparent;
+}
+.pi-timeline-item-left .pi-timeline-item-date:before {
+  right: -35px;
+  width: 11px;
+  height: 11px;
+}
+.pi-timeline-item-right {
+  float: right;
+  padding-left: 30px;
+  margin-top: 80px;
+  clear: right;
+}
+.pi-timeline-item-right .pi-timeline-item-date {
+  padding: 10px 12px 10px 8px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.pi-timeline-item-right .pi-timeline-item-date:after {
+  left: -12px;
+  border-top: 20px solid transparent;
+  border-left: 0 solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 12px solid #f4f6f6;
+}
+.pi-timeline-item-right .pi-timeline-item-date:before {
+  left: -36px;
+  width: 11px;
+  height: 11px;
+}
+@media (max-width: 767px) {
+  .pi-timeline-item {
+    width: auto;
+    padding: 25px 25px 5px;
+    margin: 72px 0 110px;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: none;
+  }
+  .pi-timeline-item .pi-timeline-item-date {
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    display: block;
+    width: 90px;
+    margin-left: -45px;
+    float: none;
+    text-align: center;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
+  .pi-timeline-item .pi-timeline-item-date:after {
+    width: 0;
+    top: -10px;
+    left: 0;
+    border-top: 0 solid transparent;
+    border-left: 45px solid transparent;
+    border-bottom: 10px solid #f4f6f6;
+    border-right: 45px solid transparent;
+  }
+  .pi-timeline-item .pi-timeline-item-date:before {
+    top: -32px;
+    left: 50%;
+    margin: 0 0 0 -6px;
+    width: 12px;
+    height: 12px;
+  }
+}
+.pi-timeline:after {
+  background: #DEE0E0;
+}
+.pi-timeline-item-date span:first-child {
+  color: #21252b;
+}
+.pi-timeline-date {
+  color: #21252b;
+}
+.pi-timeline-item-left .pi-timeline-item-date:before {
+  border: 1px solid #D6DBDB;
+}
+.pi-timeline-item-right .pi-timeline-item-date:before {
+  border: 1px solid #D6DBDB;
+}
+@media (max-width: 767px) {
+  .pi-timeline-item {
+    border: 1px solid #D6DBDB;
+  }
+  .pi-timeline-item .pi-timeline-item-date:before {
+    border: 1px solid #D6DBDB;
+  }
+}

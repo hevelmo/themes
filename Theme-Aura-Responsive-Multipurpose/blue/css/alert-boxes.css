@@ -1,0 +1,267 @@
+.pi-alert-note,
+.pi-alert-warning,
+.pi-alert-danger,
+.pi-alert-success,
+.pi-alert-info {
+  position: relative;
+  border: 1px solid transparent;
+  padding: 20px 35px 0 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.03);
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 0 !important;
+}
+.pi-alert-note h1,
+.pi-alert-warning h1,
+.pi-alert-danger h1,
+.pi-alert-success h1,
+.pi-alert-info h1,
+.pi-alert-note h2,
+.pi-alert-warning h2,
+.pi-alert-danger h2,
+.pi-alert-success h2,
+.pi-alert-info h2,
+.pi-alert-note h3,
+.pi-alert-warning h3,
+.pi-alert-danger h3,
+.pi-alert-success h3,
+.pi-alert-info h3,
+.pi-alert-note h4,
+.pi-alert-warning h4,
+.pi-alert-danger h4,
+.pi-alert-success h4,
+.pi-alert-info h4,
+.pi-alert-note h5,
+.pi-alert-warning h5,
+.pi-alert-danger h5,
+.pi-alert-success h5,
+.pi-alert-info h5,
+.pi-alert-note h6,
+.pi-alert-warning h6,
+.pi-alert-danger h6,
+.pi-alert-success h6,
+.pi-alert-info h6 {
+  margin-bottom: 7px;
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.pi-alert-note .pi-close,
+.pi-alert-warning .pi-close,
+.pi-alert-danger .pi-close,
+.pi-alert-success .pi-close,
+.pi-alert-info .pi-close {
+  width: 21px;
+  height: 21px;
+  text-shadow: none;
+  float: none;
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  text-align: center;
+  opacity: 1;
+  font-size: 22px;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  -ms-transition: all 0.1s ease-in-out 0s;
+  -o-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+.pi-close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  opacity: .2;
+}
+.pi-close:hover,
+.pi-close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+button.pi-close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.pi-alert-note {
+  background: #fff;
+  border-color: #e5eaea;
+  color: #787d82;
+}
+.pi-alert-note h1,
+.pi-alert-note h2,
+.pi-alert-note h3,
+.pi-alert-note h4,
+.pi-alert-note h5,
+.pi-alert-note h6,
+.pi-alert-note strong {
+  color: #212326 !important;
+}
+.pi-alert-note .pi-close {
+  background: transparent;
+  color: #D0D7DD;
+  text-shadow: 0 1px 0 #fff;
+}
+.pi-alert-note .pi-close:hover {
+  background: transparent;
+  color: #9ea2a7;
+}
+.pi-alert-success {
+  background: #b8ffaf;
+  border-color: #9bf29d;
+  color: #428956;
+}
+.pi-alert-success h1,
+.pi-alert-success h2,
+.pi-alert-success h3,
+.pi-alert-success h4,
+.pi-alert-success h5,
+.pi-alert-success h6,
+.pi-alert-success strong {
+  color: #005A28 !important;
+}
+.pi-alert-success a,
+.pi-alert-success a:hover {
+  color: #005A28;
+}
+.pi-alert-success .pi-close {
+  background: transparent;
+  color: #65DA81;
+  text-shadow: 0 1px 0 #fff;
+}
+.pi-alert-success .pi-close:hover {
+  background: transparent;
+  color: #05BD63;
+}
+.pi-alert-info {
+  background: #dcf6f8;
+  border-color: #beeff3;
+  color: #448D97;
+}
+.pi-alert-info h1,
+.pi-alert-info h2,
+.pi-alert-info h3,
+.pi-alert-info h4,
+.pi-alert-info h5,
+.pi-alert-info h6,
+.pi-alert-info strong {
+  color: #154B7A !important;
+}
+.pi-alert-info a,
+.pi-alert-info a:hover {
+  color: #154B7A;
+}
+.pi-alert-info .pi-close {
+  background: transparent;
+  color: #76CECE;
+  text-shadow: 0 1px 0 #fff;
+}
+.pi-alert-info .pi-close:hover {
+  background: transparent;
+  color: #5F96BB;
+}
+.pi-alert-danger {
+  background: #feead3;
+  border-color: #ffd9c0;
+  color: #c5635e;
+}
+.pi-alert-danger h1,
+.pi-alert-danger h2,
+.pi-alert-danger h3,
+.pi-alert-danger h4,
+.pi-alert-danger h5,
+.pi-alert-danger h6,
+.pi-alert-danger strong {
+  color: #ae2128 !important;
+}
+.pi-alert-danger a,
+.pi-alert-danger a:hover {
+  color: #ae2128;
+}
+.pi-alert-danger .pi-close {
+  background: transparent;
+  color: #F58D74;
+  text-shadow: 0 1px 0 #fff;
+}
+.pi-alert-danger .pi-close:hover {
+  background: transparent;
+  color: #e3512e;
+}
+.pi-alert-warning {
+  background: #f8f6a2;
+  border-color: #eee090;
+  color: #7d6a3b;
+}
+.pi-alert-warning h1,
+.pi-alert-warning h2,
+.pi-alert-warning h3,
+.pi-alert-warning h4,
+.pi-alert-warning h5,
+.pi-alert-warning h6,
+.pi-alert-warning strong {
+  color: #68422C !important;
+}
+.pi-alert-warning a,
+.pi-alert-warning a:hover {
+  color: #68422C;
+}
+.pi-alert-warning .pi-close {
+  background: transparent;
+  color: #ccb561;
+  text-shadow: 0 1px 0 #fff;
+}
+.pi-alert-warning .pi-close:hover {
+  background: transparent;
+  color: #A37C37;
+}
+.pi-alert-with-icon {
+  padding-left: 46px;
+}
+.pi-alert-with-icon.pi-alert-note:before,
+.pi-alert-with-icon.pi-alert-danger:before,
+.pi-alert-with-icon.pi-alert-warning:before,
+.pi-alert-with-icon.pi-alert-info:before,
+.pi-alert-with-icon.pi-alert-success:before {
+  width: 26px;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-family: fontello;
+  font-size: 18px;
+  text-align: center;
+}
+.pi-alert-with-icon.pi-alert-note:before {
+  content: "\e879";
+  color: #d6d7cf;
+}
+.pi-alert-with-icon.pi-alert-danger:before {
+  content: "\e8b7";
+  color: #e3512e;
+  font-size: 16px;
+}
+.pi-alert-with-icon.pi-alert-warning:before {
+  content: "\e88c";
+  color: #A37C37;
+}
+.pi-alert-with-icon.pi-alert-info:before {
+  content: "\e920";
+  color: #488BAA;
+  font-size: 16px;
+}
+.pi-alert-with-icon.pi-alert-success:before {
+  content: "\e914";
+  color: #05BD63;
+}
+.pi-section-grey .pi-alert-note {
+  background: #fff;
+}

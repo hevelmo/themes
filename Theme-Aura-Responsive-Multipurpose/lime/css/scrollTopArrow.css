@@ -1,0 +1,57 @@
+.pi-scroll-top-arrow {
+  position: fixed;
+  bottom: -55px;
+  right: 40px;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: fontello;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all 0.1s ease-in-out 0s;
+  -moz-transition: all 0.1s ease-in-out 0s;
+  -ms-transition: all 0.1s ease-in-out 0s;
+  -o-transition: all 0.1s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
+}
+.pi-scroll-top-arrow:after {
+  content: '\e8c5';
+}
+.pi-scroll-top-arrow.pi-active {
+  bottom: 40px;
+  opacity: 1;
+}
+.pi-scroll-top-arrow.pi-active.pi-scroll-top-arrow-footer {
+  bottom: 80px;
+}
+@media (max-width: 992px) {
+  .pi-scroll-top-arrow {
+    right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .pi-scroll-top-arrow {
+    right: 20px;
+  }
+}
+.pi-scroll-top-arrow {
+  border-color: rgba(40, 46, 53, 0.5);
+  background: rgba(40, 46, 53, 0.8);
+  color: rgba(250, 250, 250, 0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.pi-scroll-top-arrow:hover {
+  border-color: rgba(134, 186, 65, 0.8);
+  background: rgba(134, 186, 65, 0.8);
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

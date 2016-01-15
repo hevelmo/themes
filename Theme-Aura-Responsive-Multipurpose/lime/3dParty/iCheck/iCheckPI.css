@@ -1,0 +1,90 @@
+.icheckbox_square,
+.iradio_square {
+	position: relative;
+	display: inline-block !important;
+	overflow: hidden;
+	margin:0 10px -4px -18px;
+	padding: 0;
+	width: 18px;
+	height: 18px;
+	background:#fff;
+	border:1px solid #d5d6dd;
+	color:#adadad;
+	-webkit-box-shadow: inset 0 1px 3px #ededed;
+	-moz-box-shadow: inset 0 1px 3px #ededed;
+	box-shadow: inset 0 1px 3px #ededed;
+	text-align:center;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.iradio_square {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.icheckbox_square:after,
+.iradio_square:after {
+	font-family: fontello;
+	content:"";
+	display:block;
+	font-size:12px;
+	line-height:16px;
+	color:#333333;
+}
+.iradio_square:after {
+	font-size:7px;
+	line-height:17px;
+}
+
+.icheckbox_square.hover {
+	border:1px solid #c2c3bc;
+	-webkit-box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+	box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+}
+.icheckbox_square.focus {
+	border:1px solid #77aad5;
+	-webkit-box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+	box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+}
+.icheckbox_square.checked:after {
+	content:"\e812";
+}
+/*.icheckbox_square.disabled {
+
+}
+.icheckbox_square.checked.disabled {
+
+}*/
+
+.iradio_square.hover {
+	border:1px solid #c2c3bc;
+	-webkit-box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+	box-shadow: inset 0 1px 3px #e6e6e6, 0 1px 0 #fff;
+}
+.iradio_square.focus {
+	border:1px solid #77aad5;
+	-webkit-box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+	-moz-box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+	box-shadow: inset 0 1px 3px #d4d4d4, 0 1px 0 #fff;
+}
+.iradio_square.checked:after {
+	content:"\e98a";
+}
+/*
+.iradio_square.disabled {
+
+}
+.iradio_square.checked.disabled {
+
+}*/

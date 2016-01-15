@@ -1,0 +1,125 @@
+/*PI Theme Prettify Skin*/
+
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln {
+	color: #333
+}
+
+/* plain text */
+
+@media screen {
+	.str {
+		color: #080
+	}
+
+	/* string content */
+	.kwd {
+		color: #008
+	}
+
+	/* a keyword */
+	.com {
+		color: #999
+	}
+
+	/* a comment */
+	.typ {
+		color: #606
+	}
+
+	/* a type name */
+	.lit {
+		color: #066
+	}
+
+	/* a literal value */
+	/* punctuation, lisp open bracket, lisp close bracket */
+	.pun {
+		color:#4f9fcf;
+	}
+
+	.opn, .clo {
+		color: #660
+	}
+
+	.tag {
+		color: #2f6f9f
+	}
+
+	/* a markup tag name */
+	.atn {
+		color: #4f9fcf
+	}
+
+	/* a markup attribute name */
+	.atv {
+		color: #d44950
+	}
+
+	/* a markup attribute value */
+	.dec, .var {
+		color: #606
+	}
+
+	/* a declaration; a variable name */
+	.fun {
+		color: red
+	}
+
+	/* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+	.str {
+		color: #060
+	}
+
+	.kwd {
+		color: #006;
+		font-weight: bold
+	}
+
+	.com {
+		color: #600;
+		font-style: italic
+	}
+
+	.typ {
+		color: #404;
+		font-weight: bold
+	}
+
+	.lit {
+		color: #044
+	}
+
+	.pun, .opn, .clo {
+		color: #440
+	}
+
+	.tag {
+		color: #006;
+		font-weight: bold
+	}
+
+	.atn {
+		color: #404
+	}
+
+	.atv {
+		color: #060
+	}
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+	padding: 9px 14px;
+	border:1px solid #e1e1e8;
+	background:#f7f7f9;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}

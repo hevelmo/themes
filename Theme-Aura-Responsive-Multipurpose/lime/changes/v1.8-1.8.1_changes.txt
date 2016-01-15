@@ -1,0 +1,3 @@
+scripts/pi.global.js - added content of pi.init.submitFormContact.js script
+scripts/pi.init.colorbox.js - added handling of data-video-size attribute for opening video in colorbox popup
+

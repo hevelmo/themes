@@ -1,0 +1,8 @@
+3dParty/rs-plugin/css/settings.css
+3dParty/rs-plugin/js/jquery.themepunch.plugins.min.js
+3dParty/rs-plugin/js/jquery.themepunch.revolution.js
+3dParty/rs-plugin/js/jquery.themepunch.revolution.min.js
+3dParty/rs-plugin/js/jquery.themepunch.tools.min.js
+
+scripts/pi.init.colorbox.js
+scripts/pi.init.map.js

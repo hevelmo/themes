@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+  .pi-page-wrapper {
+    float: left;
+    width: 100%;
+  }
+  .pi-sidebar-wrapper-left,
+  .pi-sidebar-wrapper-right {
+    float: left;
+    width: 300px;
+  }
+  .pi-layout-fixed-fluid .pi-page {
+    margin-left: 320px;
+    /*Set left margin to LeftColumnWidth + columns margin*/
+  
+  }
+  .pi-layout-fixed-fluid .pi-sidebar-wrapper-left {
+    margin-left: -100%;
+  }
+  .pi-layout-fluid-fixed .pi-page {
+    margin-right: 320px;
+    /*Set right margin to RightColumnWidth + columns margin*/
+  
+  }
+  .pi-layout-fluid-fixed .pi-sidebar-wrapper-right {
+    margin-left: -300px;
+    /*Set left margin to -(RightColumnWidth) */
+  
+  }
+  .pi-layout-fixed-fluid-fixed .pi-page {
+    margin-left: 320px;
+    /*Set left margin to LeftColumnWidth + columns margin*/
+  
+  }
+  .pi-layout-fixed-fluid-fixed .pi-sidebar-wrapper-left {
+    margin-left: -100%;
+  }
+  .pi-layout-fixed-fluid-fixed .pi-sidebar-wrapper-right {
+    width: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pi-layout-fixed-fluid-fixed .pi-page {
+    margin-right: 320px;
+    /*Set right margin to RightColumnWidth + columns margin*/
+  
+  }
+  .pi-layout-fixed-fluid-fixed .pi-sidebar-wrapper-right {
+    margin-left: -300px;
+    /*Set left margin to -(RightColumnWidth) */
+  
+    width: 300px;
+  }
+}
