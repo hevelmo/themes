@@ -1,0 +1,206 @@
+15/10/2014
+Version 1.1 now includes.
+
+Pricing Tables
+Multiple Size Modals.
+Collective primary color class/ Changing primary color is now very easy. 
+
+==============================================================
+Pricing Tables. 
+If updating your package please copy the html from Home-two.html and copy paste the below css to your css file.
+
+/* pricing table css */
+.prc-table{
+position:relative;
+border:2px solid #ebebeb;
+}
+
+.prc-table:after{
+position:absolute;
+top:2px;
+right:2px;
+left:2px;
+bottom:2px;
+border:2px solid #E9EDEE;
+}
+.prc-table.special:after{
+border:4px solid #000;
+}
+
+header.table-head{
+position:relative;
+z-index:5;
+}
+span.table-label{
+display:block;
+text-align:center;
+font-size:22px;
+font-weight:800;
+color:#4b4e52;
+background:#ebebeb;
+padding:20px 15px 15px;
+}
+.table-label span.table-info{
+display:block;
+font-size:14px;
+font-weight:400;
+line-height: 1.625em;
+padding:5px 15px 0px;
+color:#4b4e52;
+}
+.table-price{
+text-align:center;
+margin:15px 0px;
+}
+span.cost{
+font-size: 70px;
+line-height: 46px;
+font-weight:600;
+width:180px;
+height:180px;
+padding-top:60px;
+margin:0 auto 30px;
+display:block;
+color:rgb(177,99,163);
+background:#E9EDEE;
+border-radius:50%;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+-ms-border-radius:50%;
+-o-border-radius:50%;
+position:relative;
+box-shadow: 4px 4px #ddd;
+-webkit-box-shadow: 4px 4px #ddd;
+-moz-box-shadow: 4px 4px #ddd;
+-ms-box-shadow: 4px 4px #ddd;
+-o-box-shadow: 4px 4px #ddd;
+}
+span.cost:after {
+content: "\f0d7";
+font-family: fontawesome;
+display: block;
+position: absolute;
+bottom: -26px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+left: -0px;
+color: #E9EDEE;
+z-index: 2;
+text-shadow: 4px 6px #ddd;
+-webkit-text-shadow: 4px 6px #ddd;
+-moz-text-shadow: 4px 6px #ddd;
+-ms-text-shadow: 4px 6px #ddd;
+-o-text-shadow: 4px 6px #ddd;
+}
+span.cost .dur{
+font-size: 13px;
+font-weight: 400;
+display:block;
+color:#4b4e52;
+font-style:italic;
+}
+span.sym, span.decimal {
+font-size:32px;
+color: rgb(177,99,163);
+vertical-align: top;
+}
+.table-body{
+padding:0px 6px 20px;
+text-align:center;
+}
+.table-body ul{
+font-size:14px;
+line-height: 1.625em;
+font-weight:400;
+}
+.table-body ul li{
+padding:15px 15px;
+border-bottom:1px solid #ebebeb;
+}
+.special.prc-table{
+border:5px solid rgb(177,99,163);
+}
+.special span.table-label{
+padding-top:17px;
+background:#d5d5d5;
+}
+.special span.cost{
+background: rgb(177,99,163);
+color: #fff;
+}
+.special span.sym, .special span.decimal{
+color:#fff;
+}
+.special span.cost:after{
+color:rgb(177,99,163);
+}
+.special span.cost .dur{
+color:#fff;
+}
+.special .table-body{
+padding-bottom:17px;
+}
+
+
+
+==============================================================
+Modals
+If updating your package please copy the html from Home-two.html and copy paste the below css to your css file.
+
+/*Modals */
+
+.top-header .modal > .content{
+margin-left:auto;
+}
+.modal > .content{
+padding:0px 0px 20px;
+}
+.small.modal > .content{
+max-width:340px;
+}
+.medium.modal > .content{
+max-width:500px;
+}
+.big.modal > .content{
+max-width:780px;
+}
+.modal-header{
+padding:20px;
+}
+.modal-header{
+background:#e2e2e2;
+}
+.modal-header h4,.modal-header h5,.modal-header h6{
+font-weight:600;
+}
+.modal-header .close {
+position: absolute;
+top: 16px;
+right: 10px;
+cursor:pointer;
+}
+.medium .modal-header .close,.big .modal-header .close{
+top:20px;
+}
+.modal-body{
+padding:20px 10px;
+}
+.modal-footer{
+text-align:right;
+padding:20px 20px;
+border-top:1px solid #e2e2e2;
+}
+
+Copy paste the below JS to your main.js file.
+/* Modal Scrollbar
+=========================*/	 
+$('.modal > .content').niceScroll({
+		cursorcolor:'#B163A3',
+		cursorwidth: '4px',
+		horizrailenabled: false,
+		autohidemode: false,
+		cursorborder: false,
+		grabcursorenabled: true,
+		zindex: 1500,	
+	});	

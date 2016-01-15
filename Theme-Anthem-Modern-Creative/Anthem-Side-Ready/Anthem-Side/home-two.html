@@ -1,0 +1,1236 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Anthem - Unique Creative Responsive Template</title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="author" content="humans.txt"><meta name="robots" content="noindex, nofollow">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+<!-- Facebook Metadata /-->
+<meta property="fb:page_id" content=""/>
+<meta property="og:image" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content=""/>
+<!-- Google+ Metadata /-->
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/import.css">
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+<!-- preloader / loading gif is located in ../img/ 
+change background color in style.css -->
+<div id="preloader">
+	<div id="status">
+		&nbsp;
+	</div>
+</div> 
+
+<!-- Navigation header -->
+<header class="main custom-scroll">
+<!-- #header-scrollarea adds custom scrollbar for header -->
+<div id="header-scrollarea">
+	<!-- logo -->
+	<div class="logo">
+		<img src="img/logo-main.png" alt="logo" gumby-retina>
+	</div>
+	<!-- navigation -->
+<nav class="main-nav">
+<ul class="site-nav">
+		<!-- li class active for active page link
+				add gumby-trigger=#id to target drawer with child navigation -->
+		<li class="active"><a href="" class="toggle" gumby-trigger="#home-sub">Home<span>We Start Here</span></a>
+		<ul id="home-sub" class="drawer">
+			<li><a href="index.html">Home Default</a></li>
+			<li class="active"><a href="home-two.html">Home Extended</a></li>
+			<li><a href="home-work.html">Home Work / AJAX</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#about-sub">Studio<span>Read More About Us</span></a>
+		<ul id="about-sub" class="drawer">
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="about-alt.html">About Us Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#work-sub">Portfolio<span>Some Recent Work</span></a>
+		<ul id="work-sub" class="drawer">
+			<li><a href="folio-stripe.html">Folio Stripe</a></li>
+			<li><a href="folio-grid.html">Folio Grid</a></li>
+			<li><a href="folio-grid-alt.html">Folio Grid Alt</a></li>
+			<li><a href="folio-single.html">Folio Single</a></li>
+			<li><a href="folio-single-alt.html">Folio Single Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#note-sub">Notes<span>Behind The Scenes</span></a>
+		<ul id="note-sub" class="drawer">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="notes-sidebar.html">Notes Sidebar</a></li>
+			<li><a href="note-single.html">Note Single</a></li>
+			<li><a href="note-single-sidebar.html">Note Single Sidebar</a></li>
+			<li><a href="note-single-sidebar-alt.html">Note Single Sidebar Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#pages-sub">Pages<span>Extra Pages With Anthem</span></a>
+		<ul id="pages-sub" class="drawer">
+			<li><a href="page-sidebar.html">Page Sidebar</a></li>
+			<li><a href="page-sidebar-alt.html">Page Sidebar Alt</a></li>
+			<li><a href="contact-alt.html">Contact Alt</a></li>
+			<li><a href="thanks.html">Thanks</a></li>
+		</ul>
+		</li>
+		<li><a href="contact.html">Contact<span>Get In Touch With Us</span></a></li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+<!-- header trigger -->
+<div class="trigger">
+<div class="trigger-box">
+	<a class="toggle" gumby-trigger="header.main" id="trigger">
+	<i class="fa fa-bars active"></i>
+	<i class="fa fa-times"></i>
+	</a>
+</div>
+<!-- side logo mark  -->
+<div class="side-logo">
+<img src="img/logo-mark.png" alt="logo" gumby-retina>
+</div>
+
+<!-- back to top button displays after 850px 
+		vertical scroll value in ../js/main.js -->
+<div class="back-to-top">
+	<a id="top-trigger">
+	<i class="fa fa-angle-up"></i>
+	</a>
+</div>
+</div>
+
+<!-- Main content block - all page content -->
+<div class="content custom-scroll">
+	<!-- blocker active with active header -->
+	<div class="blocker">
+	</div>
+	<!-- #scrollarea adds custom scrollbar for main content -->
+	<div id="scrollarea">
+		<!-- action class for animating page content when header is active -->
+		<div class="action step-right">
+		
+			<!-- intro section / image background-->
+			<section id="intro" class="img-section dark" style="background-image:url(preview/1500px.png);">
+			<div class="black-tint">
+				<!-- #crumbs for page title bar and top navigation -->
+				<div id="crumbs">
+					<div class="row large dark">
+					<div class="six columns">
+						<!-- page title/statement -->
+						<h6 class="sub-heading">WELCOME TO OUR DIGITAL HOME</h6>
+					</div>
+					<div class="six columns text-right">
+						<!-- top on-page nav -->
+						<ul class="nav-icon-list">
+							<li><a class="planner-btn"><span>Planner</span><i class="fa fa-book"></i></a></li>
+							<li><a class="search-btn"><span>Search</span><i class="fa fa-search"></i></a></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				<div class="content-block">
+					<div class="row large">
+						<div class="ten columns">
+						<!-- intro statement -->
+							<h1 class="large-font bold">We create brands people love.</h1>
+							<span class="border"></span>
+							<h4>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.<br/> Nullam id dolor id ultricies ut vehicula ut id.</h4>
+							<div class="midtoppadding">
+								<a href="about.html" class="purple fill-button">READ MORE ABOUT US</a>&nbsp; &nbsp;<a href="services.html" class="white line-button"><span>VIEW OUR SERVICES</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			
+			<!-- second section / Icons -->
+			<section class="content-block white">
+				<div class="row large">
+					<!-- icon block one -->
+					<div class="four columns">
+						<!-- class .no-bg to remove icon background color -->
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-umbrella"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">WEB DESIGN SERVICES</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- icon block two -->
+					<div class="four columns">
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-paw"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">GRAPHIC DESIGN SERVICES</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- icon block three -->
+					<div class="four columns">
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-tree"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">DIGITAL MARKETING</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large bigtoppadding">
+					<!-- icon block four -->
+					<div class="four columns">
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-cubes"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">WEB DESIGN SERVICES</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- icon block five -->
+					<div class="four columns">
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-life-ring"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">GRAPHIC DESIGN SERVICES</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- icon block six -->
+					<div class="four columns">
+						<div class="icon-side no-bg">
+							<div class="icon">
+								<i class="fa fa-space-shuttle"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">DIGITAL MARKETING</h5>
+								<p>
+									Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim orci ut et lobor.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- image background section -->
+			<section class="img-section" style="background-image:url(preview/1550px.png);">
+				<div class="content-block black-tint dark">
+					<!-- content heading -->
+					<div class="row content-heading text-center">
+						<h6>A LITTLE ABOUT US</h6>
+						<h3>PASSIONATE ABOUT WHAT WE DO</h3>
+						<span class="border"></span>
+					</div>
+					<!-- info -->
+					<div class="row">
+						<div class="six columns">
+							<img src="preview/screen.png" alt="anthem-screen" class="img-left">
+						</div>
+						<div class="six columns">
+							<h4 class="purple-text">Sint occaecati cupiditate non provident, similique sunt in cul pau.</h4>
+							<div class="clear-20">
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit. Sed ad amet mollis lucilius deserunt at sed. Ei viderer convenire nam, cibo dicit tritani vis ne.
+							</p>
+							<!-- check list -->
+							<ul class="check-list">
+								<li>Et aut officiis debitis aut rerum necess tat ibus. </li>
+								<li> Eveniet ut et voluptates repudiandae sint et molestiae.</li>
+								<li>Sint occaecati cupiditate non provident, lique sunt in culpa qui. </li>
+								<li>Officia deserunt animi, id est laborum et dolorum fuga.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!--third section / projects -->
+			<section class="white work">
+			<div class="content-block">
+				<!-- content heading -->
+				<div class="row content-heading text-center">
+					<h6>OUR LATEST WORK</h6>
+					<h3>WE ARE TRUSTED FOR QUALITY</h3>
+					<span class="border"></span>
+				</div>
+				<div class="row large">
+					<!-- begin projects -->
+		<ul class="grid times-three basic" id="projects">
+				<!-- project -->
+				<li class="grid-item">
+				<div class="grid-project">
+					<!-- project image -->
+					<div class="img-box">
+						<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+						<div class="icon-box">
+							<!-- prettyphoto link -->
+							<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="preview/600px.png" title="View Larger"><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+					<!-- project title and category -->
+					<div class="project-info">
+					<!-- link to portfolio single -->
+					<a href="folio-single.html" title="View Project">
+						<h1 class="grid-title">SOME PROJECT TITLE</h1>
+						<h6 class="project-cat">ART DIRECTION</h6>
+						<!-- project index -->
+						<div class="project-index">
+							<span class="number">01</span><i class="fa fa-link"></i>
+						</div>
+					</a>	
+						<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tinc&nbsp;orci eget eros faucibus tincidunt.</p>	
+					</div>
+				</div>
+				</li>
+				
+				<!-- project -->
+				<li class="grid-item">
+				<div class="grid-project">
+					<!-- project image -->
+					<div class="img-box">
+						<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+						<div class="icon-box">
+						<!-- prettyphoto link -->
+							<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="http://vimeo.com/72442303" title="View Larger"><i class="fa fa-play"></i></a>
+						</div>
+					</div>
+					<!-- project title and category -->
+					<div class="project-info">
+					<!-- link to portfolio single -->
+					<a href="folio-single.html" title="View Project">
+						<h1 class="grid-title">SOME PROJECT TITLE</h1>
+						<h6 class="project-cat">Audio &amp; Video</h6>
+						<!-- project index -->
+						<div class="project-index">
+							<span class="number">02</span><i class="fa fa-link"></i>
+						</div>
+					</a>	
+						<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tinc&nbsp;orci eget eros faucibus tincidunt.</p>	
+					</div>
+				</div>
+				</li>
+				
+				<!-- project -->
+				<li class="grid-item">
+				<div class="grid-project">
+					<!-- project image -->
+					<div class="img-box">
+						<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+						<div class="icon-box">
+						<!-- prettyphoto link -->
+						<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="preview/600px.png" title="View Larger" ><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+					
+					<!-- project title and category -->
+					<div class="project-info">
+					<!-- link to portfolio single -->
+					<a href="folio-single.html" title="View Project">
+						<h1 class="grid-title">SOME PROJECT TITLE</h1>
+						<h6 class="project-cat">Print &amp; Identity</h6>
+						<!-- project index -->
+						<div class="project-index">
+							<span class="number">03</span><i class="fa fa-link"></i>
+						</div>
+					</a>	
+						<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tinc&nbsp;orci eget eros faucibus tincidunt.</p>	
+					</div>
+					
+				</div>
+				</li>
+			</ul>
+					<!-- clear floats -->
+					<div class="clear">
+					</div>
+		</div>
+		
+				<div class="row midtoppadding text-center">
+					<!-- link to portfolio -->
+					<a href="folio-grid.html" class="black line-button"><span>VIEW ALL WORK</span></a>
+				</div>
+				
+			</div>
+			</section>
+			
+			<!-- third section small -->
+			<section class="content-block grey">
+				<div class="row">
+					<!-- left side -->
+					<div class="six columns">
+						<h4 class="s-bold">Quo minus id quod maxime placeat facere possimus, omnis volu tas.</h4>
+							<!-- icon list -->
+							<ul class="icon-list">
+							<li>
+							<i class="fa fa-heart"></i>
+							<div class="list-info">
+								<h6 class="purple-text">BUILT WITH LOVE</h6>
+								<p>
+									Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+								</p>
+							</div>
+							</li>
+							<li><i class="fa fa-thumbs-up"></i>
+							<div class="list-info">
+								<h6 class="purple-text">EASY TO USE</h6>
+								<p>
+									Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+								</p>
+							</div>
+							</li>
+							<li><i class="fa fa-bolt"></i>
+							<div class="list-info">
+								<h6 class="purple-text">MAKE AN IMPRESSION</h6>
+								<p>
+									Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+								</p>
+							</div>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="six columns leftpadding">
+						<!-- video embed -->
+						<div class="youtube video">
+						<iframe src="http://www.youtube.com/embed/keDneypw3HY">
+						</iframe>
+						</div>
+						<div class="midpadding grey text-center">
+							<h6 class="italic droid-font">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- fourth section/ number counter -->
+			<section class="img-section" style="background-image:url(preview/1550px.png);">
+				<div class="content-block black-tint dark">
+					<!-- content heading -->
+					<div class="row content-heading text-center">
+						<div class="ten columns centered">
+							<h3>WE ARE GOOD AT THIS AND MORE</h3>
+						</div>
+						<div class="eight columns centered">
+							<p class="intro">
+								Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit.
+							</p>
+						</div>
+					</div>
+					<div class="row large text-center bigtoppadding">
+						<div class="two columns">
+							<!-- counter -->
+							<div class="stat-counter count" data-from="0" data-to="187">
+							</div>
+							<h6>Ratings Received</h6>
+						</div>
+						<!-- counter -->
+						<div class="two columns">
+							<div class="stat-counter count" data-from="0" data-to="37">
+							</div>
+							<h6>Awards Received</h6>
+						</div>
+						<!-- counter -->
+						<div class="two columns">
+							<div class="stat-counter count" data-from="0" data-to="16">
+							</div>
+							<h6>Award Nominations</h6>
+						</div>
+						<!-- counter -->
+						<div class="two columns">
+							<div class="stat-counter count" data-from="0" data-to="74">
+							</div>
+							<h6>Projects Worked</h6>
+						</div>
+						<!-- counter -->
+						<div class="two columns">
+							<div class="stat-counter count" data-from="0" data-to="12000">
+							</div>
+							<h6>Dollars Saved</h6>
+						</div>
+						<!-- counter -->
+						<div class="two columns">
+							<div class="stat-counter count" data-from="0" data-to="126">
+							</div>
+							<h6>Pizzas Ordered</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- fifth section / services slider -->
+			<section class="services white">		
+				<div class="content-block">
+				<!--content heading -->
+				<div class="row content-heading text-center">
+					<div class="ten columns centered">
+						<h6>WE PROVIDE A FULL 360&deg; SERVICE</h6>
+						<h3>OUR SERVICES VARY FROM PRINT DESIGN TO DIGITAL DEVELOPMENT</h3>
+						<span class="border"></span>
+					</div>
+				</div>
+				<!-- slider navigation -->
+				<div class="row">
+					<div class="block-nav grey">
+						<!-- slider caption buttons - number of nav buttons must be same as number of slides-->
+						<ol class="block-slider-nav" id="block-slider-nav">
+							<li class="nav-button">
+							<a href="#">Art and Design </a>
+							</li>
+							<li class="nav-button">
+							<a href="#">Digital Development</a>
+							</li>
+							<li class="nav-button">
+							<a href="#">Photography and Motion</a>
+							</li>
+							<li class="nav-button">
+							<a href="#">Print and Branding</a>
+							</li>
+						</ol>
+						
+					</div>
+				</div>
+				<div class="flexslider block-slider">
+					<ul class="slides">
+					
+						<!-- first service slide -->
+						<li>
+						<div class="row">
+							<div class="six columns rightpadding">
+								<img src="preview/600px.png" alt="anthem-demo-img">
+							</div>
+							<div class="six columns">
+								<h5 class="bold">ART AND DESIGN</h5>
+								<p>
+									 Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit.
+								</p>
+								<h6 class="bold purple-text">Website Design</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius.
+								</p>
+								<h6 class="bold purple-text">Design for Mobile Devices</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Mentitum, populo eirmod constituam
+								</p>
+								<h6 class="bold purple-text">Graphics &amp; Illustrations</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum.
+								</p>
+							</div>
+						</div>
+						</li>
+						<!-- second service slide -->
+						<li>
+						<div class="row">
+							<div class="six columns rightpadding">
+								<img src="preview/600px.png" alt="anthem-demo-img">
+							</div>
+							<div class="six columns">
+								<h5 class="bold">DIGITAL DEVELOPMENT</h5>
+								<p>
+									 Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit.
+								</p>
+								<h6 class="bold purple-text">Website Design</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius.
+								</p>
+								<h6 class="bold purple-text">Design for Mobile Devices</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Mentitum, populo eirmod constituam
+								</p>
+								<h6 class="bold purple-text">Graphics &amp; Illustrations</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum.
+								</p>
+							</div>
+						</div>
+						</li>
+						<!-- third service slide -->
+						<li>
+						<div class="row">
+							<div class="six columns rightpadding">
+								<img src="preview/600px.png" alt="anthem-demo-img">
+							</div>
+							<div class="six columns">
+								<h5 class="bold">PHOTOGRAPHY &amp; MOTION</h5>
+								<p>
+									 Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit.
+								</p>
+								<h6 class="bold purple-text">Website Design</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius.
+								</p>
+								<h6 class="bold purple-text">Design for Mobile Devices</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Mentitum, populo eirmod constituam
+								</p>
+								<h6 class="bold purple-text">Graphics &amp; Illustrations</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum.
+								</p>
+							</div>
+						</div>
+						</li>
+						<!--fourth service slide -->
+						<li>
+						<div class="row">
+							<div class="six columns rightpadding">
+								<img src="preview/600px.png" alt="anthem-demo-img">
+							</div>
+							<div class="six columns">
+								<h5 class="bold">PRINT &amp; BRANDING</h5>
+								<p>
+									 Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum, populo eirmod constituam id sea, ei accusam corrumpit sit.
+								</p>
+								<h6 class="bold purple-text">Website Design</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius.
+								</p>
+								<h6 class="bold purple-text">Design for Mobile Devices</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Mentitum, populo eirmod constituam
+								</p>
+								<h6 class="bold purple-text">Graphics &amp; Illustrations</h6>
+								<p>
+									Lorem ipsum dolor sit amet, ei sea labitur bonorum, est id veri ullum mucius. Et nec denique mentitum.
+								</p>
+							</div>
+						</div>
+						</li>
+					</ul>
+				</div>
+				<!-- .flexslider -->
+				<div class="row text-center">
+					<!-- read more button -->
+					<a href="" class="purple fill-button"><span>READ MORE</span></a>
+				</div>
+				<div class="clear-50"></div>
+				<hr class="row thin grey">
+				<div class="clear-50"></div>
+				<div class="row content-heading text-center">
+					<div class="ten columns centered">
+						<h6>OUR PRICING TABLES</h6>
+						<h3>DISPLAY YOUR PRICING OPTIONS IN STYLE</h3>
+						<span class="border"></span>
+					</div>
+				</div>
+				<div class="row">
+						<!-- pricing table -->
+						<div class="four columns">
+							<div class="prc-table white">
+								<header class="table-head">
+									<!-- table header -->
+									<span class="table-label">STANDARD
+									<!-- table description -->
+									<span class="table-info">Donec consectetuer ligula vulputate sem tristique cursus.</span></span>
+									<!-- table price-->
+									<div class="table-price">
+										<span class="cost"><span class="sym">$</span>29<span class="decimal">.99</span><span class="dur">per month</span></span>
+										
+									</div>
+								</header>
+								<!-- table content -->
+								<div class="table-body">
+									<ul>
+									<li>Aliquam tincidunt mauris eu risus.</li>
+									<li>Vestibulum auctor dapibus neque.</li>
+									<li>Nunc dignissim risus id metus.</li>
+									<li>Vivamus vestibulum nulla nec ante.</li>
+									<li>Praesent placerat risus quis eros.</li>
+									</ul>
+									<div class="clear-20"></div>
+									<a href="about.html" class="purple fill-button small">SIGN UP</a>
+								</div>
+							</div>
+						</div>
+						<!-- pricing table 2-->
+						<div class="four columns">
+							<!-- add class special to make table featured -->
+							<div class="prc-table special white">
+								<header class="table-head">
+									<!-- table header -->
+									<span class="table-label">PREMIUM
+									<!-- table description -->
+									<span class="table-info">Donec consectetuer ligula vulputate sem tristique cursus.</span></span>
+									<!-- table price -->
+									<div class="table-price">
+										<span class="cost"><span class="sym">$</span>49<span class="decimal">.99</span><span class="dur">per month</span></span>
+										
+									</div>
+								</header>
+								<!-- table content -->
+								<div class="table-body">
+									<ul>
+									<li>Aliquam tincidunt mauris eu risus.</li>
+									<li>Vestibulum auctor dapibus neque.</li>
+									<li>Nunc dignissim risus id metus.</li>
+									<li>Vivamus vestibulum nulla nec ante.</li>
+									<li>Praesent placerat risus quis eros.</li>
+									</ul>
+									<div class="clear-20"></div>
+									<a href="about.html" class="purple fill-button small">SIGN UP</a>
+								</div>						
+							</div>
+						</div>
+						<!-- pricing table 3-->
+						<div class="four columns">
+							<div class="prc-table white">
+								<header class="table-head">
+									<!-- table header -->
+									<span class="table-label">PLATINUM
+									<!-- table description -->
+									<span class="table-info">Donec consectetuer ligula vulputate sem tristique cursus.</span></span>
+									<!-- table price -->
+									<div class="table-price">
+										<span class="cost"><span class="sym">$</span>79<span class="decimal">.99</span><span class="dur">per month</span></span>
+										
+									</div>
+								</header>
+								<!-- table content -->
+								<div class="table-body">
+									<ul>
+									<li>Aliquam tincidunt mauris eu risus.</li>
+									<li>Vestibulum auctor dapibus neque.</li>
+									<li>Nunc dignissim risus id metus.</li>
+									<li>Vivamus vestibulum nulla nec ante.</li>
+									<li>Praesent placerat risus quis eros.</li>
+									</ul>
+									<div class="clear-20"></div>
+									<a href="about.html" class="purple fill-button small">SIGN UP</a>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+					
+					<div class="clear-50"></div>
+				<hr class="row thin grey">
+				<div class="clear-50"></div>
+				
+					<div class="row text-center">
+						<h4>Anthem now comes with <span class="bold purple-text">three different sized</span> pop-up modals.</h4>
+					</div>
+					<div class="clear-50"></div>
+					
+					<div class="row">
+						<div class="four columns">
+							<h5 class="bold">Small Modal</h5>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+							<!-- gumby-trigger should be the same as the id of the modal you want to target -->
+							<p class="btn default small"><a href="#" class="switch" gumby-trigger="#small-modal1">Open Modal</a></p>
+						</div>
+						<div class="four columns">
+							<h5 class="bold">Medium Modal</h5>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+							<!-- gumby-trigger should be the same as the id of the modal you want to target -->
+							<p class="btn default small"><a href="#" class="switch" gumby-trigger="#medium-modal1">Open Modal</a></p>
+						</div>
+						<div class="four columns">
+							<h5 class="bold">Large Modal</h5>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+							<!-- gumby-trigger should be the same as the id of the modal you want to target -->
+							<p class="btn default small"><a href="#" class="switch" gumby-trigger="#big-modal1">Open Modal</a></p>
+						</div>
+					</div>
+					
+					<div class="clear-50"></div>
+					<!-- class"underlap adds a negative margin
+					useful for making images stick near the bottom edge of container -->
+					<div class="row underlap">				
+							<img src="preview/an-screen.jpg" alt="anthem-demo-img" class="block-img">
+					</div>
+					
+				
+				</div>
+			</section>
+			
+			<!-- image background section / icons -->
+			<section class="img-section" style="background-image:url(preview/1550px.png);">
+				<div class="content-block black-tint dark">
+					<div class="row">
+						<!-- icon block one -->
+						<div class="three columns">
+							<div class="icon-block text-center">
+								<div class="icon">
+									<i class="fa fa-desktop"></i>
+								</div>
+								<div class="icon-info">
+									<h5 class="bold">WEB DESIGN SERVICES</h5>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- icon block two -->
+						<div class="three columns">
+							<div class="icon-block text-center">
+								<div class="icon">
+									<i class="fa fa-pencil"></i>
+								</div>
+								<div class="icon-info">
+									<h5 class="bold">GRAPHIC DESIGN SERVICES</h5>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- icon block three -->
+						<div class="three columns">
+							<div class="icon-block text-center">
+								<div class="icon">
+									<i class="fa fa-flag"></i>
+								</div>
+								<div class="icon-info">
+									<h5 class="bold">DIGITAL MARKETING</h5>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- icon block four -->
+						<div class="three columns">
+							<div class="icon-block text-center">
+								<div class="icon">
+									<i class="fa fa-gamepad"></i>
+								</div>
+								<div class="icon-info">
+									<h5 class="bold">UI/UX DESIGN</h5>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- twitter -->
+			<section class="content-block white">
+				<!-- content heading -->
+				<div class="row content-heading text-center">
+					<h6>WE LOVE TWEETING</h6>
+					<h3>COME CONNECT WITH US</h3>
+					<span class="border"></span>
+				</div>
+				<div class="row text-center">
+					<div class="eight columns centered">
+						<div class="tweet">
+						</div>
+					</div>
+					<!-- twitter username -->
+					<div class="four columns centered">
+						<a href="#"><span>@Username</span></a>
+					</div>
+				</div>
+			</section>
+			<!-- attention block -->
+			<div class="action-block purple">
+				<div class="row">
+					<div class="twelve columns text-center">
+						<h3 class="white-text">We are proud of our hard work! Have a look.
+						<a href="#" class="white line-button"><span>BUY TEMPLATE</span></a></h3>		
+					</div>
+				</div>
+			</div>
+			
+		<!-- widgetized footer -->
+			<footer class="widget-ftr stripe-bg">
+			<div class="content-block dark">
+				<div class="row large midtoppadding">
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">A LITTLE ABOUT US.</h6>
+						<p>
+							 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.<br /> Dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt.
+						</p>
+					</div>
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">FROM OUR BLOG</h6>
+						<ul>
+							<li>
+						<a href="">Delving into Landing Page Design Trends</a>
+									<span class="post-date">September 18, 2014</span>
+								</li>
+							<li>
+						<a href="">VideoHive Surpasses 100,000 Items!</a>
+									<span class="post-date">September 17, 2014</span>
+								</li>
+							<li>
+						<a href="">Chrome Extensions for Web Designers</a>
+									<span class="post-date">September 16, 2014</span>
+								</li>
+						</ul>
+					</div>
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">CONTACT US</h6>
+						<p class="greytext midmargin meta">
+							 We have prepared a <a href="#" class="planner-btn orig">project planner</a> to get to know your project better.
+						</p>
+						<p class="greytext midmargin meta">
+							 p <span>(786) 9876 543 210</span><br>
+							 e <a href="mailto:" class="orig">contact@youragency.com</a>
+						</p>
+					</div>
+					<!-- widget -->
+					<div class="three columns newsletter widget-block">
+						<h6 class="widget-heading">NEWSLETTER</h6>
+						<p class="smallfont">
+							 Sign up for email updates. We will never share your email.
+						</p>
+						<form id="newsletter" action="#" method="post">
+						<div class="field">
+							<input name="email" class="input" type="text" placeholder="Your Email">
+						</div>
+						<input type="submit" name="Submit" value="Submit" class="submit small purple">
+					</form>
+					<div id="subscribe-msg">
+					</div>
+					</div>
+				</div>
+			</div>
+			</footer>
+			<!-- site credit -->
+			<footer id="colophon">
+			<div class="row large">
+			<div class="six columns">
+				<p>
+					 &copy; Anthem Template 2014. All rights reserved - Template by CodeBlvck
+				</p>
+			</div>
+			<div class="six columns">
+				<!-- social network links -->
+				<div class="text-right">
+					<div class="social-icon">
+						<ul class="social-icon-list">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+							<li><a href=""><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+			</footer>
+		</div><!-- action -->
+	</div><!-- scrollarea -->
+	
+	<!-- small modal -->
+	<!-- modal id is same as gumby-trigger -->
+	<div class="modal small" id="small-modal1">
+	  <div class="content">
+		<div class="modal-header">
+			<!-- close button for this modal id -->
+			<a class="close switch" gumby-trigger="|#small-modal1"><i class="fa fa-times" /></i></a>
+			<!-- Modal heading -->
+			<h6>This Is A Small Modal Heading.</h6>
+		</div>
+		<!-- modal content -->
+		<div class="modal-body">
+			<div class="row">
+			  <div class="twelve columns alpha">
+				<p>Add any content here, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+			</div>
+			</div>
+		</div>	
+		<div class="modal-footer">
+		<!-- close button for this modal id -->
+			<p class="btn info small">
+			  <a href="#" class="switch" gumby-trigger="|#small-modal1">Close Modal</a>
+			</p>
+		 </div>
+	  </div>
+	</div>
+	<!-- medium modal -->
+	<!-- modal id is same as gumby-trigger -->
+	<div class="modal medium" id="medium-modal1">
+	  <div class="content">
+		<div class="modal-header">
+		<!-- close button for this modal id -->
+			<a class="close switch" gumby-trigger="|#medium-modal1"><i class="fa fa-times" /></i></a>
+			<!-- modal heading -->
+			<h5>This Is A Medium Modal Heading.</h5>
+		</div>
+		<!-- modal content -->
+		<div class="modal-body">
+			<div class="row">
+				<div class="twelve columns centered">
+				<img src="preview/600px.png" alt="anthem-demo-img" class="block-img">
+				</div>
+				<div class="clear-20"></div>
+			  <div class="twelve columns alpha">
+				<p>Add any content here, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+			</div>
+			</div>
+		</div>	
+		<div class="modal-footer">
+		<!-- close button for this modal id -->
+			<p class="btn info small">
+			  <a href="#" class="switch" gumby-trigger="|#medium-modal1">Close Modal</a>
+			</p>
+		 </div>
+	  </div>
+	</div>
+	<!-- big modal -->
+	<!-- modal id is same as gumby-trigger -->
+	<div class="modal big" id="big-modal1">
+	  <div class="content">
+		<div class="modal-header">
+		<!-- close button for this modal id -->
+			<a class="close switch" gumby-trigger="|#big-modal1"><i class="fa fa-times" /></i></a>
+			<!-- modal heading -->
+			<h5>This Is A Big Modal Heading.</h5>
+		</div>
+		<!-- modal content -->
+		<div class="modal-body">
+			<div class="row">
+				<div class="twelve columns centered">
+				<img src="preview/600px.png" alt="anthem-demo-img" class="block-img">
+				</div>
+				<div class="clear-20"></div>
+			  <div class="twelve columns alpha">
+				<h4 class="bold purple-text">Some Content Heading</h4>
+				<p>Add any content here. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+			</div>
+			</div>
+		</div>	
+		<div class="modal-footer">
+		<!-- close button for this modal id -->
+			<p class="btn info small">
+			  <a href="#" class="switch" gumby-trigger="|#big-modal1">Close Modal</a>
+			</p>
+		 </div>
+	  </div>
+	</div>
+	
+	<!-- search modal -->
+	<div class="search-modal">
+		<div class="search-field">
+			<input class="search input" type="search" placeholder="Type search term here...">
+		</div>
+		<a class="remove-search"><i class="fa fa-times"></i></a>
+	</div>
+	
+	<!-- planner window -->
+	<div class="planner-modal grey custom-scroll">
+		<!-- planner-scrollarea adds custom scrollbar for planner -->
+		<div id="planner-scrollarea">
+			<div class="content-block">
+				<div class="row">
+				<!-- planner heading -->
+				<div class="ten columns centered">
+					<h2 class="bold">PROJECT PLANNER</h2>
+					<p class="intro s-bold">
+						Anthem comes with a fully working project planner script. Easily catch leads and get forms mailed to your email account in a nice table layout.
+					</p>
+					<hr class="thin grey">
+				</div>
+				</div>
+				<div class="row">
+				<div class="ten columns centered smallpadding">
+					<form method="post" action="projectplanner.php" onsubmit="return CheckAll(this);" id="form1">
+						<!-- first part -->
+						<h5 class="bold purple-text">HELLO THERE</h5>
+						<div class="clear-20">
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="name">Your Name*</label>
+								<input class="input" type="text" id="name" name="fieldnm_1" placeholder="How do we address you...">
+							</div>
+							<div class="field six columns">
+								<label for="email">Your E-mail*</label>
+								<input class="input" type="email" id="email" name="fieldnm_2" placeholder="Where should we write to you...">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="telephone">Telephone number</label>
+								<input class="input" type="tel" id="telephone" name="fieldnm_3" placeholder="Can we give you a ring...">
+							</div>
+							<div class="field six columns">
+								<label for="company">Company name</label>
+								<input class="input" type="text" id="company" name="fieldnm_4" placeholder="Are you representing someone...">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="website">Website URL i-e http://www.website.com</label>
+								<input class="input" type="url" id="website" name="fieldnm_5" placeholder="Do you have a website...">
+							</div>
+							<div class="field six columns">
+								<label for="location">Your location</label>
+								<input class="input" type="text" id="location" name="fieldnm_6" placeholder="Where are you located...">
+							</div>
+						</div>
+						<div class="clear-50">
+						</div>
+						<!-- second part -->
+						<h5 class="bold purple-text">PROJECT DETAILS</h5>
+						<div class="clear-20">
+						</div>
+						<div class="field row">
+							<label for="message">Please describe your project or idea</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="message" name="fieldnm_7">
+								</textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="req">Project requirements</label>
+								<input class="input" type="text" id="req" name="fieldnm_8" placeholder="Website, Branding, Mobile App etc">
+							</div>
+							<div class="field six columns">
+								<label for="start">When do you hope to start</label>
+								<input class="input" type="text" id="start" name="fieldnm_9">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="launch">When do you hope to launch</label>
+								<input class="input" type="text" id="launch" name="fieldnm_10">
+							</div>
+							<div class="field six columns">
+								<label for="budget">Your budget*</label>
+								<input class="input" type="number" id="budget" name="fieldnm_11" placeholder="What are you willing to invest">
+							</div>
+						</div>
+						<div class="clear-50">
+						</div>
+						<!-- third part -->
+						<h5 class="bold purple-text">DESIGN AND FEEL</h5>
+						<div class="clear-20">
+						</div>
+						<div class="field row">
+							<label for="look">Please describe your desired look and feel</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="look" name="fieldnm_12" placeholder="Clean, Modern, Minimal etc">
+								</textarea>
+							</div>
+						</div>
+						<div class="field row">
+							<label for="insp">Any inspiration for your project</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="insp" name="fieldnm_13" placeholder="Websites, Designs you like etc">
+								</textarea>
+							</div>
+						</div>
+						<div class="field row">
+							<label for="extra">Anything else you want us to know</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="extra" name="fieldnm_14">
+								</textarea>
+							</div>
+						</div>
+						<!-- submit button -->
+						<input type="submit" name="Submit" value="Submit Form" class="purple submit">
+					</form>
+					<hr class="thin grey">
+					<div class="twelve columns alpha">
+						<p>
+							<span class="purple-text bold">Privacy Policy:</span>&nbsp; We will never share your information with anyone. We will only contact you with regards to your enquiry.
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- close planner button -->
+			<a class="remove-planner"><i class="fa fa-times"></i></a>
+		</div><!--planner scrollarea -->
+	</div><!-- planner -->
+	
+</div><!-- end div.content -->
+
+<script src="js/libs/jquery-2.0.2.min.js"></script>
+<script src="js/libs/gumby.min.js"></script>
+
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<!-- twitter-->
+<script src="js/twitter.js"></script>
+<script>
+(function($) {
+  "use strict";
+		$('.tweet').tweet({
+		username: "envato",
+		modpath: '/twitter/',
+		count: 1,
+		loading_text: 'loading twitter feed...'
+	});	
+})(jQuery);
+	</script>
+
+<!--
+	<script src="js/animate.js"></script> -->
+<!-- Change UA-XXXXX-X to be your site's ID -->
+<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+</body>
+</html>

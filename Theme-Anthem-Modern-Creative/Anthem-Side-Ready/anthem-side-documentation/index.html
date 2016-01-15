@@ -1,0 +1,1091 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Anthem Html Template - Documentation</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/gumby.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/prism.css">
+
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+<div class="row">
+		<img src="img/logo.png" alt="logo" />
+		<h5 class="statement">Anthem template documentation. Side Version</h5>
+</div>
+<div class="row">
+<div class="alert intro-notice">
+Hello there, thank you for buying Anthem premium html template by Codeblvck. To make it easy for you to setup this template, I have included this help file. Please carefully read all the information presented on this page. All the html files are clean and commented. A simple copy paste for code will suffice in most cases. If you still require support or assistance please open a support ticket on our <a href="http://support.codeblvck.com.">SUPPORT FORUM</a>
+</div>
+</div>
+<div class="row"><hr class="thin"></div>
+
+<div class="row">
+<aside class="three columns">
+<h6 class="block-heading">TABLE OF CONTENTS</h6>
+<ol class="index">
+	<li class="parent"><a href="#block-1">Getting started</a>
+		<ol>
+			<li>Download Package</li>
+			<li>Files Included</li>
+		</ol>
+	</li>
+	<li class="parent"><a href="#block-2">HTML Structure</a>
+		<ol>
+			<li>Framework HTML</li>
+			<li>Anthem HTML Structure</li>
+		</ol>
+	</li>
+	<li class="parent"><a href="#block-3">Retina Support</a></li>
+	<li class="parent"><a href="#block-4">Logo and Navigation</a></li>
+	<li class="parent"><a href="#block-5">Home Page Slider</a></li>
+	<li class="parent"><a href="#block-6">Equal Height Blocks</a></li>
+	<li class="parent"><a href="#block-7">Block Slider</a></li>
+	<li class="parent"><a href="#block-8">Image Nav Slider</a></li>
+	<li class="parent"><a href="#block-9">Intro Text Slider</a></li>
+	<li class="parent"><a href="#block-10">Team Blocks</a></li>
+	<li class="parent"><a href="#block-11">Portfolio</a>
+		<ol>
+			<li>Folio Stripe</li>
+			<li>Folio Grid</li>
+			<li>Folio Grid Alt</li>
+		</ol>	
+	</li>
+	<li class="parent"><a href="#block-12">Ajax Homepage</a></li>
+	<li class="parent"><a href="#block-13">Contact</a></li>
+	<li class="parent"><a href="#block-14">Project Planner</a></li>
+	<li class="parent"><a href="#block-15">Subscription Form</a></li>
+	<li class="parent"><a href="#block-16">Twitter</a></li>
+	<li class="parent"><a href="#block-17">ShortCodes etc</a></li>
+</ol>
+</aside>
+<div class="nine columns content">
+	<div class="block no-1" id="block-1">
+		<h5 class="block-heading">1 - Getting Started</h5>
+		<h6 class="semi-block-heading">1.1 - Download Package</h6>
+		<p>After downloading your package you will find two folder.<span class="bold">1st.Anthem-Side-Ready</span> &amp; <span class="bold">2nd.Anthem-Top-Ready</span>. Each folder contains its respective template version and the documentation. This is the documentation for <span class="bold">Anthem Side Version</span></p>
+	</div>
+	
+	<div class="block no-2">
+		<h6 class="semi-block-heading">1.2 - Files Included</h6>
+		<p>Each template version folder includes the following Folders and Files.</p>
+		<ul class="file-list">
+			<li><span class="bold">CSS Folder</span></li>
+			<li>> Style.css - main CSS file</li>
+			<li>> Plugins.css - Default plugin styles</li>
+			<li>> Gumby.css - Gumby framework styles</li>
+			<li>> Responsive.css - Responsive styles</li>
+			<li>> fAwesome.css - Icon font style</li>
+			<li>> Import.css - We import all css files through this one file.</li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">Font Folder</span> - Font awesome files</li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">Img Folder</span></li>
+			<li><span class="bold">Preview Folder</span></li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">JS Folder</span></li>
+			<li>> Ajax.js - Ajax portfolio script</li>
+			<li>> Drag.js - Script for drag portfolio</li>
+			<li>> Main.js - Main js for anthem</li>
+			<li>> Plugins.js - All main plugins go here</li>
+			<li>> Twitter.js - Twitter script</li>
+			<li>> Piechart.js - Pie chart script used on about pages</li>
+			<li>> maps.js - Used on contact pages</li>
+			<li><span class="bold">libs Folder</span> - framework scripts</li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">Projects Folder</span> - Ajax project files go in this folder.</li>
+			<li>> Project-1.html - First project file</li>
+			<li>> Project-2.html - Second project file</li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">Twitter Folder</span> - Twitter php script.</li>
+		</ul>
+		<ul class="file-list">
+			<li><span class="bold">Files</span></li>
+			<li>1 - index.html - Home basic</li>
+			<li>2 - home-two.html - Home extended</li>
+			<li>3 - home-work.html - home ajax</li>
+			<li>4 - about.html - about page</li>
+			<li>5 - about-alt.html - about alt page</li>
+			<li>6 - folio-grid.html - grid folio</li>
+			<li>7 - folio-grid-alt.html - grid folio alt</li>
+			<li>8 - folio-stripe.html - stripe folio</li>
+			<li>9 - folio-single.html - folio single</li>
+			<li>10 - folio-single-alt.html - single folio alt</li>
+			<li>11 - notes.html - notes</li>
+			<li>12 - notes-sidebar.html - notes with sidebar</li>
+			<li>13 - note-single.html - single note page</li>
+			<li>14 - note-single-sidebar.html - note single page with sidebar</li>
+			<li>15 - note-single-sidebar-alt.html - note single page with sidebar alt</li>
+			<li>16 - page-sidebar.html - page with sidebar</li>
+			<li>17 - page-sidebar-alt.html - page with sidebar alt</li>
+			<li>18 - contact.html - contact page</li>
+			<li>19 - contact-alt.html - alt contact page</li>
+			<li>20 - thanks.html - thank you page for planner</li>
+			<li style="color:rgba(128, 38, 117, 1);">21 - projectplanner.php</li>
+			<li style="color:rgba(128, 38, 117, 1);">22 - send-email.php</li>
+			<li style="color:rgba(128, 38, 117, 1);">23 - subscribe.php</li>
+		</ul>
+	</div>
+	
+	<div class="block no-3" id="block-2">
+		<h5 class="block-heading">2 - HTML Structure</h5>
+		<h6 class="semi-block-heading">2.1 - Framework HTML</h6>
+		<div class="row">
+
+			<p>This is 1 row made up of 12 columns</p>
+
+			<div class="alpha one columns black">
+																	   1
+					</div>
+			<div class=" one columns black">          2
+					</div>
+			<div class=" one columns black">          3
+					</div>
+			<div class=" one columns black">          4
+					</div>
+			<div class=" one columns black">          5
+					</div>
+			<div class=" one columns black">          6
+					</div>
+			<div class=" one columns black">          7
+					</div>
+			<div class=" one columns black">          8
+					</div>
+			<div class=" one columns black">          9
+					</div>
+			<div class=" one columns black">          10
+					</div>
+			<div class=" one columns black">          11
+					</div>
+			<div class=" one columns black">          12
+					</div>
+		
+</div>	
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div class=&quot;row&quot;&gt; 		
+	&lt;div class=&quot;one columns&quot;&gt; 1 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 2 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 3 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 4 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 5 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 6 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 7 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 8 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 9 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 10 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 11 &lt;/div&gt; 			
+	&lt;div class=&quot;one columns&quot;&gt; 12 &lt;/div&gt; 		
+&lt;/div&gt;
+</code>
+</pre>
+
+</div>	
+		
+<div class="row" style="margin-top:20px;">
+	<p>Each column can further get divided into 12 columns inside. Meaning class="ten columns" can further be divided into two half of class="six columns" each.</p>
+	<p class="grey-text">You can also center columns by adding 'centered' as in class="centered ten columns"</p>
+	<p class="grey-text">Any number of columns are allowed in one row as far as they add up to a maximum of 12 columns in one row.</p>
+	<p class="grey-text">Each row starts with class="row".</p>
+</div>	
+
+<div class="row" style="margin-top:20px;">
+
+	<div class="ten columns black centered"> 
+            10 columns
+     </div>
+		  
+	<div class="alpha ten columns centered" style="margin-top:10px;">         
+		<div class="six columns black">
+		6 columns
+		</div>
+
+		<div class="six columns black">
+		6 columns
+		</div>      
+    </div>
+
+</div>
+		
+		
+</div>
+
+<div class="block no-4">
+		<h6 class="semi-block-heading">2.2 - Anthem HTML</h6>
+		<div class="row">
+			<p>Basic Anthem html is very easy to set up.</p>
+		</div>
+		
+		<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;body&gt;
+	&lt;header class=&quot;main custom-scroll&quot;&gt;
+		&lt;div class=&quot;header-scrollarea&quot;&gt;
+		We will set up header in the logo and navigation section to follow.
+		&lt;/div&gt;
+	&lt;/header&gt;
+	&lt;div class=&quot;trigger&quot;&gt;
+		We will set up trigger in the logo and navigation section to follow.
+		&lt;div class=&quot;trigger-box&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;side-logo&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;back-to-top&quot;&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- Main content block - all page content --&gt;
+	&lt;div class=&quot;content custom-scroll&quot;&gt;
+		&lt;div class=&quot;blocker&quot;&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;scrollarea&quot;&gt;
+			&lt;div class=&quot;action step-right&quot;&gt;
+			page content goes here
+			
+			&lt;!-- for pages with multiple sections e.g home page or about page etc
+				we place each section inside class="content-block" like below --&gt;
+				
+				&lt;div class="content-block"&gt;
+					section content goes here.
+				&lt;/div&gt;
+			
+			&lt;!-- you can have four defined classes of white, black, purple and grey --&gt;
+				&lt;div class="white content-block"&gt;
+					section content goes here. background is white color.
+				&lt;/div&gt;
+			
+			&lt;!-- when using class=black add class=dark with it , which will apply lighter color styles on dark backgrounds.
+			e.g white font color on black background--&gt;
+				&lt;div class="black dark content-block"&gt;
+					section content goes here. background is black color font is white color.
+				&lt;/div&gt;
+			
+			&lt;!-- In case of grids, e.g portfolios, notes, equals blocks
+				portfolio sections are explained later on this page.--&gt;			
+				&lt;ul class="grid"&gt;	
+				&lt;/ul&gt;	
+			&lt;!-- you will then add either of the classes , class=times-three, class=times-four or class=times-two --&gt;		
+				&lt;ul class="grid times-three"&gt;	
+					three li's in one row, and so on.
+				&lt;/ul&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+</code>
+</pre>	
+		</div>
+		
+<div class="row">
+<p><span class="bold">Html structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=content</span> - All html content of page goes inside this class.</p>
+<p class="grey-text"><span class="bold">class=custom-scroll</span> - Used to display that a custom scrollbar will be used.</p>
+<p class="grey-text"><span class="bold">class=blocker</span> - Class becomes active when header is active. This places a black tint on page content and disables page scroll.</p>
+<p class="grey-text"><span class="bold">class=scrollarea</span> - Adds a custom scrollbar.</p>
+<p class="grey-text"><span class="bold">class=action</span> - The animation action to take when side header becomes active.</p>
+<p class="grey-text"><span class="bold">class=step-right</span> - Page slides to right on active header. Other options include <span class="bold">class="perspective", class="step-back", class="skew"</span> i-e class="action skew"</p>
+
+<br />
+<p><span class="bold">Changing primary color</p>
+<p>The easiest way to change the primary color is to open style.css in a text editor such as notepad++ and replace the value <span style="color:rgb(177,99,163);">rgb(177,99,163) to your choice of color.</p>
+
+</div>		
+		
+		
+</div>	
+
+
+<div class="block no-5" id="block-3">
+	<h5 class="block-heading">3 - RETINA SUPPORT</h5>
+	<p>It is very easy to use retina images with anthem. Simply save dual copies of your images. Named image.jpg and image@2x.jpg . In your html simply add gumby-retina to your image tag , retina images will be loaded for Hi-res displays.</p>
+	
+			<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;img src="image.jpg" alt="image-alt" gumby-retina/&gt;
+</code>
+</pre>
+</div>
+	
+</div>
+
+
+<div class="block no-6" id="block-4">
+	<h5 class="block-heading">4 - LOGO AND NAVIGATION</h5>
+	<p>Anthem Side uses a side header and navigation. The header structure is explained below.</p>
+	
+			<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;header class=&quot;main custom-scroll&quot;&gt;
+	&lt;div id=&quot;header-scrollarea&quot;&gt;
+		&lt;div class=&quot;logo&quot;&gt;
+			&lt;img src=&quot;logo-image-source&quot; alt=&quot;logo&quot; gumby-retina&gt;
+		&lt;/div&gt;
+		&lt;!-- navigation --&gt;
+		&lt;nav class=&quot;main-nav&quot;&gt;
+			&lt;ul class=&quot;site-nav&quot;&gt;
+				&lt;li&gt;&lt;a href=&quot;&quot; class=&quot;toggle&quot; gumby-trigger=&quot;#id-of-child-drawer&quot;&gt;Menu Item&lt;span&gt;Menu item description&lt;/span&gt;&lt;/a&gt;
+					&lt;ul id=&quot;id-of-child-drawer&quot; class=&quot;drawer&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;link-to-page.html&quot;&gt;Child Link&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/li&gt;
+				&lt;!-- link without children --&gt;
+				&lt;li&gt;&lt;a href=&quot;link-to-page&quot;&gt;Menu Item 2&lt;span&gt;Menu item description&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
+</code>
+</pre>
+</div>
+
+<div class="row">
+<p><span class="bold">Header structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=main</span> - Main header that will display logo and navigation.</p>
+<p class="grey-text"><span class="bold">class=custom-scroll</span> - Used to display that a custom scrollbar will be used.</p>
+<p class="grey-text"><span class="bold">class=logo</span> - Place your logo inside this div.</p>
+<p class="grey-text"><span class="bold">nav class=main-nav</span> - Primary site navigation.</p>
+<p class="grey-text"><span class="bold">ul class=site-nav</span> - UL site navigation.</p>
+<p class="grey-text"><span class="bold">li > a class=toggle</span> - Toggle class is added to toggle between active or inactive when child navigation open and closes</p>
+<p class="grey-text"><span class="bold">gumby-trigger=#id-of-child-drawer</span> - We use gumby-trigger to target which child navigation should open when parent link is clicked. gumby-trigger must be same as the id of the child ul you want to target.</p>
+<p class="grey-text"><span class="bold">li > ul class=drawer</span> - drawer class is added to hide content till the drawer is active.</p>
+</div>
+</div>
+
+<div class="block no-7">
+
+<div class="row">
+<h6 class="semi-block-heading">4.1 -DIV CLASS TRIGGER</h6>
+<p>Div class trigger is used to display logo mark , the trigger button for our main header and back to top button. The structure is explained below.</p>
+</div>
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div class=&quot;trigger&quot;&gt;
+	&lt;div class=&quot;trigger-box&quot;&gt;
+		&lt;a class=&quot;toggle&quot; gumby-trigger=&quot;header.main&quot; id=&quot;trigger&quot;&gt;
+		&lt;i class=&quot;fa fa-bars active&quot;&gt;&lt;/i&gt;
+		&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	
+	&lt;div class=&quot;side-logo&quot;&gt;
+	&lt;img src=&quot;logo-mark-image-source&quot; alt=&quot;logo-mark&quot; gumby-retina&gt;
+	&lt;/div&gt;
+	
+	&lt;div class=&quot;back-to-top&quot;&gt;
+	&lt;a id=&quot;top-trigger&quot;&gt;
+	&lt;i class=&quot;fa fa-angle-up&quot;&gt;&lt;/i&gt;
+	&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+
+<div class="row">
+<p><span class="bold">Trigger structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=trigger</span> - Styling for the trigger bar.</p>
+<p class="grey-text"><span class="bold">class=trigger-box</span> - Contains the open and close toggle button targeting header class=main.</p>
+<p class="grey-text"><span class="bold">class=side-logo</span> - Div to show logo mark. - Max width of 55px</p>
+<p class="grey-text"><span class="bold">class=back-to-top</span> - Back to top arrow shows after 850px vertical scroll - logo mark fades out</p>
+</div>
+	
+</div>	
+
+
+<div class="block no-8" id="block-5">
+<h5 class="block-heading">5 - HOME PAGE SLIDER</h5>
+	<p>Anthem uses superSlides jQuery plugin for home page slideShow. The html structure is explained below.</p>
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div id=&quot;slides&quot; class=&quot;home&quot;&gt;
+	&lt;ul class=&quot;slides-container&quot;&gt;
+		&lt;li&gt;
+			&lt;img src=&quot;preview/slide1.jpg&quot; alt=&quot;&quot;&gt;
+			&lt;div class=&quot;black-tint&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;slide-caption dark text-center&quot;&gt;
+				&lt;div class=&quot;row large do-fade&quot;&gt;
+				&lt;h1 class=&quot;bold large-font&quot;&gt;SOME SLIDE HEADING&lt;/h1&gt;
+				&lt;h2&gt;SLIDE DESCRIPTION.&lt;/h2&gt;
+				&lt;div&gt;
+					&lt;a href=&quot;&quot; class=&quot;white line-button&quot;&gt;&lt;span&gt;SLIDE BUTTON&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>	
+
+<div class="row">
+<p><span class="bold">Slider structure explanation.</span></p>
+<p class="grey-text"><span class="bold">id=slides</span> - ID for the slides container.</p>
+<p class="grey-text"><span class="bold">class=home</span> - Set styles and call for the homepage slider.</p>
+<p class="grey-text"><span class="bold">li > img</span> -Image will be used as the background for the slide</p>
+<p class="grey-text"><span class="bold">class=slide-caption</span> - Slide caption</p>
+<p class="grey-text"><span class="bold">class=dark</span> - add class dark to any div that has dark background which will make the test light color i-e color:#fff(white)</p>
+<p class="grey-text"><span class="bold">class=do-fade</span> - This class makes the slide caption fade down the way with vertical scroll</p>
+</div>	
+</div>
+
+<div class="block no-9" id="block-6">
+<h5 class="block-heading">6 - EQUAL HEIGHT BLOCKS</h5>
+<p>Anthem uses matchHeight jQuery plugin to create equal height blocks as displayed on Default Home page and About Alt page. The structure is explained below</p>
+
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;section class=&quot;equals&quot;&gt;
+	&lt;ul class=&quot;grid times-two&quot;&gt;
+		&lt;li class=&quot;one-half do-equal&quot;&gt;&lt;/li&gt;
+		&lt;li class=&quot;one-half do-equal img-section&quot; style=&quot;background-image:url(image source)&quot;&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/section&gt;
+</code>
+</pre>
+</div>
+<div class="row">
+<p><span class="bold">equal heights structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=equals</span> - Class for equal function call.</p>
+<p class="grey-text"><span class="bold">class=do-equal</span> - Do-equal will set the height of the divs equal to the largest block it is being used on.</p>
+<p class="grey-text">UL class="grid times-two" is used to divide content into two block</p>
+<p class="grey-text">class img-section is only used when image will be a background</p>
+</div>	
+</div>
+
+<div class="block no-10" id="block-7">
+<h5 class="block-heading">7 - BlOCK SLIDER</h5>
+<p>Anthem uses flexSlider jQuery plugin to create multiple sliders for anthem template. The below structure explains the block slider used to display services on Home Extended page.</p>
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- place slider navigation on its separate row --&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;block-nav grey&quot;&gt;
+		&lt;!-- slider caption buttons - number of nav buttons must be same as number of slides--&gt;
+		&lt;ol class=&quot;block-slider-nav&quot; id=&quot;block-slider-nav&quot;&gt;
+			&lt;!-- first service slide nav link --&gt;
+			&lt;li class=&quot;nav-button&quot;&gt;
+			&lt;a href=&quot;#&quot;&gt;Services One&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;flexslider block-slider&quot;&gt;
+	&lt;ul class=&quot;slides&quot;&gt;
+		&lt;!-- first service slide --&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;six columns&quot;&gt;
+			&lt;!-- Service slide Image --&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;six columns&quot;&gt;
+			&lt;!-- Service slide content --&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+<div class="row">
+<p><span class="bold">service slider structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=block-nav</span> - Class for block-slider navigation.</p>
+<p class="grey-text"><span class="bold">class=block-slider</span> - Class to initiate flexslider call and apply appropriate css styles.</p>
+<p class="grey-text"><span class="primary badge">!</span> Number of slide navigation links should be same as number of slides</p>
+</div>
+
+</div>
+
+
+<div class="block no-11" id="block-8">
+<h5 class="block-heading">8 - IMAGE NAV SLIDER</h5>
+<p>Anthem uses flexSlider jQuery plugin to create image nav slider used to display client testimonials on about pages.</p>
+
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;img-nav&quot;&gt;
+		&lt;!-- slider caption buttons - number of nav buttons must be same as number of slides--&gt;
+		&lt;ol class=&quot;img-slider-nav do-six&quot;&gt;
+			&lt;li class=&quot;nav-button&quot;&gt;
+			<!-- each slide nav link is an image -->
+			&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;image-source&quot; alt=&quot;client&quot; class=&quot;client&quot;&gt;&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;!--quote icon --&gt;
+	&lt;div class=&quot;icon&quot;&gt;
+	&lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;text-center&quot;&gt;
+		&lt;div class=&quot;flexslider img-nav-slider&quot;&gt;
+			&lt;ul class=&quot;slides&quot;&gt;
+				&lt;!-- testimonial slide --&gt;
+				&lt;li&gt;
+				Slide Content
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt; 
+</code>
+</pre>
+</div>
+
+<div class="row">
+<p><span class="bold">image nav slider structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=img-nav</span> - Class for block-slider navigation.</p>
+<p class="grey-text"><span class="bold">class=do-six</span> - Class used to show 6 image links. Other option includes class=do-four. You can create your own class for any other number of images you would like to display. Save your class in style.css</p><br />
+<p class="grey-text"><span class="bold">class=img-nav-slider</span> - Class to initiate flexslider call and apply appropriate css styles.</p>
+<p class="grey-text"><span class="primary badge">!</span> Number of slide navigation links should be same as number of slides</p>
+</div>
+
+</div>
+
+
+<div class="block no-11" id="block-9">
+<h5 class="block-heading">9 - INTRO TEXT SLIDER</h5>
+<p>Anthem uses flexSlider jQuery plugin to create intro text slider displayed on about alt page.</p>
+
+
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div class=&quot;flexslider intro-text-slider&quot;&gt;
+	&lt;ul class=&quot;slides&quot;&gt;
+	&lt;!-- slide 1--&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;row text-center&quot;&gt;
+			&lt;!-- slide content --&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+
+
+<div class="row">
+<p><span class="bold">intro text slider structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=intro-text-slider</span> - Class to initiate flexslider call and apply appropriate css styles.</p>
+</div>
+
+</div>
+
+
+<div class="block no-12" id="block-10">
+<h5 class="block-heading">10 - TEAM BLOCKS</h5>
+<p>Anthem team blocks which are displayed on about alt page , work like modals, where clicking on 'read more' will open more information about the team member. By default it supports 3 team members in one row. It is possible to change the number of team members in one row to four or less, however css style fixes may be required.</p>
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;ul class=&quot;grid times-three team&quot;&gt;
+	&lt;!-- member --&gt;
+	&lt;li class=&quot;member&quot;&gt;
+		&lt;!-- more info button
+		gumby trigger should be same as the id of member more info below--&gt;
+		&lt;a href=&quot;&quot; class=&quot;switch open&quot; gumby-trigger=&quot;#member1&quot;&gt;
+			&lt;div class=&quot;member-img&quot;&gt;
+				&lt;img src=&quot;team-member-image&quot; alt=&quot;anthem-demo-img&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;overlay-color&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;person-info-icon&quot;&gt;
+				&lt;i class=&quot;fa fa-eye&quot;&gt;&lt;/i&gt;
+				&lt;h6 class=&quot;italic white-text&quot;&gt;Read more&lt;/h6&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;person-info&quot;&gt;
+			&lt;h2 class=&quot;member-name&quot;&gt;Member name&lt;span&gt;Position&lt;/span&gt;&lt;/h2&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;!-- member more info--&gt;
+		&lt;div class=&quot;member-more-info&quot; id=&quot;member1&quot;&gt;
+			&lt;div class=&quot;content-block&quot;&gt;
+			&lt;h2 class=&quot;block-heading small&quot;&gt;Member name&lt;/h2&gt;
+			&lt;h6&gt;Team position&lt;/h6&gt;
+			&lt;p&gt;
+				&lt;!--member info --&gt;
+				Lorem ipsum
+			&lt;/p&gt;
+			&lt;!-- member social media links --&gt;
+			&lt;div class=&quot;social-icon&quot;&gt;
+				&lt;ul class=&quot;social-icon-list&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;!-- close member info button --&gt;
+			&lt;a href=&quot;&quot; class=&quot;switch active close&quot; gumby-trigger=&quot;|#member1&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	
+	&lt;!-- Second member --&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;!-- Third member --&gt;
+	&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+</div>
+
+<div class="row">
+<p><span class="bold">Member block structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=team</span> - Class used to apply appropriate css styles to grid items.</p>
+<p class="grey-text"><span class="bold">class=member</span> - Class used to apply appropriate css styles to single li item.</p>
+<p class="grey-text"><span class="bold">a class=switch</span> - Unlike class=toggle , switch is used to add active class once. We will later remove the added active class via the close button.</p>
+<p class="grey-text"><span class="bold">gumby-trigger</span> - Gumby-trigger specifies which team member info to target.</p>
+<p class="grey-text"><span class="bold">a class=switch close</span> - The class used to remove the active class on closing member more info.</p>
+</div>
+
+</div>
+
+<div class="block no-12" id="block-11">
+		<h5 class="block-heading">11 - PORTFOLIO</h5>
+		<h6 class="semi-block-heading">11.1 - PORTFOLIO STRIPE</h6>
+		<p>Anthem used smoothDivScroll with jQuery Kinect and jQuery mouseWheel (saved in drag.js) to create the click and drag stripe portfolio.  Please note you need a minimum of 8 to 10 items for portfolio scroll to work perfectly.</p>
+
+
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- PORTFOLIOSCROLL CREATES HORIZONTAL SLIDES --&gt;
+&lt;div id=&quot;portfolioscroll&quot;&gt;
+	&lt;!-- PORTFOLIO ITEM 1 --&gt;
+	&lt;div class=&quot;item&quot;&gt;
+		&lt;img src=&quot;stripe-image&quot; alt=&quot;item&quot;&gt;
+		&lt;a href=&quot;link-to-project-single&quot; title=&quot;View Project&quot;&gt;
+			&lt;div class=&quot;stripe-info&quot;&gt;
+				&lt;h1 class=&quot;stripe-title&quot;&gt;Project title&lt;span class=&quot;right light&quot;&gt;project number&lt;/span&gt;&lt;/h1&gt;
+				&lt;h6 class=&quot;stripe-cat&quot;&gt;project category&lt;/h6&gt;
+				&lt;span class=&quot;stripe-view-link&quot;&gt;VIEW PROJECT&lt;i class=&quot;fa fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;!-- PORTFOLIO ITEM 2 --&gt;
+	&lt;div class=&quot;item&quot;&gt;
+		second item content
+	&lt;/div&gt;
+	&lt;!-- PORTFOLIO ITEM 3 --&gt;
+	&lt;div class=&quot;item&quot;&gt;
+		third item content
+	&lt;/div&gt;
+&lt;/div&gt; 
+</code>
+</pre>
+</div>
+
+<div class="row">
+<p><span class="bold">portfolio stripe structure explanation.</span></p>
+<p class="grey-text"><span class="bold">id=portfolioscroll</span> - Id used to initiate drag portfolio function. All portfolio stripe items should be inside this div</p>
+<p class="grey-text"><span class="bold">class=item</span> - Each portfolio stripe item should be wrapped inside this class. Applies appropriate CSS styles.</p>
+</div>
+
+</div>
+
+<div class="block no-12">
+		<h6 class="semi-block-heading">11.2 - PORTFOLIO GRID</h6>
+		<p>Portfolio grid structure is explained below.</p>
+		
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;ul class=&quot;grid filter times-three basic&quot; id=&quot;projects&quot;&gt;
+	&lt;!-- project
+	remember to add your data-filter as class
+	--&gt;
+	&lt;li class=&quot;grid-item&quot;&gt;
+		&lt;div class=&quot;grid-project&quot;&gt;
+			&lt;!-- project image --&gt;
+			&lt;div class=&quot;img-box&quot;&gt;
+				&lt;img src=&quot;image-source&quot; alt=&quot;project&quot; class=&quot;zoom-on-hover&quot;&gt;
+				&lt;div class=&quot;icon-box&quot;&gt;
+				&lt;!-- prettyphoto link --&gt;
+				&lt;a class=&quot;do_popup&quot; rel=&quot;prettyPhoto[pp_gal]&quot; href=&quot;lightbox-image-source&quot; title=&quot;View Larger&quot;&gt;&lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- folio single link --&gt;
+			&lt;a href=&quot;link-to-project-single-page&quot; title=&quot;View Project&quot;&gt;
+				&lt;div class=&quot;project-info&quot;&gt;
+				&lt;h1 class=&quot;grid-title&quot;&gt;SOME PROJECT TITLE&lt;/h1&gt;
+				&lt;h6 class=&quot;project-cat&quot;&gt;Design &amp; Development&lt;/h6&gt;
+				&lt;!-- project index --&gt;
+				&lt;div class=&quot;project-index&quot;&gt;
+				&lt;span class=&quot;number&quot;&gt;01&lt;/span&gt;&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+</div>		
+		
+<div class="row">
+<p><span class="bold">portfolio grid structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=grid basic</span> - Applies the basic CSS styling for the portfolio grid.</p>
+<p class="grey-text"><span class="bold">class=filter</span> - Class is used to initiate the isotope filtering for portfolio items.</p>
+<p class="grey-text"><span class="bold">class=grid-item</span> - Class is used to style single LI items.</p>
+<p class="grey-text"><span class="bold">class=grid-project</span> - All content goes inside this div.</p>
+<p class="grey-text"><span class="bold">class=zoom-on-hover</span> - Adds slight zoom on image on hover.</p>
+</div>	
+	
+</div>	
+
+<div class="block no-12">
+		<h6 class="semi-block-heading">11.3 - PORTFOLIO GRID ALT</h6>
+		<p>The primary difference between portfolio grid and portfolio grid alt is that portfolio grid alt code is placed inside a div class="row" and each project is also given a little description apart from the title and category. The structure is below.</p>
+	
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div class=&quot;row large&quot;&gt;
+	&lt;ul class=&quot;grid filter times-three basic&quot; id=&quot;projects&quot;&gt;
+		&lt;!-- project
+		remember to add your data-filter as class
+		--&gt;
+		&lt;li class=&quot;grid-item&quot;&gt;
+			&lt;div class=&quot;grid-project&quot;&gt;
+				&lt;!-- project image --&gt;
+				&lt;div class=&quot;img-box&quot;&gt;
+					&lt;img src=&quot;image-source&quot; alt=&quot;project&quot; class=&quot;zoom-on-hover&quot;&gt;
+					&lt;div class=&quot;icon-box&quot;&gt;
+					&lt;!-- prettyphoto link --&gt;
+					&lt;a class=&quot;do_popup&quot; rel=&quot;prettyPhoto[pp_gal]&quot; href=&quot;lightbox-image-source&quot; title=&quot;View Larger&quot;&gt;&lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;project-info&quot;&gt;
+				&lt;!-- folio single link --&gt;
+				&lt;a href=&quot;folio-single.html&quot; title=&quot;View Project&quot;&gt;
+				&lt;h1 class=&quot;grid-title&quot;&gt;SOME PROJECT TITLE&lt;/h1&gt;
+				&lt;h6 class=&quot;project-cat&quot;&gt;Project Category&lt;/h6&gt;
+				&lt;!-- project index --&gt;
+				&lt;div class=&quot;project-index&quot;&gt;
+				&lt;span class=&quot;number&quot;&gt;01&lt;/span&gt;&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;p&gt;project description&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt; 		
+</code>
+</pre>
+</div>	
+	
+</div>
+
+<div class="block no-12" id="block-12">
+		<h5 class="block-heading">12 - AJAX HOMEPAGE</h5>
+		<p>Ajax homepage portfolio is set similar to other portfolios, however the primary difference is the class="grid alt" instead of class="grid basic". This 'ALT' class will give appropriate styling to portfolio items. The rest of the structure is explained below. Ajax script is located in js folder/ ajax.js</p>
+	
+<div class="row">
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;ul class=&quot;grid times-three alt&quot; id=&quot;projects&quot;&gt;
+	&lt;!-- project --&gt;
+	&lt;li class=&quot;grid-item&quot;&gt;
+		&lt;div class=&quot;grid-project&quot;&gt;
+			&lt;!-- ajax link --&gt;
+				&lt;a href=&quot;#!projects/link-to-project-single-file&quot; class=&quot;open-slide&quot;&gt;
+				&lt;!-- project image --&gt;
+				&lt;div class=&quot;img-box&quot;&gt;
+				&lt;img src=&quot;image-source&quot; alt=&quot;project&quot; class=&quot;zoom-on-hover&quot;&gt;
+				&lt;/div&gt;
+				&lt;!-- project title and category --&gt;
+				&lt;div class=&quot;project-info&quot;&gt;
+				&lt;h1 class=&quot;grid-title&quot;&gt;PROJECT TITLE&lt;/h1&gt;
+				&lt;h6 class=&quot;project-cat&quot;&gt;Project Category&lt;/h6&gt;
+				&lt;/div&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+</div>	
+
+<div class="row">
+<p><span class="bold">Ajax homepage structure explanation.</span></p>
+<p class="grey-text"><span class="bold">class=grid alt</span> - Applies the basic CSS styling for the ajax portfolio grid. You can also use this portfolio without ajax and simply linking the a href= to your normal single project page. Do remove class=open-slide if you choose to not use Ajax.</p>
+<p class="grey-text"><span class="bold">class=open-slide</span> - On click it will set body overflow to hidden. This class is not required if you are not using Ajax.</p>
+<p><span class="primary badge">!</span> Please note single project files for ajax portfolio must reside in projects folder. All ajax links must be set up in a similar way. Begining with #!projects/name-of-your-single-file.html</p>
+</div>	
+	
+<div class="row">
+<p><span class="bold">How to add portfolio filters to ajax page.</span></p>
+<p>Adding portfolio filters is very easy. First add class=filter to class="grid alt" . This will initiate the isoptope filter function. Then you will have to add the below code for portfolio filter options, which is also found in folio-grid and folio-grid-alt. Next add the filter classes to each LI item as <span class="bold">li class="grid-item filter-optiona filter-optionb"</span> and so on.</p>
+
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;div id=&quot;options&quot;&gt;
+	&lt;ul id=&quot;filters&quot; class=&quot;option-set&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;*&quot; class=&quot;selected&quot;&gt;Show All&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.filter-optiona&quot;&gt;Option A&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.filter-optionb&quot;&gt;Option B&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.filter-optionc&quot;&gt;Option C&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.filter-optiond&quot;&gt;Option D&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>	
+	
+</div>	
+	
+<div class="block no-13" id="block-13">
+		<h5 class="block-heading">13 - CONTACT PAGE</h5>
+		<p>Anthem comes with a fully working contact form. First open send-email.php file in a code editor and input your email address where you would like to receive emails. To set up the map, scroll to the bottom of the contact.html or contact-alt.html and set your longitude and latitude values for your location. It is ready to go.</p>
+</div>
+
+
+<div class="block no-14" id="block-14">
+		<h5 class="block-heading">14 - PROJECT PLANNER</h5>
+		<p>Anthem comes with a fully working project planner form. Open projectplanner.php in a code editor. Change the $toemail value to your email where you would like to receive the planner requests. And you are good to go. If you would like to redirect users to a page other than thanks.html on planner submission. Change the $success_page_name value to the page or link you want to redirect users to. On successful form submission you will receive the planner request in a nice table layout to the email you specify. It is ready to go.</p>
+</div>
+	
+<div class="block no-15" id="block-15">
+		<h5 class="block-heading">15 - SUBSCRIBE</h5>
+		<p>Anthem also comes with a fully working subscribe form. Open subscribe.php in a code editor and input the email where you would like to receive the subscription email requests. Save it and you are ready to go.</p>
+</div>
+	
+<div class="block no-16" id="block-16">
+		<h5 class="block-heading">16 - TWITTER</h5>
+		<p>Anthem comes with a fully working twitter script. You will need your consumer key, consumer secret, user token and user secret. Which you can get from https://dev.twitter.com. Once you have these values, open index.php located in the twitter folder and input your keys and tokens. You will then need to open index.html or home-two.html, the two pages where we are using twitter, scroll to the bottom of the page to script section and input your twitter username. It is good to go.</p>
+</div>
+
+<div class="block no-17" id="block-17">
+		<h5 class="block-heading">17 - SHORTCODES</h5>
+		<p>To make styling easy, we have added various padding classes. Listed below.</p>
+		
+<pre class="line-numbers">
+<code class="language-css">
+.nopadding {
+	padding:0 !important;
+}
+.notoppadding {
+	padding-top:0px;
+}
+.nobottompadding {
+	padding-bottom:0px;
+}
+.smallpadding {
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+.smallsidepadding {
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+.smalltoppadding {
+	padding-top:10px !important;
+}
+.smallbottompadding {
+	padding-bottom:10px !important;
+}
+.leftpadding {
+	padding-left:20px !important;
+}
+.rightpadding {
+	padding-right:20px !important;
+}
+.midpadding {
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+}
+.midsidepadding {
+	padding-left:20px;
+	padding-right:20px;
+}
+.midtoppadding {
+	padding-top:20px !important;
+}
+.midbottompadding {
+	padding-bottom:20px !important;
+}
+.bigpadding {
+	padding-top:50px !important;
+	padding-bottom:50px !important;
+}
+.bigsidepadding {
+	padding-left:50px !important;
+	padding-right:50px !important;
+}
+.bigtoppadding {
+	padding-top:50px !important;
+}
+.bigbottompadding {
+	padding-bottom:50px !important;
+}
+.largepadding {
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+}
+.largebottompadding {
+	padding-bottom:100px !important;
+}
+.largetoppadding {
+	padding-top:100px !important;
+}
+.nomargin {
+	margin: 0px auto !important;
+}
+</code>
+</pre>		
+
+
+<div class="row" style="margin-top:50px;">
+<p><span class="bold">Buttons</span></p>
+<p>Anthem comes with two different buttons. Line button and fill button. Line button displays a border only button and on hover slides in a background color. Fill button displays a solid background color button and on hover displays a border only button. Using buttons is very easy as shown below.</p>
+
+<div class="row">
+<pre class="line-numbers">	
+<code class="language-markup">
+&lt;!--fill button--&gt;
+&lt;a href=&quot;link&quot; class=&quot;purple fill-button&quot;&gt;&lt;span&gt;Link text&lt;/span&gt;&lt;/a&gt;
+&lt;!-- change between background colors by substituting purple for other colors available such as white or black. --&gt;
+</code>
+</pre>	
+</div>
+
+<div class="row">
+<pre class="line-numbers">	
+<code class="language-markup">
+&lt;!--line button--&gt;
+&lt;a href=&quot;link&quot; class=&quot;purple line-button&quot;&gt;&lt;span&gt;Link text&lt;/span&gt;&lt;/a&gt;
+&lt;!-- change between background colors by substituting purple for other colors available such as white or black.--&gt;
+</code>
+</pre>	
+</div>
+
+
+</div>
+
+</div>
+<hr style="height:5px; background:#000;">
+<div class="block no-18">
+		<h5 class="block-heading">GETTING SUPPORT</h5>
+		<p>Thank you once again for your purchase. The template files are all commented and with this help file it should not be a problem to set up the template. If you still require support please open a support ticket on <a href="http://support.codeblvck.com">SUPPORT FORUMS</a>, and we will get back to your within 3 working days.</p>
+		<p><span class="bold">Please note, only queries in regard to template setup will be answered. Customization queries will be answered with an estimate quote price.</span></p>
+</div>
+
+
+<div class="back-to-top">
+<a href="#" gumby-goto="top"><i class="icon-up-open-big"></i> Top of page</a>
+</div>
+	
+</div>
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script>
+	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+	if(!oldieCheck) {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+	} else {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+	}
+	</script>
+	<script>
+	if(!window.jQuery) {
+	if(!oldieCheck) {
+	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	} else {
+	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	}
+	}
+	</script>
+
+	<script src="js/libs/gumby.min.js"></script>
+
+	<!--
+	Google's recommended deferred loading of JS
+	gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+
+	Note: If you opt to use this method of defered loading,
+	ensure that any javascript essential to the initial
+	display of the page is included separately in a normal
+	script tag.
+
+	<script type="text/javascript">
+	function downloadJSAtOnload() {
+	var element = document.createElement("script");
+	element.src = "js/libs/gumby.min.js";
+	document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+	</script> -->
+
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/prism.js"></script>
+
+	<!-- Change UA-XXXXX-X to be your site's ID -->
+	<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+  </body>
+</html>

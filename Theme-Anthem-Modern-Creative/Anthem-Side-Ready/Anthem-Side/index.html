@@ -1,0 +1,975 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Anthem - Unique Creative Responsive Template</title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="author" content="humans.txt"><meta name="robots" content="noindex, nofollow">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+<!-- Facebook Metadata /-->
+<meta property="fb:page_id" content=""/>
+<meta property="og:image" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content=""/>
+<!-- Google+ Metadata /-->
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/import.css">
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- preloader / loading gif is located in ../img/ 
+change background color in style.css -->
+<div id="preloader">
+	<div id="status">
+		&nbsp;
+	</div>
+</div>
+
+<!-- Navigation header -->
+<header class="main custom-scroll">
+<!-- #header-scrollarea adds custom scrollbar for header -->
+<div id="header-scrollarea">
+	<!-- sliding-header logo will not display on mobile devices -->
+	<div class="logo">
+		<img src="img/logo-main.png" alt="logo" gumby-retina>
+	</div>
+	<!-- navigation -->
+<nav class="main-nav">
+<ul class="site-nav">
+		<!-- li class active for active page link
+				add gumby-trigger=#id to target drawer with child navigation -->
+		<li class="active"><a href="" class="toggle" gumby-trigger="#home-sub">Home<span>We Start Here</span></a>
+		<ul id="home-sub" class="drawer">
+			<li class="active"><a href="index.html">Home Default</a></li>
+			<li><a href="home-two.html">Home Extended</a></li>
+			<li><a href="home-work.html">Home Work / AJAX</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#about-sub">Studio<span>Read More About Us</span></a>
+		<ul id="about-sub" class="drawer">
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="about-alt.html">About Us Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#work-sub">Portfolio<span>Some Recent Work</span></a>
+		<ul id="work-sub" class="drawer">
+			<li><a href="folio-stripe.html">Folio Stripe</a></li>
+			<li><a href="folio-grid.html">Folio Grid</a></li>
+			<li><a href="folio-grid-alt.html">Folio Grid Alt</a></li>
+			<li><a href="folio-single.html">Folio Single</a></li>
+			<li><a href="folio-single-alt.html">Folio Single Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#note-sub">Notes<span>Behind The Scenes</span></a>
+		<ul id="note-sub" class="drawer">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="notes-sidebar.html">Notes Sidebar</a></li>
+			<li><a href="note-single.html">Note Single</a></li>
+			<li><a href="note-single-sidebar.html">Note Single Sidebar</a></li>
+			<li><a href="note-single-sidebar-alt.html">Note Single Sidebar Alt</a></li>
+		</ul>
+		</li>
+		<li><a href="" class="toggle" gumby-trigger="#pages-sub">Pages<span>Extra Pages With Anthem</span></a>
+		<ul id="pages-sub" class="drawer">
+			<li><a href="page-sidebar.html">Page Sidebar</a></li>
+			<li><a href="page-sidebar-alt.html">Page Sidebar Alt</a></li>
+			<li><a href="contact-alt.html">Contact Alt</a></li>
+			<li><a href="thanks.html">Thanks</a></li>
+		</ul>
+		</li>
+		<li><a href="contact.html">Contact<span>Get In Touch With Us</span></a></li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+
+<!-- header trigger -->
+<div class="trigger">
+<div class="trigger-box">
+	<a class="toggle" gumby-trigger="header.main" id="trigger">
+	<i class="fa fa-bars active"></i>
+	<i class="fa fa-times"></i>
+	</a>
+</div>
+
+<!-- side logo mark  -->
+<div class="side-logo">
+<img src="img/logo-mark.png" alt="logo" gumby-retina>
+</div>
+
+
+<!-- back to top button displays after 850px 
+		vertical scroll value in ../js/main.js -->
+<div class="back-to-top">
+	<a id="top-trigger">
+	<i class="fa fa-angle-up"></i>
+	</a>
+</div>
+</div>
+
+<!-- Main content block - all page content -->
+<div class="content custom-scroll">
+	<!-- blocker active with active header -->
+	<div class="blocker">
+	</div>
+	<!-- #scrollarea adds custom scrollbar for main content -->
+	<div id="scrollarea">
+		<!-- action class for animating page content when header is active -->
+		<div class="action step-right">
+			<!-- superslides -->
+			<section class="home-slider">
+				<!-- #crumbs for page title bar and top navigation 
+				add abs class to make crumbs stick to top(background slideshow) -->
+				<div id="crumbs" class="abs">
+					<div class="row large dark">
+					<div class="six columns">
+						<!-- page title/statement -->
+						<h6 class="sub-heading">WELCOME TO OUR DIGITAL HOME</h6>
+					</div>
+					<div class="six columns text-right">
+						<!-- top on-page nav -->
+						<ul class="nav-icon-list">
+							<li><a class="planner-btn"><span>Planner</span><i class="fa fa-book"></i></a></li>
+							<li><a class="search-btn"><span>Search</span><i class="fa fa-search"></i></a></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				
+				<!-- begin home slideshow -->
+				<div id="slides" class="home">
+					<ul class="slides-container">
+						<!-- first slide -->
+						<li>
+						<!-- slide background image -->
+						<img src="preview/1500px.png" alt="">
+						<div class="black-tint">
+						</div>
+						<div class="slide-caption dark text-center">
+							<!-- add class do-fade to apply fade animation on scroll -->
+							<div class="row large do-fade">
+							<h1 class="bold large-font">WE ARE CREATIVE</h1>
+							<h2>Serving all creative needs.</h2>
+							<div class=" midtoppadding">
+								<a href="" class="white line-button"><span>READ ABOUT US</span></a>
+							</div>
+							</div>
+						</div>
+						</li>
+						
+						<!-- second slide -->
+						<li>
+						<!-- slide background image -->
+						<img src="preview/1500px.png" alt="">
+
+						<div class="slide-caption dark">
+							<!-- add class do-fade to apply fade animation on scroll -->
+							<div class="row large text-center do-fade">
+									<h1 class="block-heading">HELPING YOU MAKE AN IMPACT</h1>
+									<div class="eight columns centered">
+									<h2>We provide direction on maintaining and growing your market size.</h2>
+									<div class="midtoppadding">
+										<a href="" class="white line-button"><span>READ ABOUT US</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						</li>
+						
+						<!-- third slide -->
+						<li>
+						<!-- slide background image -->
+						<img src="preview/1500px.png" alt="">
+						<div class="black-tint"></div>
+						<div class="slide-caption dark">
+							<!-- add class do-fade to apply fade animation on scroll -->
+							<div class="row large text-center do-fade">
+							<h1 class="block-heading">EXPLORE THE POSSIBILITY</h1>
+							<div class="eight columns centered">								
+								<h2>Our services vary from print design to digital development and beyond.</h2>
+								<div class="midtoppadding">
+									<a href="" class="white line-button"><span>VIEW OUR SERVICES</span></a>
+								</div>
+							</div>
+							</div>
+						</div>
+						</li>
+					</ul>
+					<!-- slideshow direction nav -->
+					<nav class="slides-navigation">
+					<a href="#" class="next"><i class="fa fa-chevron-right"></i></a>
+					<a href="#" class="prev"><i class="fa fa-chevron-left"></i></a>
+					</nav>					
+				</div>
+			</section><!-- home-slider -->
+			
+			<!-- section background color -->
+			<div class="white">				
+				<!-- first section / info -->
+				<section class="content-block">
+					<div class="row content-heading text-center">
+						<h6>ANTHEM CREATIVE TEMPLATE</h6>
+						<h3>WE HELP YOU BUILD YOUR BRAND</h3>
+						<span class="border"></span>
+					</div>
+					<div class="row">
+						<div class="ten columns centered text-center">
+							<p class="intro">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enimipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+						</div>
+					</div>
+				</section>
+			
+				<!--second section / projects -->
+				<section class="work">
+					<!-- begin projects -->
+					<ul class="grid times-four alt" id="projects">
+						
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+							<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+						
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+							<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+						
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+							<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+						<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+						
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+						<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+						<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+						<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+
+						<!-- project -->
+						<li class="grid-item">
+						<div class="grid-project">
+							<!-- project image -->
+							<div class="img-box">
+								<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+							</div>
+							<!-- view more link -->
+							<a href="folio-single.html">
+							<!-- project info -->
+							<div class="project-info">
+								<h1 class="grid-title">SOME PROJECT TITLE</h1>
+								<h6 class="project-cat">Design &amp; Development</h6>
+							</div>
+							</a>
+						</div>
+						</li>
+					</ul>
+
+					<!-- clear floats -->
+					<div class="clear">
+					</div>
+				</section>
+				
+				<!-- call to acton block -->
+				<div class="action-block purple">
+					<div class="row">
+					<div class="twelve columns text-center">
+						<h3 class="white-text">We are proud of our hard work! Have a look.			
+						<a href="folio-grid.html" class="white line-button"><span>View All Work</span></a>
+						</h3>
+					</div>
+					</div>
+				</div>
+				
+				<!-- third section / icon s-->	
+				<section class="content-block">
+					<div class="row large">
+					
+					<!-- icon block one -->
+					<div class="four columns">
+						<!-- add class icon-side to display icon on the side -->
+						<div class="icon-block icon-side">
+							<div class="icon">
+								<i class="fa fa-desktop"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">WEB DESIGN SERVICES</h5>
+								<p>
+									 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+								</p>
+								<ul class="caret-list">
+									<li>Donec quis dui at dolor tempor interdum..</li>
+									<li>Aliquam tincidunt mauris eu risus. </li>
+									<li>Ut aliquam sollicitudin leo.</li>
+									<li>Fusce pellentesque suscipit nibh.</li>
+									<li>Cras ornare tristique elit. </li>
+									<li>Vestibulum auctor dapibus neque.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!-- icon block two -->
+					<div class="four columns">
+						<!-- add class icon-side to display icon on the side -->
+						<div class="icon-block icon-side">
+							<div class="icon">
+								<i class="fa fa-pencil"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">GRAPHIC DESIGN</h5>
+								<p>
+									 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+								</p>
+								<ul class="caret-list">
+									<li>Donec quis dui at dolor tempor interdum..</li>
+									<li>Aliquam tincidunt mauris eu risus. </li>
+									<li>Ut aliquam sollicitudin leo.</li>
+									<li>Fusce pellentesque suscipit nibh.</li>
+									<li>Cras ornare tristique elit. </li>
+									<li>Vestibulum auctor dapibus neque.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!-- icon block three -->
+					<div class="four columns">
+						<!-- add class icon-side to display icon on the side -->
+						<div class="icon-block icon-side">
+							<div class="icon">
+								<i class="fa fa-flag"></i>
+							</div>
+							<div class="icon-info">
+								<h5 class="bold">DIGITAL MARKETING</h5>
+								<p>
+									 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis.
+								</p>
+								<ul class="caret-list">
+									<li>Donec quis dui at dolor tempor interdum..</li>
+									<li>Aliquam tincidunt mauris eu risus. </li>
+									<li>Ut aliquam sollicitudin leo.</li>
+									<li>Fusce pellentesque suscipit nibh.</li>
+									<li>Cras ornare tristique elit. </li>
+									<li>Vestibulum auctor dapibus neque.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					</div>
+				</section>
+			</div><!-- white -->
+			
+			<!-- image background section / SHOWREEL
+					Replace background mage url 
+					add video source in main.js-->
+			<section class="img-section video-bg" style="background-image:url(preview/1550px.png);">
+				<!-- add class dark so we can use light color text -->
+				<div class="content-block black-tint dark">
+					<div class="row">
+					<div class="eight columns centered text-center">
+						<h1 class="block-heading nobottompadding">WATCH OUR SHOWREEL</h1>
+						<h4>We have created a showreel for you to check out</h4>
+						<a href="#" class="open-video switch" gumby-trigger="#video-modal"><i class="big fa fa-play"></i></a>
+					</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Equal height section -->
+			<!-- use class .equals to make children li equal height -->
+			<section class="equals">
+				<ul class="grid times-two">
+					<!-- first half -->
+					<!-- add class .do-equal to each li that has to be equal height --> 
+					<li class="one-half do-equal">
+						<div class="content-block grey">
+							<div>
+							<h2 class="block-heading small">OUR 3 STEP METHOD</h2>
+							<span class="border"></span>
+							</div>
+							<!-- step 1 -->
+							<div class="method-field">
+								<div class="method-number">
+									<span class="droid-font">01</span>
+								</div>
+								<!-- method detail -->
+								<div class="method-detail">
+									<h5>DISCUSS IDEAS</h5>
+									<h6>LOREM IPSUM DOLOR SIT AMET.</h6>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis concerning the origin of the “bad conscience”.
+									</p>
+								</div>
+							</div>
+							<!-- step 2 -->
+							<div class="method-field">
+								<div class="method-number">
+									<span class="droid-font">02</span>
+								</div>
+								<!-- method detail -->
+								<div class="method-detail">
+									<h5>DEVELOP CONCEPTS</h5>
+									<h6>LOREM IPSUM DOLOR SIT AMET.</h6>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis concerning the origin of the “bad conscience”.
+									</p>
+								</div>
+							</div>
+							<!-- step 3 -->
+							<div class="method-field">
+								<div class="method-number">
+									<span class="droid-font">03</span>
+								</div>
+								<!-- method detail -->
+								<div class="method-detail">
+									<h5>PRESENT SOLUTIONS</h5>
+									<h6>LOREM IPSUM DOLOR SIT AMET.</h6>
+									<p>
+										 At this point I can no longer avoid giving a first, provisional statement of my own hypothesis concerning the origin of the “bad conscience”.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					<!-- second half -->
+					<!-- add class .do-equal to each li that has to be equal height --> 
+					<li class="one-half do-equal">
+						<div class="content-block black dark">
+							<div>
+							<h2 class="block-heading small">WHY CHOOSE US</h2>
+							<span class="border"></span>
+							</div>
+							<p>
+								<span class="first-letter">A</span>t this point I can no longer avoid giving a first, provisional statement of my own hypothesis concerning the origin of the “bad conscience”: it may sound rather strange and needs to be pondered, lived with, and slept on for a long time.
+							</p>
+							<!-- icon list -->
+							<ul class="icon-list">
+								<!-- first li item -->
+								<li>
+								<i class="fa fa-heart red-text"></i>
+								<div class="list-info">
+									<h6>BUILT WITH LOVE</h6>
+									<p>
+										Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+								</li>
+								<!-- second li item -->
+								<li><i class="fa fa-thumbs-up green-text"></i>
+								<div class="list-info">
+									<h6>EASY TO USE</h6>
+									<p>
+										Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+								</li>
+								<!-- third li item -->
+								<li><i class="fa fa-bolt blue-text"></i>
+								<div class="list-info">
+									<h6>MAKE AN IMPRESSION</h6>
+									<p>
+										Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				
+				<!-- clear floats -->
+				<div class="clear">
+			</div>
+			</section>
+			
+			<!-- Recent Post Section -->
+			<section class="recent-posts">
+				<div class="content-block white">
+					<!-- section heading -->
+					<div class="row content-heading text-center">
+					<h6>FROM OUR BLOG</h6>
+					<h3>WHAT WE ARE TALKING ABOUT</h3>
+					<span class="border"></span>
+					</div>
+					<div class="row large">
+						<!-- begin posts -->
+						<ul class="grid times-three basic" id="posts">
+							<!-- first post -->
+							<li class="grid-item">
+							<div class="grid-post">
+								<!-- project image -->
+								<div class="img-box">
+									<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+									<div class="icon-box">
+										<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="preview/600px.png" title="View Larger"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+								<!--blog post info -->
+								<div class="post-info">
+									<a href="note-single-sidebar.html" title="Read Post"><h1 class="grid-title">Envato's Most Wanted: Non-Profit Site Templates - $4,000</h1></a>
+									<!-- read more button -->
+									<a href="note-single-sidebar.html" class="icon-button">Read More<i class="fa fa-chevron-right"></i></a>
+								</div>
+							</div>
+							</li>
+							<!-- second post -->
+							<li class="grid-item">
+							<div class="grid-post">
+								<!-- project image -->
+								<div class="img-box">
+									<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+									<div class="icon-box">
+										<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="preview/600px.png" title="View Larger"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+								<!--blog post info -->
+								<div class="post-info">
+									<a href="note-single-sidebar.html" title="Read Post"><h1 class="grid-title">New Feature: Updates to your "My Statement" page</h1></a>
+									<!-- read more button -->
+									<a href="note-single-sidebar.html" class="icon-button">Read More<i class="fa fa-chevron-right"></i></a>
+								</div>
+							</div>
+							</li>
+							<!-- third post -->
+							<li class="grid-item">
+							<div class="grid-post">
+								<!-- project image -->
+								<div class="img-box">
+									<img src="preview/600px.png" alt="project" class="zoom-on-hover">
+									<div class="icon-box">
+										<a class="do_popup" rel="prettyPhoto[pp_gal]"  href="preview/600px.png" title="View Larger"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+								<!--blog post info -->
+								<div class="post-info">
+								<a href="note-single-sidebar.html" title="Read Post">	<h1 class="grid-title">New Feature: Updates to your "My Statement" page</h1></a>
+									<!-- read more button -->
+									<a href="note-single-sidebar.html" class="icon-button">Read More<i class="fa fa-chevron-right"></i></a>
+								</div>
+							</div>
+							</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					<div class="row midtoppadding text-center">
+					<!-- view all posts -->
+					<a href="notes.html" class="black line-button"><span>READ ALL POSTS</span></a>
+					</div>
+				</div>
+			</section>
+			
+			<!-- twitter -->
+			<div class="img-section" style="background-image:url(preview/1550px.png);">
+				<div class="content-block black-tint dark">
+					<div class="row text-center">
+						<i class="big fa fa-twitter"></i>
+						<div class="eight columns centered">
+							<div class="tweet">
+							</div>
+						</div>
+						<!-- twitter username -->
+						<div class="four columns centered">
+						<a href="#" class="white-text"><span>@Username</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<!-- widgetized footer -->
+			<footer class="widget-ftr stripe-bg">
+			<div class="content-block dark">
+				<div class="row large midtoppadding">
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">A LITTLE ABOUT US.</h6>
+						<p>
+							 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.<br /> Dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt.
+						</p>
+					</div>
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">FROM OUR BLOG</h6>
+						<ul>
+							<li>
+						<a href="">Delving into Landing Page Design Trends</a>
+									<span class="post-date">September 18, 2014</span>
+								</li>
+							<li>
+						<a href="">VideoHive Surpasses 100,000 Items!</a>
+									<span class="post-date">September 17, 2014</span>
+								</li>
+							<li>
+						<a href="">Chrome Extensions for Web Designers</a>
+									<span class="post-date">September 16, 2014</span>
+								</li>
+						</ul>
+					</div>
+					<!-- widget -->
+					<div class="three columns widget-block">
+						<h6 class="widget-heading">CONTACT US</h6>
+						<p class="greytext midmargin meta">
+							 We have prepared a <a href="#" class="planner-btn orig">project planner</a> to get to know your project better.
+						</p>
+						<p class="greytext midmargin meta">
+							 p <span>(786) 9876 543 210</span><br>
+							 e <a href="mailto:" class="orig">contact@youragency.com</a>
+						</p>
+					</div>
+					<!-- widget -->
+					<div class="three columns newsletter widget-block">
+						<h6 class="widget-heading">NEWSLETTER</h6>
+						<p class="smallfont">
+							 Sign up for email updates. We will never share your email.
+						</p>
+						<form id="newsletter" action="#" method="post">
+						<div class="field">
+							<input name="email" class="input" type="text" placeholder="Your Email">
+						</div>
+						<input type="submit" name="Submit" value="Submit" class="submit small purple">
+					</form>
+					<div id="subscribe-msg">
+					</div>
+					</div>
+				</div>
+			</div>
+			</footer>
+			<!-- site credit -->
+			<footer id="colophon">
+			<div class="row large">
+			<div class="six columns">
+				<p>
+					 &copy; Anthem Template 2014. All rights reserved - Template by CodeBlvck
+				</p>
+			</div>
+			<div class="six columns">
+				<!-- social network links -->
+				<div class="text-right">
+					<div class="social-icon">
+						<ul class="social-icon-list">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+							<li><a href=""><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+			</footer>
+		</div><!-- action -->
+	</div><!-- scrollarea -->
+	
+	<!-- search modal -->
+	<div class="search-modal">
+		<div class="search-field">
+			<input class="search input" type="search" placeholder="Type search term here...">
+		</div>
+		<a class="remove-search"><i class="fa fa-times"></i></a>
+	</div>
+	
+	<!-- planner window -->
+	<div class="planner-modal grey custom-scroll">
+		<!-- planner-scrollarea adds custom scrollbar for planner -->
+		<div id="planner-scrollarea">
+			<div class="content-block">
+				<div class="row">
+				<!-- planner heading -->
+				<div class="ten columns centered">
+					<h2 class="bold">PROJECT PLANNER</h2>
+					<p class="intro s-bold">
+						Anthem comes with a fully working project planner script. Easily catch leads and get forms mailed to your email account in a nice table layout.
+					</p>
+					<hr class="thin grey">
+				</div>
+				</div>
+				<div class="row">
+				<div class="ten columns centered smallpadding">
+					<form method="post" action="projectplanner.php" onsubmit="return CheckAll(this);" id="form1">
+						<!-- first part -->
+						<h5 class="bold purple-text">HELLO THERE</h5>
+						<div class="clear-20">
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="name">Your Name*</label>
+								<input class="input" type="text" id="name" name="fieldnm_1" placeholder="How do we address you...">
+							</div>
+							<div class="field six columns">
+								<label for="email">Your E-mail*</label>
+								<input class="input" type="email" id="email" name="fieldnm_2" placeholder="Where should we write to you...">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="telephone">Telephone number</label>
+								<input class="input" type="tel" id="telephone" name="fieldnm_3" placeholder="Can we give you a ring...">
+							</div>
+							<div class="field six columns">
+								<label for="company">Company name</label>
+								<input class="input" type="text" id="company" name="fieldnm_4" placeholder="Are you representing someone...">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="website">Website URL i-e http://www.website.com</label>
+								<input class="input" type="url" id="website" name="fieldnm_5" placeholder="Do you have a website...">
+							</div>
+							<div class="field six columns">
+								<label for="location">Your location</label>
+								<input class="input" type="text" id="location" name="fieldnm_6" placeholder="Where are you located...">
+							</div>
+						</div>
+						<div class="clear-50">
+						</div>
+						<!-- second part -->
+						<h5 class="bold purple-text">PROJECT DETAILS</h5>
+						<div class="clear-20">
+						</div>
+						<div class="field row">
+							<label for="message">Please describe your project or idea</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="message" name="fieldnm_7">
+								</textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="req">Project requirements</label>
+								<input class="input" type="text" id="req" name="fieldnm_8" placeholder="Website, Branding, Mobile App etc">
+							</div>
+							<div class="field six columns">
+								<label for="start">When do you hope to start</label>
+								<input class="input" type="text" id="start" name="fieldnm_9">
+							</div>
+						</div>
+						<div class="row">
+							<div class="field six columns">
+								<label for="launch">When do you hope to launch</label>
+								<input class="input" type="text" id="launch" name="fieldnm_10">
+							</div>
+							<div class="field six columns">
+								<label for="budget">Your budget*</label>
+								<input class="input" type="number" id="budget" name="fieldnm_11" placeholder="What are you willing to invest">
+							</div>
+						</div>
+						<div class="clear-50">
+						</div>
+						<!-- third part -->
+						<h5 class="bold purple-text">DESIGN AND FEEL</h5>
+						<div class="clear-20">
+						</div>
+						<div class="field row">
+							<label for="look">Please describe your desired look and feel</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="look" name="fieldnm_12" placeholder="Clean, Modern, Minimal etc">
+								</textarea>
+							</div>
+						</div>
+						<div class="field row">
+							<label for="insp">Any inspiration for your project</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="insp" name="fieldnm_13" placeholder="Websites, Designs you like etc">
+								</textarea>
+							</div>
+						</div>
+						<div class="field row">
+							<label for="extra">Anything else you want us to know</label>
+							<div class="textarea">
+								<textarea class="input textarea" rows="4" id="extra" name="fieldnm_14">
+								</textarea>
+							</div>
+						</div>
+						<!-- submit button -->
+						<input type="submit" name="Submit" value="Submit Form" class="purple submit">
+					</form>
+					<hr class="thin grey">
+					<div class="twelve columns alpha">
+						<p>
+							<span class="purple-text bold">Privacy Policy:</span>&nbsp; We will never share your information with anyone. We will only contact you with regards to your enquiry.
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- close planner button -->
+			<a class="remove-planner"><i class="fa fa-times"></i></a>
+		</div><!--planner scrollarea -->
+	</div><!-- planner -->
+		
+	<!--showreel modal -->
+	<div class="video-modal" id="video-modal">
+		<div class="youtube video">
+		<!-- video source is added in ../js/main.js -->
+		</div>
+		<a class="remove-video switch" gumby-trigger="|#video-modal"><i class="fa fa-times"></i></a>
+	</div>
+
+</div><!-- end div.content -->
+
+
+<script src="js/libs/jquery-2.0.2.min.js"></script>
+<script src="js/libs/gumby.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<!-- twitter -->
+<script src="js/twitter.js"></script>
+<script>
+(function($) {
+  "use strict";
+		$('.tweet').tweet({
+		username: "envato",
+		modpath: '/twitter/',
+		count: 1,
+		loading_text: 'loading twitter feed...'
+	});
+	})(jQuery);
+	</script>	
+	
+<!-- only include animate.js on 
+	pages you want to use animations on
+	<script src="js/animate.js"></script> -->
+<!-- Change UA-XXXXX-X to be your site's ID -->
+<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+</body>
+</html>
