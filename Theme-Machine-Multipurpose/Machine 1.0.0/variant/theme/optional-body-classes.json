@@ -1,0 +1,11 @@
+{ 
+	"options":[
+		{	
+			"type":"toggle",
+			"class":"boxed",
+			"text":"Boxed Layout",
+			"initial":"off",
+			"icon":"resize-width"
+		}
+	]
+}
