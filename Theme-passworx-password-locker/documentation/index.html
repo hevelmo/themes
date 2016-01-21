@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Passworx Set Up and Installation Documentation">
+	<meta name="author" content="Luminary on Code Canyon">
+
+	<title>Passworx Set Up &amp; Installation</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/dashboard.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav id="top" class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://codecanyon.net/item/passworx-password-locker/7772286?ref=Luminary" target="_blank">Download</a></li>
+					<li><a href="http://byluminary.com/envato/passworx/" target="_blank">Demo</a></li>
+					<li><a href="http://www.twitter.com/jenniferdperrin" target="_blank">Follow Me on Twitter</a></li>
+					<li><a href="http://codecanyon.net/user/Luminary?ref=Luminary" target="_blank">Follow Me on Code Canyon</a></li>
+					<li><a href="https://byluminary.com/support" target="_blank">Help &amp; Support</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="active"><a href="#top">Table of Contents</a></li>
+					<li><a href="#intro">Introduction</a></li>
+					<li><a href="#pre-install">Pre-Installation</a></li>
+					<li><a href="#install">Installation</a></li>
+					<li><a href="#settings">Settings</a></li>
+					<li><a href="#locals">Localizations</a></li>
+					<li><a href="#advanced">Styling &amp; Images</a></li>
+					<li><a href="#support">Help &amp; Support</a></li>
+					<li><a href="#ftp">A Note About FTP</a></li>
+				</ul>
+				<p class="text-muted">
+					<small>
+						Passworx Version: 3<br />
+						Last Updated: December 2015
+					</small>
+				</p>
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-md-9">
+							<h2 class="mt-0">Thank You for purchasing Passworx Password Locker.</h2>
+							<p class="lead">
+								If you have any questions that are beyond the scope of this help file, please do not hesitate to contact me via my <a href="https://byluminary.com/support" target="_blank">Support Center</a>.<br />
+								I am always happy to help if you have any questions relating to Passworx.<br />
+							</p>
+						</div>
+						<div class="col-md-3">
+							<p class="text-center">
+								<a href="http://codecanyon.net/item/passworx-password-locker/7772286?ref=Luminary"><img alt="Passworx Password Locker" src="images/logo.png" class="img-responsive logo-img" /></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<h2 id="intro" class="page-header">Introduction</h2>
+				<p class="lead">I put a ton of love into this new version of Passworx.</p>
+				<p>
+					If you have any questions or would like to give me feed-back on Passworx's update, I would love to hear them. Your feed-back is what inspires new ideas for future updates. You can post your questions/feed-back on
+					<a href="https://byluminary.com/support/view-forum.php?forum=Passworx" target="_blank">Passworx's Forum</a> at my <a href="https://byluminary.com/support" target="_blank">Support Center</a>.
+				</p>
+				<p class="lead">As always, a BIG Thank You to all of my buyers, I really appreciate your continued support &amp; trust in me. &nbsp; <small><i class="fa fa-heart text-danger"></i></small></p>
+
+				<h2 id="pre-install" class="page-header">Pre-Installation</h2>
+				<h3>1. Unzip Passworx and have a look around.</h3>
+				<p>Unzip the Passworx file and take a look at the file structure. You should see 10 folders and 3 files.</p>
+				<p>This is a new Version for Passworx, and <strong>not</strong> an update. You will want to install Passworx V3 with a new database, and possibly, in it's own folder.</p>
+
+				<h3>2. Create a New Database.</h3>
+				<p>First step is to create a MySQL database, and if you do not have a default one, a database user. This process is explained in great detail on many websites and web hosts. Once you have the database setup, you will need:</p>
+				<ul class="list-group">
+					<li class="list-group-item">The hostname <span class="pull-right">Usually (but not always - check with your web host) 'localhost'.</span></li>
+					<li class="list-group-item">The database name <span class="pull-right">ie. passworx</span></li>
+					<li class="list-group-item">The database username <span class="pull-right">ie: database_user</span></li>
+					<li class="list-group-item">The database password <span class="pull-right">ie: database_password.</span></li>
+				</ul>
+
+				<h3>3. Upload Passworx</h3>
+				<p>Upload all the files you unzipped to your web host, keeping the file system intact.</p>
+
+				<div class="alertMsg warning">
+					<div class="msgIcon pull-left"><i class="fa fa-warning"></i></div>
+					Be sure to cmod/permissions the main (root) folder to 755.
+				</div>
+
+				<p>You should now have the following folders/files on your host account:</p>
+				<img src="images/file_structure.png" class="img-responsive img" />
+
+				<!-- ************************* -->
+
+				<h2 id="install" class="page-header">Installation</h2>
+				<h3>1. Run the Online Setup Wizard</h3>
+				<p>Installation is quite easy and only takes a few minutes.</p>
+
+				<div class="alertMsg warning">
+					<div class="msgIcon pull-left"><i class="fa fa-warning"></i></div>
+					Again, Make sure the main root folder (where you uploaded Passworx to) has been cmod to 755 or installation will fail.
+				</div>
+
+				<p>
+					Once Passworx has finished uploading, simply go to http://www.yoursite.com/passworx/ (or wherever sub-folder you uploaded it to) and follow the on-screen instructions.<br />
+					Easy to do, just follow the defaults and plug in your specific information.
+				</p>
+
+				<h3>2. Server Configuration Check</h3>
+
+				<p>
+					<strong>Passworx REQUIRES PHP 5.3+ &amp; MySQLi Connection, mcrypt_encrypt / mcrypt_decrypt, and imagecreatefrompng (PNG Image Support).</strong><br />
+					There is a Server Configuration Check that will display before you will be able to install Passworx. If all checks out, great, click the button "Go! Start the Installation".
+					If not, you will not see the "Start the Installation" button and will not be able to install Passworx. Check with you host, and see if there is anything they can do for you.
+				</p>
+
+				<h3>3. Database Configuration</h3>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<span class="pull-right">Usually (but not always - check with your web host) 'localhost'</span>
+						Hostname
+					</li>
+					<li class="list-group-item">
+						<span class="pull-right">Your username to access the database</span>
+						Database Username
+					</li>
+					<li class="list-group-item">
+						<span class="pull-right">Your database password</span>
+						Database Password
+					</li>
+					<li class="list-group-item">
+						<span class="pull-right">The name of the database you plan to install Passworx to</span>
+						Database Name
+					</li>
+				</ul>
+				<p>Once you have input your database information, click on the "On to Step 2" button.</p>
+
+				<p>If everything was configured correctly, you will see the following:</p>
+				<div class="alertMsg success">
+					<div class="msgIcon pull-left"><i class="fa fa-check"></i></div>
+					Your database has been correctly configured.
+				</div>
+				
+				<p>
+					If you do not see the message above, and get a blank screen or an error &mdash; check your error logs. Most of the time this happens due to your web account/host
+					not supporting a needed function. This can happen even if you pass the pre-installation check. Check with your web host and see if there is any thing they can do to help.
+				</p>
+
+				<h3>4. Passworx Settings</h3>
+				<p>
+					Again, follow the defaults and plug in your site's specific information. You can set your Administrator email, password and Site name to be anything you would like. Once completed, be sure to hit
+					"On to Step 3" to save your settings.
+				</p>
+
+				<div class="alertMsg info">
+					<div class="msgIcon pull-left"><i class="fa fa-info-circle"></i></div>
+					Installation URL - This should be auto-filled for you*.
+				</div>
+
+				<p>
+					*If the Installation URL is not auto-filled, you will need to enter it manually.<br />
+					Include any sub-folder Passworx may be installed in. (ie. http://www.mydomain.com/passworx/)<br />
+					Look at your browser's URL bar, and use that (remove the install/install.php from the end) as your Installation URL.
+				</p>
+				</p>If you have any questions on this, please do not hesitate to contact me via my <a href="https://byluminary.com/support" target="_blank">Support Center</a>.</p>
+
+				<h3>5. The Primary Admin Account</h3>
+				<p>
+					Complete the Primary Admin Account form. This is the main, "Superuser" for Passworx. This Admin Account cannot be deleted through the web UI, only from within the database (ie. PHPMyAdmin).<br />
+					Once you have filled in the information for the Primary Admin, click the "Complete Install" button to complete the installation.
+				</p>
+
+				<p>Once installation is completed, you will need to go back into your FTP application, and either rename or Delete the installation folder before you can log in as Administrator.</p>
+
+				<div class="alertMsg warning">
+					<div class="msgIcon pull-left"><i class="fa fa-warning"></i></div>
+					For security reasons and to stop any possible re-installations please, DELETE or RENAME the "install" folder.
+				</div>
+
+				<!-- ************************* -->
+
+				<h2 id="settings" class="page-header">Settings</h2>
+				<p>Once Passworx is installed, you can update the Site Settings after logging in as the Primary Admin. Go to Site Settings page from the Manage dropdown menu.</p>
+				<img src="images/settings1.png" class="img-responsive img" />
+				
+				<p>Set up Passworx to fit your your specific site's needs. All setting options have explanations under the specific field.</p>
+
+				<div class="alertMsg info">
+					<div class="msgIcon pull-left"><i class="fa fa-info-circle"></i></div>
+					All Sensitive data is encrypted in the database.
+				</div>
+				
+				<!-- ************************* -->
+
+				<h2 id="locals" class="page-header">Localizations</h2>
+				<h3>1. Language Files</h3>
+				<p>
+					Passworx is translation ready. The primary Localization files are located in the folder named <code>language/</code>. If you want to use a different language other then English, you will need to
+					translate the "custom.php" file. Once translated, you can then load that file via the Global Site Settings &mdash; Localization drop-down.
+				</p>
+				<img src="images/language.png" class="img-responsive img" />
+				<img src="images/lang_files.png" class="img-responsive img" />
+
+				<h3>2. Date Formats</h3>
+				<p>
+					To change the way dates are formatted, you will need to modify the includes/functions.php file. Follow the instructions starting on line 49.<br />
+					<strong>Uncomment (remove the double slash - //) from the date format you want to use</strong><br />
+					<strong>Comment (Add a double slash - //) to the front of the date formats you do NOT want to use</strong>
+				</p>
+				<img src="images/dates.png" class="img-responsive img" />
+
+				<!-- ************************* -->
+
+				<h2 id="advanced" class="page-header">Styling &amp; Images</h2>
+				<h3>1. CSS Styles</h3>
+				<p>
+					While Passworx already has a modern interface based on <a href="http://getbootstrap.com/" target="_blank">Twitter's Bootstrap</a> (version 3.3.5), many of you will want to integrate it into your own design. This is very
+					easy, however, you will need to be able to write HTML/CSS code. For those that aren't versed, here is a quick overview. The easiest way to change the look is by editing the default CSS files named "styles.css"
+					and "custom.css". Both of these files can be found in the css folder.
+				</p>
+				<p>The bootstrap.css file is the original, unmodified Bootstrap styles, and you should not alter this file. If you want to make any changes to the bootstrap components, you should add/modify the changes to the custom.css file only.</p>
+
+				<h3>2. Images</h3>
+				<p>Passworx uses a few images for the different logos and email templates.</p>
+				<ul class="list-unstyled">
+					<li>Header Logo: <code>images/logo.png (250px x 45px)</code></li>
+					<li>Email Logo: <code>images/email_logo.png (310px x 45px)</code></li>
+					<li>Email Header: <code>images/email_header.png (156px x 158px)</code></li>
+					<li>CAPTCHA Background: <code>images/captcha.png (125px x 48px)</code></li>
+				</ul>
+
+				<p>The icons used in the sorting images for all dataTables are located in <code>images/sorts</code> folder.
+				<p>Icons are generated from an Icon Font: Font Awesome (version 4.4.0). Check out all of Font Awesome's icons &amp; usage at: <a href="http://fontawesome.io/">http://fontawesome.io</a>.</p>
+
+				<!-- ************************* -->
+
+				<h2 id="support" class="page-header">Help &amp; Support</h2>
+				<p>
+					Please, if you have any questions, run into any issues or just need some help, do not hesitate to contact me via my <a href="https://byluminary.com/support" target="_blank">Support Center</a>.<br>
+					I believe in providing the best support possible, and I monitor my Support center just about 24/7.
+				</p>
+				<p><a href="https://byluminary.com/support" target="_blank"><img src="images/support_banner.png" class="img-responsive"></a></p>
+				<p>
+					If you are thinking of giving Passworx anything less then 5 Stars, please tell me what I can do to make it a 5 Star experience for you.<br>
+					I love to hear feedback, and welcome any suggestions you may have to make Passworx better.
+				</p>
+				<img src="images/rating.png" class="img-responsive img" />
+
+				<!-- ************************* -->
+
+				<h2 id="ftp" class="page-header">A Note About FTP</h2>
+				<p>
+					If you are having problems with Passworx after successfully installing and logging in the for the first time you should check your FTP software settings.
+					I have found in many cases that numerous FTP programs are not uploading files correctly.
+				</p>
+				<p>
+					Check your FTP program to see if it is uploading files in ASCII - which is causing the file code to be uploaded in one long line.<br>
+					Try changing it to Binary and uploading the files again. Upload everything except the install folder and the config file (or better yet, if you have not started using Passworx,
+					just wipe the install and the database and reinstall a fresh copy).<br>
+					I use <a href="http://www.cuteftp.com">CuteFTP</a> for my uploads and ran into this problem when all of the sudden everything I was working on just seemed to stop working as expected.
+				</p>
+				<img src="images/ftp.png" class="img-responsive img" />
+
+			</div>
+		</div>
+	</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>

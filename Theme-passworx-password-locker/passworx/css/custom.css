@@ -1,0 +1,377 @@
+* { border-radius:0 !important; }
+
+/* ==========================================================================
+   The Basics
+   ========================================================================== */
+html, body { font-family: 'Muli', sans-serif; }
+
+body {
+    font-size: 16px;
+	font-weight: 300;
+    line-height: 1.6;
+    color: #555555;
+	background: url("../images/bg.png") repeat fixed 0 0 #f0f0f0;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: 0;
+	font-weight: 400;
+}
+	a:hover {
+		color: #158dbb;
+		text-decoration: none;
+	}
+	
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+	margin: 0;
+}
+
+h2 {
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 8px;
+    color: #505050;
+    line-height: 1.2;
+    position: relative;
+    font-size: 26px;
+	font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 {
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 8px;
+    color: #505050;
+    line-height: 1.2;
+    position: relative;
+    font-size: 20px;
+	font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+h5 {
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 8px;
+    color: #505050;
+    line-height: 1.2;
+    position: relative;
+    font-size: 16px;
+	font-weight: 400;
+    text-transform: uppercase;
+}
+
+strong { font-weight: 400; }
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+.navbar-default {
+    background: #e3e3e3 none repeat scroll 0 0;
+	border: 0;
+    border-color: transparent;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.navbar-logo img { margin-top: 2px; }
+.navbar-toggle { background-color: #f0f0f0; }
+	
+.nav > li {
+    display: block;
+    position: relative;
+}
+.nav > li .btn {
+	font-size: 17px;
+	color: #ffffff !important;
+	border-bottom: 0;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #f0f0f0;
+    color: #158dbb;
+}
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #f0f0f0;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-image: linear-gradient(#2980b9, #2472a4);
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    text-decoration:none;
+    background-image: linear-gradient(#2980b9, #2472a4);
+	color: #ffffff;
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(#2980b9, #2472a4);
+    border: 1px solid #2472a4;
+    padding: 0;
+}
+	.dropdown-menu > li > a {
+		color: #f0f0f0;
+		padding: 10px 20px;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+	}
+		.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+			background: linear-gradient(#2472a4, #20638f);
+			color: #ffffff;
+			text-decoration: none;
+		}
+	.dropdown-menu .divider {
+		background-color: #158dbb;
+		height: 1px;
+		margin: 9px 0;
+		overflow: hidden;
+	}
+	
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #f0f0f0; }
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #ffffff; }
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.btn {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.btn-lg { padding: 1em 2em; }
+.btn-sm, .btn-xs { font-size: .85em; padding: .5em 1em; }
+.btn-xs { font-size: .85em; padding: .25em .75em; }
+.btn-help { font-size: .95em; padding: 0 .5em; }
+
+.btn-default {
+	border-color: #c0cdd1;
+	background-image: linear-gradient(#ecf0f1, #dde4e6);
+}
+	.btn-default:hover { background: linear-gradient(#dde4e6, #cfd9db); }
+
+.btn-primary {
+	border-color: #1b557a;
+	background-image: linear-gradient(#2980b9, #2472a4);
+}
+	.btn-primary:hover { background: linear-gradient(#2472a4, #20638f) !important; }
+
+.btn-success {
+	border-color: #19703e;
+	background-image: linear-gradient(#27ae60, #229955);
+}
+	.btn-success:hover { background: linear-gradient(#229955, #1e8449) !important; }
+
+.btn-info {
+	border-color: #1d6fa5;
+	background-image: linear-gradient(#3498db, #258cd1);
+}
+	.btn-info:hover { background: linear-gradient(#258cd1, #217dbb); }
+
+.btn-warning {
+	border-color: #b06f09;
+	background-image: linear-gradient(#f39c12, #e08e0b);
+}
+	.btn-warning:hover { background: linear-gradient(#e08e0b, #c87f0a); }
+
+.btn-danger {
+	border-color: #81261d;
+	background-image: linear-gradient(#c0392b, #ab3326);
+}
+	.btn-danger:hover { background: linear-gradient(#ab3326, #962d22); }
+	
+.btn-icon i { margin-right: 4px; }
+.btn-icon-alt i { margin-left: 4px; }
+
+.btn-link {
+    color: #158dbb;
+    font-weight: 300;
+	border: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+.form-control {
+    background-color: #fcfcfc;
+    background-image: none;
+	border: 0;
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: none;
+    color: #202b33;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+	.form-control:focus {
+		background-color: #fafafa;
+		border-color: #158dbb;
+		box-shadow: none;
+		outline: 0 none;
+	}
+
+label {
+    display: inline-block;
+    font-weight: 300;
+    color: #202b33;
+}
+.help-block {
+    color: #999999;
+	font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.form-control.hasError { background: #f9eeec !important; }
+
+input[type="file"] {
+    border: 0 none;
+    display: block;
+}
+
+/* *** Radio Buttons *** */
+input[type="radio"] { display: none; }
+    input[type="radio"] + label {
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        border: 1px solid transparent;
+        background: #f2f2f2 none repeat scroll 0 0;
+        color: #555555;
+        padding: 4px 8px;
+        display: inline-block;
+		margin: 0 0 4px;
+		line-height: 1.5;
+    }
+        input[type="radio"] + label i {
+            color: #505050;
+            margin-right: 6px;
+        }
+    input[type="radio"]:checked + label {
+        background-color: #ffffff;
+		border: 1px solid #158dbb;
+        color: #555555;
+    }
+        input[type="radio"]:checked + label i { color: #555555; }
+
+/* *** Checkboxes *** */
+label.btn.toggle-checkbox {
+	border: 1px solid transparent;
+	padding: 6px 8px;
+	margin: 0 0 4px;
+}
+
+label.btn.toggle-checkbox > i.fa:before { content:"\f096"; }
+    label.btn.toggle-checkbox.active > i.fa:before { content:"\f046"; }
+
+label.btn.active {
+    border-color: #be4c06;
+	background-image: linear-gradient(#2980b9, #2472a4);
+	color: #ffffff !important;
+	box-shadow: none;
+}
+
+.input-group-addon:last-child {
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+	background-color: #fcfcfc;
+}
+
+.captcha-code { margin-top: 26px; }
+   
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+@media (max-width: 1000px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+	.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		clear: both;
+	}
+}
+
+/* ==========================================================================
+   Wells
+   ========================================================================== */
+.well.accInfo {
+    background-color: #ffffff;
+    border: 1px solid #158dbb;
+    box-shadow: none;
+}
+
+/* ==========================================================================
+   Listgroups
+   ========================================================================== */
+.pw-lists .list-group-item {
+	font-size: 14px;
+    padding: 5px 6px;
+	margin-bottom: 4px;
+	border-color: #eeeeee;
+}
+.pw-lists .list-group-item:hover {
+	background: #fcfcfc;
+}
+
+/* ==========================================================================
+   Modals
+   ========================================================================== */
+@media (min-width: 768px) {
+	.modal-sm { width: 400px; }
+}
+
+/* ==========================================================================
+   Tooltips
+   ========================================================================== */
+.tooltip-inner {
+	max-width: 400px;
+	padding: 4px 8px;
+	color: #ffffff;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	background-color: #158dbb;
+	border-radius: 0;
+	font-size: 14px;
+}
+.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+	.tooltip.top .tooltip-arrow { border-top-color: #158dbb; }
+	.tooltip.top-left .tooltip-arrow { border-top-color: #158dbb; }
+	.tooltip.top-right .tooltip-arrow { border-top-color: #158dbb; }
+	.tooltip.right .tooltip-arrow { border-right-color: #158dbb; }
+	.tooltip.left .tooltip-arrow { border-left-color: #158dbb; }
+	.tooltip.bottom .tooltip-arrow { border-bottom-color: #158dbb; }
+	.tooltip.bottom-left .tooltip-arrow { border-bottom-color: #158dbb; }
+	.tooltip.bottom-right .tooltip-arrow { border-bottom-color: #158dbb; }
+
+
+
+
+

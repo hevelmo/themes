@@ -1,0 +1,304 @@
+/* ==========================================================================
+   Margins
+   ========================================================================== */
+.no-margin { margin: 0 !important; }
+
+.mt-0 { margin-top: 0 !important; }
+.mt-5 { margin-top: 5px !important; }
+.mt-10 { margin-top: 10px !important; }
+.mt-15 { margin-top: 15px !important; }
+.mt-20 { margin-top: 20px !important; }
+
+.mb-0 { margin-bottom: 0 !important; }
+.mb-5 { margin-bottom: 5px !important; }
+.mb-10 { margin-bottom: 10px !important; }
+.mb-15 { margin-bottom: 15px !important; }
+.mb-20 { margin-bottom: 20px !important; }
+
+.mr-0 { margin-right: 0 !important; }
+.ml-0 { margin-left: 0 !important; }
+
+/* ==========================================================================
+   Paddings
+   ========================================================================== */
+.no-padding { padding: 0 !important; }
+
+.pt-0 { padding-top: 0 !important; }
+.pt-5 { padding-top: 5px !important; }
+.pt-10 { padding-top: 10px !important; }
+.pt-15 { padding-top: 15px !important; }
+.pt-20 { padding-top: 20px !important; }
+
+.pb-0 { padding-bottom: 0 !important; }
+.pb-5 { padding-bottom: 5px !important; }
+.pb-10 { padding-bottom: 10px !important; }
+.pb-15 { padding-bottom: 15px !important; }
+.pb-20 { padding-bottom: 20px !important; }
+
+.pr-0 { padding-right: 0 !important; }
+.pl-0 { padding-left: 0 !important; }
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+.main-content {
+    background-color: #ffffff;
+	border: 1px solid #dcdcdc;
+    border-top: 2px solid #158dbb;
+    margin-top: 40px;
+	padding: 20px 15px 10px;
+}
+
+/* ==========================================================================
+   Alert Message Boxes
+   ========================================================================== */
+.alertMsg {
+    padding: 10px 30px 10px 45px;
+    position: relative;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 20px 0;
+}
+	.alertMsg a {
+		color: #fff;
+		display: block;
+		font-size: 14pt;
+		opacity: 0.4;
+		position: absolute;
+		right: 10px;
+		text-decoration: none;
+		top: 6px;
+	}
+		.alertMsg a:hover { opacity: 0.8; }
+
+.alertMsg .msgIcon {
+    font-size: 21px !important;
+    color: #ffffff;
+    position: absolute;
+    left: 15px;
+}
+
+.alertMsg.default {
+	border-color: #c0cdd1;
+	background-image: linear-gradient(#ecf0f1, #dde4e6);
+	color: #555555;
+}
+	.alertMsg.default .msgIcon { color: #555555; }
+	.alertMsg.default a { color: #555555; }
+
+.alertMsg.primary {
+	border-color: #1b557a;
+	background-image: linear-gradient(#2980b9, #2472a4);
+	color: #ffffff;
+}
+.alertMsg.info {
+	border-color: #1d6fa5;
+	background-image: linear-gradient(#3498db, #258cd1);
+	color: #ffffff;
+}
+.alertMsg.success {
+	border-color: #19703e;
+	background-image: linear-gradient(#27ae60, #229955);
+	color: #ffffff;
+}
+.alertMsg.warning {
+	border-color: #b06f09;
+	background-image: linear-gradient(#f39c12, #e08e0b);
+	color: #ffffff;
+}
+.alertMsg.danger {
+	border-color: #81261d;
+	background-image: linear-gradient(#c0392b, #ab3326);
+	color: #ffffff;
+}
+
+/* ==========================================================================
+   Click To Copy
+   ========================================================================== */
+.passwd {
+	color: #158dbb;
+	position: relative;
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-out;
+			transition: all 0.2s ease-out;
+	border: 1px solid transparent;
+}
+	.passwd:hover {
+		cursor: pointer;
+		border: 1px solid #158dbb;
+	}
+		.passwd:hover:before { opacity: 1; }
+
+	.passwd:before {
+		background-color: #158dbb;
+		color: #ffffff;
+		content: "Copy to Clipboard";
+		display: inline-block;
+		font-size: 10px;
+		font-weight: 400;
+		opacity: 0;
+		padding: 4px 4px 3px 6px;
+		float: right;
+		text-transform: uppercase;
+		top: -1px;
+		-webkit-transition: all .2s ease;
+				transition: all .2s ease;
+	}
+	.passwd:after {
+		content: "";
+		width: 18px;
+		height: 18px;
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: bottom;
+		margin-left: 5px;
+	}
+	
+.usrname {
+	color: #158dbb;
+	position: relative;
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-out;
+			transition: all 0.2s ease-out;
+	border: 1px solid transparent;
+}
+	.usrname:hover {
+		cursor: pointer;
+		border: 1px solid #158dbb;
+	}
+		.usrname:hover:before { opacity: 1; }
+
+	.usrname:before {
+		background-color: #158dbb;
+		color: #ffffff;
+		content: "Copy to Clipboard";
+		display: inline-block;
+		font-size: 10px;
+		font-weight: 400;
+		opacity: 0;
+		padding: 3px 4px 4px 6px;
+		float: right;
+		text-transform: uppercase;
+		top: -1px;
+		-webkit-transition: all .2s ease;
+				transition: all .2s ease;
+	}
+	.usrname:after {
+		content: "";
+		width: 18px;
+		height: 18px;
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: bottom;
+		margin-left: 5px;
+	}
+
+
+
+.copy-success:hover { border: 1px solid #19703e; }
+	.copy-success:before {
+		content: "Copied";
+		background: #19703e;
+		width: 92px;
+		text-align: center;
+	}
+
+/* ==========================================================================
+   dataTables
+   ========================================================================== */
+.dataTables_length label, .dataTables_filter label {
+    display: inline-flex;
+    font-weight: 300;
+}
+
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select {
+    margin-right: 6px;
+}
+
+/* ==========================================================================
+   Sign In
+   ========================================================================== */
+.loginCont { margin: 10% auto 0; }
+
+.login {
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	border-radius: 0;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+	.loginCont > .logo { margin-bottom: 40px; text-align: center; }
+
+.login .input-group span { background-image: linear-gradient(#2980b9, #2472a4); min-width: 40px; color: #ffffff; }
+	.login .input-group input {
+		background-color: #ffffff;
+		font-weight: 300;
+	}
+
+.login .input-group-addon {
+	top: 0px;
+	border-top: 2px solid #2980b9;
+	border-right: none;
+	border-bottom: 2px solid #2980b9;
+	border-left: 2px solid #2980b9;
+}
+.login .form-control { border-left: none; }
+	.login .form-control:hover {
+		border-color: #cccccc;
+		outline: 0;
+		-webkit-box-shadow: none;
+				box-shadow: none;
+		transition: border-color 0.5s ease-in-out;
+	}
+	.login .form-control:focus {
+		border-color: #158dbb;
+		outline: 0;
+		-webkit-box-shadow: none;
+				box-shadow: none;
+		transition: border-color 0.5s ease-in-out;
+	}
+
+.login h2 {
+    border: medium none;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0 20px;
+	letter-spacing: .06em;
+}
+
+.login p {
+	font-weight: 300;
+	margin-bottom: 0;
+	margin: 20px 0 10px;
+}
+	.login p a {
+		font-weight: 300;
+		color: #158dbb;
+		text-decoration: none;
+	}
+	.login p a:hover { color: #008cba; }
+
+.login small { margin: 10px 0 10px 0; }
+	.login small a {
+		color: #158dbb;
+		text-decoration: none;
+	}
+	.login small a:hover { color: #008cba; }
+	.login small a i { margin-right: 2px; color: #999999; font-size: 90%; }
+
+.login button {
+	width: 100%;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.btn.btn-login {
+	border-color: #1b557a;
+	background-image: linear-gradient(#2980b9, #2472a4);
+	color: #ffffff;
+}
+	.btn.btn-login:hover, .btn.btn-login:active, .btn.btn-login.hover {
+		background: linear-gradient(#2472a4, #20638f);
+		color: #f0f0f0 !important;
+	}

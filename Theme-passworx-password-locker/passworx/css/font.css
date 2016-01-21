@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src:
+	local('Muli Light'),
+	local('Muli-Light'),
+	url(fonts/muli/Muli-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src:
+	local('Muli Regular'),
+	local('Muli-Regular'),
+	url(fonts/muli/Muli-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  src:
+	local('Muli Light Italic'),
+	local('Muli-LightItalic'),
+	url(fonts/muli/Muli-LightItalic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  src:
+	local('Muli Italic'),
+	local('Muli-Italic'),
+	url(fonts/muli/Muli-Italic.woff) format('woff');
+}
