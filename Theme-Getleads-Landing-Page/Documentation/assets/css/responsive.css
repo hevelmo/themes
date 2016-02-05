@@ -1,0 +1,266 @@
+/* ==========================================================================
+   RESPONSIVE STYLES
+ ========================================================================== */ 
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width : 1199px) {
+
+    .affix {
+        width: 220px;
+    }
+
+    
+
+    
+	
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width : 991px) {
+	
+	/*------------------------------------------*/
+	/*    Typography
+	/*------------------------------------------*/
+	h1, .h1 {
+		font-size: 40px;
+		line-height: 46px;
+	}
+
+	h2, .h2 {
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	h3, .h3 {
+	    font-size: 28px;
+	    line-height: 32px;
+	}
+
+	h4, .h4 {
+	    font-size: 26px;
+	    line-height: 30px;
+	}
+
+	.lead {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+
+    
+    /*--------------------------------------------------------------*/
+    /*    Show Navbar Toggle and Hide Navbar Menu, Bootstrap Fixes
+    /*--------------------------------------------------------------*/
+    .navbar-static-top {
+        position: fixed;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        padding: 5px 10px;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 2px solid #E8E8E8;
+        box-shadow: none;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+            
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-collapse.collapse.in {  
+        display: block!important; 
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        display: block;
+        border-bottom: 1px solid #E8E8E8;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover  {
+        background-color: transparent;
+    }
+
+    .navbar-nav>li>a.btn-nav {
+        margin: 10px 0 5px 10px;
+        padding: 10px 15px; 
+        display: inline-block;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }  
+
+    /*-----------------------------------------------------------*/
+    /*    Navbar-Transparent
+    /*-----------------------------------------------------------*/
+    .navbar-transparent {
+        background-color: #fff;
+    }
+
+    .navbar-transparent .logo-white {
+        display: none;
+    }
+
+    .navbar-transparent .logo-black {
+        display: block;
+    }
+
+    .navbar-transparent .navbar-nav>li>a {
+        color: #404B55;
+    }  
+
+    
+
+
+    
+
+    
+
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width : 767px) {
+    /*------------------------------------------*/
+    /*    Typography
+    /*------------------------------------------*/
+    h1, .h1 {
+    	font-size: 36px;
+    	line-height: 40px;
+    }
+
+    h2, .h2 {
+    	font-size: 30px;
+    	line-height: 34px;
+    }
+
+    h3, .h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    h4, .h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    h5, .h5 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .lead {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    /*-----------------------------------------------------------*/
+    /*    Section Header
+    /*-----------------------------------------------------------*/
+    .section-header {
+        margin-bottom: 35px;
+    }
+
+    
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width : 479px) {
+
+    
+    /*--------------------------------------------------------------*/
+    /*    Section Header
+    /*--------------------------------------------------------------*/
+    .section-header span {
+        display: block-inline;
+    }
+
+    
+    
+    
+
+   
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width : 319px) {
+    
+    
+    
+
+
+}
+
+
+

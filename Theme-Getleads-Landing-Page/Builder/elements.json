@@ -1,0 +1,268 @@
+var _Elements = {"elements": {
+    "Navigation":[
+    	{"url":"elements/nav1-1.html","height":79, "thumbnail":"elements/thumbs/nav1-1.png"},
+    	{"url":"elements/nav2-1.html","height":78, "thumbnail":"elements/thumbs/nav2-1.png"},
+    	{"url":"elements/nav3-1.html","height":79, "thumbnail":"elements/thumbs/nav3-1.png"},
+        {"url":"elements/nav4-1.html","height":90, "thumbnail":"elements/thumbs/nav4-1.png"},
+        {"url":"elements/nav5-1.html","height":137, "thumbnail":"elements/thumbs/nav5-1.png"},
+        {"url":"elements/nav1-2.html","height":79, "thumbnail":"elements/thumbs/nav1-2.png"},
+        {"url":"elements/nav2-2.html","height":78, "thumbnail":"elements/thumbs/nav2-2.png"},
+        {"url":"elements/nav3-2.html","height":79, "thumbnail":"elements/thumbs/nav3-2.png"},
+    	{"url":"elements/nav4-2.html","height":90, "thumbnail":"elements/thumbs/nav4-2.png"},
+        {"url":"elements/nav1-3.html","height":79, "thumbnail":"elements/thumbs/nav1-3.png"},
+        {"url":"elements/nav2-3.html","height":78, "thumbnail":"elements/thumbs/nav2-3.png"},
+    ],
+
+	"Hero":[
+    	{"url":"elements/hero1-1.html","height":700, "thumbnail":"elements/thumbs/hero1-1.png"},
+        {"url":"elements/hero1-2.html","height":700, "thumbnail":"elements/thumbs/hero1-2.png", "sandbox":true, "loaderFunction":"bgVideo"},
+        {"url":"elements/hero1-3.html","height":700, "thumbnail":"elements/thumbs/hero1-3.png"},
+        {"url":"elements/hero2.html","height":800, "thumbnail":"elements/thumbs/hero2.png"},
+        {"url":"elements/hero3.html","height":800, "thumbnail":"elements/thumbs/hero3.png"},
+        {"url":"elements/hero4.html","height":883, "thumbnail":"elements/thumbs/hero4.png", "sandbox":true, "loaderFunction":"bgHeroCarousel"},
+        {"url":"elements/hero5.html","height":700, "thumbnail":"elements/thumbs/hero5.png"},
+        {"url":"elements/hero6.html","height":775, "thumbnail":"elements/thumbs/hero6.png"},
+        {"url":"elements/hero7.html","height":787, "thumbnail":"elements/thumbs/hero7.png"},
+        {"url":"elements/hero8.html","height":726, "thumbnail":"elements/thumbs/hero8.png"},
+        {"url":"elements/hero9.html","height":838, "thumbnail":"elements/thumbs/hero9.png"},
+        {"url":"elements/hero10.html","height":752, "thumbnail":"elements/thumbs/hero10.png"},
+        {"url":"elements/hero11.html","height":786, "thumbnail":"elements/thumbs/hero11.png", "sandbox":true, "loaderFunction":"datePicker"},
+        {"url":"elements/hero12.html","height":824, "thumbnail":"elements/thumbs/hero12.png", "sandbox":true, "loaderFunction":"countdownTimer"}
+    ],
+
+    "Content":[
+        {"url":"elements/content1-1.html","height":933, "thumbnail":"elements/thumbs/content1-1.png"},
+        {"url":"elements/content2-1.html","height":933, "thumbnail":"elements/thumbs/content2-1.png"},
+        {"url":"elements/content3-1.html","height":757, "thumbnail":"elements/thumbs/content3-1.png"},
+        {"url":"elements/content4-1.html","height":754, "thumbnail":"elements/thumbs/content4-1.png"},
+        {"url":"elements/content5-1.html","height":609, "thumbnail":"elements/thumbs/content5-1.png"},
+        {"url":"elements/content6-1.html","height":610, "thumbnail":"elements/thumbs/content6-1.png"},
+        {"url":"elements/content7-1.html","height":1039, "thumbnail":"elements/thumbs/content7-1.png"},
+        {"url":"elements/content8-1.html","height":817, "thumbnail":"elements/thumbs/content8-1.png"},
+        {"url":"elements/content9-1.html","height":843, "thumbnail":"elements/thumbs/content9-1.png"},
+        {"url":"elements/content10-1.html","height":843, "thumbnail":"elements/thumbs/content10-1.png"},
+        {"url":"elements/content11-1.html","height":600, "thumbnail":"elements/thumbs/content11-1.png"},
+        {"url":"elements/content12-1.html","height":600, "thumbnail":"elements/thumbs/content12-1.png"},
+        {"url":"elements/content3-2.html","height":757, "thumbnail":"elements/thumbs/content3-2.png"},
+        {"url":"elements/content4-2.html","height":754, "thumbnail":"elements/thumbs/content4-2.png"},
+        {"url":"elements/content5-2.html","height":609, "thumbnail":"elements/thumbs/content5-2.png"},
+        {"url":"elements/content6-2.html","height":610, "thumbnail":"elements/thumbs/content6-2.png"},
+        {"url":"elements/content7-2.html","height":1039, "thumbnail":"elements/thumbs/content7-2.png"},
+        {"url":"elements/content8-2.html","height":817, "thumbnail":"elements/thumbs/content8-2.png"},
+        {"url":"elements/content9-2.html","height":843, "thumbnail":"elements/thumbs/content9-2.png"},
+        {"url":"elements/content10-2.html","height":843, "thumbnail":"elements/thumbs/content10-2.png"},
+        {"url":"elements/content11-2.html","height":600, "thumbnail":"elements/thumbs/content11-2.png"},
+        {"url":"elements/content12-2.html","height":600, "thumbnail":"elements/thumbs/content12-2.png"}
+    ],
+
+    "Features":[
+        {"url":"elements/features1-1.html","height":540, "thumbnail":"elements/thumbs/features1-1.png"},
+        {"url":"elements/features2-1.html","height":655, "thumbnail":"elements/thumbs/features2-1.png"},
+        {"url":"elements/features3-1.html","height":620, "thumbnail":"elements/thumbs/features3-1.png"},
+        {"url":"elements/features4-1.html","height":714, "thumbnail":"elements/thumbs/features4-1.png"},
+        {"url":"elements/features5-1.html","height":944, "thumbnail":"elements/thumbs/features5-1.png"},
+        {"url":"elements/features6-1.html","height":795, "thumbnail":"elements/thumbs/features6-1.png"},
+        {"url":"elements/features7-1.html","height":818, "thumbnail":"elements/thumbs/features7-1.png"},
+        {"url":"elements/features8-1.html","height":1023, "thumbnail":"elements/thumbs/features8-1.png"},
+        {"url":"elements/features9-1.html","height":750, "thumbnail":"elements/thumbs/features9-1.png"},
+        {"url":"elements/features10-1.html","height":843, "thumbnail":"elements/thumbs/features10-1.png"},
+        {"url":"elements/features11-1.html","height":923, "thumbnail":"elements/thumbs/features11-1.png"},
+        {"url":"elements/features1-2.html","height":540, "thumbnail":"elements/thumbs/features1-2.png"},
+        {"url":"elements/features2-2.html","height":655, "thumbnail":"elements/thumbs/features2-2.png"},
+        {"url":"elements/features3-2.html","height":620, "thumbnail":"elements/thumbs/features3-2.png"},
+        {"url":"elements/features4-2.html","height":714, "thumbnail":"elements/thumbs/features4-2.png"},
+        {"url":"elements/features5-2.html","height":944, "thumbnail":"elements/thumbs/features5-2.png"},
+        {"url":"elements/features6-2.html","height":795, "thumbnail":"elements/thumbs/features6-2.png"},
+        {"url":"elements/features7-2.html","height":818, "thumbnail":"elements/thumbs/features7-2.png"},
+        {"url":"elements/features8-2.html","height":1023, "thumbnail":"elements/thumbs/features8-2.png"},
+        {"url":"elements/features9-2.html","height":750, "thumbnail":"elements/thumbs/features9-2.png"},
+        {"url":"elements/features10-2.html","height":843, "thumbnail":"elements/thumbs/features10-2.png"}
+    ],  
+
+    "Call-to-Action":[
+        {"url":"elements/cta1-1.html","height":291, "thumbnail":"elements/thumbs/cta1-1.png"},
+        {"url":"elements/cta2.html","height":125, "thumbnail":"elements/thumbs/cta2.png"},
+        {"url":"elements/cta3-1.html","height":444, "thumbnail":"elements/thumbs/cta3-1.png"},
+        {"url":"elements/cta4.html","height":240, "thumbnail":"elements/thumbs/cta4.png"},
+        {"url":"elements/cta5-1.html","height":795, "thumbnail":"elements/thumbs/cta5-1.png"},
+        {"url":"elements/cta6-1.html","height":499, "thumbnail":"elements/thumbs/cta6-1.png"},
+        {"url":"elements/cta1-2.html","height":291, "thumbnail":"elements/thumbs/cta1-2.png"},
+        {"url":"elements/cta3-2.html","height":444, "thumbnail":"elements/thumbs/cta3-2.png"},
+        {"url":"elements/cta3-3.html","height":444, "thumbnail":"elements/thumbs/cta3-3.png"},
+        {"url":"elements/cta5-2.html","height":795, "thumbnail":"elements/thumbs/cta5-2.png"},
+        {"url":"elements/cta6-2.html","height":499, "thumbnail":"elements/thumbs/cta6-2.png"},
+        {"url":"elements/cta7.html","height":499, "thumbnail":"elements/thumbs/cta7.png"}
+    ],
+
+    "Testimonials":[
+        {"url":"elements/testimonials1-1.html","height":249, "thumbnail":"elements/thumbs/testimonials1-1.png"},
+        {"url":"elements/testimonials2-1.html","height":682, "thumbnail":"elements/thumbs/testimonials2-1.png"},      
+        {"url":"elements/testimonials3-1.html","height":645, "thumbnail":"elements/thumbs/testimonials3-1.png"},   
+        {"url":"elements/testimonials4-1.html","height":525, "thumbnail":"elements/thumbs/testimonials4-1.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials5-1.html","height":799, "thumbnail":"elements/thumbs/testimonials5-1.png", "sandbox":true, "loaderFunction":"twitterPosts"},
+        {"url":"elements/testimonials6-1.html","height":295, "thumbnail":"elements/thumbs/testimonials6-1.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials7-1.html","height":383, "thumbnail":"elements/thumbs/testimonials7-1.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials1-2.html","height":249, "thumbnail":"elements/thumbs/testimonials1-2.png"},
+        {"url":"elements/testimonials1-3.html","height":249, "thumbnail":"elements/thumbs/testimonials1-3.png"},
+        {"url":"elements/testimonials2-2.html","height":682, "thumbnail":"elements/thumbs/testimonials2-2.png"},  
+        {"url":"elements/testimonials3-2.html","height":645, "thumbnail":"elements/thumbs/testimonials3-2.png"},
+        {"url":"elements/testimonials4-2.html","height":525, "thumbnail":"elements/thumbs/testimonials4-2.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials6-2.html","height":295, "thumbnail":"elements/thumbs/testimonials6-2.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials7-2.html","height":383, "thumbnail":"elements/thumbs/testimonials7-2.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/testimonials7-3.html","height":383, "thumbnail":"elements/thumbs/testimonials7-3.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"}  
+    ],
+
+    "Video":[
+        {"url":"elements/video1-1.html","height":675, "thumbnail":"elements/thumbs/video1-1.png", "sandbox":true, "loaderFunction":"bgVideo"},
+        {"url":"elements/video2-1.html","height":552, "thumbnail":"elements/thumbs/video2-1.png"},
+        {"url":"elements/video3-1.html","height":551, "thumbnail":"elements/thumbs/video3-1.png"},
+        {"url":"elements/video4-1.html","height":307, "thumbnail":"elements/thumbs/video4-1.png"},
+        {"url":"elements/video5-1.html","height":930, "thumbnail":"elements/thumbs/video5-1.png"},
+        {"url":"elements/video2-2.html","height":552, "thumbnail":"elements/thumbs/video2-2.png"},
+        {"url":"elements/video3-2.html","height":551, "thumbnail":"elements/thumbs/video3-2.png"},
+        {"url":"elements/video5-2.html","height":930, "thumbnail":"elements/thumbs/video5-2.png"}
+    ],
+
+    "Partners":[
+        {"url":"elements/partners1-1.html","height":196, "thumbnail":"elements/thumbs/partners1-1.png"},
+        {"url":"elements/partners2-1.html","height":320, "thumbnail":"elements/thumbs/partners2-1.png"},
+        {"url":"elements/partners3-1.html","height":197, "thumbnail":"elements/thumbs/partners3-1.png"},
+        {"url":"elements/partners1-2.html","height":231, "thumbnail":"elements/thumbs/partners1-2.png", "sandbox":true, "loaderFunction":"partners3Carousel"},
+        {"url":"elements/partners2-2.html","height":359, "thumbnail":"elements/thumbs/partners2-2.png", "sandbox":true, "loaderFunction":"partners4Carousel"},
+    ],
+
+    "Social-Widgets":[
+        {"url":"elements/social1-1.html","height":420, "thumbnail":"elements/thumbs/social1-1.png"},
+        {"url":"elements/social2-1.html","height":492, "thumbnail":"elements/thumbs/social2-1.png", "sandbox":true, "loaderFunction":"twitterFeed"},
+        {"url":"elements/social6-1.html","height":182, "thumbnail":"elements/thumbs/social6-1.png", "sandbox":true, "loaderFunction":"twitterFeed"},
+        {"url":"elements/social3-1.html","height":609, "thumbnail":"elements/thumbs/social3-1.png", "sandbox":true, "loaderFunction":"instagramFeed"},
+        {"url":"elements/social4-1.html","height":828, "thumbnail":"elements/thumbs/social4-1.png", "sandbox":true, "loaderFunction":"instagramFeed"},
+        {"url":"elements/social5-1.html","height":288, "thumbnail":"elements/thumbs/social5-1.png", "sandbox":true, "loaderFunction":"instagramFeed"},
+        {"url":"elements/social1-2.html","height":420, "thumbnail":"elements/thumbs/social1-2.png"},
+        {"url":"elements/social2-2.html","height":492, "thumbnail":"elements/thumbs/social2-2.png", "sandbox":true, "loaderFunction":"twitterFeed"},
+        {"url":"elements/social6-2.html","height":182, "thumbnail":"elements/thumbs/social6-2.png", "sandbox":true, "loaderFunction":"twitterFeed"},
+        {"url":"elements/social3-2.html","height":609, "thumbnail":"elements/thumbs/social3-2.png", "sandbox":true, "loaderFunction":"instagramFeed"},
+        {"url":"elements/social4-2.html","height":828, "thumbnail":"elements/thumbs/social4-2.png", "sandbox":true, "loaderFunction":"instagramFeed"},
+        {"url":"elements/social1-3.html","height":345, "thumbnail":"elements/thumbs/social1-3.png"},
+        {"url":"elements/social2-3.html","height":492, "thumbnail":"elements/thumbs/social2-3.png", "sandbox":true, "loaderFunction":"twitterFeed"},
+        {"url":"elements/social6-3.html","height":182, "thumbnail":"elements/thumbs/social6-3.png", "sandbox":true, "loaderFunction":"twitterFeed"}
+    ],
+
+    "Portfolio":[
+        {"url":"elements/portfolio1-1.html","height":1159, "thumbnail":"elements/thumbs/portfolio1-1.png"},
+        {"url":"elements/portfolio2-1.html","height":758, "thumbnail":"elements/thumbs/portfolio2-1.png"},
+        {"url":"elements/portfolio3-1.html","height":519, "thumbnail":"elements/thumbs/portfolio3-1.png"},        
+        {"url":"elements/portfolio4-1.html","height":858, "thumbnail":"elements/thumbs/portfolio4-1.png", "sandbox":true, "loaderFunction":"bgAppCarousel"},
+        {"url":"elements/portfolio1-2.html","height":1159, "thumbnail":"elements/thumbs/portfolio1-2.png"},
+        {"url":"elements/portfolio2-2.html","height":758, "thumbnail":"elements/thumbs/portfolio2-2.png"},
+        {"url":"elements/portfolio3-2.html","height":519, "thumbnail":"elements/thumbs/portfolio3-2.png"},        
+        {"url":"elements/portfolio4-2.html","height":858, "thumbnail":"elements/thumbs/portfolio4-2.png", "sandbox":true, "loaderFunction":"bgAppCarousel"}
+    ],
+
+    "Pricing":[
+        {"url":"elements/pricing1-1.html","height":853, "thumbnail":"elements/thumbs/pricing1-1.png"},
+        {"url":"elements/pricing2-1.html","height":817, "thumbnail":"elements/thumbs/pricing2-1.png", "sandbox":true, "loaderFunction":"bgTestimonialSingle"},
+        {"url":"elements/pricing3-1.html","height":1096, "thumbnail":"elements/thumbs/pricing3-1.png"},
+        {"url":"elements/pricing4-1.html","height":863, "thumbnail":"elements/thumbs/pricing4-1.png"},
+        {"url":"elements/pricing5-1.html","height":754, "thumbnail":"elements/thumbs/pricing5-1.png"},
+        {"url":"elements/pricing6-1.html","height":842, "thumbnail":"elements/thumbs/pricing6-1.png"},
+        {"url":"elements/pricing1-2.html","height":853, "thumbnail":"elements/thumbs/pricing1-2.png"}
+    ],
+
+    "Team":[
+        {"url":"elements/team1-1.html","height":782, "thumbnail":"elements/thumbs/team1-1.png"},
+        {"url":"elements/team2-1.html","height":817, "thumbnail":"elements/thumbs/team2-1.png"},
+        {"url":"elements/team3-1.html","height":1038, "thumbnail":"elements/thumbs/team3-1.png"},
+        {"url":"elements/team4-1.html","height":1082, "thumbnail":"elements/thumbs/team4-1.png"},
+        {"url":"elements/team5-1.html","height":1208, "thumbnail":"elements/thumbs/team5-1.png"},
+        {"url":"elements/team6-1.html","height":819, "thumbnail":"elements/thumbs/team6-1.png", "sandbox":true, "loaderFunction":"teamCarousel"},
+        {"url":"elements/team1-2.html","height":782, "thumbnail":"elements/thumbs/team1-2.png"},
+        {"url":"elements/team2-2.html","height":817, "thumbnail":"elements/thumbs/team2-2.png"},
+        {"url":"elements/team3-2.html","height":1038, "thumbnail":"elements/thumbs/team3-2.png"},
+        {"url":"elements/team5-2.html","height":1208, "thumbnail":"elements/thumbs/team5-2.png"},
+        {"url":"elements/team6-2.html","height":819, "thumbnail":"elements/thumbs/team6-2.png", "sandbox":true, "loaderFunction":"teamCarousel"}
+    ],
+
+    "Blog":[
+        {"url":"elements/blog1-1.html","height":976, "thumbnail":"elements/thumbs/blog1-1.png"},
+        {"url":"elements/blog2-1.html","height":797, "thumbnail":"elements/thumbs/blog2-1.png"},
+        {"url":"elements/blog3-1.html","height":1350, "thumbnail":"elements/thumbs/blog3-1.png"},
+        {"url":"elements/blog1-2.html","height":976, "thumbnail":"elements/thumbs/blog1-2.png"},
+        {"url":"elements/blog2-2.html","height":797, "thumbnail":"elements/thumbs/blog2-2.png"},
+        {"url":"elements/blog3-2.html","height":1350, "thumbnail":"elements/thumbs/blog3-2.png"}
+    ],
+
+    "Miscellaneous":[
+        {"url":"elements/faq1-1.html","height":343, "thumbnail":"elements/thumbs/faq1-1.png"},
+        {"url":"elements/faq2-1.html","height":682, "thumbnail":"elements/thumbs/faq2-1.png"},
+        {"url":"elements/faq3-1.html","height":1146, "thumbnail":"elements/thumbs/faq3-1.png"},
+        {"url":"elements/funfacts1-1.html","height":165, "thumbnail":"elements/thumbs/funfacts1-1.png", "sandbox":true, "loaderFunction":"funFactsCounter"},
+        {"url":"elements/countdown1-1.html","height":514, "thumbnail":"elements/thumbs/countdown1-1.png", "sandbox":true, "loaderFunction":"countdownTimer"},
+        {"url":"elements/courses1-1.html","height":1317, "thumbnail":"elements/thumbs/courses1-1.png"},
+        {"url":"elements/timeline1-1.html","height":1062, "thumbnail":"elements/thumbs/timeline1-1.png"},
+        {"url":"elements/timeline2-1.html","height":1159, "thumbnail":"elements/thumbs/timeline2-1.png"},
+        {"url":"elements/timetable1-1.html","height":1142, "thumbnail":"elements/thumbs/timetable1-1.png"},
+        {"url":"elements/faq1-2.html","height":343, "thumbnail":"elements/thumbs/faq1-2.png"},
+        {"url":"elements/faq2-2.html","height":682, "thumbnail":"elements/thumbs/faq2-2.png"},
+        {"url":"elements/funfacts1-2.html","height":165, "thumbnail":"elements/thumbs/funfacts1-2.png", "sandbox":true, "loaderFunction":"funFactsCounter"},
+        {"url":"elements/funfacts1-3.html","height":165, "thumbnail":"elements/thumbs/funfacts1-3.png", "sandbox":true, "loaderFunction":"funFactsCounter"},
+        {"url":"elements/countdown1-2.html","height":514, "thumbnail":"elements/thumbs/countdown1-2.png", "sandbox":true, "loaderFunction":"countdownTimer"}
+    ],
+
+    "Subscription":[
+        {"url":"elements/subscription1-1.html","height":470, "thumbnail":"elements/thumbs/subscription1-1.png"},
+        {"url":"elements/subscription2-1.html","height":242, "thumbnail":"elements/thumbs/subscription2-1.png"},
+        {"url":"elements/subscription3-1.html","height":498, "thumbnail":"elements/thumbs/subscription3-1.png"},
+        {"url":"elements/subscription4-1.html","height":696, "thumbnail":"elements/thumbs/subscription4-1.png"},
+        {"url":"elements/subscription5-1.html","height":716, "thumbnail":"elements/thumbs/subscription5-1.png"},
+        {"url":"elements/subscription6-1.html","height":621, "thumbnail":"elements/thumbs/subscription6-1.png"},
+        {"url":"elements/subscription1-2.html","height":470, "thumbnail":"elements/thumbs/subscription1-2.png"},
+        {"url":"elements/subscription2-2.html","height":242, "thumbnail":"elements/thumbs/subscription2-2.png"},
+        {"url":"elements/subscription3-2.html","height":498, "thumbnail":"elements/thumbs/subscription3-2.png"},
+        {"url":"elements/subscription5-2.html","height":716, "thumbnail":"elements/thumbs/subscription5-2.png"},
+        {"url":"elements/subscription6-2.html","height":621, "thumbnail":"elements/thumbs/subscription6-2.png"},
+        {"url":"elements/subscription1-3.html","height":470, "thumbnail":"elements/thumbs/subscription1-3.png"},
+        {"url":"elements/subscription2-3.html","height":242, "thumbnail":"elements/thumbs/subscription2-3.png"},
+        {"url":"elements/subscription3-3.html","height":498, "thumbnail":"elements/thumbs/subscription3-3.png"},
+        {"url":"elements/subscription4-3.html","height":696, "thumbnail":"elements/thumbs/subscription4-3.png"},
+        {"url":"elements/subscription5-3.html","height":716, "thumbnail":"elements/thumbs/subscription5-3.png"}
+    ],
+
+    "Contact":[
+        {"url":"elements/contact1-1.html","height":754, "thumbnail":"elements/thumbs/contact1-1.png"},
+        {"url":"elements/contact2-1.html","height":826, "thumbnail":"elements/thumbs/contact2-1.png"},
+        {"url":"elements/contact3-1.html","height":889, "thumbnail":"elements/thumbs/contact3-1.png"},
+        {"url":"elements/contact4-1.html","height":715, "thumbnail":"elements/thumbs/contact4-1.png"},
+        {"url":"elements/contact5-1.html","height":600, "thumbnail":"elements/thumbs/contact5-1.png"},
+        {"url":"elements/contact6-1.html","height":740, "thumbnail":"elements/thumbs/contact6-1.png"},
+        {"url":"elements/contact8-1.html","height":898, "thumbnail":"elements/thumbs/contact8-1.png"},
+        {"url":"elements/contact1-2.html","height":754, "thumbnail":"elements/thumbs/contact1-2.png"},
+        {"url":"elements/contact2-2.html","height":826, "thumbnail":"elements/thumbs/contact2-2.png"},
+        {"url":"elements/contact3-2.html","height":889, "thumbnail":"elements/thumbs/contact3-2.png"},
+        {"url":"elements/contact4-2.html","height":715, "thumbnail":"elements/thumbs/contact4-2.png"},
+        {"url":"elements/contact7-1.html","height":241, "thumbnail":"elements/thumbs/contact7-1.png"},
+        {"url":"elements/contact8-2.html","height":826, "thumbnail":"elements/thumbs/contact8-2.png"},
+        {"url":"elements/contact1-3.html","height":754, "thumbnail":"elements/thumbs/contact1-3.png"},
+        {"url":"elements/contact2-3.html","height":826, "thumbnail":"elements/thumbs/contact2-3.png"},
+        {"url":"elements/contact3-3.html","height":889, "thumbnail":"elements/thumbs/contact3-3.png"},
+        {"url":"elements/contact4-3.html","height":715, "thumbnail":"elements/thumbs/contact4-3.png"}
+    ],
+
+    "Footer":[
+        {"url":"elements/footer1-1.html","height":150, "thumbnail":"elements/thumbs/footer1-1.png"},
+        {"url":"elements/footer2-1.html","height":151, "thumbnail":"elements/thumbs/footer2-1.png"},
+        {"url":"elements/footer3-1.html","height":215, "thumbnail":"elements/thumbs/footer3-1.png"},
+        {"url":"elements/footer4-1.html","height":220, "thumbnail":"elements/thumbs/footer4-1.png"},
+        {"url":"elements/footer5-1.html","height":244, "thumbnail":"elements/thumbs/footer5-1.png"},
+        {"url":"elements/footer6-1.html","height":280, "thumbnail":"elements/thumbs/footer6-1.png"},
+        {"url":"elements/footer1-2.html","height":150, "thumbnail":"elements/thumbs/footer1-2.png"},
+        {"url":"elements/footer2-2.html","height":151, "thumbnail":"elements/thumbs/footer2-2.png"},
+        {"url":"elements/footer3-2.html","height":215, "thumbnail":"elements/thumbs/footer3-2.png"},
+        {"url":"elements/footer4-2.html","height":220, "thumbnail":"elements/thumbs/footer4-2.png"},
+        {"url":"elements/footer5-2.html","height":244, "thumbnail":"elements/thumbs/footer5-2.png"},
+        {"url":"elements/footer6-2.html","height":280, "thumbnail":"elements/thumbs/footer6-2.png"},
+        {"url":"elements/footer7-1.html","height":681, "thumbnail":"elements/thumbs/footer7-1.png"}
+    ]
+
+    }
+}
