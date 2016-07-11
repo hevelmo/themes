@@ -1,0 +1,49 @@
+
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Building Agency
+Version:	1.1
+Assigned to:	Alex Zaymund
+Primary use:	Building and Shop
+-------------------------------------------------------------------*/
+
+
+/* MAIN CSS */
+@import url('bootstrap.css');
+@import url('theme.css');
+@import url('custom.css');
+@import url('inner.css');
+@import url('shop.css'); 
+@import url('blog.css'); 
+@import url('responsive.css');
+@import url('animate.css');
+@import url('debugging.css');
+
+
+
+/* FONTS*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic&subset=latin,vietnamese,latin-ext);
+@import url('../fonts/webfontkit/stylesheet.css');
+@import url('../fonts/icomoon/style.css');
+@import url('../fonts/simple/simple-line-icons.css');
+@import url('../fonts/flaticon/flaticon.css');
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+
+
+/* PLUGIN CSS */
+@import url('../plugins/isotope/isotope.css');
+@import url('../plugins/validation/validation-2.2.min.css');
+@import url('../plugins/bxslider/jquery.bxslider.css');
+@import url('../plugins/nouislider/jquery.nouislider.css');
+@import url('../plugins/flexslider/flexslider.css');
+@import url('../plugins/magnific/magnific-popup.css');
+@import url('../plugins/prettyphoto/css/prettyPhoto.css');
+@import url('../plugins/yamm/yamm.css');
+@import url('../plugins/loader/css/loader.css');
+
+
+
+
+

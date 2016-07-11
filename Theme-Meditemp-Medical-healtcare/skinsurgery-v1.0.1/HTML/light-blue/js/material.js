@@ -6,6 +6,7 @@
     if ($(obj).data("mdproc")) {
       return false;
     } else {
+      console.log($(obj));
       return true;
     }
   };
@@ -14,6 +15,7 @@
     if (typeof evt.which == "undefined") {
       return true;
     } else if (typeof evt.which == "number" && evt.which > 0) {
+      console.log(!evt.ctrlKey && !evt.metaKey && !evt.altKey && evt.which != 8);
       return !evt.ctrlKey && !evt.metaKey && !evt.altKey && evt.which != 8;
     }
     return false;

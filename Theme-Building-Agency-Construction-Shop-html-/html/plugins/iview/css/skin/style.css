@@ -1,0 +1,146 @@
+
+
+
+
+#iview {
+	display: block;
+	max-width: 1920px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.7);
+	position: relative;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#iview .iviewSlider {
+	display: block;
+	width: 1920px;
+	height: 755px;
+	overflow: hidden;
+
+}
+
+
+
+#iview div.iview-directionNav {
+bottom: 60px;
+    position: absolute;
+    right: 0;
+    width: 122px;
+    z-index: 9;
+}
+#iview div.iview-directionNav a:hover{
+  background: none repeat scroll 0 0 #526aff;
+    border-color: #526aff;
+}
+
+#iview div.iview-directionNav a:after {
+	color:#000;
+}
+
+
+
+#iview div.iview-directionNav a {
+	
+border: 2px solid #fff;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: absolute;
+    transition: all 0.3s ease-out 0s;
+    width: 40px;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+
+#iview div.iview-directionNav a.iview-prevNav:after {
+	  color: #fff;
+    content: "";
+    display: inline-block;
+    font-family: "FontAwesome";
+ font-size: 22px !important;
+    height: 30px;
+    left: 14px !important;
+    position: relative;
+    top: 2px !important;
+    width: 30px;
+}
+#iview div.iview-directionNav a.iview-nextNav:after {
+	color: #fff;
+    content: "";
+display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 22px !important;
+    height: 30px;
+    left: 15px !important;
+    position: relative;
+    top: 2px !important;
+    width: 30px;
+}
+
+#iview div.iview-directionNav a.iview-nextNav {
+	right: -27px;
+	background-position: 27px 0px;
+}
+
+#iview div.iview-directionNav a.iview-prevNav {
+	left: -27px;
+	background-position: 0px 0px
+}
+
+#iview.iview-hover div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+}
+
+#iview.iview-hover div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+}
+
+
+.iview-caption {
+	background: none !important;
+}
+.custom-caption * {
+	border: none !important;
+}
+.custom-caption {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+	border-radius: 0;
+	color: #333333;
+	display: inline-block;
+	font-size: 15px;
+	margin: 20px;
+	padding: 20px;
+}
+.iview-caption.caption1 {
+	text-shadow: none;
+}
+.iview-caption.caption2 {
+	background: #FFF;
+	color: #000;
+	text-shadow: none;
+}
+.iview-caption.caption3 {
+	background: #c4302b;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+}
+
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #666;
+}
+#iview-timer {
+	border-radius: 10px;
+}
+
+#iview-timer div {
+	border-radius: 10px;
+}

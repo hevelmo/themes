@@ -1,0 +1,30 @@
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* LAYOUT BOX  */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+body {
+	background: none repeat scroll 0 0 #f4f4f4;
+}
+html .top-header {
+	background: none repeat scroll 0 0 #333333;
+}
+html .top-header * {
+	color: #fff !important;
+}
+.layout-theme {
+	max-width: 1200px;
+	margin: auto;
+	background: #fff;
+}
+html .full-title-name {
+	min-width: 285px;
+}
+.slide-desc .isotope-desc-content {
+	display: none;
+}
+
+html #filter {
+	margin-top: -37px;
+}

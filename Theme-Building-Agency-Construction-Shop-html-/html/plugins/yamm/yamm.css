@@ -1,0 +1,178 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+ 
+ 
+ 
+.header.sticky .top-nav {
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:888;
+}
+.header.sticky .top-nav .yamm {
+	top: 0 !important;
+}
+#search-global-menu {
+	float: right;
+	margin: 15px 20px 0 0;
+	padding: 0 10px 0 0;
+	border: 1px solid transparent;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+#search-global-menu input {
+	border: none;
+	background: none;
+	color: #fff !important;
+	padding-right: 0px;
+	outline: none !important;
+}
+#search-global-menu:hover, #search-global-menu:focus {
+	border: 1px solid #fff;
+}
+#search-global-menu button, #search-global-mobile button {
+	border: none;
+	background: none;
+	color: #fff;
+}
+.yamm {
+	background: none repeat scroll 0 0 #ffc300;
+	border: 0 none;
+	float: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	min-height: auto;
+	padding-left: 20px;
+	position: relative;
+	top: 40px;
+	z-index: 777;
+}
+.yamm .navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.yamm .navbar-brand {
+	color: #fff;
+	float: left;
+	font-size: 24px;
+	font-weight: 700;
+	height: 50px;
+	line-height: 21px;
+	padding: 14.5px 15px;
+	text-transform: uppercase;
+}
+.yamm .nav > li > a {
+	color: #fff;
+	display: block;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 25px 15px;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+.yamm-fw {
+	position: inherit !important;
+}
+.navbar-nav > li {
+	float: left;
+}
+.yamm .nav li a {
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+.yamm .nav > li:hover > a {
+	color: #333333;
+}
+.yamm .navbar-toggle {
+	background: #526aff;
+}
+.yamm .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.popover-box {
+	float: right;
+	margin-left: 10px;
+}
+.yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
+	position: static;
+}
+.yamm .container {
+	position: relative;
+}
+.yamm .dropdown-menu {
+	left: auto;
+}
+.yamm .yamm-fw .dropdown-menu {
+	left: 0;
+}
+.yamm .yamm-content {
+	padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+.nav-tabs {
+	display: inline-block;
+	border-bottom: none;
+	padding-top: 15px;
+	font-weight: bold;
+}
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+}
+.nav-list {
+	border-bottom: 1px solid #eee;
+}
+.nav-list > li {
+	padding: 20px 15px 15px;
+	border-left: 1px solid #eee;
+}
+.nav-list > li:last-child {
+	border-right: 1px solid #eee;
+}
+.nav-list > li > a:hover {
+	text-decoration: none;
+}
+.nav-list > li > a > span {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.mega-dropdown {
+	position: static !important;
+}
+.mega-dropdown-menu {
+	padding: 20px 15px 15px;
+	text-align: center;
+	width: 100%;
+	left: 0 !important;
+}
+
+@media (max-width:480px) {
+html .yamm .dropdown-menu {
+    position: relative;
+	   top: 0;
+}
+
+}
