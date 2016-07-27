@@ -161,7 +161,8 @@
 <?php include 'inc/template_scripts.php'; ?>
 
 <!-- Google Maps API + Gmaps Plugin, must be loaded in the page you would like to use maps (Remove 'http:' if you have SSL) -->
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCqo-F2TnMAABZvfV5yTQLlWvUCJlJViU&amp;sensor=false"></script>
 <script src="js/plugins/gmaps.min.js"></script>
 
 <!-- Load and execute javascript code used only in this page -->
