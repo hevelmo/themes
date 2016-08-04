@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>varius - mobile web app template</title>
+<meta name="author" content="sindevo.com">
+<meta name="description" content="web app mobile template">
+<link rel="stylesheet" href="preview/preview.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="preview/js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div class="main_content">
+
+	<div class="tablet_popup">
+	     <div class="tablet_wrap"><iframe id="frametablet" frameborder="no" border="0" scrolling="no" width="768px" height="1024px"></iframe></div> 
+	     <a href="#" id="closepopup">CLOSE POPUP</a>	 
+	</div>
+	
+	<div class="desktop_popup">
+	     <div class="desktop_wrap"><iframe id="framedesktop" frameborder="no" border="0" scrolling="no" width="1366" height="900px"></iframe></div> 
+	     <a href="#" id="closepopupdsk">CLOSE</a>	 
+	</div>
+
+        <div class="left_content">
+            <h1>VARIUS.</h1>
+
+            <h2>Discover our best <br /> mobile template so far. </h2>
+	  <p>Created for a mobile website, web app, and integrated with solutions like phonegap/cordova, for a real native app. VARIUS is build using an original design concept, some amazing animations for elements and a perfect responsive code.</p>
+            <div class="usage_info">
+            Select your color below and use the right section to test a demo of the template.
+            </div>
+            <ul class="preview_items">	
+              <li><a href="#" id="main"><span>.main toolbar</span><img src="preview/images/main.png" /></a></li>
+	     <li><a href="#" id="simple"><span>.main simple</span><img src="preview/images/main-simple.png" /></a></li>
+               <li><a href="#" id="restaurant"><span>.restaurant</span><img src="preview/images/restaurant.png" /></a></li>
+               <li><a href="#" id="medical"><span>.medical</span><img src="preview/images/medical.png" /></a></li>
+              <li><a href="#" id="beauty"><span>.beauty</span><img src="preview/images/beauty.png" /></a></li>
+               <li><a href="#" id="architecture"><span>.architecture</span><img src="preview/images/architecture.png" /></a></li>
+               <li><a href="#" id="musical"><span>.musical</span><img src="preview/images/band.png" /></a></li>
+	     <li><a href="#" id="wedding"><span>.wedding</span><img src="preview/images/wedding.png" /></a></li>
+            </ul>				  
+        </div>
+        
+
+        
+        
+        <div class="right_content">
+          <div class="iphone_bg">
+        	<div class="mobile_wrap">
+            <iframe id="frame" frameborder="no" border="0" scrolling="no" width="325px" height="580px"></iframe> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="info_content">
+            <div class="swipe_to_navigate">Use your mouse to navigate</div>
+	   <div class="test_devices">
+		<h4>TEST DEMO ON OTHER DEVICES</h4>
+		  <ul>	   
+		<li><a href="#" id="loadtablet"><span>tablet</span><img src="preview/images/tablet.png" alt="" title=""/></a></li>
+		<li><a href="#" id="loaddesktop"><span>desktop</span><img src="preview/images/desktop.png" alt="" title=""/></a></li>
+		</ul>		
+		</div>
+                  <div class="clear"></div>	
+            <h3>Scan it with your mobile</h3>
+            <img src="preview/images/qrcode.png" alt="" title="" />
+            <h3>Test it directly from URL</h3>
+            <small>http://sindevo.com/varius/main/</small>
+            <h3>Main features:</h3>
+            <ul class="preview_list">
+              <li>Unique design concept</li>
+              <li>Animated elements</li>
+              <li>Ajax page transitions</li>
+              <li>SHOP layout</li>
+              <li>NEWS/BLOG pages</li>
+              <li>User account sections</li>
+              <li>Photos / Videos pages</li>
+              <li>Tabs, toggles elements</li>
+              <li>Working contact form</li>
+            </ul>   
+        </div>
+        
+</div>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict(); 
+$(document).ready(function () {
+$("#frame").attr("src", "main/index-toolbar-bottom.html");
+
+$("#main").click(function () { 
+	  $("#frame").attr("src", "main/index-toolbar-bottom.html");
+});
+$("#simple").click(function () { 
+	  $("#frame").attr("src", "main/index.html");
+});  
+$("#restaurant").click(function () { 
+	  $("#frame").attr("src", "restaurant/index.html");
+}); 
+$("#medical").click(function () { 
+	  $("#frame").attr("src", "medical/index.html");
+}); 
+$("#beauty").click(function () { 
+	  $("#frame").attr("src", "beauty/index.html");
+}); 
+$("#architecture").click(function () { 
+	  $("#frame").attr("src", "architecture/index.html");
+}); 
+$("#musical").click(function () { 
+	  $("#frame").attr("src", "music/index.html");
+}); 
+$("#wedding").click(function () { 
+	  $("#frame").attr("src", "wedding/index.html");
+}); 
+
+$("#loadtablet").click(function () { 
+	  var popupiframe =  $('#frame').contents().get(0).location.href;
+	  $("#frametablet").attr("src", popupiframe);
+	  $('.tablet_popup').fadeIn();
+});
+$("#closepopup").click(function () { 
+	 $('.tablet_popup').hide();
+});
+
+$("#loaddesktop").click(function () { 
+	  var popupiframedsk =  $('#frame').contents().get(0).location.href;
+	  $("#framedesktop").attr("src", popupiframedsk);
+	  $('.desktop_popup').fadeIn();
+});
+$("#closepopupdsk").click(function () { 
+	 $('.desktop_popup').hide();
+}); 
+
+
+
+});
+</script>  
+</body>
+</html>
