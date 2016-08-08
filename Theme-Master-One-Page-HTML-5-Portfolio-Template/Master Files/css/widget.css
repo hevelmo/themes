@@ -1,0 +1,69 @@
+.widget-title { font-size: 16px; text-transform: uppercase; margin-bottom: 33px; }
+/* Widget :: About Us  */
+.widget_about_us .widget-title { font-family: "mission_scriptregular"; font-size: 50px; line-height: 85px; margin-bottom: 20px; margin-top: 0; text-transform: none; }
+.widget_about_address { color: #fdfbfb; font-size:14px; line-height: 25px; margin-bottom: 25px; }
+.widget_about_address span { display: block; }
+
+.widget_social_icons ul { list-style: none; padding-left: 0; margin-top: 42px; }
+.widget_social_icons ul li { display: inline-block; }
+.widget_social_icons ul li a { font-size: 16px; margin-left: 5px; }
+.widget_social_icons ul li:first-child a { margin-left: 0; }
+.widget_social_icons ul li a:hover { color: #ea2e49; }
+
+/* Widget :: Latest Blog Post  */
+.post { display: inline-block; width: 100%; margin-bottom: 10px; padding: 0; }
+.post li { display: inline-block; }
+.widget_latest_post .col-md-5,
+.widget_latest_post .col-md-7
+{ padding-left: 0; }
+.widget p { margin-bottom: 5px; }
+.widget_latest_post .post-title { font-size: 13px; }
+.widget_latest_post .days { font-style: italic; }
+
+/* Widget :: Twitter  */
+.widget_recent_tweets p { font-size: 13px; margin-bottom: 10px; }
+.widget_recent_tweets p span { color: #ea2e49; }
+.widget_recent_tweets p a { display: block; color: #ea2e49; }
+
+/* Widget :: Flicker Image  */
+.widget_flickr_photos ul { list-style: none; padding-left: 0; }
+.widget_flickr_photos ul li { display: inline-block; margin: 3px 1px; }
+
+/* Widget :: Resent Entries */
+.widget_recent_entries ul { padding-left: 15px; color: #ea2e49; list-style: square; }
+.widget_recent_entries ul li { margin-bottom: 20px; }
+
+/* Widget :: Tag Cloud */
+.widget_tag_cloud ul { padding-left: 0; list-style: none; }
+.widget_tag_cloud ul li { float: left; margin: 0 5px 5px 0; }
+.widget_tag_cloud ul li a { background-color: #808080; padding: 10px 17px; display: inline-block; color: #fdfeff; }
+.widget_tag_cloud ul li a:hover { background-color: #ea2e49; text-decoration: none; }
+
+/* Widget :: Social Profile */
+.widget_Social_profile { display: inline-block; width: 100%; }
+
+/* Widget :: Social icons Circle */
+.widget_Social_icons_circle ul { list-style: none; padding-left: 0; margin-top: 100px; }
+.widget_Social_icons_circle ul li { display: inline-block; margin-right: 6px }
+.widget_Social_icons_circle ul li:last-child { margin-right: 0; }
+.widget_Social_icons_circle ul li a { border: 2px solid #fff; padding: 0 10px; border-radius: 50%; width: 43px; display: inline-block; text-align: center; font-size: 15px; height: 43px; line-height: 40px; }
+.widget_Social_icons_circle ul li a:hover { border-color: #ea2e49; color: #ea2e49; }
+
+/* copyright section */
+.footer3 ul { 
+	margin: 0;
+	line-height: 60px;
+	text-align: right;
+ }
+.copyright-section { background-color: #1b1b1b; height: 60px; display: block; }
+.copyright-section p { text-align: left; font-style: italic; }
+.photography-copyright-logo { font-family: 'mission_scriptregular'; font-size: 39px; }
+.photography-copyright-item {
+	font-style: italic;
+}
+.footer3 ul,
+.copyright-section,
+.photography-copyright-logo,
+.photography-copyright-item {
+	line-height: 60px;
+}
