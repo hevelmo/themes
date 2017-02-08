@@ -1,0 +1,122 @@
+body{
+    color: #525252;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+
+pre{
+    margin-bottom: 25px !important;
+    background: rgba(238, 238, 238, 0.35) !important;
+    border-radius: 3px !important;
+    padding: 25px !important;
+    border-color: #F3F0F0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !important;
+    font-size: 12px;
+}
+
+pre code{
+    width: 1000px;
+    display: block;
+}
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+    color: #FF00BA;
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    border-top: 10px solid #337AB7;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 12px 15px 15px 29px;
+}
+
+.navbar-btn{
+    margin-left: 10px;
+    padding: 10px 20px !important;
+}
+
+.btn-ticket{
+    color: #fff !important;
+}
+
+.btn-ticket:hover{
+    color: #ac2925 !important;
+}
+
+
+.documentation-nav{
+    border-right: 1px solid #e7e7e7;
+    padding-top: 40px;
+}
+
+.documentation-nav .nav li{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.documentation-content{
+    padding-top: 40px;
+}
+
+.documentation-content .lead {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.doc-block{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 40px;
+}
+
+.anchor::before{
+    content: '# ';
+    color: #337AB7;
+    margin-left: -24px;
+}
+
+.support-ticket ul{
+    margin: 0;
+    padding: 0;
+    list-style: inside;
+}
+
+.support-ticket .lead{
+    margin-bottom: 20px;
+}
+
+.support-ticket .ticket{
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+.support-ticket .ticket-comments{
+    margin-top: 15px;
+}

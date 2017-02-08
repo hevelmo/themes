@@ -1,0 +1,7 @@
+{
+  "require": {
+    "swiftmailer/swiftmailer": "5.3.*",
+    "mailchimp/mailchimp": "2.0.*",
+    "wixel/gump": "dev-master"
+  }
+}

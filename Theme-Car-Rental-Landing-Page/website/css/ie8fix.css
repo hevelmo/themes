@@ -1,0 +1,31 @@
+header{
+	display: inline-block;
+}
+
+#teaser {
+  filter: none;
+}
+
+#vehicles .vehicle-nav li.active {
+	background-color: #ffbf00;
+}
+
+#vehicles .vehicle-nav li.active span {
+	border-left-color: #ffbf00;
+}
+
+#vehicles .vehicle-price {
+	background-color: #ffe59a;
+}
+
+#teaser .carousel-control.left {
+left: 90%;
+display: inline-block;
+margin-right: 10px;
+}
+
+#teaser .carousel-control.right {
+left: 90%;
+display: inline-block;
+margin-left: 10px;
+}
