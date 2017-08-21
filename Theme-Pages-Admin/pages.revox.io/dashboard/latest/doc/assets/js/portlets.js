@@ -1,0 +1,1 @@
+$(function(){$('#myPortlet').card({onRefresh:function(){setTimeout(function(){$('#myPortlet').card({refresh:false});},2000);}});});
