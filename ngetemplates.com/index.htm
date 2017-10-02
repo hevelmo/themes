@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cleanest - Mobile Template</title>
+	<link rel="stylesheet" href="cleanest\assets\style.css">
+        <link rel="stylesheet" href="cleanest\assets\fakeLoader.css">
+	<link rel="stylesheet" href="cleanest\assets\normalize.css">
+</head>
+<body>
+	<div class="content-frame">
+		<iframe src="cleanest\cleanest\index.htm" class="iframe" width="360px" height="620px" scrolling="yes"></iframe>
+	</div>
+        <!-- loader -->
+	<div id="fakeLoader"></div>
+	<!-- end loader -->
+       
+        <!-- scripts -->
+	<script src="cleanest\assets\jquery.min.js"></script>
+	<script src="cleanest\assets\fakeLoader.min.js"></script>
+        
+       <script>
+	    // loader
+            $('#fakeLoader').fakeLoader({
+      
+               zIndex: 999,
+               spinner: "spinner4",
+               bgColor: "#E0EAFC"
+
+           });
+	</script>
+ 
+</body>
+</html>
