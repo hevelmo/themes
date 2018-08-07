@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+
+.stepsForm {
+	width: 100%;
+	box-sizing: border-box;
+	line-height:1;
+}
+.stepsForm .sf-error{
+	border:solid 1px #C00 !important;
+}
+.stepsForm .sf-error+span{
+	border-color:#C00 !important;
+}
+.stepsForm #sf-msg{
+	display:inline-block;
+	padding:1rem;
+}
+.stepsForm .sf-msg-error{
+	color:#c00;
+}
+.stepsForm .sf-msg-success{
+	color:#090;
+}
+.stepsForm .sf-steps {
+	width: 100%;
+	box-sizing: border-box;
+	height: auto;
+	padding: 0 1rem;
+}
+.stepsForm .sf-steps .sf-steps-content {
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: solid 2px #2096cd;
+	font-size:18px;
+}
+.stepsForm .sf-steps-content>div{
+	display:inline-block;
+	padding:1rem 2rem 1rem 4rem;
+	background:#CCC;
+	color:#FFF;
+	cursor:pointer;
+	position:relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow:hidden;
+}
+.stepsForm .sf-steps-center>div{
+	display:block;
+	padding:1rem 2rem 1rem 4rem;
+	background:#CCC;
+	color:#FFF;
+	cursor:pointer;
+	position:relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.stepsForm .sf-steps-content>div.sf-active{
+	background:#2096cd;
+}
+.stepsForm .sf-steps-content>div>span{
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	background:#AAA;
+	padding:0.8rem 1rem;
+	font-size:24px;
+}
+.stepsForm .sf-steps-content>div>i{
+	position:absolute;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url(../img/sf-steps-activated.png) center no-repeat;
+	padding:1rem;
+}
+.stepsForm .sf-steps-content>div.sf-active>span{
+	background:#1b7fad;
+}
+.stepsForm .sf-steps-content>div>span:after{
+  content: '';
+  display: block;
+  width: 10px;
+  position: absolute;
+  right: -10px;
+  height: 100%;
+  top: 0;
+  background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#AAA"/></svg>') 0 0 no-repeat;
+}
+.stepsForm .sf-steps-content>div.sf-active>span:after{
+  background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#1b7fad"/></svg>') 0 0 no-repeat;
+}
+
+.stepsForm .sf-steps-form{
+	display:block;
+	position:relative;
+	
+}
+
+.stepsForm .sf-steps-navigation{
+	padding:0 1rem;
+}
+
+.stepsForm .sf-button{
+	padding:1rem 2rem;
+	background:#2096cd;
+	color:#FFF;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+
+.stepsForm .sf-content {
+	width: 100%;
+	box-sizing: border-box;
+	display: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	margin-top: 30px;
+}
+.stepsForm .sf-content>li {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 2rem;
+	padding: 3px 0;
+}
+.stepsForm input[type=text],.stepsForm input[type=tel],.stepsForm input[type=email], .stepsForm input[type=password] {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1rem;
+	border: solid 1px #CCC;
+	outline: none;
+}
+.stepsForm textarea {
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 1rem;
+	border: solid 1px #CCC;
+	outline: none;
+	overflow: auto;
+}
+.stepsForm label.sf-select {
+	position: relative;
+	display: block;
+}
+.stepsForm label.sf-select>select {
+	width: 100%;
+	
+	box-sizing: border-box;
+	padding: 1rem;
+	border: solid 1px #CCC;
+	outline: none;
+}
+.stepsForm label.sf-select>span {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	right: 1px;
+	top: 1px;
+	bottom:1px;
+	width: 3.5rem;
+	pointer-events: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #e8e8e8;
+	border-left:solid 1px #DDD;
+}
+.stepsForm label.sf-select>span::after {
+	content: "";
+	display: inline-block;
+	width: 20%;
+	height: 20%;
+	-webkit-transform: rotate(-45deg) translate(-80%, 80%);
+	-moz-transform: rotate(-45deg) translate(-80%, 80%);
+	-ms-transform: rotate(-45deg) translate(-80%, 80%);
+	-o-transform: rotate(-45deg) translate(-80%, 80%);
+	transform: rotate(-45deg) translate(-80%, 80%);
+	border: 0 solid #fff;
+	border-left-width: .25em;
+	border-bottom-width: .25em
+}
+.stepsForm label.sf-select>select:focus+span {
+	background-color: #2096cd;
+}
+.stepsForm .sf-radio, .stepsForm .sf-check {
+	width: 100%;
+	height: auto;
+	padding: 1rem 0;
+}
+.stepsForm .sf-radio label, .stepsForm .sf-check label {
+	display: inline-block;
+	margin-right: 20px;
+}
+.stepsForm .sf-radio label input[type=radio], .stepsForm .sf-check label input[type=checkbox] {
+	position: absolute;
+	pointer-events: none;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	height: 10px
+}
+.stepsForm .sf-radio label input[type=radio]+span, .stepsForm .sf-check label input[type=checkbox]+span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #fff;
+	border: 1px solid #cecece;
+	text-align: center;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.stepsForm .sf-radio label input[type=radio]+span::after, .stepsForm .sf-check label input[type=checkbox]+span::after {
+	content: "";
+	display: inline-block;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms
+}
+.stepsForm .sf-radio label input[type=radio]:focus+span, .stepsForm .sf-check label input[type=checkbox]:focus+span, .stepsForm .sf-radio label input[type=radio]:active+span, .stepsForm .sf-check label input[type=checkbox]:active+span {
+	border-color: #2096cd
+}
+.stepsForm .sf-radio label input[type=radio]:checked+span::after, .stepsForm .sf-check label input[type=checkbox]:checked+span::after {
+	opacity: 1
+}
+.stepsForm .sf-radio label input[type=radio].error+span, .stepsForm .sf-check label input[type=checkbox].error+span {
+	border-color: #e2513f;
+	border-width: 2px
+}
+.stepsForm .sf-radio label input[type=radio]+span {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	-moz-box-shadow: 0 0 5px #ddd;
+	-webkit-box-shadow: 0 0 5px #ddd;
+	box-shadow: 0 0 5px #ddd
+}
+.stepsForm .sf-radio label input[type=radio]+span::after {
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	background-color: #2096cd
+}
+.stepsForm .sf-radio label input[type=radio]:checked+span::after {
+	border: .2em solid #fff
+}
+.stepsForm .sf-check label input[type=checkbox]+span {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0 0 5px #ddd;
+	-webkit-box-shadow: 0 0 5px #ddd;
+	box-shadow: 0 0 5px #ddd
+}
+.stepsForm .sf-check label input[type=checkbox]+span::after {
+	height: 45%;
+	width: 75%;
+	background-color: transparent;
+	border: 0 solid #2096cd;
+	vertical-align: bottom;
+	-webkit-transform: rotate(-45deg) translate(50%, -75%);
+	-moz-transform: rotate(-45deg) translate(50%, -75%);
+	-ms-transform: rotate(-45deg) translate(50%, -75%);
+	-o-transform: rotate(-45deg) translate(50%, -75%);
+	transform: rotate(-45deg) translate(50%, -75%)
+}
+.stepsForm .sf-check label input[type=checkbox]:checked+span::after {
+	border-left-width: .2em;
+	border-bottom-width: .2em
+}
+.stepsForm input[type=text]:focus,.stepsForm input[type=tel]:focus, .stepsForm input[type=password]:focus, .stepsForm input[type=email]:focus,.stepsForm label.sf-select>select:focus, .stepsForm textarea:focus {
+	border-color: #2096cd;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(32,150,205,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(32,150,205,1);
+	box-shadow: 0px 0px 5px 0px rgba(32,150,205,1);
+}
+.stepsForm input, .stepsForm select, .stepsForm textarea, .stepsForm button {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.sf-shadow input, .sf-shadow select, .sf-shadow textarea {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+.stepsForm .sf_columns {
+	min-height: 30px;
+	display: inline-block;
+	padding: 0 1rem;
+	box-sizing: border-box;
+	float: left;
+}
+.sf-align-right{
+	text-align:right;
+}
+
+.sf-align-center{
+	text-align:center;
+}
+.sf-align-center>span#sf-msg{
+	display:block;
+	clear:both;
+	margin:0 auto;
+}
+.sf-align-center>button{
+	display:block;
+	clear:both;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+.stepsForm .column_1 {
+	width: 16.666666667%;
+}
+.stepsForm .column_2 {
+	width: 33.333333334%;
+}
+.stepsForm .column_3 {
+	width: 50%;
+}
+.stepsForm .column_4 {
+	width: 66.666666667%;
+}
+.stepsForm .column_5 {
+	width: 83.333333334%;
+}
+.stepsForm .column_6 {
+	width: 100%;
+}
+/*RED Style*******************************************/
+.sf-theme-red .sf-steps .sf-steps-content{
+	border-color:#f44a56;
+}
+.sf-theme-red .sf-steps .sf-steps-content>div.sf-active{
+	background:#f44a56;
+}
+.sf-theme-red .sf-steps .sf-steps-content>div.sf-active>span
+{
+	background:#c63943;
+}
+.sf-theme-red .sf-steps .sf-steps-content>div.sf-active>span:after{
+	background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#c63943"/></svg>') 0 0 no-repeat;
+}
+.sf-theme-red .sf-radio label input[type=radio]:focus+span, .sf-theme-red .sf-check label input[type=checkbox]:focus+span, .sf-theme-red .sf-radio label input[type=radio]:active+span, .sf-theme-red .sf-check label input[type=checkbox]:active+span {
+	border-color: #f44a56;
+}
+.sf-theme-red .sf-radio label input[type=radio]+span::after {
+	background-color: #f44a56;
+}
+.sf-theme-red .sf-check label input[type=checkbox]+span::after {
+	border-color:#f44a56;
+}
+.sf-theme-red label.sf-select>select:focus+span {
+	background-color: #f44a56;
+}
+.sf-theme-red input[type=text]:focus,.sf-theme-red input[type=tel]:focus, .sf-theme-red input[type=password]:focus, .sf-theme-red input[type=email]:focus,.sf-theme-red label.sf-select>select:focus, .sf-theme-red textarea:focus {
+	border-color: #f44a56;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(244,74,85,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(244,74,85,1);
+	box-shadow: 0px 0px 5px 0px rgba(244,74,85,1);
+}
+
+.sf-theme-red .sf-steps-navigation>button{
+	background:#f44a56;
+}
+
+/*purple Style*******************************************/
+.sf-theme-purple .sf-steps .sf-steps-content{
+	border-color:#795aac;
+}
+.sf-theme-purple .sf-steps .sf-steps-content>div.sf-active{
+	background:#795aac;
+}
+.sf-theme-purple .sf-steps .sf-steps-content>div.sf-active>span
+{
+	background:#60478a;
+}
+.sf-theme-purple .sf-steps .sf-steps-content>div.sf-active>span:after{
+	background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#60478a"/></svg>') 0 0 no-repeat;
+}
+.sf-theme-purple .sf-radio label input[type=radio]:focus+span, .sf-theme-purple .sf-check label input[type=checkbox]:focus+span, .sf-theme-purple .sf-radio label input[type=radio]:active+span, .sf-theme-purple .sf-check label input[type=checkbox]:active+span {
+	border-color: #795aac;
+}
+.sf-theme-purple .sf-radio label input[type=radio]+span::after {
+	background-color: #795aac;
+}
+.sf-theme-purple .sf-check label input[type=checkbox]+span::after {
+	border-color:#795aac;
+}
+.sf-theme-purple label.sf-select>select:focus+span {
+	background-color: #795aac;
+}
+.sf-theme-purple input[type=text]:focus,.sf-theme-purple input[type=tel]:focus, .sf-theme-purple input[type=password]:focus, .sf-theme-purple input[type=email]:focus,.sf-theme-purple label.sf-select>select:focus, .sf-theme-purple textarea:focus {
+	border-color: #795aac;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(121,90,172,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(121,90,172,1);
+box-shadow: 0px 0px 5px 0px rgba(121,90,172,1);
+}
+
+.sf-theme-purple .sf-steps-navigation>button{
+	background:#795aac;
+}
+
+/*green Style*******************************************/
+.sf-theme-green .sf-steps .sf-steps-content{
+	border-color:#27ae60;
+}
+.sf-theme-green .sf-steps .sf-steps-content>div.sf-active{
+	background:#27ae60;
+}
+.sf-theme-green .sf-steps .sf-steps-content>div.sf-active>span
+{
+	background:#1d864a;
+}
+.sf-theme-green .sf-steps .sf-steps-content>div.sf-active>span:after{
+	background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#1d864a"/></svg>') 0 0 no-repeat;
+}
+.sf-theme-green .sf-radio label input[type=radio]:focus+span, .sf-theme-green .sf-check label input[type=checkbox]:focus+span, .sf-theme-green .sf-radio label input[type=radio]:active+span, .sf-theme-green .sf-check label input[type=checkbox]:active+span {
+	border-color: #27ae60;
+}
+.sf-theme-green .sf-radio label input[type=radio]+span::after {
+	background-color: #27ae60;
+}
+.sf-theme-green .sf-check label input[type=checkbox]+span::after {
+	border-color:#27ae60;
+}
+.sf-theme-green label.sf-select>select:focus+span {
+	background-color: #27ae60;
+}
+.sf-theme-green input[type=text]:focus,.sf-theme-green input[type=tel]:focus, .sf-theme-green input[type=password]:focus, .sf-theme-green input[type=email]:focus,.sf-theme-green label.sf-select>select:focus, .sf-theme-green textarea:focus {
+	border-color: #27ae60;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(29,134,74,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(29,134,74,1);
+box-shadow: 0px 0px 5px 0px rgba(29,134,74,1);
+}
+
+.sf-theme-green .sf-steps-navigation>button{
+	background:#27ae60;
+}
+
+/*turquoise Style*******************************************/
+.sf-theme-turquoise .sf-steps .sf-steps-content{
+	border-color:#1fb5ad;
+}
+.sf-theme-turquoise .sf-steps .sf-steps-content>div.sf-active{
+	background:#1fb5ad;
+}
+.sf-theme-turquoise .sf-steps .sf-steps-content>div.sf-active>span
+{
+	background:#18908a;
+}
+.sf-theme-turquoise .sf-steps .sf-steps-content>div.sf-active>span:after{
+	background: url('data:image/svg+xml; charset=utf-8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20" preserveAspectRatio="none"><path d="m0,0 l10,10 l-10,10 l-0,-20z" stroke-width="1.5" fill="#18908a"/></svg>') 0 0 no-repeat;
+}
+.sf-theme-turquoise .sf-radio label input[type=radio]:focus+span, .sf-theme-turquoise .sf-check label input[type=checkbox]:focus+span, .sf-theme-turquoise .sf-radio label input[type=radio]:active+span, .sf-theme-turquoise .sf-check label input[type=checkbox]:active+span {
+	border-color: #1fb5ad;
+}
+.sf-theme-turquoise .sf-radio label input[type=radio]+span::after {
+	background-color: #1fb5ad;
+}
+.sf-theme-turquoise .sf-check label input[type=checkbox]+span::after {
+	border-color:#1fb5ad;
+}
+.sf-theme-turquoise label.sf-select>select:focus+span {
+	background-color: #1fb5ad;
+}
+.sf-theme-turquoise input[type=text]:focus,.sf-theme-turquoise input[type=tel]:focus, .sf-theme-turquoise input[type=password]:focus, .sf-theme-turquoise input[type=email]:focus,.sf-theme-turquoise label.sf-select>select:focus, .sf-theme-turquoise textarea:focus {
+	border-color: #1fb5ad;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(31,181,174,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(31,181,174,1);
+box-shadow: 0px 0px 5px 0px rgba(31,181,174,1);
+}
+
+.sf-theme-turquoise .sf-steps-navigation>button{
+	background:#1fb5ad;
+}
+

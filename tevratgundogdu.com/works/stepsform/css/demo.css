@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400&subset=latin-ext);
+
+input,select,textarea,button{font-family:Lato; font-size:16px;}
+
+body{font-family:Lato; font-size:16px; font-weight:400; background:url(../trash/demo-bg-image.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover; padding:10px; margin:0;}
+	
+	.header{width:100%; max-width:900px; color:#FFF; margin:0 auto; padding:30px 0;}
+		.header>h1{font-weight:400; text-align:center; font-size:36px; padding:0; margin:0;}
+		.header>h2{font-weight:300; text-align:center; font-size:24px; padding:0; margin:0;}
+	.container{width:100%; max-width:900px; background:#FFF; color:#333; margin:0 auto; padding:50px; border-radius:3px; box-sizing:border-box;}
+		.container-top{text-align:center; width:100%; margin-bottom:30px;}
+		.container-top>h3{font-weight:normal; padding:0; margin:0;}
+		.container .themes{width:100%; height:auto; overflow:hidden; padding:10px 0;}
+		.container .themes>span{width:20px; height:20px; display:inline-block; cursor:pointer; border:solid 3px #FFF;}
+		.container .themes>span.selectedx{border-color:#333;}
+		.container .themes>a{text-decoration:none; font-size:16px; color:#f44a56; display:inline-block; padding:5px 10px; border:solid 1px #DDD;}
+		.container .themes>a:hover{border-color:#f44a56;}
+		.container .themes>a.activex{color:#FFF; background:#f44a56; border-color:#f44a56;}
+		
+	.footer{width:100%; max-width:900px; margin:0 auto; margin-top:30px; background:#FFF; padding:30px; box-sizing:border-box;}
+

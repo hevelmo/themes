@@ -1,5 +1,5 @@
 <?php
-$to = "office@example.com";
+$to = "hevelmo060683@gmail.com";
 $subject = "Signup from Ventcamp";
 $newsletter = array(true => 'Yes!', 0 => 'No please');
 $message = "Ticket type: " . $_POST['ticket'];

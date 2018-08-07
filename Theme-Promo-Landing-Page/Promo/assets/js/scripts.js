@@ -26,17 +26,18 @@ $(document).ready(function() {
 	jQuery(function() {
 		var sections = jQuery('section');
 		var navigation_links = jQuery('nav a');
+			console.log(navigation_links);
 		sections.waypoint({
-		handler: function(direction) {
-			var active_section;
-			active_section = jQuery(this);
-			if (direction === "up") active_section = active_section.prev();
-			var active_link = jQuery('nav a[href="#' + active_section.attr("id") + '"]');
-			navigation_links.parent().removeClass("active");
-			active_link.parent().addClass("active");
-			active_section.addClass("active-section");
-		},
-		offset: '35%'
+			handler: function(direction) {
+				var active_section;
+				active_section = jQuery(this);
+				if (direction === "up") active_section = active_section.prev();
+				var active_link = jQuery('nav a[href="#' + active_section.attr("id") + '"]');
+				navigation_links.parent().removeClass("active");
+				active_link.parent().addClass("active");
+				active_section.addClass("active-section");
+			},
+			offset: '35%'
 		});
 	});
 	
