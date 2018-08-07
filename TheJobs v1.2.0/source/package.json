@@ -1,0 +1,31 @@
+{
+  "name": "thejobs",
+  "banner_name": "TheJobs",
+  "description": "",
+  "version": "1.0.0",
+  "keywords": [
+    "job",
+    "board",
+    "listing",
+    "resume",
+    "candidate"
+  ],
+  "homepage": "http://shamsoft.net/thejobs",
+  "author": "ShaMSofT",
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "cssnano": "^3.0.1",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-creator": "^0.1.3",
+    "grunt-postcss": "^0.6.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-text-replace": "^0.4.0"
+  }
+}

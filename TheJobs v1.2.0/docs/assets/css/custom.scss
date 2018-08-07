@@ -1,0 +1,35 @@
+.code-preview {
+
+  // Core variables and mixins
+  @import "../../../src/assets/css/scss/variables";
+  @import "../../../src/assets/css/scss/mixins";
+
+  // Core CSS
+  @import "../../../src/assets/css/scss/typography";
+  @import "../../../src/assets/css/scss/content";
+  @import "../../../src/assets/css/scss/navbar";
+  @import "../../../src/assets/css/scss/footer";
+  @import "../../../src/assets/css/scss/buttons";
+  @import "../../../src/assets/css/scss/forms";
+
+  // Components
+  @import "../../../src/assets/css/scss/faq";
+  @import "../../../src/assets/css/scss/tag";
+  @import "../../../src/assets/css/scss/cards";
+  @import "../../../src/assets/css/scss/shot";
+  @import "../../../src/assets/css/scss/media";
+  @import "../../../src/assets/css/scss/user";
+  @import "../../../src/assets/css/scss/socials";
+  @import "../../../src/assets/css/scss/comment";
+  @import "../../../src/assets/css/scss/pagination";
+  @import "../../../src/assets/css/scss/page-links";
+
+  // Others
+  @import "../../../src/assets/css/scss/utilities";
+
+}
+
+.code-preview .btn{
+  margin-bottom:6px;
+  margin-right:2px
+}
